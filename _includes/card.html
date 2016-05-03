@@ -1,0 +1,14 @@
+<div class="card">
+	<img src data-lazy="{{card.filename}}" alt="{{card.slogan}}" title="{{card.slogan}}" usemap="#clickmap">
+	<map name="clickmap">
+		<area shape="rect" target="_blank" coords="0,510,90,610" href="https://impactchallenge.withgoogle.com/deutschland/charity/open_knowledge" alt="{% t voteforus %}">
+	</map>
+	<div class="card-share">
+		<span class="card-share-title">{% t share_card %}</span>&nbsp;
+		<a target="_blank" title="Facebook" class="social-share-facebook" href="http://facebook.com/sharer.php?u=https://datenschule.de/card/{{card.id}}.html&amp;t={{ card[site.lang].description }}"><i class="fa fa-facebook-square"></i></a>&nbsp;
+		<a target="_blank" title="Google Plus" class="social-share-googleplus" href="https://plus.google.com/share?url=https://datenschule.de/card/{{card.id}}.html"><i class="fa fa-google-plus-square"></i></a>&nbsp;
+		<a target="_blank" title="Twitter" class="social-share-twitter" href="http://twitter.com/intent/tweet?url=https://datenschule.de/card/{{card.id}}.html&amp;text={{ card[site.lang].twitter }}"><i class="fa fa-twitter-square"></i></a>
+		<a href="{{card.filename}}" class="icon-fullscreen pull-right" title="Fullscreen"><i class="fa fa-arrows-alt" data-mfp-src="{{card.filename}}"></i></a>
+		<a href="{{card.filename}}" target="_blank" class="pull-right" title="Download"><i class="fa fa-download"></i></a>
+	</div>
+</div>

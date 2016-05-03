@@ -1,0 +1,32 @@
+markdown: rdiscount
+highlighter: pygments
+fullurl: 'https://datenschule.de'
+url: 'https://datenschule.de'
+staticurl: /assets/
+exclude:
+  - "CNAME"
+  - "LICENSE"
+  - "Gemfile*"
+  - "Readme.md"
+  - "*.sh"
+  - ".idea/"
+  - ".git/"
+  - "local/"
+  - "scripts/"
+  - "_site/"
+  - "vendor/"
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - octopress-autoprefixer
+page_gen:
+  - data: cards
+    template: card
+    name: id
+    dir: card
+    extension: html
+languages: ["de", "en"]
+exclude_from_localizations: ["assets", "files", "style", "js", "fonts", "images"]
+sass:
+  sass_dir: assets/style/_scss
+  style: compressed

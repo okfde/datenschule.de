@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="{% t id %}"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>OKF Datenschule{{title}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Datenschule">
+  <meta name="author" content="Open Knowledge Foundation Deutschland">
+
+  <meta property="og:url" content="https://datenschule.de/card{{page.id}}.html"/>
+  <meta property="og:title" content="OKF Datenschule - {{page.slogan}}"/>
+  <meta property="og:description" content="{{page.de.description}}"/>
+  <meta property="og:image" content="https://datenschule.de{{page.de.filename}}"/>
+  <meta property="og:site_name" content="OKF Datenschule"/>
+  <meta property="og:type" content="website"/>
+
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@okfde"/>
+  <meta name="twitter:creator" content="@okfde"/>
+  <meta name="twitter:text:description" content="{{page.de.description}}"/>
+
+  <link rel="stylesheet" href="/assets/style/main.css">
+
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="/assets/js/html5shiv.min.js"></script>
+  <script src="/assets/js/respond.min.js"></script>
+  <![endif]-->
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/jquery.easing.min.js"></script>
+  <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/slick.min.js"></script>
+  <script src="/assets/js/index.js"></script>
+
+</head>
+{% include campaign.html cardnr=page.id %}
