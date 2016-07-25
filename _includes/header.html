@@ -1,23 +1,18 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<header>
 	<div class="container">
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsing">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<img class="navbar-brand-img" src="/assets/img/logo_white.png">
-			<a class="navbar-brand" href="#scroll-top">OKF Datenschule</a>
+		<div class="header-logo">
+			<a class="header-logo-name" href="/"><img class="header-logo-img" title="OKF Datenschule" alt="OKF Datenschule" src="/assets/img/logo_datenschule.png"></a>
 		</div>
-		<div id="navbar-collapsing" class="collapse navbar-collapse">
+		<div class="header-nav">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden"><a href="#scroll-top"></a></li>
-				<li class="page-scroll"><a href="#scroll-top">{% t menu.cards %}</a></li>
-				<li class="page-scroll"><a href="#scroll-1">{% t menu.about %}</a></li>
-				<li class="page-scroll"><a href="#scroll-3">{% t menu.action %}</a></li>
-				<li class="page-scroll"><a href="#scroll-5">{% t menu.contact %}</a></li>
+				<li{% if page.menu_home %} class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
+				<li{% if page.menu_teilnehmen %} class="active"{% endif %}><a href="{{ site.baseurl }}/teilnehmen">Teilnehmen</a></li>
+				<li{% if page.menu_projekte %} class="active"{% endif %}><a href="{{ site.baseurl }}/projekte">Projekte</a></li>
+				<li{% if page.menu_lernen %} class="active"{% endif %}><a href="{{ site.baseurl }}/lernen">Lernen</a></li>
+				<li{% if page.menu_team %} class="active"{% endif %}><a href="{{ site.baseurl }}/team">Team</a></li>
+				<li{% if page.menu_blog %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
+				<li{% if page.menu_presse %} class="active"{% endif %}><a href="{{ site.baseurl }}/presse">Presse</a></li>
 			</ul>
 		</div>
 	</div>
-</nav>
+</header>

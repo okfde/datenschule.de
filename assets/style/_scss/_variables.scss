@@ -1,0 +1,39 @@
+
+// Padding
+$base-padding: 1.25em; //20px
+$base-padding-lite: $base-padding / 3;
+$base-padding-large: 1.875em; //30px
+$base-padding-extra: 3.125em; //50px
+$base-padding-jumbo: 3.8em;
+
+// Font Colors
+$base-font-color: #404040;
+$base-accent-color: #96bc7f;
+
+// Typography
+$base-font-family: 'Work Sans', 'Helvetica Neue', Helvetica, arial, sans-serif;
+$base-font-weight: 400;
+$base-font-size: 1rem;
+$base-font-multiplier: 1;
+$base-line-height: 1.375rem;
+
+$weight-light: 200;
+$weight-book: 400;
+$weight-bold: 700;
+
+$link-color: darken($base-font-color,10%);
+$light-text-color: #4a4a4a;
+
+$white: #fff;
+$gray: #787879;
+$dark-gray: #4a4a4a;
+$blue: #22aeee;
+
+$base-border-color: $blue;
+$base-border-radius: 5px;
+$small-border-radius: 3px;
+
+$form-border-color: $base-border-color;
+$form-border-color-hover: darken($base-border-color, 10);
+$form-border-radius: $base-border-radius;
+$form-box-shadow-focus: 0 0 0 2px $form-border-color-hover;

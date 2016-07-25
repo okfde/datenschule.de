@@ -1,103 +1,52 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 $(document).ready(function () {
 
-	var nr = $('body').attr('data-card');
-	if (isNaN(nr)) nr = 1;
+	var parallaxElements = [];
 
-	$('#slick').slick({
-		lazyLoad: 'ondemand',
-		"pauseOnHover": true,
-		"pauseOnDotsHover": true,
-		"focusOnSelect": true,
-		"fade": true,
-		"dots": true,
-		"accessibility": true,
-		"autoplay": true,
-		"autoplaySpeed": 12000,
-		"initialSlide": nr - 1,
-		"slidesToShow": 1,
-		"slidesToScroll": 1
-	});
+	function parallax(scrollTop) {
+		parallaxElements.forEach(function (pe) {
+			var viewportOffsetTop = pe.initialOffsetY - scrollTop;
+			pe.elm.css({marginTop: (viewportOffsetTop / pe.speed)});
+		});
+	}
 
-	// jQuery for page scrolling feature - requires jQuery Easing plugin
-	$('.page-scroll a').bind('click', function (event) {
-		var $anchor = $(this);
-		$('html, body').stop().animate({
-			scrollTop: $($anchor.attr('href')).offset().top
-		}, 1500, 'easeInOutExpo');
-		event.preventDefault();
-	});
-
-	//$('.card .icon-fullscreen').fullscreenslides();
-	$('.card .icon-fullscreen').magnificPopup({
-		type: 'image'
-		// other options
-	});
-// Highlight the top nav as scrolling occurs
-	$('body').scrollspy({
-		target: '.navbar-fixed-top'
-	});
-
-
-// Closes the Responsive Menu on Menu Item Click
-	$('.navbar-collapse ul li a').click(function () {
-		$('.navbar-toggle:visible').click();
-	});
-
-
-	/**
-	 * cbpAnimatedHeader.js v1.0.0
-	 * http://www.codrops.com
-	 *
-	 * Licensed under the MIT license.
-	 * http://www.opensource.org/licenses/mit-license.php
-	 *
-	 * Copyright 2013, Codrops
-	 * http://www.codrops.com
-	 */
-
-	var docElem = document.documentElement,
-		header = $('.navbar-fixed-top'),
-		scroller = $('#quick-scroll'),
-		didScroll = false,
-		changeHeaderOn = 20,
-		showScrollerOn = 300;
+	// $('html,body').scrollTop(1); // auto scroll to top
 
 	function init() {
-		scrollPage();
-		window.addEventListener('scroll', function (event) {
-			if (!didScroll) {
-				didScroll = true;
-				setTimeout(scrollPage, 250);
-			}
-		}, false);
-	}
+		// touch event check stolen from Modernizr
+		var touchSupported = (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch);
 
-	function scrollPage() {
-		var sy = scrollY();
-		if (sy >= changeHeaderOn) {
-			header.addClass('navbar-shrink');
-		} else {
-			header.removeClass('navbar-shrink');
+		// if touch events are supported, tie our animation to the position to these events as well
+		if (touchSupported) {
+			$(window).bind('touchmove', function (e) {
+				parallax(e.currentTarget.scrollY);
+			});
 		}
-		if (sy >= showScrollerOn) {
-			scroller.removeClass('hidden');
-		} else {
-			scroller.addClass('hidden');
-		}
-		didScroll = false;
-	}
 
-	function scrollY() {
-		return window.pageYOffset || docElem.scrollTop;
+		$(window).bind('scroll', function (e) {
+			parallax($(this).scrollTop());
+		});
+
+		// update vars used in parallax calculations on window resize
+		// $(window).resize(function () {
+		// 	parallaxElements.forEach(function (pe) {
+		// 		pe.initialOffsetY = pe.elm.offset().top;
+		// 	});
+		// });
+
+		function getRandomInt(min, max) {
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+
+		$('.parallax').each(function () {
+			var $elm = $(this);
+			parallaxElements.push({
+				speed: $elm.data('speed') || getRandomInt(3, 6),
+				elm: $elm,
+				initialOffsetY: $elm.offset().top
+			});
+		});
+		parallax($(window).scrollTop());
 	}
 
 	init();
-
-
 });

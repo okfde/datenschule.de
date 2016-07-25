@@ -1,0 +1,13 @@
+{% assign post=include.post %}
+{% assign url=post.url |replace_first:'/','' %}
+{% if post.picture %}<a href="{{ site.baseurl }}/{{ url }}" class="post-img-wrap"><img class="post-img" src="{{ post.picture.src }}" alt="{{ post.title | xml_escape}}"></a>{% endif %}
+<a href="{{ site.baseurl }}/{{ url }}" class="post-title">{{post.title | truncatewords: 8 }}</a>
+<p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 16 }}</p>
+<p class="post-meta">
+	{% t blog.Von %}
+	{% assign authors = "" | split:"|" %}
+	{% if post.author %}{% assign authors = authors | push: post.author %}{% endif %}
+	{% for a in post.authors %}{% assign authors = authors | push: a %}{% endfor %}
+	{% for author in authors %}{{author}}{% unless forloop.last %} und {% endunless %}{% endfor %}<br/>
+	{% t blog.AmDatum %} {{ post.date | date:"%d.%m.%Y" }}
+</p>

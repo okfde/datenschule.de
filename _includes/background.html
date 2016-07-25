@@ -1,0 +1,9 @@
+<div class="background">
+	{% for i in (1..40) %}
+		{% assign nr = 38 | random %}
+		{% assign left = 2200 | random %}
+		{% assign top = 1000 | random %}
+		{% assign speed = 6 | random %}
+		<div class="parallax svg{{nr}}" data-speed="{{speed| plus:2}}" style="left:{{left| minus:100}}px; top:{{top}}px;"></div>
+	{% endfor %}
+</div>

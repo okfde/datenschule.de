@@ -1,0 +1,27 @@
+
+.post-image {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.post-image-full {
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 30px;
+}
+
+@include respond-to(small-up) {
+  .post-image-full {
+    height: 200px;
+  }
+}
+
+@include respond-to(medium-up) {
+  .post-image-full {
+    height: 400px;
+  }
+}

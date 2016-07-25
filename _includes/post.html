@@ -1,0 +1,76 @@
+<section class="container-padded">
+	<div class="container">
+		<div class="box">
+			<h1>{{ page.title }}</h1>
+			{% if page.picture & page.picture.src %}
+			<figure class="post-image">
+				<div class="post-image-full" style="background-image: url({{ page.picture.src | xml_escape }});" title="{{ page.picture.title }}"></div>
+				{% if page.picture.license %}
+				<figcaption>
+					{% if page.picture.license_url %}
+					<a href="{{ page.picture.license_url | xml_escape }}">{{ page.picture.license | markdownify }}</a>
+					{% else %}
+					{{ page.picture.license | markdownify }}
+					{% endif %}
+				</figcaption>
+				{% endif %}
+			</figure>
+			{% endif %}
+			<div class="container-left-12">{{ content }}</div>
+		</div>
+	</div>
+	<div class="container container-padded-top">
+		<div class="container-left-12">
+			{% assign posts = '' | split:':' %}
+			{% if page.previous.url %}
+				{% assign posts = posts | push: page.previous %}
+			{% endif %}
+			{% if page.next.url %}
+				{% assign posts = posts | push: page.next %}
+			{% endif %}
+			<ul class="post-previews post-previews-{{ posts.size }}">
+				{% if page.previous.url %}
+				<li class="post-preview post-preview-with-head">
+					<div class="post-preview-head">{% t blog.VorherigerBeitrag %}</div>
+					<div class="post-preview-content">
+						{% include post_preview_small.html post=page.previous %}
+					</div>
+				</li>
+				{% endif %}
+				{% if page.next.url %}
+				<li class="post-preview post-preview-with-head">
+					<div class="post-preview-head">{% t blog.NaechsterBeitrag %}</div>
+					<div class="post-preview-content">
+						{% include post_preview_small.html post=page.next %}
+					</div>
+				</li>
+				{% endif %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+<!--<ul class="box post-previews post-previews-{{ col }}">-->
+<!--{% if page.previous.url %}-->
+<!--<li class="post-preview">-->
+<!--<h3 class="subtle-section">-->
+<!--</h3>-->
+<!--</li>-->
+<!--<li class="post-preview">-->
+<!--<div class="post-preview-content">-->
+<!--{% include post_preview_small.html post=page.previous %}-->
+<!--</div>-->
+<!--</li>-->
+<!--{% endif %}-->
+<!--{% if page.next.url %}-->
+<!--<li class="post-preview post-preview-right">-->
+<!--<h3 class="subtle-section"><a href="{{ site.baseurl }}/{{ page.next.url |replace_first:'/',''}}">{% t blog.NaechsterBeitrag %} <i class="icon-right-open"></i></a></h3>-->
+<!--</li>-->
+<!--<li class="post-preview post-preview-right">-->
+<!--<div class="post-preview-content">-->
+<!--{% include post_preview_small.html post=page.next %}-->
+<!--</div>-->
+<!--</li>-->
+<!--{% endif %}-->
+<!--</ul>-->
+<!--</div>-->

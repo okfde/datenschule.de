@@ -1,0 +1,37 @@
+---
+layout: page
+menu_blog: yes
+title: Blog
+description: Der Blog der OKF Datenschule
+---
+
+<div class="box box-with-head">
+	<div class="box-head">Blog</div>
+	<p class="text-center">
+		Hier erfährst du Aktuelles rund um die Datenschule<br>
+		<a href="{{ site.baseurl_root }}/atom.xml"><i class="icon-rss-squared"></i> {% t blog.FeedAbo %}</a>
+	</p>
+</div>
+<br>
+<br>
+{% for post in paginator.posts %}
+{% include post_preview.html post=post %}
+{% endfor %}
+
+<ul class="list-unstyled blog-pagination">
+	{% if paginator.previous_page %}
+	<li>
+		{% if paginator.previous_page == 1 %}
+		<a href="{{ site.baseurl }}/blog/">&laquo;</a>
+		{% else %}
+		<a href="{{ site.baseurl }}/{{ paginator.previous_page_path|replace_first:'/','' }}">&laquo;</a>
+		{% endif %}
+	</li>
+	{% endif %}
+
+	{% if paginator.next_page %}<li><a href="{{ site.baseurl }}/{{ paginator.next_page_path|replace_first:'/','' }}">&raquo;</a></li>{% endif %}
+</ul>
+
+<div class="text-center">
+{% include pagination.html %}
+</div>

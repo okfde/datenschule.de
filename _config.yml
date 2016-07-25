@@ -6,6 +6,7 @@ staticurl: /assets/
 exclude:
   - "CNAME"
   - "LICENSE"
+  - "browserlist"
   - "Gemfile*"
   - "Readme.md"
   - "*.sh"
@@ -18,6 +19,7 @@ exclude:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-paginate
   - octopress-autoprefixer
 page_gen:
   - data: cards
@@ -25,8 +27,20 @@ page_gen:
     name: id
     dir: card
     extension: html
-languages: ["de", "en"]
+languages: ["de"]
+languages_bak: ["de", "en"]
 exclude_from_localizations: ["assets", "files", "style", "js", "fonts", "images"]
+permalink: blog/:year/:month/:title/
+paginate: 8
+paginate_path: blog/page/:num/
 sass:
   sass_dir: assets/style/_scss
   style: compressed
+defaults:
+  -
+    scope:
+      path: "blog"
+    values:
+      layout: "post"
+      type: "post"
+      card: true
