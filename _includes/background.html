@@ -1,9 +1,29 @@
 <div class="background">
-	{% for i in (1..40) %}
-		{% assign nr = 38 | random %}
-		{% assign left = 2200 | random %}
-		{% assign top = 1000 | random %}
-		{% assign speed = 6 | random %}
-		<div class="parallax svg{{nr}}" data-speed="{{speed| plus:2}}" style="left:{{left| minus:100}}px; top:{{top}}px;"></div>
+
+	{% assign box_size = 300 %}
+	{% assign nr_svgs = 38 %}
+	{% assign max_svgs_per_box = 8 %}
+	{% assign min_svgs_per_box = 3 %}
+
+	{% for i in (0..10) %}
+		{% for j in (0..10) %}
+			{% assign box_left =  i | times : box_size %}
+			{% assign box_top =  j | times : box_size %}
+			{% assign nrof = max_svgs_per_box | minus: min_svgs_per_box %}
+			{% assign nrof = nrof | random %}
+			{% assign nrof = nrof | plus: min_svgs_per_box %}
+
+			{% for x in (0..0) %}
+				{% assign left = box_size | random %}
+				{% assign left = left | plus : box_left %}
+				{% assign top = box_size | random %}
+				{% assign top = top | plus: box_top %}
+				{% assign nr = nr_svgs | random %}
+				{% assign speed = 4 | random %}
+				{% assign speed = speed | plus:3 %}
+				<div class="parallax svg{{nr}}" data-speed="{{speed}}" style="left:{{left| minus:100}}px; top:{{top}}px;"></div>
+
+			{% endfor %}
+		{% endfor %}
 	{% endfor %}
 </div>
