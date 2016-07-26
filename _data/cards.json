@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "filename": "/assets/images/postcard_01.jpg",
+    "filename": "postcard_01.jpg",
     "slogan": "Besser Bäume retten",
     "de": {
       "twitter": "Tues Gutes mit Daten: Besser Bäume retten mit der OKF Datenschule",
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "filename": "/assets/images/postcard_02.jpg",
+    "filename": "postcard_02.jpg",
     "slogan": "Tools of >>change<<",
     "de": {
       "twitter": "Do good with data: learn to use digital tools & data for your NGO campaigns.",
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "filename": "/assets/images/postcard_03.jpg",
+    "filename": "postcard_03.jpg",
     "slogan": "Ghostbuster. Vereinsbuster. Datenbuster.",
     "de": {
       "twitter": "Tue Gutes mit Daten: NGOs bei der Umsetzung ihrer Ziele unterstützen",
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "filename": "/assets/images/postcard_04.jpg",
+    "filename": "postcard_04.jpg",
     "slogan": "Besser Wale retten",
     "de": {
       "twitter": "Tue Gutes mit Daten: Besser Wale retten. OKF Datenschule",
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "filename": "/assets/images/postcard_05.jpg",
+    "filename": "postcard_05.jpg",
     "slogan": "“Data is the new soil.“ --David McCandless",
     "de": {
       "twitter": "Tue Gutes mit Daten: Mach dir die Hände schmutzig für datengestütze NGOs-Kampagnen: OKF Datenschule",
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "filename": "/assets/images/postcard_06.jpg",
+    "filename": "postcard_06.jpg",
     "slogan": "Bessere Verschwörungstheorien für Alle",
     "de": {
       "twitter": "Tue Gutes mit Daten: Bessere Verschwörungstheorien für Alle.",
@@ -79,7 +79,7 @@
   },
   {
     "id": 7,
-    "filename": "/assets/images/postcard_07.jpg",
+    "filename": "postcard_07.jpg",
     "slogan": "In data we trust",
     "de": {
       "twitter": "Das Wort zum Sonntag: In data we trust. Tue Gutes mit Daten.",
@@ -92,7 +92,7 @@
   },
   {
     "id": 8,
-    "filename": "/assets/images/postcard_08.jpg",
+    "filename": "postcard_08.jpg",
     "slogan": "Datenordnung muss sein",
     "de": {
       "twitter": "Tue Gutes mit Daten: Datenordnung muss sein. OKF Datenschule",
@@ -105,7 +105,7 @@
   },
   {
     "id": 9,
-    "filename": "/assets/images/postcard_09.jpg",
+    "filename": "postcard_09.jpg",
     "slogan": "“It is a capital mistake to theorize before one has data.” -- Sherlock Holmes",
     "de": {
       "twitter": "Tue Gutes mit Daten: OKF Datenschule, Deine Stimme für zivilgesellschaftliches Engagement",
@@ -118,7 +118,7 @@
   },
   {
     "id": 10,
-    "filename": "/assets/images/postcard_10.jpg",
+    "filename": "postcard_10.jpg",
     "slogan": "Gib Daten eine Chance",
     "de": {
       "twitter": "Hilf NGOs bei der Umsetzung ihrer Ziele mit der OKF Datenschule",
@@ -131,7 +131,7 @@
   },
   {
     "id": 11,
-    "filename": "/assets/images/postcard_11.jpg",
+    "filename": "postcard_11.jpg",
     "slogan": "Daten-Aktionsgruppe",
     "de": {
       "twitter": "Tue Gutes mit Daten: OKF Datenschule",
@@ -144,7 +144,7 @@
   },
   {
     "id": 12,
-    "filename": "/assets/images/postcard_12.jpg",
+    "filename": "postcard_12.jpg",
     "slogan": "One foot in cyberspace, one foot on the ground",
     "de": {
       "twitter": "Tue Gutes mit Daten:  OKF Datenschule",
@@ -157,7 +157,7 @@
   },
   {
     "id": 13,
-    "filename": "/assets/images/postcard_13.jpg",
+    "filename": "postcard_13.jpg",
     "slogan": "Bessere Geodaten für Alle",
     "de": {
       "twitter": "Wir fordern: Bessere Geodaten für Alle! OKF Datenschule",
@@ -170,7 +170,7 @@
   },
   {
     "id": 14,
-    "filename": "/assets/images/postcard_14.jpg",
+    "filename": "postcard_14.jpg",
     "slogan": "“Torture the data, and it will confess to anything.“ -- Ronald Coase",
     "de": {
       "twitter": "Torture the data, and it will confess to anything -- Ronald Coase. Tue Gutes mit Daten mit der OKF Datenschule",
@@ -183,7 +183,7 @@
   },
   {
     "id": 15,
-    "filename": "/assets/images/postcard_15.jpg",
+    "filename": "postcard_15.jpg",
     "slogan": "Mit Daten wirds besser",
     "de": {
       "twitter": "Go on your own data expedition! Learn how to use data for your daily NGO work: OKF Datenschule",
@@ -196,7 +196,7 @@
   },
   {
     "id": 16,
-    "filename": "/assets/images/postcard_16.jpg",
+    "filename": "postcard_16.jpg",
     "slogan": "Watchdogs - für die Einhaltung von Menschenrechten",
     "de": {
       "twitter": "Watchdogs - für die Einhaltung von Menschenrechten! Hilf NGOs bei der Umsetzung ihrer gesellschaftlichen Ziele:",
@@ -209,7 +209,7 @@
   },
   {
     "id": 17,
-    "filename": "/assets/images/postcard_17.jpg",
+    "filename": "postcard_17.jpg",
     "slogan": "Noch nicht in der digitalen Welt angekommen?",
     "de": {
       "twitter": "Noch nicht in der digitalen Welt angekommen? Ändere das mit der OKF Datenschule",
