@@ -139,6 +139,26 @@
   }
 }
 
+.container-left-1 {
+  @extend %container-side;
+
+  @include respond-to(medium-up) {
+
+    @include span-columns(1);
+
+  }
+}
+
+.container-right-1 {
+  @extend %container-side;
+
+  @include respond-to(medium-up) {
+
+    @include span-columns(1);
+
+  }
+}
+
 .container-right,
 .container-right-5 {
   @extend %container-side;

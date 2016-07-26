@@ -11,15 +11,39 @@
   margin-top: 28px;
 }
 
+.box-with-button {
+  padding-bottom: 10px;
+}
+
+
 .box.box p:last-of-type {
   margin-bottom: 18px;
 }
 
-.box-space-large {
-  margin-top: 60px;
+.box-space-large, .box-space-huge-1, .box-space-huge-2 {
+  margin-top: 40px;
+}
+
+@include respond-to(small-up) {
+
+  .box-space-large {
+    margin-top: 60px;
+  }
+
+  .box-space-huge-1 {
+    margin-top: 140px;
+  }
+
+  .box-space-huge-2 {
+    margin-top: 200px;
+  }
 }
 
 .box-invert {
+}
+
+.box-keyvisual {
+  min-height: 500px;
 }
 
 .box-head {
@@ -31,16 +55,38 @@
   padding: 8px;
 }
 
+.box-button {
+  height: 40px;
+  background-color: $base-button-background-color;
+  color: $base-button-color;
+  float: right;
+  font-size: 1.2em;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -10px;
+  margin-right: 60px;
+  border: none;
+  box-shadow: -10px 10px;
+  //border-right: none;
+  //border-left: 10px solid #696a6e;
+  //border-bottom: 10px solid #696a6e;
+}
+
 .event-box {
   border: solid 3px $base-border-color;
   width: 100%;
-  margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
   background-color: #1dafed;
   color: black;
 
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
 }
+
 .event-item {
   border-bottom: solid 3px lighten($base-border-color, 20%);
   padding-bottom: 0.60em;
@@ -60,10 +106,14 @@
 
     h2 {
       margin-top: 0;
-      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 2px;
+      line-height: 1em;
     }
 
     div {
+      line-height: 1em;
       font-size: 0.8em;
     }
 
@@ -71,5 +121,8 @@
 
   .event-desc {
     padding-left: 10px;
+    font-size: 13px;
+    line-height: 1.3em;
+    color: white;
   }
 }
