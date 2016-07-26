@@ -1,9 +1,9 @@
 <div class="background">
 
-	{% assign box_size = 300 %}
+	{% assign box_size = 400 %}
 	{% assign nr_svgs = 38 %}
-	{% assign max_svgs_per_box = 8 %}
-	{% assign min_svgs_per_box = 3 %}
+	{% assign max_svgs_per_box = 2 %}
+	{% assign min_svgs_per_box = 1 %}
 
 	{% for i in (0..10) %}
 		{% for j in (0..10) %}
@@ -13,7 +13,7 @@
 			{% assign nrof = nrof | random %}
 			{% assign nrof = nrof | plus: min_svgs_per_box %}
 
-			{% for x in (0..0) %}
+			{% for x in (0..nrof) %}
 				{% assign left = box_size | random %}
 				{% assign left = left | plus : box_left %}
 				{% assign top = box_size | random %}
