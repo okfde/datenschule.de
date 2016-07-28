@@ -14,14 +14,3 @@ a {
     text-decoration: none;
   }
 }
-
-.link-ds {
-  @extend %link;
-  color: $base-button-background-color;
-  text-decoration: underline;
-
-  &:active,
-  &:hover {
-    text-decoration: none;
-  }
-}

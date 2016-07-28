@@ -54,15 +54,32 @@ ol {
   }
 }
 
-ul {
-  font-weight: $weight-light;
-}
-
 .list-nested {
   @extend .list-bullet;
 
   ul {
     @extend .list-square;
+  }
+}
+
+.list-bulletin {
+  list-style: none;
+  li {
+    line-height: 1.6em;
+  }
+  li:before {
+    /* For a round bullet */
+    //content: '\2022';
+    /* For a square bullet */
+    content: '\25A0';
+    display: block;
+    position: relative;
+    max-width: 0;
+    max-height: 0;
+    left: -18px;
+    top: -2px;
+    color: $base-border-color;
+    font-size: 18px;
   }
 }
 

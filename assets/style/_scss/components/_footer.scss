@@ -6,6 +6,10 @@ footer {
   padding-right: 20px;
   border-top: solid 3px $base-border-color;
 
+  a {
+    color: $link-color-subtle;
+  }
+
   h4 {
     margin: 0;
     font-size: 1em;
