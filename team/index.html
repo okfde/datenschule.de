@@ -36,6 +36,28 @@ description: Das Team der OKF Datenschule
 <div class="container">
 	<div class="container-wrap-row">
 		{% for person in site.data.team %}
+		<div class="container-wrap-item-3 team-item">
+			<div class="box">
+				<img src="/files/team/{{person.img}}.jpg">
+				<h4>{{person.name}}</h4>
+				<p>{{person.position}}</p>
+				<p class="contact">
+					<a href="mailto:{{person.mail}}">{{person.mail}}</a>
+				</p>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+<div class="box box-space-large">
+	<h3>Beirat</h3>
+	<p></p>
+</div>
+
+<div class="container">
+	<div class="container-wrap-row">
+		{% for person in site.data.advisory %}
 		<div class="container-wrap-item-3">
 			<div class="box">
 				<h4>{{person.name}}</h4>

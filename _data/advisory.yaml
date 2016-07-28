@@ -1,0 +1,14 @@
+- name: Sonne
+  img:
+  mail:
+  staff: 0
+
+- name: Mond
+  img:
+  mail:
+  staff: 0
+
+- name: Sterne
+  img:
+  mail:
+  staff: 0
