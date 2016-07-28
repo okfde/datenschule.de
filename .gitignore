@@ -4,6 +4,7 @@ __posts/
 *.DS_Store
 .jekyll-metadata
 *.css.map
+node_modules
 Gemfile.lock
 .sass-cache/
 .idea/

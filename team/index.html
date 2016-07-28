@@ -16,29 +16,17 @@ description: Das Team der OKF Datenschule
 </div>
 
 <div class="container">
-	<div class="container-left-6">
-		<div class="box">
-			<h3>Person 1</h3>
-			<p></p>
+	<div class="container-wrap-row">
+		{% for person in site.data.trainers %}
+		<div class="container-wrap-item-3">
+			<div class="box">
+				<h4>{{person.name}}</h4>
+				<p></p>
+			</div>
 		</div>
-	</div>
-	<div class="container-left-6">
-		<div class="box">
-			<h3>Person 2</h3>
-			<p></p>
-		</div>
+		{% endfor %}
 	</div>
 </div>
-
-<div class="container">
-	<div class="container-left-6">
-		<div class="box">
-			<h3>Person 3</h3>
-			<p></p>
-		</div>
-	</div>
-</div>
-
 
 <div class="box box-space-large">
 	<h3>Organisation</h3>
@@ -46,26 +34,14 @@ description: Das Team der OKF Datenschule
 </div>
 
 <div class="container">
-	<div class="container-left-6">
-		<div class="box">
-			<h3>Person 1</h3>
-			<p></p>
+	<div class="container-wrap-row">
+		{% for person in site.data.team %}
+		<div class="container-wrap-item-3">
+			<div class="box">
+				<h4>{{person.name}}</h4>
+				<p></p>
+			</div>
 		</div>
-	</div>
-	<div class="container-left-6">
-		<div class="box">
-			<h3>Person 2</h3>
-			<p></p>
-		</div>
+		{% endfor %}
 	</div>
 </div>
-
-<div class="container">
-	<div class="container-left-6">
-		<div class="box">
-			<h3>Person 3</h3>
-			<p></p>
-		</div>
-	</div>
-</div>
-

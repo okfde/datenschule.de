@@ -1,0 +1,17 @@
+- name: Helene Hahn
+  img: helenehahn
+  bio: "Helene engagiert sich insbesondere in den Bereichen OpenGLAM (Galeries, Libraries, Archives, Museums) und Open Culture. Mit ihrer Arbeit möchte sie den offenen Zugang und die freie Nutzbarkeit von Kulturerbe fördern, damit unsere Kulturschätze auch im digitalen Zeitalter relevant bleiben. Bei der Open Knowledge Foundation Deutschland ist sie als Projektleiterin verantwortlich für den Kultur-Hackathon Coding Da Vinci und arbeitet an dem EU-Forschungsprojekt Europeana Cloud, der Konferenz Zugang gestalten und dem Nachwuchsförderprogramm Jugend hackt mit. Studiert hat sie Kulturwissenschaften und Wirtschaft im In- und Ausland."
+  bio_en: "Helene's main focus is OpenGLAM (Galleries, Libraries, Archives, and Museums) and Open Culture. Through her work, she campaigns for open access to and free usage of cultural heritage, in order to ensure the relevance of cultural artefacts in the digital world. At OKF DE, she is project lead for Coding da Vinci, a cultural hackathon. She also assists with Zugang Gestalten and Jugend hackt. She studied cultural sciences and economics in Germany and abroad."
+  mail: helene.hahn@okfn.de
+
+- name: Knut Perseke
+  img: knutperseke
+  bio: "Knut arbeitet seit Februar 2015 als Entwickler bei der OKF DE. Er studiert Informatik an der TU Berlin und unterstützt verschiedene Projekte von der technischen Seite. Knut beschäftigt sich vor allem mit mobilen Anwendungen und Webentwicklung. Außerdem arbeitet er zurzeit im Projekt Mnemosyne, das es sich zur Aufgabe gemacht hat, Museumsbesuchern die Möglichkeit zu geben, Archive von kulturellen Institutionen neu zu entdecken."
+  bio_en: "Knut works as a programmer with Open Knowledge Foundation Deutschland since February 2015. He is currently enrolled at TU Berlin (computer science) and supports our projects with his technical expertise. He focusses on mobile applications and web development, and is founding member of the project Mnemosyne, developing new forms of access to archives of cultural heritage institutions."
+  mail: knut.perseke@okfn.de
+
+- name: Moritz Neujeffski
+  img: moritzneujeffski
+  bio: "Moritz arbeitet im Projekt Datenschule gemeinsam mit Helene und Knut. Er gibt Workshops und unterstützt NGOs in der Datenanalyse und der datengestützten Kampagnenarbeit. Moritz hat an der Universität Maastricht European Studies und Public Policy and Human Development studiert und ist nebenher am Wissenschaftszentrum Berlin aktiv."
+  bio_en: "Moritz works at the School of Data together with Helene and Knut. He gives workshops and supports NGOs in analysing and using data for their campaigning efforts. Moritz has studied European Studies and Public Policy and Human Development at Maastricht University and is also active at the Berlin Social Science Center."
+  mail: moritz.neujeffski@okfn.de
