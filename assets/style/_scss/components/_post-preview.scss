@@ -71,12 +71,12 @@
     }
 
     .post-title {
-      font-size: 0.85em;
+      //font-size: 0.85em;
       width: 100%;
+      max-width: 90%;
       margin-top: 8px;
       line-height: 1em;
       font-weight: bold;
-      max-width: 320px;
     }
 
     .post-meta {
