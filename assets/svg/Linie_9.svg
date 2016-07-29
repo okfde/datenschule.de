@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="251.653px" height="307.256px" viewBox="0 0 251.653 307.256" enable-background="new 0 0 251.653 307.256"
-	 xml:space="preserve">
-<g>
-	<polyline fill="none" stroke="#878787" stroke-width="5.2" points="244.031,9.314 153.917,77.19 176.536,146.585 118.595,233.56 
-		16.9,293.355 	"/>
-	<path fill="#FFFFFF" d="M244.423,16.1c3.617-1.281,5.511-5.252,4.23-8.869c-1.281-3.617-5.252-5.512-8.869-4.231
-		c-3.617,1.281-5.512,5.252-4.23,8.87C236.835,15.486,240.806,17.38,244.423,16.1"/>
-	<circle fill="none" stroke="#3C3C3B" stroke-width="5.2" cx="242.104" cy="9.55" r="6.949"/>
-	<path fill="#FFFFFF" d="M157.681,83.564c3.617-1.281,5.511-5.252,4.23-8.869c-1.281-3.617-5.253-5.512-8.869-4.231
-		c-3.617,1.281-5.512,5.252-4.23,8.87C150.093,82.951,154.063,84.845,157.681,83.564"/>
-	<circle fill="none" stroke="#3C3C3B" stroke-width="5.2" cx="155.361" cy="77.014" r="6.949"/>
-	<path fill="#FFFFFF" d="M178.316,152.878c3.617-1.281,5.512-5.252,4.23-8.869c-1.281-3.617-5.252-5.512-8.869-4.231
-		c-3.617,1.281-5.511,5.252-4.229,8.87C170.729,152.266,174.7,154.16,178.316,152.878"/>
-	<circle fill="none" stroke="#3C3C3B" stroke-width="5.2" cx="175.997" cy="146.328" r="6.949"/>
-	<path fill="#FFFFFF" d="M122.012,240.057c3.617-1.281,5.511-5.252,4.23-8.869s-5.252-5.512-8.869-4.23
-		c-3.617,1.28-5.511,5.252-4.23,8.869C114.424,239.443,118.395,241.338,122.012,240.057"/>
-	<circle fill="none" stroke="#3C3C3B" stroke-width="5.2" cx="119.692" cy="233.507" r="6.948"/>
-	<path fill="#FFFFFF" d="M11.87,304.256c3.617-1.281,5.511-5.252,4.23-8.869c-1.281-3.617-5.252-5.512-8.869-4.23
-		c-3.617,1.28-5.511,5.252-4.23,8.869C4.282,303.643,8.252,305.537,11.87,304.256"/>
-	<circle fill="none" stroke="#3C3C3B" stroke-width="5.2" cx="9.55" cy="297.706" r="6.948"/>
-</g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="251.653px" height="307.256px" viewBox="0 0 251.653 307.256" enable-background="new 0 0 251.653 307.256" xml:space="preserve">
+	<polyline fill="none" stroke="#878787" stroke-width="5.2" points="244.031,9.314 153.917,77.19 176.536,146.585 118.595,233.56 16.9,293.355"/>
+	<circle fill="#FFFFFF" stroke="#3C3C3B" stroke-width="5.2" cx="242.104" cy="9.55" r="6.949"/>
+	<circle fill="#FFFFFF" stroke="#3C3C3B" stroke-width="5.2" cx="155.361" cy="77.014" r="6.949"/>
+	<circle fill="#FFFFFF" stroke="#3C3C3B" stroke-width="5.2" cx="175.997" cy="146.328" r="6.949"/>
+	<circle fill="#FFFFFF" stroke="#3C3C3B" stroke-width="5.2" cx="119.692" cy="233.507" r="6.948"/>
+	<circle fill="#FFFFFF" stroke="#3C3C3B" stroke-width="5.2" cx="9.55" cy="297.706" r="6.948"/>
 </svg>
