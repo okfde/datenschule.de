@@ -85,6 +85,13 @@
 		  .inner .polyline circle:hover {
 			  fill:#cdeffb;
 		  }
+		  text.logo {
+		  	font-family:'Work Sans';
+		  	font-size: 40px;
+		  	font-weight: 300;
+		  	letter-spacing: 0.5;
+		  	stroke: #1dafed;
+		  }
 		  ]]>
 		</style>
 	</defs>
@@ -347,5 +354,6 @@
 
 		</g>
 
+		<!--<text class="logo" x="365" y="380">DATENSCHULE</text>-->
 	</g>
 </svg>

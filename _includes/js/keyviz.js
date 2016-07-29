@@ -32,7 +32,7 @@ $(document).ready(function () {
 				house.removeClass('highlight');
 			}
 		});
-	}
+	};
 
 	var pathLength = Snap.path.getTotalLength(path);
 	var driving = null;
