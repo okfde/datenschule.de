@@ -10,6 +10,9 @@
 			  stroke:#808184;
 			  stroke-width:3.9;
 		  }
+		  .house circle:hover {
+			  fill:#00aeef;
+		  }
 		  .house line, .house path.line {
 			  fill:none;
 			  stroke:#808184;
@@ -27,6 +30,9 @@
 			  stroke:#808184;
 			  stroke-width:4.677;
 		  }
+		  .tree circle:hover {
+			  fill:#6dcff4;
+		  }
 
 		  .bus polygon.vehicle {
 			  fill: #fc9b2d;
@@ -37,10 +43,40 @@
 		      stroke:#808184;
 		      stroke-width:4.563;
 		  }
+		  .bus circle.tire:hover {
+		      fill:#6dcff4;
+		  }
 		  .bus polygon.window {
 		      fill:#D0D2D3;
 		   }
 
+		   .inner .window circle {
+	  		  fill:#FFFFFF;
+	  		  stroke:#808184;
+	  		  stroke-width:3.9;
+		   }
+		   .inner .window circle:hover {
+	  		  fill:#cdeffb;
+		   }
+   		   .inner .line path {
+   		   	  fill:none;
+	  		  stroke:#00BAF0;
+	  		  stroke-width:6.081;
+	  		  stroke-linecap=round;
+	  	   }
+	  	   .inner .polyline polyline {
+   		   	  fill:none;
+	  		  stroke:#808184;
+	  		  stroke-width:4.677;
+	  	   }
+	  	   .inner .polyline circle {
+   		   	  fill:#FFFFFF;
+	  		  stroke:#404041;
+	  		  stroke-width:4.677;
+	  	   }
+	  	   .inner .polyline circle:hover {
+	  	 	  fill:#cdeffb;
+		   }
 		  ]]>
 		</style>
 	</defs>
@@ -231,18 +267,18 @@
 			<polygon class="window" fill="#D0D2D3" points="783.851,381.804 766.649,381.542 768.069,395.959 784.689,389.546"/>
 		</g>
 
-		<g class="inner-stuff">
+		<g class="inner">
 
 			<g class="window">
-				<circle fill="#FFFFFF" stroke="#808184" stroke-width="3.9" cx="333.807" cy="338.312" r="5.855"/>
+				<circle cx="333.807" cy="338.312" r="5.855"/>
 			</g>
 
 			<g class="window">
-				<circle fill="#FFFFFF" stroke="#808184" stroke-width="3.9" cx="694.193" cy="386.312" r="5.856"/>
+				<circle cx="694.193" cy="386.312" r="5.856"/>
 			</g>
 
 			<g class="window">
-				<circle fill="#FFFFFF" stroke="#808184" stroke-width="3.9" cx="499.807" cy="207.312" r="5.856"/>
+				<circle cx="499.807" cy="207.312" r="5.856"/>
 			</g>
 
 			<g class="cloud-1" opacity="0.68">
@@ -285,32 +321,32 @@
 				 <path fill="#00BAF0" d="M330.001,412.088c-34.765-13.869-62.912-4.879-61.849,10.428c1.848,26.572,44.562,4.512,63.129,53.801c19.688,52.266,72.654,23.352,66.47-4.297C392.368,447.961,364.766,425.957,330.001,412.088"/>
 			</g>
 
-			<g class="line-1">
-				<path fill="none" stroke="#00BAF0" stroke-width="6.081" stroke-linecap="round" stroke-dasharray="17.491,11.41" d="M701.893,318.418c-19.855,19.242-51.551,56.773-45.461,95.699"/>
-				<path fill="none" stroke="#00BAF0" stroke-width="6.081" stroke-linecap="round" stroke-dasharray="16.621,10.54" d="M674.223,440.066c13.307,6.223,32.908,9.555,47.42,11.996"/>
-				<path fill="none" stroke="#00BAF0" stroke-width="6.081" stroke-linecap="round" d="M726.836,452.949c3.156,0.543,5.93,1.055,8.162,1.555 M657.57,419.707c0.695,2.762,1.594,5.535,2.711,8.305c0.977,2.414,2.701,4.586,4.996,6.543M717,305.09c0,0-2.596,1.984-6.719,5.594"/>
+			<g class="line line-1">
+				<path stroke-dasharray="17.491,11.41" d="M701.893,318.418c-19.855,19.242-51.551,56.773-45.461,95.699"/>
+				<path stroke-dasharray="16.621,10.54" d="M674.223,440.066c13.307,6.223,32.908,9.555,47.42,11.996"/>
+				<path d="M726.836,452.949c3.156,0.543,5.93,1.055,8.162,1.555 M657.57,419.707c0.695,2.762,1.594,5.535,2.711,8.305c0.977,2.414,2.701,4.586,4.996,6.543M717,305.09c0,0-2.596,1.984-6.719,5.594"/>
 			</g>
 
-			<g class="line-2">
-				<path fill="none" stroke="#00BAF0" stroke-width="6.081" stroke-linecap="round" stroke-dasharray="19.248,13.167" d="M307.764,247.859c34.078,36.57,75.357,58.773,105.908,54.273"/>
-				<path fill="none" stroke="#00BAF0" stroke-width="6.081" stroke-linecap="round" stroke-dasharray="18.387,12.306" d="M444.922,282.891c17.754-24.004,19.637-66.316,5.826-112.77"/>
-				<path fill="none" stroke="#00BAF0" stroke-width="6.081" stroke-linecap="round" d="M448.924,164.246c-0.934-2.89-1.926-5.789-2.981-8.699 M420.1,300.742c3.103-0.906,6.068-2.129,8.871-3.683c2.699-1.496,5.22-3.235,7.566-5.199M293.002,230.508c1.975,2.547,3.992,5.039,6.041,7.488"/>
+			<g class="line line-2">
+				<path stroke-dasharray="19.248,13.167" d="M307.764,247.859c34.078,36.57,75.357,58.773,105.908,54.273"/>
+				<path stroke-dasharray="18.387,12.306" d="M444.922,282.891c17.754-24.004,19.637-66.316,5.826-112.77"/>
+				<path d="M448.924,164.246c-0.934-2.89-1.926-5.789-2.981-8.699 M420.1,300.742c3.103-0.906,6.068-2.129,8.871-3.683c2.699-1.496,5.22-3.235,7.566-5.199M293.002,230.508c1.975,2.547,3.992,5.039,6.041,7.488"/>
 			</g>
 
-			<g class="line-2">
-				<polyline fill="none" stroke="#808184" stroke-width="4.677" points="625.91,470.506 576.91,469.506 492.91,558.506 473.91,499.506"/>
-				<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.677" cx="629.5" cy="469.095" r="6.25"/>
-				<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.677" cx="576.208" cy="470.373" r="6.25"/>
-				<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.677" cx="474.5" cy="501.095" r="6.25"/>
-				<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.677" cx="493.5" cy="557.095" r="6.25"/>
+			<g class="polyline line-3">
+				<polyline points="625.91,470.506 576.91,469.506 492.91,558.506 473.91,499.506"/>
+				<circle cx="629.5" cy="469.095" r="6.25"/>
+				<circle cx="576.208" cy="470.373" r="6.25"/>
+				<circle cx="474.5" cy="501.095" r="6.25"/>
+				<circle cx="493.5" cy="557.095" r="6.25"/>
 			</g>
 
-			<g class="line-3">
-				<polyline fill="none" stroke="#808184" stroke-width="4.677" points="644.554,288.387 559.121,256.273 544.307,188.538 630.382,150.746"/>
-				<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.677" cx="644.492" cy="289.915" r="6.25"/>
-				<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.677" cx="560.674" cy="254.339" r="6.25"/>
-				<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.677" cx="544.591" cy="188.994" r="6.25"/>
-				<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.677" cx="629.524" cy="150.255" r="6.25"/>
+			<g class="polyline line-4">
+				<polyline points="644.554,288.387 559.121,256.273 544.307,188.538 630.382,150.746"/>
+				<circle cx="644.492" cy="289.915" r="6.25"/>
+				<circle cx="560.674" cy="254.339" r="6.25"/>
+				<circle cx="544.591" cy="188.994" r="6.25"/>
+				<circle cx="629.524" cy="150.255" r="6.25"/>
 			</g>
 
 		</g>
