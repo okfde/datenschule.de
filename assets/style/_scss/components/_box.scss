@@ -25,25 +25,25 @@
   margin-bottom: 18px;
 }
 
-.box-space-large, .box-space-large-2, .box-space-huge-1, .box-space-huge-2 {
+.box-margin-top-medium, .box-margin-top-large, .box-margin-top-huge, .box-margin-top-very-huge {
   margin-top: 40px;
 }
 
 @include respond-to(small-up) {
 
-  .box-space-large {
+  .box-margin-top-medium {
     margin-top: 60px;
   }
 
-  .box-space-large-2 {
+  .box-margin-top-large {
     margin-top: 120px;
   }
 
-  .box-space-huge-1 {
+  .box-margin-top-huge {
     margin-top: 140px;
   }
 
-  .box-space-huge-2 {
+  .box-margin-top-very-huge {
     margin-top: 200px;
   }
 }

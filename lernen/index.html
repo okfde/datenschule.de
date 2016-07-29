@@ -4,86 +4,58 @@ menu_lernen: yes
 title: Lernen
 description: Lerne mit der OKF Datenschule
 ---
-
 <div class="box box-with-head">
 	<h1 class="box-head">Lernen</h1>
 	<p>Lerne, richtig mit Daten umzugehen. Mit unseren kuratierten Kursen zu verschiedenen Schwerpunkten kannst du dir Datenwissen aneignen und es erweitern. Die Kurse beinhalten praktische Anwendungsbeispiele, Datensets und Übungen. Sie können unabhängig voneinander durchgeführt werden und sich für Einsteiger/innen und Fortgeschrittene geeignet.</p>
 </div>
 
-<div class="box box-space-large">
+<div class="box box-margin-top-medium">
 	<h2>Daten</h2>
 	<p></p>
 </div>
-
-<div class="container">
-	<div class="container-left-4">
+<div class="container-wrap-row">
+	{% for tutorial in site.data.tutorials %}
+	{% if (tutorial.type == "Daten") %}
+	<div class="container-wrap-item-3">
 		<div class="box">
-			<h3>Kachel 1</h3>
+			<h3>{{tutorial.name}}</h3>
 			<p></p>
 		</div>
 	</div>
-	<div class="container-left-4">
-		<div class="box">
-			<h3>Kachel 2</h3>
-			<p></p>
-		</div>
-	</div>
-	<div class="container-left-4">
-		<div class="box">
-			<h3>Kachel 3</h3>
-			<p></p>
-		</div>
-	</div>
+	{% endif %}
+	{% endfor %}
 </div>
 
-<div class="box box-space-large">
+<div class="box box-margin-top-mediume">
 	<h2>Workflow</h2>
 	<p></p>
 </div>
-
-<div class="container">
-	<div class="container-left-4">
+<div class="container-wrap-row">
+	{% for tutorial in site.data.tutorials %}
+	{% if (tutorial.type == "Workflow") %}
+	<div class="container-wrap-item-3">
 		<div class="box">
-			<h3>Kachel 1</h3>
+			<h3>{{tutorial.name}}</h3>
 			<p></p>
 		</div>
 	</div>
-	<div class="container-left-4">
-		<div class="box">
-			<h3>Kachel 2</h3>
-			<p></p>
-		</div>
-	</div>
-	<div class="container-left-4">
-		<div class="box">
-			<h3>Kachel 3</h3>
-			<p></p>
-		</div>
-	</div>
+	{% endif %}
+	{% endfor %}
 </div>
 
-<div class="box box-space-large">
+<div class="box box-margin-top-medium">
 	<h2>Tools</h2>
 	<p></p>
 </div>
-
-<div class="container">
-	<div class="container-left-4">
+<div class="container-wrap-row">
+	{% for tutorial in site.data.tutorials %}
+	{% if (tutorial.type == "Tool") %}
+	<div class="container-wrap-item-3">
 		<div class="box">
-			<h3>Kachel 1</h3>
+			<h3>{{tutorial.name}}</h3>
 			<p></p>
 		</div>
 	</div>
-	<div class="container-left-4">
-		<div class="box">
-			<h3>Kachel 2</h3>
-			<p></p>
-		</div>
-	</div>
-	<div class="container-left-4">
-		<div class="box">
-			<h3>Kachel 3</h3>
-			<p></p>
-		</div>
-	</div>
+	{% endif %}
+	{% endfor %}
 </div>
