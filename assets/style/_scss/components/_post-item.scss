@@ -59,6 +59,9 @@
       word-wrap: break-word;
       margin-top: 10px;
       margin-bottom: 10px;
+      a {
+        color: $base-font-color;
+      }
     }
 
     .post-excerpt {
@@ -77,6 +80,9 @@
       margin: 0;
       > li {
         display: inline-block;
+        a {
+          color: $base-font-color;
+        }
       }
     }
 

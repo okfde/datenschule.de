@@ -5,10 +5,16 @@
   padding-right: 20px;
   width: 100%;
   margin-top: 20px;
+  h2 {
+    margin-bottom: 0;
+  }
+  h2.box-head {
+    font-weight: $weight-book;
+  }
 }
 
 .box.box-with-head p:first-of-type {
-  margin-top: 28px;
+  margin-top: 4px;
 }
 
 .box-with-button {
@@ -48,8 +54,10 @@
 .box-head {
   border: solid 3px $base-border-color;
   background-color: white;
-  position: absolute;
+  display: inline-block;
+  width: auto;
   margin-top: -24px;
+  margin-bottom: 0;
   font-size: 2em;
   padding: 8px;
 }

@@ -6,12 +6,12 @@ description: Das Team der OKF Datenschule
 ---
 
 <div class="box box-with-head">
-	<div class="box-head">Team</div>
+	<h1 class="box-head">Team</h1>
 	<p>Das Team der Datenschule</p>
 </div>
 
 <div class="box box-space-large">
-	<h3>Trainings</h3>
+	<h2>Trainer/innen</h2>
 	<p></p>
 </div>
 
@@ -20,7 +20,7 @@ description: Das Team der OKF Datenschule
 		{% for person in site.data.trainers %}
 		<div class="container-wrap-item-3">
 			<div class="box">
-				<h4>{{person.name}}</h4>
+				<h3>{{person.name}}</h3>
 				<p></p>
 			</div>
 		</div>
@@ -29,7 +29,7 @@ description: Das Team der OKF Datenschule
 </div>
 
 <div class="box box-space-large">
-	<h3>Organisation</h3>
+	<h2>Organisation</h2>
 	<p></p>
 </div>
 
@@ -39,7 +39,7 @@ description: Das Team der OKF Datenschule
 		<div class="container-wrap-item-3 team-item">
 			<div class="box">
 				<img src="/files/team/{{person.img}}.jpg">
-				<h4>{{person.name}}</h4>
+				<h3>{{person.name}}</h3>
 				<p>{{person.position}}</p>
 				<p class="contact">
 					<a href="mailto:{{person.mail}}">{{person.mail}}</a>
@@ -51,7 +51,7 @@ description: Das Team der OKF Datenschule
 </div>
 
 <div class="box box-space-large">
-	<h3>Advisory Board</h3>
+	<h2>Advisory Board</h2>
 	<p></p>
 </div>
 
@@ -60,7 +60,7 @@ description: Das Team der OKF Datenschule
 		{% for person in site.data.advisory %}
 		<div class="container-wrap-item-3">
 			<div class="box">
-				<h4>{{person.name}}</h4>
+				<h3>{{person.name}}</h3>
 				<p></p>
 			</div>
 		</div>
