@@ -1,13 +1,13 @@
 
 .box-keyvisual {
-  background-color: white;
-  //border: solid 3px $base-border-color;
-  padding-left: 20px;
-  padding-right: 20px;
   width: 100%;
   margin-top: 20px;
   svg {
     width: 100%;
     height: auto;
+    background-color: white;
+    border-radius: 40px;
+    //border: 1px solid #f1f1f1;
+    //background-color: #00aeef;
   }
 }

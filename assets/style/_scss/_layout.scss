@@ -244,6 +244,8 @@
 }
 
 .container-padded {
+  padding-left: $base-padding;
+  padding-right: $base-padding;
   padding-bottom: $base-padding-extra;
   padding-top: $base-padding-extra;
 }
