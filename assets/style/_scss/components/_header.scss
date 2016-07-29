@@ -11,13 +11,18 @@ header {
 }
 
 .header-logo {
-  @include span-columns(12);
+  float:left;
+
+  a {
+    display: block;
+  }
 
   .header-logo-img {
     margin-top: 10px;
     margin-left: 0;
     height: 40px;
     width: auto;
+    display: block;
   }
 
 }
@@ -31,7 +36,7 @@ header {
     float: left;
     li {
       display: inline-block;
-      margin-right: 20px;
+      margin-left: 10px;
       padding-top: 8px;
 
       a {
@@ -82,19 +87,18 @@ header {
 @include respond-to(medium-up) {
 
   .header-logo {
-    @include span-columns(2);
     margin-top: 8px;
   }
 
   .header-nav {
-    @include span-columns(10);
+    @include span-columns(9);
     .nav {
       margin-top: 16px;
       float: right;
     }
   }
-
 }
+
 
 @include respond-to(large-up) {
   .header-logo {
@@ -105,6 +109,9 @@ header {
   }
   .header-nav {
     .nav {
+      li {
+        margin-left: 20px;
+      }
       margin-top: 18px;
     }
   }
