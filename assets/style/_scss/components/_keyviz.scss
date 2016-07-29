@@ -1,5 +1,11 @@
 
 .box-keyvisual {
+  background-color: white;
+  //border: solid 3px $base-border-color;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  margin-top: 20px;
   svg {
     width: 100%;
     height: auto;
