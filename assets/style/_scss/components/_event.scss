@@ -1,0 +1,53 @@
+
+.event-box {
+  border: solid 3px $base-border-color;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #1dafed;
+  color: black;
+
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+
+  }
+
+}
+
+.event-item {
+  border-bottom: solid 3px lighten($base-border-color, 20%);
+  padding-bottom: 0.60em;
+  padding-top: 0.60em;
+  color: white;
+
+  > div {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  .event-date {
+    text-align: center;
+
+    div {
+      line-height: 1em;
+      font-size: 0.8em;
+    }
+
+    h5 {
+      color: white;
+    }
+
+  }
+
+  .event-desc {
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 1.3em;
+  }
+}

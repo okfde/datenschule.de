@@ -16,25 +16,17 @@ description: Die Projekte der OKF Datenschule
 	<p></p>
 </div>
 
-<div class="container">
-	<div class="container-left-4">
+<div class="container-wrap-row">
+	{% for project in site.data.projects %}
+	{% if (project.ended) %}{% else %}
+	<div class="container-wrap-item-3">
 		<div class="box">
-			<h3>Projekt 1</h3>
+			<h3>{{project.name}}</h3>
 			<p></p>
 		</div>
 	</div>
-	<div class="container-left-4">
-		<div class="box">
-			<h3>Projekt 2</h3>
-			<p></p>
-		</div>
-	</div>
-	<div class="container-left-4">
-		<div class="box">
-			<h3>Projekt 3</h3>
-			<p></p>
-		</div>
-	</div>
+	{% endif %}
+	{% endfor %}
 </div>
 
 <div class="box box-space-large">
@@ -42,24 +34,16 @@ description: Die Projekte der OKF Datenschule
 	<p></p>
 </div>
 
-<div class="container">
-	<div class="container-left-4">
+<div class="container-wrap-row">
+	{% for project in site.data.projects %}
+	{% if project.ended %}
+	<div class="container-wrap-item-3">
 		<div class="box">
-			<h3>Projekt 4</h3>
+			<h3>{{project.name}}</h3>
 			<p></p>
 		</div>
 	</div>
-	<div class="container-left-4">
-		<div class="box">
-			<h3>Projekt 5</h3>
-			<p></p>
-		</div>
-	</div>
-	<div class="container-left-4">
-		<div class="box">
-			<h3>Projekt 6</h3>
-			<p></p>
-		</div>
-	</div>
+	{% endif %}
+	{% endfor %}
 </div>
 

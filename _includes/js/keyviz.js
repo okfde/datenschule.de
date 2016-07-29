@@ -28,7 +28,6 @@ $(document).ready(function () {
 			var intersects = Snap.path.isPointInside(house, movePoint.x, movePoint.y);
 			if (intersects) {
 				house.addClass('highlight');
-				console.log(house.attr('fill'));
 			} else {
 				house.removeClass('highlight');
 			}

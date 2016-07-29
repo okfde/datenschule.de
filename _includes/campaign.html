@@ -1,114 +1,27 @@
-<body id="scroll-top" class="index" data-card="{{include.cardnr}}">
-
-{% include header.html %}
-
-<div class="opener">
+{% assign cardnr=include.cardnr %}
+<section class="container-padded">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-lg-offset-0 col-lg-12 slick-show">
-				<div id="slick">
-					{% for card in site.data.cards %}
-					{% include card.html card="card" %}
-					{% endfor %}
+		{% for card in site.data.cards %}
+		{% if card.id == cardnr %}
+		<div class="box">{% include card.html card="card" %}</div>
+		{% endif %}
+		{% endfor %}
+	</div>
+
+	<div class="container">
+		<div class="box">
+			<div class="container-wrap-row">
+				{% for card in site.data.cards %}
+				{% if card.id != cardnr %}
+				<div class="container-wrap-item">
+					<a href="/card/{{card.id}}/">
+						<img src="/files/downloads/campaign/thumbs/{{card.filename}}">
+					</a>
 				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<a id="scroll-1" class="scroll-anchor"></a>
-
-<section class="text">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>{% t what.about %}</h2>
-				<hr class="star-primary">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-				<p>{% t what.info1 %}<br/><br/>{% t what.info2 %}</p>
+				{% endif %}
+				{% endfor %}
 			</div>
 		</div>
 	</div>
 </section>
 
-<a id="scroll-2" class="scroll-anchor"></a>
-
-<section id="newsletter" class="success">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>{% t news.about %}</h2>
-				<hr class="star-light">
-			</div>
-		</div>
-		<div class="row top-buffer">
-			<div class="col-sm-8 col-sm-offset-2 col-xs-12 text-center">
-				<p>{% t news.info1 %}</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2 col-xs-12 text-center">
-				<a href="http://okfn.us5.list-manage.com/subscribe?u=929f1e07936386d34833e20d1&id=57affeefd3" target="_blank" class="btn btn-okf-action btn-very-lg btn-okf-action-shadow">{% t news.go %}</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-<a id="scroll-3" class="scroll-anchor"></a>
-
-<section class="text">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>{% t action.about %}</h2>
-				<hr class="star-primary">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-				<p>
-					{% t action.line1 %}<br/><br/>{% t action.line2 %}<br/><br/>{% t action.line3 %}
-				</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<a id="scroll-4" class="scroll-anchor"></a>
-
-<!--
-<section id="vote" class="success">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>{% t vote.about %}</h2>
-				<h3>{% t vote.headline %}</h3>
-				<hr class="star-light">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 text-center">
-				<a href="https://impactchallenge.withgoogle.com/deutschland/charity/open_knowledge" target="_blank" class="btn btn-okf-action btn-very-lg btn-okf-action-shadow">
-					<img src="/assets/img/gic.jpg" style="width: 150px; height:auto;"><br/><br/>{% t voteforus %}</a>
-			</div>
-		</div>
-	</div>
-</section>
--->
-
-<a id="scroll-5" class="scroll-anchor"></a>
-
-{% include footer.html %}
-
-<div id="quick-scroll" class="scroll-top page-scroll visible-xs visible-sm">
-	<a class="btn btn-primary" href="#scroll-top">
-		<i class="fa fa-chevron-up"></i>
-	</a>
-</div>
-
-{% include piwik.html %}
-
-</body>

@@ -29,7 +29,7 @@ page_gen:
     extension: html
 languages: ["de"]
 languages_bak: ["de", "en"]
-exclude_from_localizations: ["assets", "files", "style", "js", "fonts", "images"]
+exclude_from_localizations: ["assets", "files", "style", "js", "svg", "fonts", "images", "scripts"]
 permalink: blog/:year/:month/:title/
 paginate: 8
 paginate_path: blog/page/:num/

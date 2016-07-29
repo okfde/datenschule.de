@@ -1,19 +1,22 @@
 <div class="background">
-	{% assign box_size = 400 %}
+	{% assign box_size_y = 200 %}
+	{% assign box_count_y = 20 %}
+	{% assign box_count_x = 10 %}
+	{% assign box_size_x = 400 %}
 	{% assign nr_svgs = 38 %}
 	{% assign max_svgs_per_box = 2 %}
 	{% assign min_svgs_per_box = 1 %}
-	{% for i in (0..10) %}
-		{% for j in (0..10) %}
-			{% assign box_left =  i | times : box_size %}
-			{% assign box_top =  j | times : box_size %}
+	{% for i in (0..box_count_x) %}
+		{% for j in (0..box_count_y) %}
+			{% assign box_left =  i | times : box_size_x %}
+			{% assign box_top =  j | times : box_size_y %}
 			{% assign nrof = max_svgs_per_box | minus: min_svgs_per_box %}
 			{% assign nrof = nrof | random %}
 			{% assign nrof = nrof | plus: min_svgs_per_box %}
 			{% for x in (0..nrof) %}
-				{% assign left = box_size | random %}
+				{% assign left = box_size_x | random %}
 				{% assign left = left | plus : box_left %}
-				{% assign top = box_size | random %}
+				{% assign top = box_size_y | random %}
 				{% assign top = top | plus: box_top %}
 				{% assign nr = nr_svgs | random %}
 				{% assign speed = 4 | random %}

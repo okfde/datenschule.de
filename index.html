@@ -17,33 +17,17 @@ description: Tue Gutes mit Daten
 		<div class="container-left-3">
 			<div class="event-box box-space-large">
 				<h4>Nächste Events</h4>
+				{% for event in site.data.events limit:3 %}
 				<div class="event-item container">
 					<div class="container-left-5 event-date">
-						<div>28</div>
-						<div>Mittwoch</div>
+						<h5>{{event.name}}</h5>
+						<div>{{event.date | date: '%d.%m.%Y'}}</div>
 					</div>
 					<div class="container-left-7 event-desc">
-						Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+						{{event.text}}
 					</div>
 				</div>
-				<div class="event-item container">
-					<div class="container-left-5 event-date">
-						<div>05</div>
-						<div>Donnerstag</div>
-					</div>
-					<div class="container-left-7 event-desc">
-						Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
-					</div>
-				</div>
-				<div class="event-item container">
-					<div class="container-left-5 event-date">
-						<div>31</div>
-						<div>Sonntag</div>
-					</div>
-					<div class="container-left-7 event-desc">
-						Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
-					</div>
-				</div>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
