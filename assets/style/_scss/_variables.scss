@@ -21,14 +21,30 @@ $weight-light: 200;
 $weight-book: 400;
 $weight-bold: 700;
 
-$light-text-color: #4a4a4a;
+$light-text-color: #363636;
 $link-color: #fc704e;
+$bus-color: #fc9b2d;
 $link-color-subtle: darken($base-font-color,10%);
 
 $white: #fff;
-$gray: #787879;
-$dark-gray: #4a4a4a;
-$blue: #22aeee;
+$gray: #666666;
+$dark-gray: #1a1a1a;
+$blue: #00aeef;
+
+/*
+Hexcodes Logo:
+Blau #00aeef
+Grau1 #797979
+Grau2 #363636
+
+Hexcodes Key visual:
+Blau dunkel #00aeef
+Blau mittel: #6dcff4
+Blau hell: #cdeffb
+Grau dunkel: #1a1a1a
+Grau mittel: #666666
+Grau heller: #333333
+*/
 
 $base-button-background-color: #fc704e;
 $base-button-color: white;

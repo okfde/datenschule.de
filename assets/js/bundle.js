@@ -1,4 +1,4 @@
 ---
 ---
 {% include js/jquery.min.js %}
-{% include js/index.js %}
+{% include js/parallax.js %}
