@@ -21,6 +21,20 @@ $(document).ready(function () {
 	var busTrans = 't' + parseInt(movePoint.x - (760)) + ',' + parseInt(movePoint.y - 344) + 'r' + (movePoint.alpha - 266);
 	bus.transform(busTrans);
 
+	var houses = s.selectAll('.house .shape');
+
+	var highLightHouse = function (movePoint) {
+		houses.forEach(function (house) {
+			var intersects = Snap.path.isPointInside(house, movePoint.x, movePoint.y);
+			if (intersects) {
+				house.addClass('highlight');
+				console.log(house.attr('fill'));
+			} else {
+				house.removeClass('highlight');
+			}
+		});
+	}
+
 	var pathLength = Snap.path.getTotalLength(path);
 	var driving = null;
 	var paused = false;
@@ -29,6 +43,7 @@ $(document).ready(function () {
 			var movePoint = Snap.path.getPointAtLength(path, value);
 			var busTrans = 't' + parseInt(movePoint.x - (760)) + ',' + parseInt(movePoint.y - 344) + 'r' + (movePoint.alpha - 266);
 			bus.transform(busTrans);
+			highLightHouse(movePoint);
 		}, speed, null, function () {
 			drive();
 		});
