@@ -1,5 +1,11 @@
 $(document).ready(function () {
 	window.viewportUnitsBuggyfill.init();
+	// window.addEventListener('viewport-unit-buggyfill-init', function () {
+	// 	console.log('getting lost in CSSOM');
+	// });
+	// window.addEventListener('viewport-unit-buggyfill-style', function () {
+	// 	console.log('updated rules using viewport unit');
+	// });
 
 	var speed = 30000;
 
@@ -14,6 +20,8 @@ $(document).ready(function () {
 		};
 	});
 
+	var $keyviz_container = $(".box-keyvisual");
+	var $keyviz = $(".box-keyvisual");
 	var s = Snap("#keyviz");
 	var bus_path = s.circlePath(500, 370, 256).attr({fill: "none", stroke: "none"});
 	var bus_pathLength = Snap.path.getTotalLength(bus_path);
@@ -23,6 +31,23 @@ $(document).ready(function () {
 		bus.transform('t' + parseInt(movePoint.x - (760)) + ',' + parseInt(movePoint.y - 344) + 'r' + (movePoint.alpha - 266));
 	};
 
+	var msie = parseInt((/msie (\d+)/.exec(navigator.userAgent.toLowerCase()) || [])[1]);
+	if (isNaN(msie)) {
+		msie = parseInt((/trident\/.*; rv:(\d+)/.exec(navigator.userAgent.toLowerCase()) || [])[1]);
+	}
+
+	// if (msie == 11) {
+		window.addEventListener('resize', function () {
+			var ratio = 650 / 565;
+			var h = ($keyviz_container.width() / ratio);
+			console.log('r', ratio, h);
+			$keyviz.css('height', h + 'px');
+		});
+	// }
+
+
+	// $(window).on('resize',function () {
+	// });
 
 	var collisioncache = [];
 	var SPRITES = {
