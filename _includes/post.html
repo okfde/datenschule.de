@@ -1,4 +1,4 @@
-<section class="container-padded">
+<section class="container-padded post">
 	<div class="container">
 		<div class="box">
 			<h1>{{ page.title }}</h1>
@@ -17,6 +17,13 @@
 			</figure>
 			{% endif %}
 			<div class="container-left-12">{{ content }}</div>
+			<hr>
+			<div class="share-post">
+				{% t blog.TeileAuf %}
+				<a href="https://twitter.com/intent/tweet?text={{ page.title | truncate: 100 }}&url={{site.domain}}/{{ page.url }}&via=datenschule&related=datenschule" rel="nofollow" target="_blank" title="{% t blog.TeileAuf %} Twitter"><i class="icon-twitter-1"></i></a>
+				<a href="https://facebook.com/sharer.php?u={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.TeileAuf %} Facebook"><i class="icon-facebook"></i></a>
+				<a href="https://plus.google.com/share?url={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.TeileAuf %} Google+"><i class="icon-gplus"></i></a>
+			</div>
 		</div>
 	</div>
 	<div class="container container-padded-top">
