@@ -1,7 +1,6 @@
 markdown: rdiscount
 highlighter: pygments
-fullurl: 'https://datenschule.de'
-url: 'https://datenschule.de'
+domain: 'https://dev.datenschule.de'
 staticurl: /assets/
 exclude:
   - "CNAME"
