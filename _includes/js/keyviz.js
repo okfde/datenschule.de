@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	var speed = 50000;
+	var speed = 30000;
 	// var speed = 6000;
 
 	Snap.plugin(function (Snap, Element, Paper, global) {
@@ -15,34 +15,89 @@ $(document).ready(function () {
 	});
 
 	var s = Snap("#keyviz");
-	var path = s.circlePath(500, 370, 256).attr({fill: "none", stroke: "none"});
+	var bus_path = s.circlePath(500, 370, 256).attr({fill: "none", stroke: "none"});
+	var bus_pathLength = Snap.path.getTotalLength(bus_path);
 	var bus = s.select('.bus');
-	var movePoint = Snap.path.getPointAtLength(path, 0);
-	var busTrans = 't' + parseInt(movePoint.x - (760)) + ',' + parseInt(movePoint.y - 344) + 'r' + (movePoint.alpha - 266);
-	bus.transform(busTrans);
 
-	var houses = s.selectAll('.house .shape');
+	var moveBus = function (movePoint) {
+		bus.transform('t' + parseInt(movePoint.x - (760)) + ',' + parseInt(movePoint.y - 344) + 'r' + (movePoint.alpha - 266));
+	};
 
-	var highLightHouse = function (movePoint) {
-		houses.forEach(function (house) {
-			var intersects = Snap.path.isPointInside(house, movePoint.x, movePoint.y);
-			if (intersects) {
-				house.addClass('highlight');
+
+	var collisioncache = [];
+	var SPRITES = {
+		HOUSE: 0,
+		LANTERN: 1
+	};
+
+	var init = function() {
+
+		var houses = s.selectAll('.house');
+		var houses_shapes = s.selectAll('.house .shape');
+		var lanterns = s.selectAll('.lantern');
+		var lanterns_shapes = s.selectAll('.lantern line');
+		for (var pos = 0; pos <= bus_pathLength; pos+=4) {
+			var movePoint = Snap.path.getPointAtLength(bus_path, pos);
+			moveBus(movePoint);
+			var bus_bbox = bus.getBBox();
+			houses.forEach(function (house, i) {
+				if (!house.cache) {
+					var shape = houses_shapes[i];
+					var intersects = Snap.path.isPointInside(shape, movePoint.x, movePoint.y);
+					if (intersects) {
+						if (!shape.cache) shape.cache = {min: pos, max: 0, type: SPRITES.HOUSE, count: 0};
+						shape.cache.max = pos;
+					} else {
+						house.cache = shape.cache;
+						collisioncache.push(house);
+					}
+				}
+			});
+			lanterns.forEach(function (lantern, i) {
+				if (!lantern.cache) {
+					var shape = lanterns_shapes[i];
+					var intersects = Snap.path.isBBoxIntersect(shape.getBBox(), bus_bbox);
+					if (intersects) {
+						if (!shape.cache) shape.cache = {min: pos, max: 0, type: SPRITES.LANTERN, count: 0};
+						shape.cache.max = pos;
+					} else {
+						lantern.cache = shape.cache;
+						collisioncache.push(lantern);
+					}
+				}
+			});
+		}
+
+		moveBus(Snap.path.getPointAtLength(bus_path, 0));
+	};
+
+	moveBus(Snap.path.getPointAtLength(bus_path, 0));
+
+	var highlight = function (movePoint, pos) {
+		collisioncache.forEach(function (obj) {
+			if ((pos >= obj.cache.min) && (pos <= obj.cache.max)) {
+				if (!obj.highlighted) {
+					obj.addClass('highlight');
+					obj.highlighted = true;
+					obj.cache.count++;
+				}
 			} else {
-				house.removeClass('highlight');
+				if (obj.highlighted) {
+					if ((obj.cache.type !== SPRITES.HOUSE) || (obj.cache.count % 2 === 0))
+						obj.removeClass('highlight');
+					obj.highlighted = false;
+				}
 			}
 		});
 	};
 
-	var pathLength = Snap.path.getTotalLength(path);
 	var driving = null;
 	var paused = false;
 	var drive = function () {
-		driving = Snap.animate(0, pathLength, function (value) {
-			var movePoint = Snap.path.getPointAtLength(path, value);
-			var busTrans = 't' + parseInt(movePoint.x - (760)) + ',' + parseInt(movePoint.y - 344) + 'r' + (movePoint.alpha - 266);
-			bus.transform(busTrans);
-			highLightHouse(movePoint);
+		driving = Snap.animate(0, bus_pathLength, function (value) {
+			var movePoint = Snap.path.getPointAtLength(bus_path, value);
+			moveBus(movePoint);
+			highlight(movePoint, value);
 		}, speed, null, function () {
 			drive();
 		});
@@ -56,5 +111,11 @@ $(document).ready(function () {
 		}
 	});
 
+	setTimeout(function () {
+		init();
+		setTimeout(function () {
+			drive();
+		}, 200);
+	}, 1000);
 });
 

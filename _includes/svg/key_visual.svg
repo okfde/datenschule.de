@@ -6,13 +6,16 @@
 		  .house path.shape {
 			  fill:#D0D2D3;
 		  }
-		  .house path.shape.highlight {
-			  fill: #d3c8a5;
+		  .house.highlight path.shape {
+			  <!--fill: #d3c8a5;-->
 		  }
 		  .house circle {
 			  fill:#FFFFFF;
 			  stroke:#808184;
 			  stroke-width:3.9;
+		  }
+		  .house.highlight circle {
+			  fill: yellow;
 		  }
 		  .house circle:hover {
 			  fill:#00aeef;
@@ -22,6 +25,10 @@
 			  stroke:#808184;
 			  stroke-width:4.596;
 		  }
+		  .house.highlight line, .house.highlight path.line {
+			  stroke: green;
+		  }
+
 		  .ring path {
 			  fill:none;
 			  stroke:#00BAF0;
@@ -29,13 +36,20 @@
 			  stroke-linecap:round;
 		  }
 
-		  .tree line {
+		  .tree line, .lantern line {
 			  fill:none;
 			  stroke:#808184;
 			  stroke-width:4.677;
 		  }
-		  .tree circle:hover {
-			  fill:#6dcff4;
+		  .lantern circle {
+			  fill:#FFFFFF;
+			  stroke:#404041;
+		  }
+		  .lantern.highlight circle {
+			  fill: orange;
+		  }
+		   .lantern circle:hover {
+			  fill: yellow;
 		  }
 
 		  .bus {
@@ -86,11 +100,10 @@
 			  fill:#cdeffb;
 		  }
 		  text.logo {
-		  	font-family:'Work Sans';
-		  	font-size: 40px;
-		  	font-weight: 300;
-		  	letter-spacing: 0.5;
-		  	stroke: #1dafed;
+		  	font-family:'OstrichSansHeavy';
+		  	font-size: 50px;
+		  	font-weight: normal;
+ 		  	stroke: #666666;
 		  }
 		  ]]>
 		</style>
@@ -215,6 +228,18 @@
 			<path fill="none" stroke="#00BAF0" stroke-width="6.199" stroke-linecap="round" d="M525.553,588.945c3.137-0.285,6.281-0.641,9.434-1.062c3.153-0.422,6.28-0.906,9.383-1.455 M283.83,387.41c0.286,3.137,0.64,6.283,1.062,9.436c0.422,3.15,0.907,6.277,1.457,9.381 M485.366,145.686c-3.137,0.287-6.282,0.641-9.434,1.062c-3.152,0.422-6.28,0.909-9.383,1.456 M727.09,347.225c-0.287-3.139-0.642-6.285-1.063-9.436c-0.422-3.152-0.908-6.279-1.456-9.38"/>
 		</g>
 
+		<g class="bus">
+			<polygon class="vehicle" points="757.744,284.016 742.451,286.655 753.977,403.686 762.857,402.811 784.638,394.798 785.313,401.652 791.017,401.091 779.513,284.279"/>
+			<circle class="tire" cx="746.053" cy="308.194" r="7.605"/>
+			<circle class="tire" cx="752.381" cy="380.093" r="7.605"/>
+			<polygon class="window"  points="774.479,287.182 757.277,286.92 758.698,301.337 775.918,301.786"/>
+			<polygon class="window" fill="#D0D2D3" points="776.343,306.107 759.142,305.846 760.562,320.263 777.781,320.711"/>
+			<polygon class="window" fill="#D0D2D3" points="778.208,325.033 761.006,324.771 762.426,339.188 779.646,339.637"/>
+			<polygon class="window" fill="#D0D2D3" points="780.07,343.958 762.869,343.696 764.289,358.113 781.508,358.562"/>
+			<polygon class="window" fill="#D0D2D3" points="782.062,362.871 764.859,362.609 766.279,377.026 783.5,377.475"/>
+			<polygon class="window" fill="#D0D2D3" points="783.851,381.804 766.649,381.542 768.069,395.959 784.689,389.546"/>
+		</g>
+
 		<g class="tree tree-1">
 			<path fill="#00BAF0" d="M751.491,434.869c4.838-19.406,93.764-4.615,86.504,24.495C830.255,490.412,745.442,459.126,751.491,434.869"/>
 			<line x1="733.824" y1="429.756" x2="788.986" y2="445.444"/>
@@ -231,55 +256,43 @@
 		</g>
 
 		<g class="tree tree-4">
-			<line x1="306.889" y1="605.334" x2="354.703" y2="552.926"/>
-			<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.069" cx="305.583" cy="606.617" r="5.437"/>
-		</g>
-
-		<g class="tree tree-5">
-		   	<line x1="293.15" y1="577.365" x2="342.25" y2="540.838"/>
-			<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.069" cx="297.392" cy="574.349" r="5.437"/>
-		</g>
-
-		<g class="tree tree-6">
 			<path fill="#00BAF0" d="M267.777,245.395c-13.777,24.691-65.775,0.109-53.025-26.512C230.035,186.979,283.923,216.455,267.777,245.395"/>
 			<line x1="291.881" y1="258.861" x2="241.186" y2="232.048"/>
 		</g>
 
-		<g class="tree tree-7">
-			<line x1="367.412" y1="112.723" x2="398.752" y2="160.752"/>
-			<circle fill="#FFFFFF" stroke="#404041" stroke-width="3.781" cx="363.865" cy="107.284" r="5.053"/>
-		</g>
-
-		<g class="tree tree-8">
-			<line x1="381.999" y1="90.508" x2="410.201" y2="155.16"/>
-			<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.069" cx="381.479" cy="87.22" r="9.029"/>
-		</g>
-
-		<g class="tree tree-9">
+		<g class="tree tree-5">
 			<path fill="#BCEAFA" d="M454,99.088c-17.299,4.961-34.165-31.993-9.613-38.288C467.644,54.836,475.621,92.888,454,99.088"/>
 			<line x1="463.111" y1="137.73" x2="449.115" y2="82.114"/>
 		</g>
 
-		<g class="tree tree-10">
+		<g class="lantern lantern-1">
+			<line x1="306.889" y1="605.334" x2="354.703" y2="552.926"/>
+			<circle stroke-width="4.069" cx="305.583" cy="606.617" r="5.437"/>
+		</g>
+
+		<g class="lantern lantern-2">
+		   	<line x1="293.15" y1="577.365" x2="342.25" y2="540.838"/>
+			<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.069" cx="297.392" cy="574.349" r="5.437"/>
+		</g>
+
+		<g class="lantern lantern-3">
+			<line x1="367.412" y1="112.723" x2="398.752" y2="160.752"/>
+			<circle fill="#FFFFFF" stroke="#404041" stroke-width="3.781" cx="363.865" cy="107.284" r="5.053"/>
+		</g>
+
+		<g class="lantern lantern-4">
+			<line x1="381.999" y1="90.508" x2="410.201" y2="155.16"/>
+			<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.069" cx="381.479" cy="87.22" r="9.029"/>
+		</g>
+
+		<g class="lantern lantern-5">
 			<line x1="758.336" y1="193.156" x2="702.147" y2="236.465"/>
 			<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.677" cx="764.696" cy="188.253" r="6.25"/>
 		</g>
 
-		<g class="tree tree-11">
+		<g class="lantern lantern-6">
 			<line x1="765.211" y1="223.69" x2="710.998" y2="252.088"/>
 			<circle fill="#FFFFFF" stroke="#404041" stroke-width="4.069" cx="771.458" cy="220.56" r="5.436"/>
-		</g>
-
-		<g class="bus">
-			<polygon class="vehicle" points="757.744,284.016 742.451,286.655 753.977,403.686 762.857,402.811 784.638,394.798 785.313,401.652 791.017,401.091 779.513,284.279"/>
-			<circle class="tire" cx="746.053" cy="308.194" r="7.605"/>
-			<circle class="tire" cx="752.381" cy="380.093" r="7.605"/>
-			<polygon class="window"  points="774.479,287.182 757.277,286.92 758.698,301.337 775.918,301.786"/>
-			<polygon class="window" fill="#D0D2D3" points="776.343,306.107 759.142,305.846 760.562,320.263 777.781,320.711"/>
-			<polygon class="window" fill="#D0D2D3" points="778.208,325.033 761.006,324.771 762.426,339.188 779.646,339.637"/>
-			<polygon class="window" fill="#D0D2D3" points="780.07,343.958 762.869,343.696 764.289,358.113 781.508,358.562"/>
-			<polygon class="window" fill="#D0D2D3" points="782.062,362.871 764.859,362.609 766.279,377.026 783.5,377.475"/>
-			<polygon class="window" fill="#D0D2D3" points="783.851,381.804 766.649,381.542 768.069,395.959 784.689,389.546"/>
 		</g>
 
 		<g class="inner">
@@ -354,6 +367,6 @@
 
 		</g>
 
-		<!--<text class="logo" x="365" y="380">DATENSCHULE</text>-->
+		<text class="logo" x="410" y="384">DATENSCHULE</text>
 	</g>
 </svg>
