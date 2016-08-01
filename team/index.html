@@ -10,16 +10,19 @@ description: Das Team der OKF Datenschule
 	<p>Das Team der Datenschule</p>
 </div>
 
+{% if site.data.trainers.size > 0 %}
 <div class="box box-margin-top-medium">
 	<h2>Trainer/innen</h2>
 	<p></p>
 </div>
-
 <div class="container">
 	<div class="container-wrap-row">
 		{% for person in site.data.trainers %}
-		<div class="container-wrap-item-3">
+		<div class="container-wrap-item-3 team-item">
 			<div class="box">
+				{% if person.img %}
+				<img src="/files/team/{{person.img}}.jpg">
+				{% endif %}
 				<h3>{{person.name}}</h3>
 				<p></p>
 			</div>
@@ -27,18 +30,21 @@ description: Das Team der OKF Datenschule
 		{% endfor %}
 	</div>
 </div>
+{% endif %}
 
+{% if site.data.team.size > 0 %}
 <div class="box box-margin-top-medium">
 	<h2>Organisation</h2>
 	<p></p>
 </div>
-
 <div class="container">
 	<div class="container-wrap-row">
 		{% for person in site.data.team %}
 		<div class="container-wrap-item-3 team-item">
 			<div class="box">
+				{% if person.img %}
 				<img src="/files/team/{{person.img}}.jpg">
+				{% endif %}
 				<h3>{{person.name}}</h3>
 				<p>{{person.position}}</p>
 				<p class="contact">
@@ -49,21 +55,26 @@ description: Das Team der OKF Datenschule
 		{% endfor %}
 	</div>
 </div>
+{% endif %}
 
+{% if site.data.advisory.size > 0 %}
 <div class="box box-margin-top-medium">
 	<h2>Advisory Board</h2>
 	<p></p>
 </div>
-
 <div class="container">
 	<div class="container-wrap-row">
 		{% for person in site.data.advisory %}
-		<div class="container-wrap-item-3">
+		<div class="container-wrap-item-3 team-item">
 			<div class="box">
+				{% if person.img %}
+				<img src="/files/team/{{person.img}}.jpg">
+				{% endif %}
 				<h3>{{person.name}}</h3>
-				<p></p>
+				<p>{{person.slogan}}</p>
 			</div>
 		</div>
 		{% endfor %}
 	</div>
 </div>
+{% endif %}

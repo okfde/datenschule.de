@@ -1,14 +1,12 @@
-- name: Sonne
-  img:
-  mail:
-  staff: 0
 
-- name: Mond
-  img:
-  mail:
-  staff: 0
+- name: Lucy Chambers
+  img: lucychambers
+  slogan: 'Hi!'
 
-- name: Sterne
-  img:
-  mail:
-  staff: 0
+- name: Kristina Klein
+  img: kristinaklein
+  slogan: 'Hi! Hi!'
+
+- name: Friedrich Lindenberg
+  img: friedrichlindenberg
+  slogan: 'Hello!'
