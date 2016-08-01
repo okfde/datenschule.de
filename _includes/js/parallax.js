@@ -4,34 +4,27 @@ $(document).ready(function () {
 
 	function parallax(scrollTop) {
 		parallaxElements.forEach(function (pe) {
-			var viewportOffsetTop = pe.initialOffsetY - scrollTop;
-			pe.elm.css({marginTop: (viewportOffsetTop / pe.speed)});
+			pe.elm.css('marginTop', ((pe.initialOffsetY - scrollTop) / pe.speed) + 'px');
 		});
 	}
 
-	// $('html,body').scrollTop(1); // auto scroll to top
+	function scrollTop() {
+		var doc = document.documentElement;
+		return (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+	}
 
 	function init() {
 		// touch event check stolen from Modernizr
 		var touchSupported = (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch);
-
 		// if touch events are supported, tie our animation to the position to these events as well
 		if (touchSupported) {
-			$(window).bind('touchmove', function (e) {
+			$(window).on('touchmove', function (e) {
 				parallax(e.currentTarget.scrollY);
 			});
 		}
-
-		$(window).bind('scroll', function (e) {
-			parallax($(this).scrollTop());
+		$(window).on('scroll', function (e) {
+			parallax(scrollTop());
 		});
-
-		// update vars used in parallax calculations on window resize
-		// $(window).resize(function () {
-		// 	parallaxElements.forEach(function (pe) {
-		// 		pe.initialOffsetY = pe.elm.offset().top;
-		// 	});
-		// });
 
 		function getRandomInt(min, max) {
 			return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -45,7 +38,8 @@ $(document).ready(function () {
 				initialOffsetY: $elm.offset().top
 			});
 		});
-		parallax($(window).scrollTop());
+
+		parallax(scrollTop());
 	}
 
 	init();

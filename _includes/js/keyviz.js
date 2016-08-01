@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
 	var speed = 30000;
-	// var speed = 6000;
 
 	Snap.plugin(function (Snap, Element, Paper, global) {
 		Paper.prototype.circlePath = function (cx, cy, r) {
@@ -103,21 +102,19 @@ $(document).ready(function () {
 		});
 	};
 
-	var startstop = function () {
+	bus.click(function () {
 		if (!driving) drive();
 		else {
 			if (paused) driving.resume();
 			else driving.pause();
 			paused = !paused;
 		}
-	};
-
-	bus.click(startstop);
+	});
 
 	setTimeout(function () {
 		init();
 		setTimeout(function () {
-			startstop();
+			if (!driving) drive();
 		}, 200);
 	}, 1000);
 });
