@@ -1,4 +1,4 @@
-<svg id="keyviz" width="1024px" height="768px" preserveAspectRatio="xMinYMin slice" viewBox="100 20 830 720" enable-background="new 0 0 1024 768">
+<svg id="keyviz" width="100%" preserveAspectRatio="xMinYMin slice" viewBox="100 20 830 720" enable-background="new 0 0 1024 768">
 	<defs>
 		<style type="text/css">
 		  <![CDATA[
