@@ -43,6 +43,7 @@
     .post-author {
       margin-top: 10px;
       margin-bottom: 17px;
+      margin-left: 10px;
       line-height: 1em;
       text-align: center;
     }
@@ -51,6 +52,7 @@
 
   .post-teaser {
     padding-bottom: 14px;
+    padding-top: 0px;
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -96,6 +98,9 @@
       flex-direction: column;
       width: 25%;
       text-align: center;
+      .post-author {
+        margin-left: 0;
+      }
       .post-img-wrap {
         .post-img {
           max-height: 240px;
@@ -106,6 +111,7 @@
     }
     .post-teaser {
       width: 75%;
+      padding-top: 25px;
     }
     .post-tags {
       font-size: 13px;

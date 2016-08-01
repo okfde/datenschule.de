@@ -246,9 +246,15 @@
 .container-padded {
   padding-left: $base-padding;
   padding-right: $base-padding;
-  padding-bottom: $base-padding-extra;
-  padding-top: $base-padding-extra;
+  padding-bottom: $base-padding;
+  padding-top: $base-padding / 2;
+
+  @include respond-to(medium-up) {
+    padding-bottom: $base-padding-extra;
+    padding-top: $base-padding-extra;
+  }
 }
+
 
 .container-padded-top {
   padding-top: $base-padding-extra;
@@ -286,9 +292,7 @@
 .container-wrap-item-3 {
   width: 100%;
   @include respond-to(medium-up) {
-
     width: 30%;
-
   }
 
 }

@@ -50,10 +50,13 @@ footer {
       width: 140px;
       height: auto;
       transition: all 0.3s ease-in-out 0s;
-      &:hover {
-        border-color: $base-border-color;
-      }
     }
+    a img:hover {
+      border-color: $base-border-color;
+    }
+  }
+  .footer-socials {
+    margin-top:8px;
   }
 
   .footer-social {
@@ -96,6 +99,12 @@ footer {
 
     .footer-credits {
       padding: 0;
+    }
+  }
+
+  @include respond-to(medium-up) {
+    .footer-socials {
+      display:inline-block;
     }
   }
 

@@ -29,7 +29,26 @@
   margin-top: 40px;
 }
 
+.box-invert {
+}
+
+.box-head {
+  border: solid 3px $base-border-color;
+  background-color: white;
+  display: inline-block;
+  width: auto;
+  margin-top: -24px;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  padding: 8px;
+}
+
+
 @include respond-to(small-up) {
+  .box-head {
+    font-size: 2em;
+  }
+
 
   .box-margin-top-medium {
     margin-top: 60px;
@@ -48,19 +67,6 @@
   }
 }
 
-.box-invert {
-}
-
-.box-head {
-  border: solid 3px $base-border-color;
-  background-color: white;
-  display: inline-block;
-  width: auto;
-  margin-top: -24px;
-  margin-bottom: 0;
-  font-size: 2em;
-  padding: 8px;
-}
 
 .box-button {
   height: 40px;

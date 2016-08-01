@@ -19,6 +19,12 @@
   width: 1px;
 }
 
+.medium-down-only {
+  @include respond-to(medium-up) {
+      display: none;
+  }
+}
+
 .subpage-breadcrumb {
   margin-bottom: 0;
 }
