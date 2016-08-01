@@ -1,14 +1,4 @@
 $(document).ready(function () {
-	window.viewportUnitsBuggyfill.init();
-	// window.addEventListener('viewport-unit-buggyfill-init', function () {
-	// 	console.log('getting lost in CSSOM');
-	// });
-	// window.addEventListener('viewport-unit-buggyfill-style', function () {
-	// 	console.log('updated rules using viewport unit');
-	// });
-
-	var speed = 30000;
-
 	Snap.plugin(function (Snap, Element, Paper, global) {
 		Paper.prototype.circlePath = function (cx, cy, r) {
 			var p = "M" + cx + "," + cy;
@@ -20,42 +10,18 @@ $(document).ready(function () {
 		};
 	});
 
-	var $keyviz_container = $(".box-keyvisual");
-	var $keyviz = $(".box-keyvisual");
+	var speed = 30000;
+	var driving = null;
+	var paused = false;
 	var s = Snap("#keyviz");
 	var bus_path = s.circlePath(500, 370, 256).attr({fill: "none", stroke: "none"});
 	var bus_pathLength = Snap.path.getTotalLength(bus_path);
 	var bus = s.select('.bus');
-
-	var moveBus = function (movePoint) {
-		bus.transform('t' + parseInt(movePoint.x - (760)) + ',' + parseInt(movePoint.y - 344) + 'r' + (movePoint.alpha - 266));
-	};
-
-	var msie = parseInt((/msie (\d+)/.exec(navigator.userAgent.toLowerCase()) || [])[1]);
-	if (isNaN(msie)) {
-		msie = parseInt((/trident\/.*; rv:(\d+)/.exec(navigator.userAgent.toLowerCase()) || [])[1]);
-	}
-
-	if (!isNaN(msie)) {
-		var resizeSVG = function () {
-			var ratio = 650 / 565;
-			var h = ($keyviz_container.width() / ratio);
-			$keyviz.css('height', h + 'px');
-		};
-		window.addEventListener('resize', resizeSVG);
-		resizeSVG();
-	}
-
-
-	// $(window).on('resize',function () {
-	// });
-
 	var collisioncache = [];
 	var SPRITES = {
 		HOUSE: 0,
 		LANTERN: 1
 	};
-
 	//clear this array for new caching to console.log after svg changes
 	var static_cache = [
 		{"min": 0, "max": 1609, "type": 0, "name": "house house-1"},
@@ -76,6 +42,29 @@ $(document).ready(function () {
 		{"min": 1371, "max": 1553, "type": 1, "name": "lantern lantern-6"},
 		{"min": 1469, "max": 1567, "type": 0, "name": "house house-11"}
 	];
+
+	var moveBus = function (movePoint) {
+		bus.transform('t' + parseInt(movePoint.x - (760)) + ',' + parseInt(movePoint.y - 344) + 'r' + (movePoint.alpha - 266));
+	};
+
+	var fixIE = function () {
+
+		var msie = parseInt((/msie (\d+)/.exec(navigator.userAgent.toLowerCase()) || [])[1]);
+		if (isNaN(msie)) {
+			msie = parseInt((/trident\/.*; rv:(\d+)/.exec(navigator.userAgent.toLowerCase()) || [])[1]);
+		}
+		if (!isNaN(msie)) {
+			var $keyviz_container = $(".box-keyvisual");
+			var $keyviz = $(".box-keyvisual");
+			var resizeSVG = function () {
+				var ratio = 650 / 565;
+				var h = ($keyviz_container.width() / ratio);
+				$keyviz.css('height', h + 'px');
+			};
+			window.addEventListener('resize', resizeSVG);
+			resizeSVG();
+		}
+	};
 
 	var init = function () {
 
@@ -140,8 +129,6 @@ $(document).ready(function () {
 		moveBus(Snap.path.getPointAtLength(bus_path, 0));
 	};
 
-	moveBus(Snap.path.getPointAtLength(bus_path, 0));
-
 	var highlight = function (movePoint, pos) {
 		collisioncache.forEach(function (obj) {
 			if ((pos >= obj.cache.min) && (pos <= obj.cache.max)) {
@@ -161,8 +148,6 @@ $(document).ready(function () {
 		});
 	};
 
-	var driving = null;
-	var paused = false;
 	var drive = function () {
 		driving = Snap.animate(0, bus_pathLength, function (value) {
 			var movePoint = Snap.path.getPointAtLength(bus_path, value);
@@ -182,11 +167,11 @@ $(document).ready(function () {
 		}
 	});
 
+	moveBus(Snap.path.getPointAtLength(bus_path, 0));
+	fixIE();
 	setTimeout(function () {
 		init();
-		setTimeout(function () {
-			if (!driving) drive();
-		}, 200);
-	}, 1000);
+		if (!driving) drive();
+	}, 300);
 });
 

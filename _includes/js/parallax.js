@@ -8,6 +8,10 @@ $(document).ready(function () {
 		});
 	}
 
+	function getRandomInt(min, max) {
+		return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+
 	function scrollTop() {
 		var doc = document.documentElement;
 		return (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
@@ -25,10 +29,6 @@ $(document).ready(function () {
 		$(window).on('scroll', function (e) {
 			parallax(scrollTop());
 		});
-
-		function getRandomInt(min, max) {
-			return Math.floor(Math.random() * (max - min + 1)) + min;
-		}
 
 		$('.parallax').each(function () {
 			var $elm = $(this);
