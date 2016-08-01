@@ -21,7 +21,9 @@
 	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:site" content="@okfde"/>
 	<meta name="twitter:creator" content="@okfde"/>
-	<meta name="twitter:text:description" content="{{ page.description }}"/>
+	{% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | truncatewords: 50 | truncate: 199 }}">
+	{% else if page.description %}<meta name="twitter:description" content="{{ page.description }}">
+	{% else if site.description %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
