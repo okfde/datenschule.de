@@ -36,14 +36,15 @@ $(document).ready(function () {
 		msie = parseInt((/trident\/.*; rv:(\d+)/.exec(navigator.userAgent.toLowerCase()) || [])[1]);
 	}
 
-	// if (msie == 11) {
-		window.addEventListener('resize', function () {
-			var ratio = 650 / 565;
-			var h = ($keyviz_container.width() / ratio);
-			console.log('r', ratio, h);
-			$keyviz.css('height', h + 'px');
-		});
-	// }
+	if (msie == 11) {
+	   var resizeSVG = function () {
+		   var ratio = 650 / 565;
+		   var h = ($keyviz_container.width() / ratio);
+		   $keyviz.css('height', h + 'px');
+	   };
+		window.addEventListener('resize', resizeSVG);
+		resizeSVG();
+	}
 
 
 	// $(window).on('resize',function () {
