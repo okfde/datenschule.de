@@ -53,3 +53,5 @@ collections:
   tutorials:
     output: true
     permalink: /tutorial/:path/
+settings:
+  debug: true

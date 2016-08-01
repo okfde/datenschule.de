@@ -9,7 +9,7 @@ description: Das Team der OKF Datenschule
 	<h1 class="box-head">Team</h1>
 	<p>Das Team der Datenschule</p>
 </div>
-
+{% if site.settings.debug %}
 {% if site.data.trainers.size > 0 %}
 <div class="box box-margin-top-medium">
 	<h2>Trainer/innen</h2>
@@ -30,6 +30,7 @@ description: Das Team der OKF Datenschule
 		{% endfor %}
 	</div>
 </div>
+{% endif %}
 {% endif %}
 
 {% if site.data.team.size > 0 %}
