@@ -1,5 +1,4 @@
 $(document).ready(function () {
-	window.viewportUnitsBuggyfill.init();
 
 	var parallaxElements = [];
 

@@ -1,4 +1,5 @@
 $(document).ready(function () {
+	window.viewportUnitsBuggyfill.init();
 
 	var speed = 30000;
 
