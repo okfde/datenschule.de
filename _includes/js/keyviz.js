@@ -36,7 +36,7 @@ $(document).ready(function () {
 		msie = parseInt((/trident\/.*; rv:(\d+)/.exec(navigator.userAgent.toLowerCase()) || [])[1]);
 	}
 
-	if (msie == 11) {
+	if (msie == 11 || msie == 10) {
 	   var resizeSVG = function () {
 		   var ratio = 650 / 565;
 		   var h = ($keyviz_container.width() / ratio);
