@@ -30,13 +30,13 @@ $(document).ready(function () {
 		LANTERN: 1
 	};
 
-	var init = function() {
+	var init = function () {
 
 		var houses = s.selectAll('.house');
 		var houses_shapes = s.selectAll('.house .shape');
 		var lanterns = s.selectAll('.lantern');
 		var lanterns_shapes = s.selectAll('.lantern line');
-		for (var pos = 0; pos <= bus_pathLength; pos+=4) {
+		for (var pos = 0; pos <= bus_pathLength; pos += 4) {
 			var movePoint = Snap.path.getPointAtLength(bus_path, pos);
 			moveBus(movePoint);
 			var bus_bbox = bus.getBBox();
@@ -99,22 +99,25 @@ $(document).ready(function () {
 			moveBus(movePoint);
 			highlight(movePoint, value);
 		}, speed, null, function () {
-			drive();
+			setTimeout(drive, 0);
 		});
 	};
-	bus.click(function () {
+
+	var startstop = function () {
 		if (!driving) drive();
 		else {
 			if (paused) driving.resume();
 			else driving.pause();
 			paused = !paused;
 		}
-	});
+	};
+
+	bus.click(startstop);
 
 	setTimeout(function () {
 		init();
 		setTimeout(function () {
-			drive();
+			startstop();
 		}, 200);
 	}, 1000);
 });
