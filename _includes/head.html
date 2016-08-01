@@ -10,8 +10,8 @@
 	<meta property="og:url" content="{{site.domain}}{{page.url}}"/>
 	<meta property="og:title" content="OKF Datenschule{% if page.menu_home %}{% else %} - {{page.title}}{% endif %}"/>
 	<meta property="og:description" content="{{page.description}}"/>
-	{% if page.picture.url %}
-	<meta property="og:image" content="{{site.domain}}/{{page.picture.url}}"/>
+	{% if page.picture & page.picture.src %}
+	<meta property="og:image" content="{{site.domain}}{{page.picture.src}}"/>
 	{% else %}
 	<meta property="og:image" content="{{site.domain}}/assets/img/logo_datenschule_card.png"/>
 	{% endif %}
