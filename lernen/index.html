@@ -9,53 +9,62 @@ description: Lerne mit der OKF Datenschule
 	<p>Lerne, richtig mit Daten umzugehen. Mit unseren kuratierten Kursen zu verschiedenen Schwerpunkten kannst du dir Datenwissen aneignen und es erweitern. Die Kurse beinhalten praktische Anwendungsbeispiele, Datensets und Übungen. Sie können unabhängig voneinander durchgeführt werden und sich für Einsteiger/innen und Fortgeschrittene geeignet.</p>
 </div>
 
+{% assign tutorials = site.tutorials | where: "group", "Daten" | sort:"order","last" %}
+{% if tutorials.size > 0 %}
 <div class="box box-margin-top-medium">
 	<h2>Daten</h2>
 	<p></p>
 </div>
 <div class="container-wrap-row">
-	{% for tutorial in site.data.tutorials %}
-	{% if (tutorial.type == "Daten") %}
+	{% for tutorial in tutorials %}
 	<div class="container-wrap-item-3">
 		<div class="box">
-			<h3>{{tutorial.name}}</h3>
-			<p></p>
+			<h3>{{tutorial.title}}</h3>
+			<p>
+				<a href="{{tutorial.url}}">Read</a>
+			</p>
 		</div>
 	</div>
-	{% endif %}
 	{% endfor %}
 </div>
+{% endif %}
 
-<div class="box box-margin-top-mediume">
+{% assign tutorials = site.tutorials | where: "group", "Workflow" | sort:"order","last" %}
+{% if tutorials.size > 0 %}
+<div class="box box-margin-top-medium">
 	<h2>Workflow</h2>
 	<p></p>
 </div>
 <div class="container-wrap-row">
-	{% for tutorial in site.data.tutorials %}
-	{% if (tutorial.type == "Workflow") %}
+	{% for tutorial in tutorials %}
 	<div class="container-wrap-item-3">
 		<div class="box">
-			<h3>{{tutorial.name}}</h3>
-			<p></p>
+			<h3>{{tutorial.title}}</h3>
+			<p>
+				<a href="{{tutorial.url}}">Read</a>
+			</p>
 		</div>
 	</div>
-	{% endif %}
 	{% endfor %}
 </div>
+{% endif %}
 
+{% assign tutorials = site.tutorials | where: "group", "Tool" | sort:"order","last" %}
+{% if tutorials.size > 0 %}
 <div class="box box-margin-top-medium">
 	<h2>Tools</h2>
 	<p></p>
 </div>
 <div class="container-wrap-row">
-	{% for tutorial in site.data.tutorials %}
-	{% if (tutorial.type == "Tool") %}
+	{% for tutorial in tutorials %}
 	<div class="container-wrap-item-3">
 		<div class="box">
-			<h3>{{tutorial.name}}</h3>
-			<p></p>
+			<h3>{{tutorial.title}}</h3>
+			<p>
+				<a href="{{tutorial.url}}">Read</a>
+			</p>
 		</div>
 	</div>
-	{% endif %}
 	{% endfor %}
 </div>
+{% endif %}

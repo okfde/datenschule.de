@@ -37,10 +37,19 @@ sass:
   sass_dir: assets/style/_scss
   style: compressed
 defaults:
-  -
-    scope:
+  - scope:
       path: "blog"
+      type: "posts"
     values:
       layout: "post"
-      type: "post"
       card: true
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "tutorial"
+      card: true
+collections:
+  tutorials:
+    output: true
+    permalink: /tutorial/:path/
