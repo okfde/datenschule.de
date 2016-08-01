@@ -1,1 +1,0 @@
-//please remove the banner script
