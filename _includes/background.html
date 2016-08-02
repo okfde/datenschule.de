@@ -22,7 +22,7 @@
 				{% assign speed = 4 | random %}
 				{% assign speed = speed | plus:3 %}
 				<div class="parallax" data-speed="{{speed}}" style="left:{{left| minus:100}}px; top:{{top}}px;">
-					<icon class="svg-{{nr}}"></icon>
+					<div class="svg-icon svg-{{nr}}"></div>
 				</div>
 			{% endfor %}
 		{% endfor %}
