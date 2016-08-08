@@ -17,3 +17,28 @@
   }
 
 }
+
+.advisory-item {
+  margin-top: 20px;
+
+  img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .advisory-slogan {
+    font-style: italic;
+  }
+
+  .advisory-slogan:before {
+    color: #ccc;
+    content: "\201C";
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+}
+
