@@ -61,4 +61,4 @@ collections:
     output: true
     permalink: /projekte/:path/
 settings:
-  debug: true
+  debug: false
