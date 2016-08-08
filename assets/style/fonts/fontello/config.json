@@ -107,6 +107,12 @@
       "css": "gplus",
       "code": 61653,
       "src": "fontawesome"
+    },
+    {
+      "uid": "2b8e9b027181aafd210bf29c5486d4a0",
+      "css": "up-circled",
+      "code": 61610,
+      "src": "fontawesome"
     }
   ]
 }
