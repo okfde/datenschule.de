@@ -99,7 +99,7 @@
 			  fill:#cdeffb;
 		  }
 		  text.logo {
-		  	font-family:'OstrichSansHeavy';
+		  	font-family:'OstrichSansRounded';
 		  	font-size: 50px;
 		  	font-weight: normal;
  		  	stroke: #666666;
