@@ -1,7 +1,7 @@
 ---
 authors:
 - Helene Hahn
-date: 2016-08-09 10:00:00
+date: 2016-08-08 10:00:00
 picture:
   src: /files/blog/2016/08/ds-kommunikation.jpg
   title: Datenschule
