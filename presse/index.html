@@ -15,23 +15,17 @@ description: Die OKF Datenschule in der Presse
 	<p></p>
 </div>
 
-<div class="container">
-	<div class="container-left-6">
+<div class="container-wrap-row">
+	{% for down in site.data.downloads %}
+	<div class="container-wrap-item-3">
 		<div class="box download-box">
 			<p>
 				<i class="icon-download"></i>
-				<a href="/files/downloads/documents/Datenschule_Einseiter.pdf">Projektbeschreibung (PDF 0.3MB)</a>
+				<a href="{{down.url}}">{{down.name}}<br>({{down.type}} {{down.size}})</a>
 			</p>
 		</div>
 	</div>
-	<div class="container-left-6">
-		<div class="box download-box">
-			<p>
-				<i class="icon-download"></i>
-				<a href="/files/downloads/documents/Datenschule_Logos.zip">Datenschule Logos (ZIP 0.4MB)</a>
-			</p>
-		</div>
-	</div>
+	{% endfor %}
 </div>
 
 <div class="container">
