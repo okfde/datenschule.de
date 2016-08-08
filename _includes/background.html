@@ -21,8 +21,9 @@
 				{% assign nr = nr_svgs | random %}
 				{% assign speed = 4 | random %}
 				{% assign speed = speed | plus:3 %}
+				{% assign size = 3 | random %}
 				<div class="parallax" data-speed="{{speed}}" style="left:{{left| minus:100}}px; top:{{top}}px;">
-					<div class="svg-icon svg-{{nr}}"></div>
+					<div class="svg-icon svg-{{nr}} svg-size-{{size}}"></div>
 				</div>
 			{% endfor %}
 		{% endfor %}
