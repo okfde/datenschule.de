@@ -7,43 +7,52 @@ description: Die Projekte der OKF Datenschule
 
 <div class="box box-with-head">
 	<h1 class="box-head">Projekte</h1>
-	<p>Gemeinsam mit unseren Partnern setzen wir uns für eine positive gesellschaftliche Veränderung ein. Wir engagieren uns in diesen Bereichen: Politik und Informationsfreiheit, Bildung, Gesundheit, Armut, Menschenrechte, Stadtentwicklung, Umwelt und Entwicklungs&shy;zusammenarbeit.
+	<p>Gemeinsam mit unseren Partnern setzen wir uns für eine positive gesellschaftliche Veränderung ein. Wir engagieren uns in diesen Bereichen: Politik und Informationsfreiheit, Bildung, Gesundheit, Armut, Menschenrechte,
+		Stadtentwicklung, Umwelt und Entwicklungs&shy;zusammenarbeit.
 	</p>
 </div>
 
+{% assign projects = site.projects | where: "ended", "false" %}
+{% if projects.size > 0 %}
 <div class="box box-margin-top-medium">
 	<h2>Aktuelle</h2>
 	<p></p>
 </div>
-
 <div class="container-wrap-row">
-	{% for project in site.data.projects %}
-	{% if (project.ended) %}{% else %}
-	<div class="container-wrap-item-3">
-		<div class="box">
-			<h3>{{project.name}}</h3>
-			<p></p>
+	{% for project in site.projects %}
+	<div class="container-wrap-item-2">
+		<div class="box projects-box">
+			<a href="{{project.url}}">
+				{% if project.picture.src %}<img src="{{project.picture.src}}">{% endif %}
+				<h4>{{project.title}}</h4>
+			</a>
+			<h3>{{project.partner}}</h3>
+			<p class="project-topics">{% for topic in project.topics %}<span>{{topic}}</span>{% endfor %}</p>
 		</div>
 	</div>
-	{% endif %}
 	{% endfor %}
 </div>
+{% endif %}
 
+{% assign projects = site.projects | where: "ended", "true" %}
+{% if projects.size > 0 %}
 <div class="box box-margin-top-medium">
 	<h2>Abgeschlossene</h2>
 	<p></p>
 </div>
-
 <div class="container-wrap-row">
-	{% for project in site.data.projects %}
-	{% if project.ended %}
-	<div class="container-wrap-item-3">
-		<div class="box">
-			<h3>{{project.name}}</h3>
-			<p></p>
+	{% for project in site.projects %}
+	<div class="container-wrap-item-2">
+		<div class="box projects-box">
+			<a href="{{project.url}}">
+				{% if project.picture.src %}<img src="{{project.picture.src}}">{% endif %}
+				<h4>{{project.title}}</h4>
+			</a>
+			<h3>{{project.partner}}</h3>
+			<p class="project-topics">{% for topic in project.topics %}<span>{{topic}}</span>{% endfor %}</p>
 		</div>
 	</div>
-	{% endif %}
 	{% endfor %}
 </div>
+{% endif %}
 

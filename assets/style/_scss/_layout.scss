@@ -272,7 +272,7 @@
 .container-wrap-row {
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: row; /* works with row or column */
+  -webkit-flex-direction: row;
   flex-direction: row;
   -webkit-align-items: center;
   align-items: center;
@@ -289,10 +289,16 @@
   margin-top: 20px;
 }
 
+.container-wrap-item-2 {
+  width: 100%;
+  @include respond-to(medium-up) {
+    width: 49%;
+  }
+}
+
 .container-wrap-item-3 {
   width: 100%;
   @include respond-to(medium-up) {
     width: 30%;
   }
-
 }
