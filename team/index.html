@@ -20,9 +20,7 @@ description: Das Team der OKF Datenschule
 		{% for person in site.data.trainers %}
 		<div class="container-wrap-item-3 team-item">
 			<div class="box">
-				{% if person.img %}
-				<img src="/files/team/{{person.img}}.jpg">
-				{% endif %}
+				{% if person.img %}<img src="/files/team/{{person.img}}.jpg">{% endif %}
 				<h3>{{person.name}}</h3>
 				<p></p>
 			</div>
