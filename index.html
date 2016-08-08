@@ -16,18 +16,7 @@ description: Tue Gutes mit Daten
 
 		<div class="container-left-3">
 			<div class="event-box box-margin-top-medium">
-				<h4>Nächste Events</h4>
-				{% for event in site.data.events limit:3 %}
-				<div class="event-item container">
-					<div class="container-left-5 event-date">
-						<h5>{{event.name}}</h5>
-						<div>{{event.date | date: '%d.%m.%Y'}}</div>
-					</div>
-					<div class="container-left-7 event-desc">
-						{{event.text}}
-					</div>
-				</div>
-				{% endfor %}
+				{% include events.html %}
 			</div>
 		</div>
 	</div>

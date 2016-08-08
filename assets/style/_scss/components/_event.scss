@@ -8,15 +8,15 @@
   color: black;
 
   h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
     color: white;
+    margin-top: 4px;
+    margin-bottom: 0;
   }
 
 }
 
 .event-item {
-  border-bottom: solid 3px lighten($base-border-color, 20%);
+  border-top: solid 3px lighten($base-border-color, 20%);
   padding-bottom: 0.60em;
   padding-top: 0.60em;
   color: white;
@@ -26,28 +26,40 @@
     padding-top: 0;
   }
 
-  &:last-of-type {
-    border-bottom: none;
+  h5 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .event-date {
-    text-align: center;
-
-    div {
-      line-height: 1em;
-      font-size: 0.8em;
-    }
-
-    h5 {
-      color: white;
-      margin-top: 0;
-    }
-
+    font-weight: bold;
   }
 
-  .event-desc {
-    padding-left: 10px;
-    font-size: 13px;
+  .event-date, .event-place {
+    color: yellow;
+  }
+
+  .event-text, .event-text p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .event-place {
+    font-size: 14px;
+  }
+
+  .event-text p {
     line-height: 1.3em;
+    font-size: 13px;
   }
+
+  .event-text {
+    padding-top: 4px;
+  }
+
+  a {
+    color: white !important;
+  }
+
 }
