@@ -20,7 +20,7 @@ Zum 01. Oktober 2016 suchen wir eine studentische Aushilfe für die Unterstützu
 
 Trifft das auf dich zu? Dann freuen wir uns darauf, dich kennenzulernen. 
 
-Die Datenschule ist ein Bildungsangebot rund um das Thema Daten: Vom Daten finden, analysieren und visualisieren bis hin zur Arbeit an datenbasierten Kampagnen vermitteln wir gemeinnützigen Organisationen praxisnahes Tech-Wissen und unterstützen sie bei ihren gesellschaftlichen Zielen. Wir wollen in diesem Projekt den Zugang und die Nutzung zu Technologien und Daten verbessern. Das Projekt richtet sich an gemeinnützige Organisationen in Deutschland und setzt dabei auf eine Kombination aus Workshops, Strategieberatung und Techniktraining, bei denen kontinuierlich das nötige Wissen  aufgebaut und angewendet wird. Mehr Infos: [https://datenschule.de/](https://datenschule.de/)
+Die Datenschule ist ein Bildungsangebot rund um das Thema Daten: Vom Daten finden, analysieren und visualisieren bis hin zur Arbeit an datenbasierten Kampagnen vermitteln wir gemeinnützigen Organisationen praxisnahes Tech-Wissen und unterstützen sie bei ihren gesellschaftlichen Zielen. Wir wollen in diesem Projekt den Zugang und die Nutzung zu Technologien und Daten verbessern. Das Projekt richtet sich an gemeinnützige Organisationen in Deutschland und setzt dabei auf eine Kombination aus Workshops, Strategieberatung und Techniktraining, bei denen kontinuierlich das nötige Wissen  aufgebaut und angewendet wird. 
 
 
 **Laufzeit:** 6 Monate, ab Oktober <br/>
@@ -64,7 +64,7 @@ Die Datenschule ist ein Bildungsangebot rund um das Thema Daten: Vom Daten finde
 
 <hr> 
 
-Wenn du Interesse hast, dann schick uns deine Bewerbung sowie einschlägige  Arbeitsnachweise bis zum **10. September** per E-Mail an [info@datenschule.de](info@datenschule.de). Von Bewerbungsfotos und Angaben zu Geburtsdatum und Familienstand bitten wir abzusehen. 
+Wenn du Interesse hast, dann schick uns deine Bewerbung sowie einschlägige  Arbeitsnachweise bis zum **10. September** per E-Mail an [info@datenschule.de](mailto:info@datenschule.de). Von Bewerbungsfotos und Angaben zu Geburtsdatum und Familienstand bitten wir abzusehen. 
 
 Die Bewerbungsgespräche werden zwischen dem 19.-30. September stattfinden.
 Wir freuen uns auf dich!
