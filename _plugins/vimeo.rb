@@ -19,7 +19,7 @@ class Vimeo < Liquid::Tag
   end
 
   def render(context)
-    "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://player.vimeo.com/video/#{@id}?byline=0\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>"
+    "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"https://player.vimeo.com/video/#{@id}?byline=0\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>"
   end
 
   Liquid::Template.register_tag "vimeo", self

@@ -26,7 +26,7 @@
 					{% t blog.Von %}
 					{% for author in authors %}
 					{% assign a = site.data.team | where:"name",author | first %}
-					{% if a.name %}{{ a.name }}{% else %}{{author}}{% endif %}{% unless forloop.last %} und {% endunless %}{% endfor %}<br/>
+					{% if a.name %}{{ a.name }}{% else %}{{author}}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br/>
 					{% t blog.AmDatum %} {{ page.date | date:"%d.%m.%Y" }}
 				</p>
 			</div>
