@@ -1,16 +1,10 @@
-- name: Tag der offenen Tür am BMZ
+- name: BMZ
   place: Stresemannstr. 94, 10963 Berlin
   date: 2016-08-28
   text: >
-    Wir stellen unser Bildungsprogramm vor und geben einen Einblick in Umweltdaten. Besucht uns und 2030-Watch am Stand der Open Knowledge Foundation Deutschland.
-- name: Viz-Workshop
-  place: Ort
-  date:
-  text: >
-    Im Rahmen der CodeWeek arbeiten wir gemeinsam mit NGOs an Umweltdaten. Interessiert? [Schreib uns!](mailto:info@datenschule.de)
+    Tag der offenen Tür am.
 - name: "re:campaign"
   place: Schumannstr. 8, 10117 Berlin
   date: 2016-10-31
   text: >
-    Trefft uns auf der Konferenz für Analysen, Tipps und Diskussionen zu erfolgreichen Kampagnen im Netz.
-
+    [re:campaign](https://recampaign.de/) - Konferenz für Analysen und Diskussionen zu erfolgreichen Kampagnen im Netz.
