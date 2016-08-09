@@ -1,7 +1,40 @@
+{% assign authors = "" | split:"|"  %}
+{% if page.author %}{% assign authors = authors | push: page.author %}{% endif %}
+{% for a in page.authors %}{% assign authors = authors | push: a %}{% endfor %}
+
+{% assign img_authors = "" | split:"|"  %}
+{% for author in authors %}
+{% assign a = site.data.team | where:"name",author | first %}
+{% if a.img %}{% assign img_authors = img_authors | push: a %}{% endif %}
+{% endfor %}
+
+
 <section class="container-padded post">
 	<div class="container">
 		<div class="box">
+
+			<div {% if img_authors.first.img %}class="post-author"{% else %}class="post-nonteam-author"{% endif %}>
+				{% for a in img_authors %}
+				{% if a.img %}<img src="/files/team/{{ a.img }}.jpg" alt="{{ a.name | xml_escape }}" class="post-author-image">{% endif %}
+				{% endfor %}
+				<ul class="post-tags">
+					{% for tag in page.tags %}
+					<li><a href="{{ site.baseurl }}/blog/tags/{{ tag }}/">{{ tag }}</a></li>
+					{% endfor %}
+				</ul>
+				<p class="post-meta">
+					{% t blog.Von %}
+					{% for author in authors %}
+					{% assign a = site.data.team | where:"name",author | first %}
+					{% if a.name %}{{ a.name }}{% else %}{{author}}{% endif %}{% unless forloop.last %} und {% endunless %}{% endfor %}<br/>
+					{% t blog.AmDatum %} {{ page.date | date:"%d.%m.%Y" }}
+				</p>
+			</div>
+
+			<hr>
+
 			<h1>{{ page.title }}</h1>
+
 			{% if page.picture & page.picture.src %}
 			<figure class="post-image">
 				<div class="post-image-full" style="background-image: url({{ page.picture.src | xml_escape }});" title="{{ page.picture.title }}"></div>
@@ -24,6 +57,7 @@
 				<a href="https://facebook.com/sharer.php?u={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.TeileAuf %} Facebook"><i class="icon-facebook"></i></a>
 				<a href="https://plus.google.com/share?url={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.TeileAuf %} Google+"><i class="icon-gplus"></i></a>
 			</div>
+
 		</div>
 	</div>
 	<div class="container container-padded-top">

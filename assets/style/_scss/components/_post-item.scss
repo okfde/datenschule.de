@@ -82,8 +82,10 @@
       margin: 0;
       > li {
         display: inline-block;
+        margin-right: 4px;
         a {
           color: $base-font-color;
+          text-decoration: none;
         }
       }
     }
