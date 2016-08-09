@@ -1,38 +1,56 @@
 ---
 authors:
-- Mara Mendes
-date: 2016-06-01 17:00:00
+- Helene Hahn
+- Knut Perseke
+- Moritz Neujeffski
+date: 2016-08-08 09:00:00
 picture:
-  src: /files/blog/2016/06/Discussions-about-the-text.jpg
-  title: "Discussion about the text"
-  license: Creative Commons CC0 1.0 Universal Public Domain Dedication - user Jdessommes
-  license_url:
+  src: /files/blog/2016/08/ds-head.jpg
+  title: Datenschule
+  license: CC BY 3.0 Datenschule, Design: Montebelo
+  license_url: "https://creativecommons.org/licenses/by/3.0/de/"
 tags:
-- public procurement
-- fiscal transparency
-title: "Who has won the contract? - Identifying the bidders of public procurement processes"
+- datenschule
+- data literacy
+title: Datenschule - Lernen, wie man Daten und Technologien effektiv einsetzt!
 ---
-In the last couple of years there has been a strong push by political leaders and civil society towards making beneficial ownership more transparent. There are various very good reasons for this, varying from making it more difficult to disguising the beneficiary of transactions, or using shell companies for illicit purposes such as money laundering and hiding stolen assets. In the arena of public procurement there is the suggestion to start by publishing beneficial ownership for bidders for public tenders. We applaud this but we do not think this is enough. To be able to trace where public money goes, prevent collusion in public procurement, and track organisational performance more broadly the most important prerequisite is to have **unique identifiers for both bidders and buyers.**
-
-Public procurement implies a business transaction between two parties - a buyer and a supplier (bidder). Due to its nature this is usually a public-private deal in which the buyer is a public entity and the (winning) bidder is usually a privately owned company. To monitor the procurement cycle and analyse bidding patterns it is important to be able to clearly identify all parties involved in the process. Within our project [DIGIWHIST](www.digihwist.eu) we have researched 35 jurisdictions and analysed their tender landscape (you can find full report [here](http://digiwhist.eu/publications/towards-a-comprehensive-mapping-of-information-on-public-procurement-tendering-and-its-actors-across-europe/). The results are disillusioning - only 10 of the legislations covered make unique identifiers for buyers and bidders mandatory in public procurement announcements. 
-
-<iframe src="https://opentender.eu/mapping/iframe.html#?nr=14" frameborder="0" width="600px" height="524px"></iframe>
-
-The identifier for the buyer is especially challenging since we are mostly dealing with company names when identifying bidders and suppliers. This system is particularly prone to error, since one company might have placed bids under names that differ. Even if those names just differ by one letter (which could be just a typo) - there is never the certainty we are dealing with the same company. 
-
-![](/files/blog/2016/06/Screenshot_Siemens_Usual_Suppliers.jpg "Screenshot Siemens - usual suppliers") <small><i>When using the the usual suppliers database, a database that covers suppliers from the European Tender Electronic Daily for Siemens, a great number of companies return. However it is not clear whether they are the same company under different names or not related.</i></small>
-
-Unique identifiers for organisations prevent those errors. They usually consist of a combination of numbers and letters, one example being the one proposed by the [Open Contracting Data Standard](http://standard.open-contracting.org/latest/en/getting_started/). In the case of companies those identifiers usually at least entail the fiscal code under which they are registered. In Portugal, organisational identifiers are given to both, bidders and buyers. When looking at the Portuguese procurement portal it seems also not clear at first sight whether Siemens Health Care is the same company as Siemens - but in the detailed overview the organisational identifier tells us that the company under all three names is actually the same. 
 
 
-<figure>
-<img style="float: left" src="/files/blog/2016/06/Screenshot_base.gov_siemens.jpg" alt="Screenshot base.gov - Siemens" />
-</figure>
-Whenever there is certainty over which company has actually won the contract, we are able to draw conclusions like **analysing bidding patterns of specific companies**, making statements on which companies won the most contracts in a specific region (for examples of such analysis see [here](http://www.govtransparency.eu/index.php/2015/11/13/toolkit-for-detecting-collusive-bidding-in-public-procurement/)). Once the buyers can be identified, the **analysis of spending efficiency and organisations’ spending structure** is possible. 
+Als wir Anfang des Jahres als Leuchtturmprojekt bei der Google Impact Challenge nominiert wurden, habt ihr uns mit euren Stimmen sehr unterstützt. Jetzt freuen wir uns umso mehr darauf, unser data literacy-Projekt, die Datenschule, zu launchen: [https://datenschule.de/](https://datenschule.de/)!
+
+In einer zunehmend digitalen Welt vermittelt die Datenschule gemeinnützigen Organisationen die nötigen Fähigkeiten, Daten und Technologien zu verstehen, um sie zielgerichtet für ihre Aufgaben einzusetzen. Mit der Datenschule leisten wir einen Beitrag zur digitalen Alphabetisierung in der Gesellschaft. 
+
+##Warum braucht es mehr data literacy?
+
+Je mehr digitalisiert wird, desto mehr Daten sind vorhanden. Auch wenn in Deutschland noch Aufholbedarf bei Open Data besteht, wächst die Zahl an frei nutzbaren  Verwaltungsdaten, Verkehrsdaten und Umweltdaten stetig. 
+
+![Toy Story Meme via troll.me](/files/blog/2016/08/toystory.png "Data, Data Everywhere")
+
+Quelle: Toy Story Meme via troll.me
+
+Wenn Daten zu Apps, Visualisierungen und Websites verarbeitet werden, können sie zu interessanten Erkenntnissen für die Gesellschaft führen. Das kann die Auswertung der Qualität des Trinkwassers sein, Informationen über freie Kindergartenplätze und Darstellungen über Bauvorhaben in meiner Stadt. Informationen sind die Grundlage für mehr transparentes Regierungshandeln, mehr Beteiligungs- und Mitsprachemöglichkeiten für jede Person unserer Gesellschaft. 
+
+Gerade für gemeinnützige Organisationen, die sich mit ihren Projekten für eine inklusive, offene und kritische Gesellschaft einsetzen, stellen Daten eine Möglichkeit dar, ihre Anliegen auf neue Weise zu kommunizieren und durch datengestützte Projekte öffentlichen Debatten faktenbasiert mitzugestalten.
+
+Doch um mit der Fülle an verfügbaren Daten umzugehen, die Qualität der Daten einzuschätzen und sie zielgerichtet in sozialen Projekten zu nutzen, werden analytische und technische Fähigkeiten benötigt, um zu verstehen, wie Rückschlüsse aus Daten gezogen werden und wie Informationen entstehen. Diese Kenntnisse möchten wir in gemeinnützigen Organisationen mit der Datenschule aufbauen.
+
+>Data literacy means empowernment. It’s the ability to act and understand, to be able to questions dynamics in contexts where data is used, to be able to engage in debates about data. Data literacy means being able to relate to data and thus being able to relate to power.”
+
+{% youtube qHz_ogTH2p4 560 315 %}
 
 
-The solution to this seems to be simple involving little additional administrative burden - **adding organisational identifiers to the requirements for public procurement announcements**. We ask governments in the EU for three simple steps: 
+##Datenkenntnisse als Chance für gesellschaftspolitische Organisationen
 
-1. Provide the public bodies who procure goods and services with unique organisational identifiers, ideally using already existing public sector IDs.
-2. Automatically give bidders a unique identifier, preferably already existing company registration numbers (This can be done via a profile in the e-procurement process. The profile would be a requirement to bid for tenders.) 
-3. Publish the organisational identifiers in all tenders online 
+Gemeinnützige Organisationen erheben bereits beispielsweise mittels Fragebögen und Crowdsourcing-Ansätzen Daten. Sie sind in der digitalen Welt aktiv. Doch werden die Potenziale der datengestützten Arbeit im sozialen Bereich noch häufig übersehen. 
+
+Bereits mit einfachen Schritten und auch ohne Programmierkenntnisse können Daten bei verschiedenen Tätigkeitsfelder von gemeinnützigen Organisationen effektiver eingesetzt werden: beispielsweise bei der Kommunikation, um komplexe Informationen verständlich aufzuarbeiten und um eine größere Sichtbarkeit zu erreichen; bei der Recherche als Ergänzung zu gängigen Methoden, um automatisiert digitale Informationen über z.B. Regierungshandeln abzurufen und um soziale/politische Trends zu verfolgen; bei der Analyse von Zielgruppen, um Bedürfnisse besser zu verstehen und Interessierte aktiver einzubinden; in der Kampagnenarbeit, um gute Stories zu erzählen; und im Management, um Reportings mit fundierten Auswertungen zu belegen, um faktenbasierte Entscheidungen zu treffen und nicht zuletzt um Förderer besser anzusprechen.
+
+Hierbei ist es notwendig zu wissen, wo man ergänzende Daten finden kann, wie man sie mit digitalen Tools abrufen, verbessern, analysieren, visualisieren und in Projekte informativ integrieren kann. Um dies zu tun, muss man kein Datenexperte sein. 
+
+Mit der Datenschule wollen wir gemeinnützige Organisationen dazu ermutigen, gezielt Daten und Technologien in ihrer Arbeit einzusetzen. Wir möchten sie dazu befähigen, digitale Tools und Daten als eine weitere Informationsquelle bei der Recherche, Projekt- und Organisationsentwicklung aktiv zu nutzen.
+
+##Macht mit!
+
+Mit unserem angewandten Datenwissen unterstützen wir Projektteams und/oder Organisationen über einen Zeitraum von ca. drei Monaten bei einer Herausforderung oder einer Fragestellung, die wir mittels Daten lösen möchten. Wir bringen gemeinnützigen Organisationen mit einer Kombination an Workshops, Beratungen und Technik-Trainings die Datenwelt näher.
+
+Wir freuen uns über interessierte NGOs und Trainer/innen, die mit uns zusammenarbeiten möchten. Schreibt uns eine Mail: [info@datenschule.de](mailto:info@datenschule.de) und tragt euch in unseren [Newsletter](http://okfn.us5.list-manage.com/subscribe?u=929f1e07936386d34833e20d1&id=57affeefd3) ein. 
