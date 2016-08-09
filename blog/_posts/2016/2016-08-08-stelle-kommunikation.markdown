@@ -1,7 +1,7 @@
 ---
 authors:
 - Helene Hahn
-date: 2016-08-08 10:00:00
+date: 2016-08-08 12:00:00
 picture:
   src: /files/blog/2016/08/ds-kommunikation.jpg
   title: Datenschule
@@ -10,7 +10,7 @@ picture:
 tags:
 - jobs
 
-title: Die Open Knowledge Foundation Deutschland sucht eine studentische Aushilfe für die Unterstützung der Kommunikation und Pressearbeit im Projekt Datenschule
+title: Studentische Aushilfe für die Unterstützung der Kommunikation und Pressearbeit gesucht
 ---
 
 
