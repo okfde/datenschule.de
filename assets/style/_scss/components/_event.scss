@@ -37,7 +37,7 @@
   }
 
   .event-date, .event-place {
-    color: yellow;
+    color: black;
   }
 
   .event-text, .event-text p {
@@ -61,6 +61,7 @@
 
   a {
     color: white !important;
+    font-weight: bold;
   }
 
 }
