@@ -7,7 +7,7 @@ date: 2016-08-08 09:00:00
 picture:
   src: /files/blog/2016/08/ds-head.jpg
   title: Datenschule
-  license: CC BY 3.0 Datenschule, Design: Montebelo
+  license: "CC BY 3.0 Datenschule, Design: Montebelo"
   license_url: "https://creativecommons.org/licenses/by/3.0/de/"
 tags:
 - datenschule
