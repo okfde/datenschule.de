@@ -7,7 +7,7 @@ picture:
   license: "CC BY 3.0 2030-Watch.de"
   license_url: "https://creativecommons.org/licenses/by/3.0/de/"
 tags:
-- civi tech
+- civic tech
 - data literacy
 - ngo
 - Datenschule Workshops
@@ -16,15 +16,17 @@ title: Offene Türen, offene Daten! - Die Datenschule & 2030-Watch beim Tag der 
 
 Für den diesjährigen Tag der offenen Tür öffnet das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) wieder seine Pforten. Am Samstag, den 28. August, sind auch dieses Jahr zahlreiche Nichtregierungsorganisationen und Initiativen in der Stresemannstraße 94 in Berlin vertreten, um sich und ihre Projekte vorzustellen. Die Open Knowledge Foundation ist mit dabei! Gemeinsam mit 2030 Watch sind wir von der Datenschule mit einem Infostand vor Ort und werden über uns und unsere Arbeit berichten.
 
-##Daten werden für die Entwicklungszusammenarbeit immer wichtiger:##
+##Daten für Entwicklungszusammenarbeit immer wichtiger
 Offene Daten spielen in der Entwicklungszusammenarbeit zunehmend eine wichtige Rolle. Beispielsweise stellt die International Aid Transparency Initiative (IATI) einen Standard dar, um mittels offenen Daten für mehr Transparenz in der Entwicklungspolitik zu sorgen. Mit den vereinbarten Ziele für nachhaltige Entwicklung (Sustainable Development Goals - SDGs) wird ein Schritt in Richtung Armutsbekämpfung und Klimafreundlichkeit gemacht. Auch Deutschland verpflichtet sich diese Ziele umzusetzten. Das OKF Projekt 2030-Watch überwacht und visualisiert diesen Prozess, um für mehr Transparenz zu sorgen.
 
-##Wir visualisieren die SGDs:
+##Wir visualisieren die SGDs
 Mit kleinen Spielen und Visualisierungen möchten wir Euch die SDGs und ihre Bedeutung für Deutschland näherbringen. Wir zeigen, wie Daten einen effektiven Beitrag in der Entwicklungsarbeit leisten können und lassen Euch dabei entscheiden, welche Indikatoren für Deutschland eine wichtige Rolle spielen. In unseren Präsentationen könnt ihr zudem mehr über die Datenschule und 2030-Watch erfahren und wie NGOs mit Daten einen wichtigen Beitrag in der Entwicklungsarbeit leisten können.
  
 Der Tag der offenen Tür am BMZ findet am 28. August zwischen 10:00 und 18:00 in der  Stresemannstr. 94 in Berlin statt. Also kommt vorbei, wir freuen uns auf euren Besuch und darauf euch kennenzulernen!
 
-##Die Wichtigsten Informationen:
-Was? Tag der offenen Tür am BMZ
-Wo? Stresemannstraße 94, 10963 Berlin
-Wann? Sonntag, 28. August, 10:00-18:00
+##Die Wichtigsten Informationen
+**Was?** Tag der offenen Tür am BMZ
+
+**Wo?** Stresemannstraße 94, 10963 Berlin
+
+**Wann?** Sonntag, 28. August, 10:00-18:00
