@@ -95,6 +95,12 @@
     width: 600px;
   }
 
+  @include respond-to(medium-down) {
+    iframe {
+      max-width: 100%;
+    }
+  }
+
   .share-post {
     text-align: right;
     font-size: 0.9em;
