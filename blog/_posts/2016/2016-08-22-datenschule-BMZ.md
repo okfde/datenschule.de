@@ -26,7 +26,5 @@ Der Tag der offenen Tür am BMZ findet am 28. August zwischen 10:00 und 18:00 in
 
 ##Die Wichtigsten Informationen
 **Was?** Tag der offenen Tür am BMZ<br/>
-
 **Wo?** Stresemannstraße 94, 10963 Berlin<br/>
-
 **Wann?** Sonntag, 28. August, 10:00-18:00<br/>
