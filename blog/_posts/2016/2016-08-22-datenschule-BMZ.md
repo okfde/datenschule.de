@@ -10,7 +10,7 @@ tags:
 - civic tech
 - data literacy
 - ngo
-- Datenschule Workshops
+- workshops
 title: Offene Türen, offene Daten! - Die Datenschule & 2030-Watch beim Tag der offenen Tür am BMZ
 ---
 

@@ -10,7 +10,7 @@ tags:
 - civic tech
 - data literacy
 - ngo
-- Datenschule Workshops
+- workshops
 title: Tag der offen Tür - Die OKF beim BMZ
 ---
 
