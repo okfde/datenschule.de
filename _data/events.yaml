@@ -1,9 +1,9 @@
 
 - name: IODC-Konferenz
   place: IFEMA NORTE Av. Partenón, 5 28042 Madrid Spain
-  date: 2016-10-06 bis 2016-10-07
+  date: 2016-10-06
   text: >
-    Have a coffee with us us at the International Open Data Conference! 
+    Have a coffee with us us at the [International Open Data Conference](http://opendatacon.org/)! 
 - name: Code Week
   place: Zentral- und Landesbibliothek Berlin, Breite Straße 30, 10178 Berlin
   date: 2016-10-20
