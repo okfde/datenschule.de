@@ -32,8 +32,12 @@ Meldet euch an und macht mit, Laptop nicht vergessen!
 
 **Wer:** Datenneulinge mit Interesse an Umweltdaten
 
-**Anmeldung:** Um an dem Event teilzunehmen kannst du dich <a href="https://goo.gl/forms/37d3xa18UFFmcFjB3">hier</a> eintragen.
+**Mit:** Input aus dem Projekt  <a href='https://2030-watch.de/'>2030 Watch</a>, das sich das Monitoring der Ziele für nachhaltige Entwicklung zur Aufgabe gemacht hat 
+
+**Anmeldung:** Um an dem Event teilzunehmen kannst du dich <a href="https://goo.gl/forms/37d3xa18UFFmcFjB3">hier eintragen</a>.
 
 Wir freuen uns auf euch!
 
 PS: Du kannst leider nicht dabei sein, bist aber an Daten und gesellschaftlichen Fragestellungen interessiert? Der <a href='http://okfn.us5.list-manage.com/subscribe?u=929f1e07936386d34833e20d1&id=57affeefd3'>Newsletter der Datenschule</a> hält dich auf dem Laufenden.
+
+Die Datenschule und 2030 Watch sind Projekte des <a href="https://okfn.de/">Open Knowledge Foundation Deutschland e.V.</a>
