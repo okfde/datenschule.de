@@ -39,5 +39,3 @@ Meldet euch an und macht mit, Laptop nicht vergessen!
 Wir freuen uns auf euch!
 
 PS: Du kannst leider nicht dabei sein, bist aber an Daten und gesellschaftlichen Fragestellungen interessiert? Der <a href='http://okfn.us5.list-manage.com/subscribe?u=929f1e07936386d34833e20d1&id=57affeefd3'>Newsletter der Datenschule</a> hält dich auf dem Laufenden.
-
-Die Datenschule und 2030 Watch sind Projekte des <a href="https://okfn.de/">Open Knowledge Foundation Deutschland e.V.</a>
