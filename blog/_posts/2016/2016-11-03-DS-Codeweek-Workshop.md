@@ -27,19 +27,27 @@ Diesen Fragen sind wir nachgegangen - bei unserem Workshop im Rahmen der CodeWee
 <br/>
 
 Zur Einführung in die Thematik gab uns Johanna zum Felde  einen kurzen Input zur Umweltbelastung in Deutschland und zeigte einige Beispiele zur Nutzung von Umweltdaten mit Hintergrundwissen aus dem “[2030 Watch](https://2030-watch.de/)”-Projekt.
+<br/>
+<br/>
+
 
 ![Air Pollution Map](/files/blog/2016/11/globalairpollutionmap.jpg "Air Pollution Map")
 
 [**Global Air Pollution Map**](http://www.esa.int/Our_Activities/Observing_the_Earth/Envisat/Global_air_pollution_map_produced_by_Envisat_s_SCIAMACHY)
 
-
 Die Heidelberger Universität stellt auf einer hochaufgelösten Karte die globale Luftverschmutzung dar. Die Aufnahmen lieferte Envisat, der weltgrößte Satellit zum Monitoring der Umweltbelastung.
+<br/>
+<br/>
+
 
 ![Beijing Air Pollution](/files/blog/2016/11/airpollutionbeijing.jpg "Beijing Air Pollution")
 
 [**Visualization of Beijing Air Pollution**](http://scottcheng.github.io/bj-air-vis/)
 
 Diese interaktive Visualisierung zeigt die Intensität der größten Umweltsünder in Beijing von Mitte bis Ende Oktober 2012. Die Daten stammen aus dem Beijinger Umweltschutzzentrum. Die Umsetzung der Visualisierung erfolgte mit D3.
+<br/>
+<br/>
+
 
 ![Open Budgets](/files/blog/2016/11/openbudgets.jpg "Open Budgets")
 
@@ -59,7 +67,7 @@ Die Grenzwerte für die einzelnen Stoffe sind allerdings immer unterschiedlich h
 ### Datenanalyse - schneller Überblick mit Pivot-Tabellen
 <br/>
 
-In Vorbereitung des Workshops haben wir verschiedene Daten der thru.de-Datenbank miteinander verknüpft und für die Teilnehmer/innen gesäubert zur Verfügung gestellt. Um sich einen schnellen Überblick über größere Datenmengen (in unserem Fall mehrere tausend Zeilen) zu verschaffen, haben wir mit Pivot-Tabellen gearbeitet und hilfreiche Funktionen angewendet. Mit der Pivot-Funktion lassen sich Zusammenhänge in Kreuztabellen übersichtlich darstellen, um erste Fragen an Daten, wie z.B. “In welchem Bundesland verursacht die jeweilige Branche besonders viele Abfälle, in welchen besonders wenige?” beantworten.
+In Vorbereitung des Workshops haben wir verschiedene Daten der thru.de-Datenbank miteinander verknüpft und für die Teilnehmer/innen gesäubert zur Verfügung gestellt. Um sich einen schnellen Überblick über größere Datenmengen (in unserem Fall mehrere tausend Zeilen) zu verschaffen, haben wir mit Pivot-Tabellen gearbeitet und hilfreiche Funktionen angewendet. Mit der Pivot-Funktion lassen sich Zusammenhänge in Kreuztabellen übersichtlich darstellen, um erste Fragen an Daten, wie z.B. “In welchem Bundesland verursacht die jeweilige Branche besonders viele Abfälle, in welchen besonders wenige?” zu stellen.
 
 Beim Workshop hat jede Gruppe eigenständige Analysen zu unterschiedlichen Industriebranchen durchgeführt. Eine Gruppe, die sich mit der Abfall- und Abwasserbewirtschaftung auseinandergesetzt hat, fand heraus, dass Schadstoffemissionen in Nordrhein-Westfalen (NRW) im Vergleich zu anderen Bundesländern am höchsten waren und die Luftverbringungen den größten Anteil der Schadstoffemissionen ausmachten. Die Analysen ließen zahlreiche Anschlussfragen zu: Warum gerade NRW? Welche regionalen Gegebenheiten sind dafür verantwortlich? Und: Hängt der hohe Anteil an Luftverbringungen mit der Art der Entsorgung von Abfällen zusammen?
 
@@ -74,6 +82,9 @@ Was sind die “good & bad guys” der Datenvisualisierung? Wann nutzt man eigen
 Dann ging’s an die Praxis: Wir nutzten [Infogram](https://infogr.am/) zum Einstieg in die Visualisierung von Daten - es ist ein einfach zu bedienendes Tool und Programmierkenntnisse werden nicht benötigt. Bei der Darstellung von Betrieben und Schadstoffmengen in einem Streudiagramm (Scatter Plot) bspw. ließen sich deutlich Ausreißer erkennen. Während ein Unternehmen überdurchschnittlich häufig, aber nur minimal die Grenzwerte überschritt, lag die Zahl an Überschreitungen bei einem anderen Betrieb niedriger, die Menge an abgesonderten Schadstoffen jedoch deutlich höher. Auch hier stellten sich dem Team weiterführende Fragen: Welche Gründe könnten dafür verantwortlich sein, dass diese Unternehmen besonders häufig bzw. besonder hohe Schadstoffmengen berichten mussten?
 
 Wir bedanken und bei allen Teilnehmenden und Interessierten für viel Austausch, Input und die interessanten Erkenntnisse zu Schadstoffemissionen in Deutschland! <3
+<br/>
+<br/>
+
 
 
 ### Materialien vom Workshop
