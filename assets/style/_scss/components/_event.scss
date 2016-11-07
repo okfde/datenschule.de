@@ -15,6 +15,18 @@
 
 }
 
+.event-box-big {
+  padding-bottom: 10px;
+
+  .event-subtitle {
+    font-size: 14px;
+  }
+
+  .event-follow {
+    font-size: 18px;
+  }
+}
+
 .event-item {
   border-top: solid 3px lighten($base-border-color, 20%);
   padding-bottom: 0.60em;
@@ -57,6 +69,10 @@
 
   .event-text {
     padding-top: 4px;
+  }
+
+  .event-archive {
+    text-align: right;
   }
 
   a {
