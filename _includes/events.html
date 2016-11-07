@@ -1,5 +1,6 @@
 <h4>Termine</h4>
-{% for event in site.data.events limit:3 %}
+{% assign events = site.data.events | where: "featured",true | limit: 3| sort: "date" %}
+{% for event in events %}
 <div class="event-item container">
 	<h5>{{event.name}}</h5>
 	<div class="event-date">{{event.date | date: '%d.%m.%Y'}}</div>
@@ -7,3 +8,6 @@
 	<div class="event-text">{{event.text | markdownify }}</div>
 </div>
 {% endfor %}
+<div class="event-item container">
+	<div class="event-text"><p><a href="/eventarchiv">vergangene Events</a></p></div>
+</div>

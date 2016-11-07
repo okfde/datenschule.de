@@ -15,6 +15,27 @@
 
 }
 
+.event-box-big {
+  padding-bottom: 10px;
+
+  .event-subtitle {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .event-text {
+    padding: 0;
+  }
+
+  .event-text p {
+    margin: 0;
+  }
+
+  .event-follow {
+    font-size: 18px;
+  }
+}
+
 .event-item {
   border-top: solid 3px lighten($base-border-color, 20%);
   padding-bottom: 0.60em;
