@@ -6,7 +6,7 @@ description: Vergangene Events der OKF Datenschule
 
 <div class="box box-with-head">
 	 <h1 class="box-head">Vergangene Events</h1>
-	<p>Bisher waren wir auf folgenden Events vertreten</p>
+	<p>Bisher waren wir auf folgenden Events vertreten:</p>
 </div>
 {% assign events = site.data.events | where:"featured",false |sort: "date" | reverse %}
 {% for event in events %}
@@ -16,7 +16,7 @@ description: Vergangene Events der OKF Datenschule
 		<div class="event-text">
 			{{event.text | markdownify }}
 			{% if event.blogpost %}
-				<p><a href="{{event.blogpost}}">Mehr erfahren</a></p>
+				<p><a href="{{event.blogpost}}">Mehr erfahren.</a></p>
 			{% endif %}
 		</div>
 	</div>
