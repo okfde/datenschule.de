@@ -21,7 +21,7 @@
 - name: "re:campaign"
   place: Schumannstr. 8, 10117 Berlin
   date: 2016-10-31
-  featured: true
+  featured: false
   text: >
     [re:campaign](https://recampaign.de/) - Konferenz für Analysen und Diskussionen zu erfolgreichen Kampagnen im Netz.
 

@@ -19,7 +19,16 @@
   padding-bottom: 10px;
 
   .event-subtitle {
-    font-size: 14px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .event-text {
+    padding: 0;
+  }
+
+  .event-text p {
+    margin: 0;
   }
 
   .event-follow {
@@ -69,10 +78,6 @@
 
   .event-text {
     padding-top: 4px;
-  }
-
-  .event-archive {
-    text-align: right;
   }
 
   a {

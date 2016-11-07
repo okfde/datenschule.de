@@ -1,5 +1,5 @@
 <h4>Termine</h4>
-{% assign events = site.data.events | where: "featured",true | limit: 3| sort: "date" | reverse %}
+{% assign events = site.data.events | where: "featured",true | limit: 3| sort: "date" %}
 {% for event in events %}
 <div class="event-item container">
 	<h5>{{event.name}}</h5>
@@ -9,5 +9,5 @@
 </div>
 {% endfor %}
 <div class="event-item container">
-	<div class="event-text event-archive"><p><a href="/eventarchiv">vergangene Events</a></p></div>
+	<div class="event-text"><p><a href="/eventarchiv">vergangene Events</a></p></div>
 </div>
