@@ -1,4 +1,15 @@
-
+- name: Socialbar Berlin
+  place: taz café, Rudi-Dutschke-Straße 23, 10969 Berlin
+  date: 2016-06-07
+  featured: false
+  text: >
+    Unser Vortrag bei der [Socialbar](http://socialbar.de/tribe-events/socialbar-berlin-62-seo-fuer-npos-data-for-social-good-community-building/) : Data for Social Good: Warum sollten NGOs die Sprache der Daten lernen?
+- name: Friedrich-Ebert-Stiftung
+  place: Werftstr. 3, 10557 Berlin
+  date: 2016-08-06
+  featured: false
+  text: >
+    Mit den Stipendiat/innen der Stiftung haben wir im Podium über die "Datengesellschaft" diskutiert.
 - name: IODC-Konferenz
   place: IFEMA NORTE Av. Partenón, 5 28042 Madrid Spain
   date: 2016-10-06
