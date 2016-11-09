@@ -35,10 +35,15 @@
   featured: false
   text: >
     [re:campaign](https://recampaign.de/) - Konferenz für Analysen und Diskussionen zu erfolgreichen Kampagnen im Netz.
-
 - name: "Open-Data BarCamp"
   place: freiland Café, Friedrich-Engels-Straße 22, 14473 Potsdam
   date: 2016-11-12
   featured: true
   text: >
     Diskutiert mit uns beim [BarCamp in Potsdam](potsdam.io) über offene Daten und wie sie der Gesellschaft nützen.
+- name: "Lehreinheit bei der Hochschule für Angewandte Wissenschaften Hamburg"
+  place: Berliner Tor 5, 20099 Hamburg
+  date: 2016-12-01
+  featured: true
+  text: >
+    Zum Thema Daten und Gesellschaft führen wir bei der [HAW Hamburg](https://www.haw-hamburg.de/startseite.html) eine Lehrveranstaltung durch.
