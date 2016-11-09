@@ -31,7 +31,7 @@ Zur Einführung in die Thematik gab uns Johanna zum Felde  einen kurzen Input zu
 <br/>
 
 Projekt | Projektbeschreibung | Vorschau
------------- | ------------- 
+------------ | -------------  | ------------- 
 [**Global Air Pollution Map**](http://www.esa.int/Our_Activities/Observing_the_Earth/Envisat/Global_air_pollution_map_produced_by_Envisat_s_SCIAMACHY) | Die Heidelberger Universität stellt auf einer hochaufgelösten Karte die globale Luftverschmutzung dar. Die Aufnahmen lieferte Envisat, der weltgrößte Satellit zum Monitoring der Umweltbelastung. | ![Air Pollution Map](/files/blog/2016/11/globalairpollutionmap.jpg "Air Pollution Map")
 [**Visualization of Beijing Air Pollution**](http://scottcheng.github.io/bj-air-vis/) | Diese interaktive Visualisierung zeigt die Intensität der größten Umweltsünder in Beijing von Mitte bis Ende Oktober 2012. Die Daten stammen aus dem Beijinger Umweltschutzzentrum. Die Umsetzung der Visualisierung erfolgte mit D3. | ![Beijing Air Pollution](/files/blog/2016/11/airpollutionbeijing.jpg "Beijing Air Pollution")
  [**Open Budgets**](http://openbudgets.eu/) | In dem EU-Projekt wird eine Open Source-Software as-a-service entwickelt, die einen zentralen und europaweiten Zugang zu Daten staatlicher Ausgaben ermöglicht. Dadurch soll im öffentlichen Raum Transparenz gestärkt und Korruption bekämpft werden. Staatliche Ausgaben zur Bekämpfung der Umweltverschmutzung können über das Projekt nachvollzogen werden.  | ![Open Budgets](/files/blog/2016/11/openbudgets.jpg "Open Budgets")
