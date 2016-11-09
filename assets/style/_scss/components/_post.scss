@@ -80,7 +80,14 @@
       margin: 0 auto;
     }
   }
-
+  
+  table tr td {
+    vertical-align: top;
+    padding-left: 6px; 
+    padding-right: 6px;
+    padding-bottom: 10px;
+  }
+  
   img {
     display: block;
     height: auto;
