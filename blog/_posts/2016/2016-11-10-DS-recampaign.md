@@ -82,9 +82,6 @@ Welche Kriterien weisen glaubhafte Visualisierung aus? Können Visualisierungen 
 Übung 1: In kleinen Gruppen diskutierten die Teilnehmenden die Visualisierungen hinsichtlich dieser Fragen: An wen richtet sich die Grafik? Welches Ziel verfolgt sie? Und welche Daten wurden verwendet? 
 
 
-![Visualisation Gallery](/files/blog/2016/11/discussion.jpg "Diskussionen")
-
-
 Übung 2: In einer großen Runde sammelten wir unsere Eindrücke und erstellten entlang der Diskussion eine Liste darüber, was gute Visualisierungen ausmachen:
 
 
