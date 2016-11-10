@@ -16,36 +16,26 @@ tags:
 - silversternacht
 title: Silversternacht 2015/16 Köln aus der Datenperspektive - Workshop beim Social Community Day 
 ---
-<br/>
-<br/>
 
 Wir wurden vom Grimme Institut zum diesjährigen [Social Community Day](http://www.social-community-day.de/) nach Köln eingeladen! In zwei Panels “Soziales Engagement in sozialen Medien” und “Information als Basis für gesellschaftliches Engagement” und mehreren Workshops diskutierten Journalisten, Politiker und gemeinnützige Organisationen darüber, wie soziale Medien in gesellschaftspolitischen Projekten wirksam eingesetzt werden können, welche Herangehensweisen gut funktionieren und welche nicht. 
 <br/>
 
 Der Social Community Day bot eine gute Mischung zwischen Diskussionen und Workshops, um Themen zu vertiefen, ins Gespräch zu kommen und Praxiserfahrung zu sammeln.
-<br/>
 
 #### 1) Jonas Schönfelder vom “Technische Aufklärung”-Podcast 
 
-<br/>
 Den Podcast zum deutschen Geheimdienst-Untersuchungsausschuss gibt es [hier zum Nachhören und Abonnieren](https://technische-aufklaerung.de/). Im Workshop ging es um die Frage, wie man am besten selbst mit dem Podcasten beginnen kann. Dazu gibt’s hier die Zusammenfassung als [Slides](https://jonas-schoenfelder.de/workshop/).
-<br/>
 
 #### 2) “Twitter”-Workshop mit Straßengezwitscher
-<br/>
 
 [Straßengezwitscher](https://www.strassengezwitscher.de/) ist eine Plattform für (Bürger-)Journalisten und Journalistinnen, die bei rechtsextremen Demos das aufschreiben, was sie sehen und hören. Jeder kann dies auf #crowdgezwitscher nachlesen. Das Team war vor Ort und hat [über ihre Twitter-Aktionen gesprochen](http://www.social-community-day.de/wp/2940/workshop-twitter-strassengezwitscher/).
-<br/>
 
 #### 3) “Bewegtbilder verifizieren” mit Nicolas Lindken
-<br/>
 
 Der Workshop thematisierte digitale Tools, um Online-Videos auf ihre Echtheit zu überprüfen. Interessantes Thema, das immer wieder aufkommt, wenn wir bspw. an die “[fake finger](https://www.youtube.com/watch?v=Vx-1LQu6mAE)”-Diskussionen von Varoufakis denken oder auch an [Videoaufnahmen](https://www.youtube.com/watch?v=b6A6twUGIbY) aus Kriegsgebieten.
 Mehr Infos zum Workshop gibt’s [hier](http://www.social-community-day.de/wp/2946/workshop-fake-bewegtbild-verifizieren/). 
-<br/>
 
 #### 4) … und uns, Workshop zur Analyse von Twitterdaten
-
 
 In unserem [Workshop](http://www.social-community-day.de/wp/2957/workshop-daten-visualisieren/) haben wir Social Media aus der Datenperspektive betrachtet, denn soziale Plattformen wie Twitter bieten für gemeinnützige Organisationen einen reichen Fundus an Informationen zu gesellschaftspolitischen Ereignissen in Echtzeit. Diese Informationen können digital gesammelt, analysiert und visualisiert werden. 
 
