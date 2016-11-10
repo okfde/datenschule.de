@@ -61,9 +61,9 @@ Beim Workshop hat jede Gruppe eigenständige Analysen zu unterschiedlichen Indus
 
 Was sind die “good & bad guys” der Datenvisualisierung? Wann nutzt man eigentlich Kuchen-, Balken- und Liniendiagramme? Worauf man achten sollte und was die gängigste Anwendungsfehler sind, haben wir uns anhand einiger Beispiele angesehen.
 
-Dann ging’s an die Praxis: Wir nutzten [Infogram](https://infogr.am/) zum Einstieg in die Visualisierung von Daten - es ist ein einfach zu bedienendes Tool und Programmierkenntnisse werden nicht benötigt. Bei der Darstellung von Betrieben und Schadstoffmengen in einem Streudiagramm (Scatter Plot) bspw. ließen sich deutlich Ausreißer erkennen. Während ein Unternehmen überdurchschnittlich häufig, aber nur minimal die Grenzwerte überschritt, lag die Zahl an Überschreitungen bei einem anderen Betrieb niedriger, die Menge an abgesonderten Schadstoffen jedoch deutlich höher. Auch hier stellten sich dem Team weiterführende Fragen: Welche Gründe könnten dafür verantwortlich sein, dass diese Unternehmen besonders häufig bzw. besonder hohe Schadstoffmengen berichten mussten?
+Dann ging’s an die Praxis: Wir nutzten [Infogram](https://infogr.am/) zum Einstieg in die Visualisierung von Daten - es ist ein einfach zu bedienendes Tool und Programmierkenntnisse werden nicht benötigt. Bei der Darstellung von Betrieben und Schadstoffmengen in einem Streudiagramm (Scatter Plot) bspw. ließen sich deutlich Ausreißer erkennen. Während ein Unternehmen überdurchschnittlich häufig, aber nur minimal die Grenzwerte überschritt, lag die Zahl an Überschreitungen bei einem anderen Betrieb niedriger, die Menge an abgesonderten Schadstoffen jedoch deutlich höher. Auch hier stellten sich dem Team weiterführende Fragen: Welche Gründe könnten dafür verantwortlich sein, dass diese Unternehmen besonders häufig bzw. besonders hohe Schadstoffmengen berichten mussten?
 
-Wir bedanken und bei allen Teilnehmenden und Interessierten für viel Austausch, Input und die interessanten Erkenntnisse zu Schadstoffemissionen in Deutschland! <3
+Wir bedanken uns bei allen Teilnehmenden und Interessierten für viel Austausch, Input und die interessanten Erkenntnisse zu Schadstoffemissionen in Deutschland! <3
 <br/>
 <br/>
 
