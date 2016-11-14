@@ -44,7 +44,7 @@
 - name: "Open-Data BarCamp"
   place: freiland Café, Friedrich-Engels-Straße 22, 14473 Potsdam
   date: 2016-11-12
-  featured: true
+  featured: false
   text: >
     Diskutiert mit uns beim [BarCamp in Potsdam](potsdam.io) über offene Daten und wie sie der Gesellschaft nützen.
 - name: "Lehreinheit bei der Hochschule für Angewandte Wissenschaften Hamburg"
@@ -53,3 +53,9 @@
   featured: true
   text: >
     Zum Thema Daten und Gesellschaft führen wir bei der [HAW Hamburg](https://www.haw-hamburg.de/startseite.html) eine Lehrveranstaltung durch.
+- name: "33C3 - Chaos Communication Congress"
+  place: CCH, Am Dammtor / Marseiller Straße, 20355 Hamburg
+  date: 2016-12-26
+  featured: true
+  text: >
+    Wie jedes Jahr sind wir auf dem Community-Event des CCC. Kommt zur OKF-Assembly und lernt uns kennen! :)
