@@ -50,7 +50,7 @@
 - name: "Lehreinheit an der HAW Hamburg"
   place: Berliner Tor 5, 20099 Hamburg
   date: 2016-12-01
-  featured: true
+  featured: false
   text: >
     Zum Thema Daten und Gesellschaft führen wir bei der [HAW Hamburg](https://www.haw-hamburg.de/startseite.html) eine Lehrveranstaltung durch.
 - name: "33C3 - Chaos Communication Congress"
