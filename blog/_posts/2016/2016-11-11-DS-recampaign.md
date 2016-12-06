@@ -4,7 +4,7 @@ date: 2016-11-11 10:00:00
 picture:
   src: /files/blog/2016/11/recampaign.jpg
   title: 
-  license: "BY.NC-SA 2.0 re:campaign"
+  license: "BY-NC-SA 2.0 re:campaign"
   license_url: "https://creativecommons.org/licenses/by-nc-sa/2.0/"
 tags:
 - recampaign
@@ -13,11 +13,11 @@ tags:
 - kampagnen
 - ngo
 
-title: Strategien für den digitalen Wandel - Schön war sie, die re:Campaign 2016!
+title: Strategien für den digitalen Wandel - Schön war sie, die reCampaign 2016!
 ---
 
 
-Auf der [re:Campaign](https://recampaign.de/) diskutierten Campaigner aus der Zivilgesellschaft und der Kommunikationsbranche über gesellschaftspolitische Themen und tauschen Best Practices rund um ihre Arbeit aus. Besonders schön: Den Veranstaltern gelingt der “Blick über den Tellerrand hinaus”: viele internationale Sprecher/innen, gute Themen und Diskussionen, Workshops und gute Stimmung. Erster Tag - Input, zweiter Tag - BarCamp. Wir berichten von unseren Highlights und unserem Workshop. 
+Auf der [reCampaign](https://recampaign.de/) diskutierten Campaigner/innen aus der Zivilgesellschaft und der Kommunikationsbranche über gesellschaftspolitische Themen und tauschen Best Practices rund um ihre Arbeit aus. Besonders schön: Den Veranstaltern gelingt der “Blick über den Tellerrand hinaus”: Viele internationale Sprecher/innen, gute Themen und Diskussionen, Workshops und gute Stimmung. Erster Tag - Input, zweiter Tag - BarCamp. Wir berichten von unseren Highlights und unserem Workshop. 
 
 
 #### Responsible data - Best Practices von und für NGOs
@@ -34,13 +34,13 @@ Auch Oxfam sammelt und nutzt Daten - wie sie es tun, kann man im Policy Paper zu
 ![Responsible Data](/files/blog/2016/11/responsibledata.jpg "Responsible Data")
 
 
-Gemeinsam versuchten wir Antworten zu finden und Strategien für Responsible Data zu diskutieren. Wichtig ist, hier selbst aktiv zu werden, zu hinterfragen und sich fortzubilden. Es gibt aber auch eine große Community, die zu diesem Thema arbeitet und wertvolle Tipps im Umgang mit Daten gibt: zum Beispiel [Engine Room](https://responsibledata.io/about/), [Tactical Tech](https://tacticaltech.org/), [The Digital First Aid Kit](https://www.digitaldefenders.org/digitalfirstaid/) und natürlich die Datenschule. :)
+Gemeinsam versuchten wir Antworten zu finden und Strategien für Responsible Data zu diskutieren. Wichtig ist, hier selbst aktiv zu werden, zu hinterfragen und sich fortzubilden. Es gibt aber auch eine große Community, die zu diesem Thema arbeitet und wertvolle Tipps im Umgang mit Daten gibt: Zum Beispiel [Engine Room](https://responsibledata.io/about/), [Tactical Tech](https://tacticaltech.org/), [The Digital First Aid Kit](https://www.digitaldefenders.org/digitalfirstaid/) und natürlich die Datenschule. :)
 
 
 #### Politisches Framing und Neurokognitive Kampagnenführung
 
 
-Neurokognitive Kampagnenführung: Klingt kompliziert, aber eigetlich sind wir alle damit vertraut: bestimmte Begriffe wecken positiv oder negativ konnotierte Bilder ins uns - und damit auch Emotionen. Wie die Diskussion um Geflüchtete ganz aktuell zeigen: “Flüchtlingswelle”, “Flüchtlingkrise” wecken andere Emotionen als “Geflüchtete Menschen” oder “Menschen auf der Flucht”. Bei der Kampagnenarbeit geht es auch darum, Begriffe stärker zu reflektieren und auch neu in Diskussionen zu besetzen. 
+Neurokognitive Kampagnenführung: Klingt kompliziert, aber eigentlich sind wir alle damit vertraut: bestimmte Begriffe wecken positiv oder negativ konnotierte Bilder ins uns - und damit auch Emotionen. Wie die Diskussion um Geflüchtete ganz aktuell zeigen: “Flüchtlingswelle”, “Flüchtlingkrise” wecken andere Emotionen als “Geflüchtete Menschen” oder “Menschen auf der Flucht”. Bei der Kampagnenarbeit geht es auch darum, Begriffe stärker zu reflektieren und auch neu in Diskussionen zu besetzen. 
 
 
 Kampagnen bewegen, zumindest wenn sie gut gemacht sind. Die Kunst ist es dabei, Fakten und Inhalte in passende Frames (Deutungsrahmen) zu verpacken, wie es Elisabeth Wehling vom Berkeley International Framing Institute in ihrer Keynote beschreibt. Reinhören könnt ihr [hier](http://archiv.recampaign.de/rc_session/responsible-data-best-practice/).
@@ -94,7 +94,7 @@ Welche Kriterien weisen glaubhafte Visualisierung aus? Können Visualisierungen 
 * Das Ziel, das mit der Visualisierung erreicht werden soll, entscheidet über die Ausrichtung: Wird auf Emotionalität oder Neutralität beim "Call to Action" gesetzt? Welche Emotionen rufen Visualisierung durch was hervor?
 
 
-Wir bedanken uns bei allen Teilnehmenden für die tollen Diskussionen und den regen Austausch bei unserer Session auf der re:Campaign 2016. 
+Wir bedanken uns bei allen Teilnehmenden für die tollen Diskussionen und den regen Austausch bei unserer Session auf der reCampaign 2016. 
 
 
 Alle Beiträge findet ihr [hier](http://archiv.recampaign.de/) zum Nachhören. Fotos gibt es [hier](https://www.flickr.com/photos/recampaign).
