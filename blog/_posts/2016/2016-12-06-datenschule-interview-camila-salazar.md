@@ -14,8 +14,7 @@ tags:
 title: "Interview with Camila Salazar - Data Journalist and Economist"
 ---
 
-####  Camila Salazar:
-
+Camila Salazar: 
 Data Journalist from Costa Rica, working at the newsroom La Nation, data trainer at School of Data
 
 Topics: data-driven stories on society, economics, politics
