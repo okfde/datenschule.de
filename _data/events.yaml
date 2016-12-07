@@ -53,6 +53,12 @@
   featured: false
   text: >
     Zum Thema Daten und Gesellschaft führen wir bei der [HAW Hamburg](https://www.haw-hamburg.de/startseite.html) eine Lehrveranstaltung durch.
+- name: "Open Government Partnership Summit 2016"
+  place: Paris, Frankreich
+  date: 2016-12-07
+  featured: true
+  text: >
+    Wir vertreten die Zivilgesellschaft auf der OGP und berichten von unserer Arbeit.
 - name: "33C3 - Chaos Communication Congress"
   place: CCH, Am Dammtor / Marseiller Straße, 20355 Hamburg
   date: 2016-12-27
