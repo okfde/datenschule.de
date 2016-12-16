@@ -28,7 +28,7 @@ Was aber tun, wenn man seine Informationen gefunden hat? Um die richtigen Schlü
 
 ### Workshop #2: Was geben Schuldaten her und wie kann man sie darstellen?
 
-![BildungsCent](/files/blog/2016/12/Übung_bc_091216.JPG "BildungsCent")<center>[CC-BY 3.0 DE, BildungsCent, Foto: Jasmin Helm](https://creativecommons.org/licenses/by/3.0/de/)</center>
+![BildungsCent](/files/blog/2016/12/Uebung_bc_091216.JPG "BildungsCent")<center>[CC-BY 3.0 DE, BildungsCent, Foto: Jasmin Helm](https://creativecommons.org/licenses/by/3.0/de/)</center>
 
 Welche Informationen in Schuldaten stecken und wie sich diese grafisch darstellen lassen, haben wir uns in einem weiteren Workshop genauer angesehen. Da wir NGOs dazu ermutigen wollen, ihre eigenen Daten zu erkunden, selbstbewusst damit umzugehen und sie für ihre Arbeit zu nutzen, haben wir uns die Projektdatenbank von BildungsCent zur Analyse vorgenommen. Darin finden sich Informationen über Partnerschulen des Vereins und Evaluationsberichte zu Programme wie [“Aktion Wald!”](http://wald.bildungscent.de/) und [“KlimaKunstSchule”](http://klimakunstschule.bildungscent.de/).
 
