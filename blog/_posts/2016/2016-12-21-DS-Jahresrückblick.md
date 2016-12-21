@@ -28,7 +28,7 @@ In einem Zeitraum von circa vier Monaten begleiten wir eine NGO bei einer Heraus
 
 Und so haben wir auch Pläne fürs kommende Jahr geschmiedet: Im Frühjahr 2017 gehen wir mit unserem gemeinsamen Schulprojekt online. Außerdem stellen wir euch unser neues Workshopangebot vor und arbeiten an Lernmaterialien und Tutorials zu diversen gesellschaftlichen Themen mit Datenbezug.
 
-![Weihnachtskarte](/files/blog/2016/12/lebkuchen_211216.PDF "Lebkuchen")<center>[CCO Public Domain](https://wiki.creativecommons.org/wiki/Public_domain)</center>
+![Weihnachtskarte](/files/blog/2016/12/lebkuchen_211216.pdf "Lebkuchen")<center>[CCO Public Domain](https://wiki.creativecommons.org/wiki/Public_domain)</center>
 
 Bis dahin wünschen wir euch schöne, stressfreie Feiertage und einen guten Rutsch ins neue Jahr! 
 
