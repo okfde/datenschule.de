@@ -56,12 +56,18 @@
 - name: "Open Government Partnership Summit 2016"
   place: Paris, Frankreich
   date: 2016-12-07
-  featured: true
+  featured: false
   text: >
     Wir vertreten die Zivilgesellschaft auf der OGP und berichten von unserer Arbeit.
 - name: "33C3 - Chaos Communication Congress"
   place: CCH, Am Dammtor / Marseiller Straße, 20355 Hamburg
   date: 2016-12-27
-  featured: true
+  featured: false
   text: >
     Wie jedes Jahr sind wir auf dem [Community-Event des CCC](https://events.ccc.de/). Kommt zur OKF-Assembly und lernt uns kennen! :)
+- name: "Schönes neues Jahr 2017!"
+  place: everywhere
+  date: 2017-01-01
+  featured: true
+  text: >
+    Bald veröffentlichen wir neue Termine! 
