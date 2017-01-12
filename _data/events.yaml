@@ -65,9 +65,21 @@
   featured: false
   text: >
     Wie jedes Jahr sind wir auf dem [Community-Event des CCC](https://events.ccc.de/). Kommt zur OKF-Assembly und lernt uns kennen! :)
-- name: "Schönes neues Jahr 2017!"
-  place: everywhere
-  date: 2017-01-01
+- name: "Bundesverband deutscher Stiftungen"
+  place: Hamburg
+  date: 2017-01-27
   featured: true
   text: >
-    Bald veröffentlichen wir neue Termine! 
+    Workshop zu "Community Building und digitalen Tools" beim [Jahrestreffen](https://www.stiftungen.org/de/veranstaltungen/arbeitskreise-und-foren/ak-soziales/arbeitskreis-soziales-2017.html) des Bundesverbands deutscher Stiftungen.
+- name: "Datensummit"
+  place: Berlin
+  date: 2017-04-28
+  featured: true
+  text: >
+    Safe the date! Wir announcen bald mehr Infos zu unserem Vernetzungstreffen rund um die Themen: data literacy, civic tech und open data.
+- name: "re:publica"
+  place:  Luckenwalder Str. 4–6, 10963 Berlin
+  date: 2017-05-08
+  featured: true
+  text: >
+    Trefft uns auf der [re:publica](https://re-publica.com/en/17/page/getting-there)!
