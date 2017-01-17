@@ -9,7 +9,8 @@ $(document).ready(function () {
 			return this.path(p, cx, cy);
 		};
 	});
-
+	var inBackground = false;
+	var inBackgroundPaused = false;
 	var speed = 30000;
 	var driving = null;
 	var paused = false;
@@ -154,7 +155,11 @@ $(document).ready(function () {
 			moveBus(movePoint);
 			highlight(movePoint, value);
 		}, speed, null, function () {
-			setTimeout(drive, 0);
+			if (inBackground) {
+				inBackgroundPaused = true;
+			} else {
+				setTimeout(drive, 0);
+			}
 		});
 	};
 
@@ -173,5 +178,18 @@ $(document).ready(function () {
 		init();
 		if (!driving) drive();
 	}, 300);
+
+	$(window).focus(function () {
+		inBackground = false;
+		if (inBackgroundPaused) {
+			inBackgroundPaused = false;
+			setTimeout(drive, 0);
+		}
+	});
+
+	$(window).blur(function () {
+		inBackground = true;
+	});
+
 });
 
