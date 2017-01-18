@@ -48,7 +48,7 @@ description: team.desc
 					{% endif %}
 					<h3>{{person.name}}</h3>
 					<p>
-						{% case page.lang %}
+						{% case site.lang %}
 						{% when 'en' %}
 						{{ person.position_en | markdownify }}
 						{% else %}
@@ -84,7 +84,7 @@ description: team.desc
 			<div class="container-left-9">
 				<h3>{{person.name}}</h3>
 				<p class="advisory-bio">
-					{% case page.lang %}
+					{% case site.lang %}
 					{% when 'en' %}
 					{{person.bio_en}}
 					{% else %}
@@ -92,7 +92,7 @@ description: team.desc
 					{% endcase %}
 				</p>
 				<cite class="advisory-slogan">
-					{% case page.lang %}
+					{% case site.lang %}
 					{% when 'en' %}
 					{{person.slogan_en}}
 					{% else %}

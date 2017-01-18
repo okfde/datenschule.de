@@ -3,7 +3,7 @@
 		<div class="box">
 			<h1 class="box-head">{{ page.partner }}</h1>
 			<p class="project-topics">
-				{% case page.lang %}
+				{% case site.lang %}
 				{% when 'en' %}
 					{% for topic in page.topics_en %}<span>{{topic}}</span>{% endfor %}
 				{% else %}
@@ -11,7 +11,7 @@
 				{% endcase %}
 			</p>
 			<h2>
-				{% case page.lang %}
+				{% case site.lang %}
 				{% when 'en' %}
 					{{ page.title_en }}
 				{% else %}
@@ -33,7 +33,7 @@
 			</figure>
 			{% endif %}
 			<div class="container-left-12">
-				{% case page.lang %}
+				{% case site.lang %}
 				{% when 'en' %}
 					{{ page.text_en | markdownify }}
 				{% else %}
