@@ -1,14 +1,14 @@
 ---
 layout: page
 menu_blog: yes
-title: Blog
-description: Der Blog der OKF Datenschule
+title: blog.title
+description: blog.desc
 ---
 <div class="box box-with-head">
-	<h1 class="box-head">Blog</h1>
+	<h1 class="box-head">{% t blog.title %}</h1>
 	<p class="text-center">
-		Hier erfährst du Aktuelles rund um die Datenschule<br>
-		<a href="{{ site.baseurl_root }}/atom.xml"><i class="icon-rss-squared"></i> {% t blog.FeedAbo %}</a>
+		{% t blog.intro %}<br>
+		<a href="{{ site.baseurl_root }}/atom.xml"><i class="icon-rss-squared"></i> {% t blog.sign_feed %}</a>
 		<br>
 	</p>
 </div>

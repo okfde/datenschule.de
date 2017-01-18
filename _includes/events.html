@@ -1,4 +1,4 @@
-<h4>Termine</h4>
+<h4>{% t events.title %}</h4>
 {% assign events = site.data.events | where: "featured",true | limit: 3| sort: "date" %}
 {% for event in events %}
 <div class="event-item container">
@@ -9,5 +9,5 @@
 </div>
 {% endfor %}
 <div class="event-item container">
-	<div class="event-text"><p><a href="/eventarchiv">vergangene Events</a></p></div>
+	<div class="event-text"><p><a href="/eventarchiv">{% t events.past_link %}</a></p></div>
 </div>

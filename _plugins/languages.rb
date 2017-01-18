@@ -1,86 +1,55 @@
 =begin
-Jekyll Multiple Languages is an internationalization plugin for Jekyll. It
-compiles your Jekyll site for one or more languages with a similar approach as
+
+Jekyll  Multiple  Languages  is  an  internationalization  plugin for Jekyll. It
+compiles  your  Jekyll site for one or more languages with a similar approach as
 Rails does. The different sites will be stored in sub folders with the same name
 as the language it contains.
 
 Please visit https://github.com/screeninteraction/jekyll-multiple-languages-plugin
 for more details.
+
+modified for OKF needs
+
+- supports autochoice index by suffix: e.g. index.en.md/index.de.md
+- less chatty in log
+
 =end
 
 
-#require "jekyll/multiple/languages/plugin/version"
-#require "colorator"
 
 module Jekyll
-  # Hash that stores a list of language translations read from an YAML file.
-  @parsedlangs = {}
 
-  #======================================
-  # self.langs
-  #
-  # Returns the list of translations.
-  #======================================
-  def self.langs
-    @parsedlangs
-  end
+  #*****************************************************************************
+  # :site, :post_render hook
+  #*****************************************************************************
+  Jekyll::Hooks.register :site, :post_render do |site, payload|
 
-  #======================================
-  # self.setlangs
-  #
-  # Set the list of translations.
-  #======================================
-  def self.setlangs(l)
-    @parsedlangs = l
-  end
+    # Removes all static files that should not be copied to translated sites.
+    #===========================================================================
+    default_lang  = payload["site"]["default_lang"]
+    current_lang  = payload["site"][        "lang"]
+
+    static_files  = payload["site"]["static_files"]
+    exclude_paths = payload["site"]["exclude_from_localizations"]
 
 
+    if default_lang != current_lang
+      static_files.delete_if do |static_file|
 
-#===============================================================================
-  # Boolean that stores if the _posts folder will not be included for localizations
-  # True if it is not included, false otherwise.
-  @translateposts = true
+        # Remove "/" from beginning of static file relative path
+        static_file_r_path    = static_file.instance_variable_get(:@relative_path).dup
+        static_file_r_path[0] = ''
 
-  #======================================
-  # self.transposts
-  #
-  # Returns if _posts folder will not be included for localizations
-  #======================================
-  def self.transposts
-    @translateposts
-  end
+        exclude_paths.any? do |exclude_path|
+          Pathname.new(static_file_r_path).descend do |static_file_path|
+            break(true) if (Pathname.new(exclude_path) <=> static_file_path) == 0
+          end
+        end
+      end
+    end
 
-  #======================================
-  # self.settransposts
-  #
-  # Set the _posts folder will not be included for localizations
-  #======================================
-  def self.settransposts(t)
-    @translateposts = t
-  end
+    #===========================================================================
 
-
-
-#===============================================================================
-  # The current language that is being processed.
-  @currentlanguage = ""
-
-  #======================================
-  # self.currlang
-  #
-  # Returns the current language being processed.
-  #======================================
-  def self.currlang
-    @currentlanguage
-  end
-
-  #======================================
-  # self.currlang
-  #
-  # Set the current language being processed.
-  #======================================
-  def self.setcurrlang(l)
-    @currentlanguage = l
   end
 
 
@@ -89,9 +58,10 @@ module Jekyll
   # class Site
   ##############################################################################
   class Site
+
+    attr_accessor :parsed_translations   # Hash that stores parsed translations read from YAML files.
+
     alias :process_org :process
-
-
 
     #======================================
     # process
@@ -100,129 +70,131 @@ module Jekyll
     # main parameters and processes the website for each language.
     #======================================
     def process
-      # Check if some importat settings are set, if not, set a default or quit.
+      # Check if plugin settings are set, if not, set a default or quit.
       #-------------------------------------------------------------------------
-      if !self.config['baseurl']
-          self.config['baseurl'] = ""
-      end
+      self.parsed_translations ||= {}
 
-      if !self.config['exclude_from_localizations']
-          self.config['exclude_from_localizations'] = []
-      end
+      self.config['exclude_from_localizations'] ||= []
 
-      if !self.config['languages'] or !self.config['languages'].any?
-          puts "Jekyll Multiple Languages: ".bold + "You must provide at least one language using the 'languages' setting on your _config.yml.".red
+      if ( !self.config['languages']         or
+            self.config['languages'].empty?  or
+           !self.config['languages'].all?
+         )
+          puts 'You must provide at least one language using the "languages" setting on your _config.yml.'
+
           exit
       end
 
 
       # Variables
       #-------------------------------------------------------------------------
-      config['baseurl_root'] = self.config[ 'baseurl' ] # baseurl set on _config.yml
-      baseurl_org            = self.config[ 'baseurl' ] # baseurl set on _config.yml
-      languages              = self.config['languages'] # List of languages set on _config.yml
-      exclude_org            = self.exclude             # List of excluded paths
-      dest_org               = self.dest                # Destination folder where the website is generated
 
-      Jekyll.settransposts(!self.config['exclude_from_localizations'].include?("_posts"))
+      # Original Jekyll configurations
+      baseurl_org                 = self.config[ 'baseurl' ] # Baseurl set on _config.yml
+      dest_org                    = self.dest                # Destination folder where the website is generated
 
+      # Site building only variables
+      languages                   = self.config['languages'] # List of languages set on _config.yml
+
+      # Site wide plugin configurations
+      self.config['default_lang'] = languages.first          # Default language (first language of array set on _config.yml)
+      self.config[        'lang'] = languages.first          # Current language being processed
+      self.config['baseurl_root'] = baseurl_org              # Baseurl of website root (without the appended language code)
+      self.config['translations'] = self.parsed_translations # Hash that stores parsed translations read from YAML files. Exposes this hash to Liquid.
 
 
       # Build the website for default language
       #-------------------------------------------------------------------------
-      self.config['lang'] = self.config['default_lang'] = languages.first
-
-      Jekyll.setcurrlang(self.config['lang'])
-
-      puts
-      puts "Jekyll Multiple Languages: ".bold + "Building site for default language: \"#{self.config['lang']}\" to: #{self.dest}".blue
+      puts "Building site for default language: \"#{self.config['lang']}\" to: #{self.dest}"
 
       process_org
 
-      # Remove .htaccess file from included files, so it wont show up on translations folders.
-      # https://github.com/screeninteraction/jekyll-multiple-languages-plugin/issues/47
-      self.include -= [".htaccess"]
 
       # Build the website for the other languages
-      #.........................................................................
+      #-------------------------------------------------------------------------
+
+      # Remove .htaccess file from included files, so it wont show up on translations folders.
+      self.include -= [".htaccess"]
+
       languages.drop(1).each do |lang|
 
-        # Build site for language lang
-        @dest                  = @dest                  + "/" + lang
-        self.config['baseurl'] = self.config['baseurl'] + "/" + lang
-        self.config['lang']    =                                lang
+        # Language specific config/variables
+        @dest                  = dest_org    + "/" + lang
+        self.config['baseurl'] = baseurl_org + "/" + lang
+        self.config['lang']    =                     lang
 
-        # exclude folders or files from being copied to all the language folders
-        exclude_from_localizations = self.config['exclude_from_localizations']
-        @exclude                   =   @exclude + exclude_from_localizations
+        puts "Building site for language: \"#{self.config['lang']}\" to: #{self.dest}"
 
-        Jekyll.setcurrlang(lang)
-
-        puts "Jekyll Multiple Languages: ".bold + "Building site for language: \"#{self.config['lang']}\" to: #{self.dest}".blue
         process_org
-
-        #Reset variables for next language
-        @dest    =    dest_org
-        @exclude = exclude_org
-
-        self.config['baseurl'] = baseurl_org
       end
 
-      Jekyll.setlangs(      {} )
-      Jekyll.settransposts(true)
-      Jekyll.setcurrlang(   "" )
+      # Revert to initial Jekyll configurations (necessary for regeneration)
+      self.config[ 'baseurl' ] = baseurl_org  # Baseurl set on _config.yml
+      @dest                    = dest_org     # Destination folder where the website is generated
 
-      puts 'Build complete'.green
+      puts 'Build complete'
     end
 
 
 
-    # For Jekyll version < 3. We check if this method is defined, this method
-    # was deprecated on version 3+.
-    if Site.method_defined?   :read_posts
-        alias :read_posts_org :read_posts
+    if Gem::Version.new(Jekyll::VERSION) < Gem::Version.new("3.0.0")
+      alias :read_posts_org :read_posts
 
       #======================================
       # read_posts
       #======================================
       def read_posts(dir)
         translate_posts = !self.config['exclude_from_localizations'].include?("_posts")
-
         if dir == '' && translate_posts
           read_posts("_i18n/#{self.config['lang']}/")
         else
           read_posts_org(dir)
         end
+
       end
     end
 
   end
 
-
+   ##############################################################################
+   # class PageReader
+   ##############################################################################
+   class PageReader
+     def read(files)
+        needlang = site.config['lang']||'';
+        files.map do |page|
+              ext = File.extname(page);
+              lang = File.extname(File.basename(page, ext))[1..-1] || needlang;
+              if lang == needlang
+                @unfiltered_content << Page.new(@site, @site.source, @dir, page)
+              end
+        end
+      @unfiltered_content.select { |page| site.publisher.publish?(page) }
+    end
+  end
 
   ##############################################################################
-  # class Reader
+  # class PostReader
   ##############################################################################
-  class Reader
-    # For Jekyll version 3+. We check if this method is defined, this method
-    # replaces the deprecated read_posts method used on old versions.
-    if Reader.method_defined?   :retrieve_posts
-      alias :retrieve_posts_org :retrieve_posts
+  class PostReader
+
+    if Gem::Version.new(Jekyll::VERSION) >= Gem::Version.new("3.0.0")
+      alias :read_posts_org :read_posts
 
       #======================================
-      # retrieve_posts
+      # read_posts
       #======================================
-      def retrieve_posts(dir)
-        if dir == '' && Jekyll.transposts
-          site.posts.docs.concat(PostReader.new(site).read_posts( "_i18n/#{Jekyll.currlang}/"))
-          site.posts.docs.concat(PostReader.new(site).read_drafts("_i18n/#{Jekyll.currlang}/")) if site.show_drafts
+      def read_posts(dir)
+        translate_posts = !site.config['exclude_from_localizations'].include?("_posts")
+        if dir == '' && translate_posts
+          read_posts("_i18n/#{site.config['lang']}/")
         else
-          retrieve_posts_org(dir)
+          read_posts_org(dir)
         end
       end
     end
-
   end
+
 
 
   ##############################################################################
@@ -243,8 +215,106 @@ module Jekyll
         data['permalink_'+site.config['lang']] || data['permalink']
       end
     end
+
+    # Initialize a new Page.
+    #
+    # site - The Site object.
+    # base - The String path to the source.
+    # dir  - The String path between the source and the file.
+    # name - The String filename of the file.
+    alias :initialize_org :initialize
+    def initialize(site, base, dir, name)
+        @site = site
+        @base = base
+        @dir  = dir
+        @name = name
+        self.read_yaml(File.join(base, dir), name)
+        ext = File.extname(name);
+        needlang = site.config['lang']||'';
+        lang = File.extname(File.basename(name, ext))[1..-1];
+        # Monkey patch
+        self.data['lang'] = needlang
+        if lang.nil? or lang.empty?
+             # process normal
+             self.process(name)
+         elsif lang == needlang
+            # choose *.[needlang].ext file
+            name = File.basename(File.basename(name, ext),'.'+lang) + ext
+            @name = name
+            self.process(name)
+         else
+            # ignore *.[lang].ext file
+            self.process(name);
+        end
+    end
   end
 
+  ##############################################################################
+  # class Post
+  ##############################################################################
+  class Post
+
+    if Gem::Version.new(Jekyll::VERSION) < Gem::Version.new("3.0.0")
+      alias :populate_categories_org :populate_categories
+
+      #======================================
+      # populate_categories
+      #
+      # Monkey patched this method to remove unwanted strings
+      # ("_i18n" and language code) that are prepended to posts categories
+      # because of how the multilingual posts are arranged in subfolders.
+      #======================================
+      def populate_categories
+        categories_from_data = Utils.pluralized_array_from_hash(data, 'category', 'categories')
+        self.categories = (
+          Array(categories) + categories_from_data
+        ).map {|c| c.to_s.downcase}.flatten.uniq
+
+        self.categories.delete("_i18n")
+        self.categories.delete(site.config['lang'])
+
+        return self.categories
+      end
+    end
+  end
+
+
+
+  ##############################################################################
+  # class Document
+  ##############################################################################
+  class Document
+
+    if Gem::Version.new(Jekyll::VERSION) >= Gem::Version.new("3.0.0")
+      alias :populate_categories_org :populate_categories
+
+      #======================================
+      # populate_categories
+      #
+      # Monkey patched this method to remove unwanted strings
+      # ("_i18n" and language code) that are prepended to posts categories
+      # because of how the multilingual posts are arranged in subfolders.
+      #======================================
+      def populate_categories
+        data['categories'].delete("_i18n")
+        data['categories'].delete(site.config['lang'])
+
+        merge_data!({
+          'categories' => (
+            Array(data['categories']) + Utils.pluralized_array_from_hash(data, 'category', 'categories')
+          ).map(&:to_s).flatten.uniq
+        })
+      end
+    end
+  end
+
+
+
+  #-----------------------------------------------------------------------------
+  #
+  # The next classes implements the plugin Liquid Tags and/or Filters
+  #
+  #-----------------------------------------------------------------------------
 
 
   ##############################################################################
@@ -254,6 +324,7 @@ module Jekyll
   # User must use the "t" or "translate" liquid tags.
   ##############################################################################
   class LocalizeTag < Liquid::Tag
+
     #======================================
     # initialize
     #======================================
@@ -274,20 +345,31 @@ module Jekyll
         key =            @key
       end
 
-      lang = context.registers[:site].config['lang']
+      key = Liquid::Template.parse(key).render(context)  # Parses and renders some Liquid syntax on arguments (allows expansions)
 
-      unless Jekyll.langs.has_key?(lang)
-        puts "Jekyll Multiple Languages: ".bold + "Loading translation from file #{context.registers[:site].source}/_i18n/#{lang}.yml".blue
-        Jekyll.langs[lang] = YAML.load_file(                                    "#{context.registers[:site].source}/_i18n/#{lang}.yml")
+      site = context.registers[:site] # Jekyll site object
+
+      lang = site.config['lang']
+
+      unless site.parsed_translations.has_key?(lang)
+       # puts              "Loading translation from file #{site.source}/_i18n/#{lang}.yml"
+        site.parsed_translations[lang] = YAML.load_file("#{site.source}/_i18n/#{lang}.yml")
       end
 
-      translation = Jekyll.langs[lang].access(key) if key.is_a?(String)
+      translation = site.parsed_translations[lang].access(key) if key.is_a?(String)
 
       if translation.nil? or translation.empty?
-         translation = Jekyll.langs[context.registers[:site].config['default_lang']].access(key)
+         translation = site.parsed_translations[site.config['default_lang']].access(key)
 
-        puts "Jekyll Multiple Languages: ".bold + "Missing i18n key: #{lang}:#{key}" #.yellow
-        puts "Using translation '%s' from default language: %s" %[translation, context.registers[:site].config['default_lang']] #.yellow
+         if (translation.nil? or translation.empty?) and site.config['lang_report_missing']
+            puts "Missing i18n key: #{lang}:#{key}"
+            puts "Using translation '%s' from default language: %s" %[translation, site.config['default_lang']]
+         end
+
+         if translation.nil? or translation.empty?
+             translation = key
+         end
+
       end
 
       translation
@@ -315,29 +397,24 @@ module Jekyll
           file =            @file
         end
 
-        includes_dir = File.join(context.registers[:site].source, '_i18n/' + context.registers[:site].config['lang'])
+        file = Liquid::Template.parse(file).render(context)  # Parses and renders some Liquid syntax on arguments (allows expansions)
 
-        if File.symlink?(includes_dir)
-          puts "Jekyll Multiple Languages: ".bold + "Includes directory '#{includes_dir}' cannot be a symlink".red
-          return                                    "Includes directory '#{includes_dir}' cannot be a symlink"
-        end
+        site = context.registers[:site] # Jekyll site object
 
-        if file !~ /^[a-zA-Z0-9_\/\.-]+$/ || file =~ /\.\// || file =~ /\/\./
-          puts "Jekyll Multiple Languages: ".bold + "Include file '#{file}' contains invalid characters or sequences".red
-          return                                    "Include file '#{file}' contains invalid characters or sequences"
-        end
+        includes_dir = File.join(site.source, '_i18n/' + site.config['lang'])
+
+        validate_file_name(file)
 
         Dir.chdir(includes_dir) do
           choices = Dir['**/*'].reject { |x| File.symlink?(x) }
 
-          if choices.include?(file)
+          if choices.include?(  file)
             source  = File.read(file)
             partial = Liquid::Template.parse(source)
 
             context.stack do
               context['include'] = parse_params(  context) if @params
               contents           = partial.render(context)
-              site               = context.registers[:site]
               ext                = File.extname(file)
 
               converter = site.converters.find { |c| c.matches(ext) }
@@ -346,9 +423,9 @@ module Jekyll
               contents
             end
           else
-            puts "Jekyll Multiple Languages: ".bold + "Included file '#{file}' not found in #{includes_dir} directory".red
-            return                                    "Included file '#{file}' not found in #{includes_dir} directory"
+            raise IOError.new "Included file '#{file}' not found in #{includes_dir} directory"
           end
+
         end
       end
     end
@@ -384,12 +461,16 @@ module Jekyll
         key = @key
       end
 
+      key = Liquid::Template.parse(key).render(context)  # Parses and renders some Liquid syntax on arguments (allows expansions)
+
+      site = context.registers[:site] # Jekyll site object
+
       key          = key.split
       namespace    = key[0]
-      lang         = key[1] || context.registers[:site].config[        'lang']
-      default_lang =           context.registers[:site].config['default_lang']
-      baseurl      =           context.registers[:site].baseurl
-      pages        =           context.registers[:site].pages
+      lang         = key[1] || site.config[        'lang']
+      default_lang =           site.config['default_lang']
+      baseurl      =           site.baseurl
+      pages        =           site.pages
       url          = "";
 
       if default_lang != lang
@@ -412,36 +493,6 @@ module Jekyll
   end
 
 
-
-  ##############################################################################
-  # class Hash
-  ##############################################################################
-  class Post
-    # For Jekyll version < 3. We check if this method is defined, this method
-    # replaces the deprecated populate_categories method used on old versions.
-    if Post.method_defined?   :populate_categories
-      alias :populate_categories_org :populate_categories
-
-      #======================================
-      # populate_categories
-      #======================================
-      def populate_categories
-        cats = Array(categories);
-
-        x = cats.index("_i18n")
-        cats.delete_at(x) unless x.nil?
-
-        x = cats.index(site.config['lang'])
-        cats.delete_at(x) unless x.nil?
-
-        self.categories = cats
-
-        populate_categories_org
-      end
-    end
-  end
-
-
 end # End module Jekyll
 
 
@@ -451,8 +502,13 @@ end # End module Jekyll
 ################################################################################
 unless Hash.method_defined? :access
   class Hash
+
+    #======================================
+    # access
+    #======================================
     def access(path)
       ret = self
+
       path.split('.').each do |p|
 
         if p.to_i.to_s == p

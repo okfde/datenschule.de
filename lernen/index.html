@@ -1,18 +1,18 @@
 ---
 layout: page
 menu_lernen: yes
-title: Lernen
-description: Lerne mit der OKF Datenschule
+title: t lernen.title
+description: t lernen.desc
 ---
 <div class="box box-with-head">
-	<h1 class="box-head">Lernen</h1>
-	<p>Lerne, richtig mit Daten umzugehen. Mit unseren kuratierten Kursen zu verschiedenen Schwerpunkten kannst du dir Datenwissen aneignen und es erweitern. Die Kurse beinhalten praktische Anwendungsbeispiele, Datensets und Übungen. Sie können unabhängig voneinander durchgeführt werden und sind für Einsteiger/innen und Fortgeschrittene geeignet.</p>
+	<h1 class="box-head">{% t lernen.title %}</h1>
+	<p>{% t lernen.intro %}</p>
 </div>
 
 {% assign tutorials = site.tutorials | where: "group", "Daten" | sort:"order","last" %}
 {% if tutorials.size > 0 %}
 <div class="box box-margin-top-medium">
-	<h2>Daten</h2>
+	<h2>{% t lernen.cat_data %}</h2>
 	<p></p>
 </div>
 <div class="container-wrap-row">
@@ -21,7 +21,7 @@ description: Lerne mit der OKF Datenschule
 		<div class="box">
 			<h3>{{tutorial.title}}</h3>
 			<p>
-				<a href="{{tutorial.url}}">Read</a>
+				<a href="{{tutorial.url}}">{% t lernen.link_read %}</a>
 			</p>
 		</div>
 	</div>
@@ -32,7 +32,7 @@ description: Lerne mit der OKF Datenschule
 {% assign tutorials = site.tutorials | where: "group", "Workflow" | sort:"order","last" %}
 {% if tutorials.size > 0 %}
 <div class="box box-margin-top-medium">
-	<h2>Workflow</h2>
+	<h2>{% t lernen.cat_workflow %}</h2>
 	<p></p>
 </div>
 <div class="container-wrap-row">
@@ -52,7 +52,7 @@ description: Lerne mit der OKF Datenschule
 {% assign tutorials = site.tutorials | where: "group", "Tool" | sort:"order","last" %}
 {% if tutorials.size > 0 %}
 <div class="box box-margin-top-medium">
-	<h2>Tools</h2>
+	<h2>{% t lernen.cat_tools %}</h2>
 	<p></p>
 </div>
 <div class="container-wrap-row">

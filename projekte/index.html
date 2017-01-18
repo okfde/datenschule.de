@@ -1,21 +1,19 @@
 ---
 layout: page
 menu_projekte: yes
-title: Projekte
-description: Die Projekte der OKF Datenschule
+title: projekte.title
+description: projekte.desc
 ---
 
 <div class="box box-with-head">
-	<h1 class="box-head">Projekte</h1>
-	<p>Gemeinsam mit unseren Partnern setzen wir uns für eine positive gesellschaftliche Veränderung ein. Wir engagieren uns in diesen Bereichen: Politik und Informationsfreiheit, Bildung, Gesundheit, Armut, Menschenrechte,
-		Stadtentwicklung, Umwelt und Entwicklungs&shy;zusammenarbeit.
-	</p>
+	<h1 class="box-head">{% t projekte.title %}</h1>
+	<p>{% t projekte.intro %}</p>
 </div>
 
 {% assign projects = site.projects | where: "ended", "false" %}
 {% if projects.size > 0 %}
 <div class="box box-margin-top-medium">
-	<h2>Aktuelle</h2>
+	<h2>{% t projekte.cat_current %}</h2>
 	<p></p>
 </div>
 <div class="container-wrap-row">
@@ -37,7 +35,7 @@ description: Die Projekte der OKF Datenschule
 {% assign projects = site.projects | where: "ended", "true" %}
 {% if projects.size > 0 %}
 <div class="box box-margin-top-medium">
-	<h2>Abgeschlossene</h2>
+	<h2>{% t projekte.cat_done %}</h2>
 	<p></p>
 </div>
 <div class="container-wrap-row">

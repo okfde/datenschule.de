@@ -1,18 +1,18 @@
 ---
 layout: page
 menu_team: yes
-title: Team
-description: Das Team der OKF Datenschule
+title: team.title
+description: team.desc
 ---
 
 <div class="box box-with-head">
-	<h1 class="box-head">Team</h1>
-	<p>Wir sind Teil des internationalen School of Data Networks und arbeiten mit lokalen und internationalen Trainer/innen zusammen.</p>
+	<h1 class="box-head">{% t team.title %}</h1>
+	<p>{% t team.intro %}</p>
 </div>
 {% if site.settings.debug %}
 {% if site.data.trainers.size > 0 %}
 <div class="box box-margin-top-medium">
-	<h2>Trainer/innen</h2>
+	<h2>{% t team.cat_trainer %}</h2>
 	<p></p>
 </div>
 <div class="container">
@@ -33,46 +33,77 @@ description: Das Team der OKF Datenschule
 
 {% if site.data.team.size > 0 %}
 <div class="box box-margin-top-medium">
-	<h2>Organisation</h2>
+	<h2>{% t team.cat_organization %}</h2>
 	<p></p>
 </div>
 <div class="container">
-	<div class="container-wrap-row">
-		{% for person in site.data.team %}
-		<div class="container-wrap-item-3 team-item">
-			<div class="box">
-				{% if person.img %}
-				<img src="/files/team/{{person.img}}.jpg">
-				{% endif %}
-				<h3>{{person.name}}</h3>
-				<p>{{person.position}}</p>
-				<p class="contact">
-					<a href="mailto:{{person.mail}}">{{person.mail}}</a>
-				</p>
+	<div class="container-left-1"></div>
+	<div class="container-left-10">
+		<div class="container-wrap-row">
+			{% for person in site.data.team %}
+			<div class="container-wrap-item-2 team-item">
+				<div class="box">
+					{% if person.img %}
+					<img src="/files/team/{{person.img}}.jpg">
+					{% endif %}
+					<h3>{{person.name}}</h3>
+					<p>
+						{% case page.lang %}
+						{% when 'en' %}
+						{{ person.position_en | markdownify }}
+						{% else %}
+						{{ person.position | markdownify }}
+						{% endcase %}
+					</p>
+					<p class="contact">
+						<a href="mailto:{{person.mail}}">{{person.mail}}</a>
+					</p>
+				</div>
 			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
 	</div>
+	<div class="container-left-1"></div>
 </div>
 {% endif %}
 
 {% if site.data.advisory.size > 0 %}
 <div class="box box-margin-top-medium">
-	<h2>Advisory Board</h2>
+	<h2>{% t team.cat_advisory %}</h2>
 	<p></p>
 </div>
-{% for person in site.data.advisory %}
-<div class="box advisory-item">
-	<div class="container">
-		<div class="container-left-3">
-			{% if person.img %}<img src="/files/team/{{person.img}}.jpg">{% endif %}
-		</div>
-		<div class="container-left-9">
-			<h3>{{person.name}}</h3>
-			<p class="advisory-bio">{{person.bio}}</p>
-			<cite class="advisory-slogan">{{person.slogan}}</cite>
+
+<div class="container-left-1"></div>
+<div class="container-left-10">
+	{% for person in site.data.advisory %}
+	<div class="box advisory-item">
+		<div class="container">
+			<div class="container-left-3">
+				{% if person.img %}<img src="/files/team/{{person.img}}.jpg">{% endif %}
+			</div>
+			<div class="container-left-9">
+				<h3>{{person.name}}</h3>
+				<p class="advisory-bio">
+					{% case page.lang %}
+					{% when 'en' %}
+					{{person.bio_en}}
+					{% else %}
+					{{person.bio}}
+					{% endcase %}
+				</p>
+				<cite class="advisory-slogan">
+					{% case page.lang %}
+					{% when 'en' %}
+					{{person.slogan_en}}
+					{% else %}
+					{{person.slogan}}
+					{% endcase %}
+				</cite>
+			</div>
 		</div>
 	</div>
+	{% endfor %}
 </div>
-{% endfor %}
+<div class="container-left-1"></div>
+
 {% endif %}

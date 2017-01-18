@@ -4,10 +4,10 @@
 <a href="{{ site.baseurl }}/{{ url }}" class="post-title">{{post.title | truncatewords: 8 }}</a>
 <p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 16 }}</p>
 <p class="post-meta">
-	{% t blog.Von %}
+	{% t blog.author_by %}
 	{% assign authors = "" | split:"|" %}
 	{% if post.author %}{% assign authors = authors | push: post.author %}{% endif %}
 	{% for a in post.authors %}{% assign authors = authors | push: a %}{% endfor %}
-	{% for author in authors %}{{author}}{% unless forloop.last %} und {% endunless %}{% endfor %}<br/>
-	{% t blog.AmDatum %} {{ post.date | date:"%d.%m.%Y" }}
+	{% for author in authors %}{{author}}{% unless forloop.last %} {% t blog.and %} {% endunless %}{% endfor %}<br/>
+	{% t blog.on_date %} {{ post.date | date:"%d.%m.%Y" }}
 </p>

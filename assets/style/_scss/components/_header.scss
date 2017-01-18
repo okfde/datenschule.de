@@ -82,6 +82,24 @@ header {
     }
   }
 
+
+  .language-toggle {
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 8px;
+    color: #939393;
+    position: relative;
+    top: 7px;
+    a {
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      &:before {
+        visibility: hidden !important;
+      }
+    }
+  }
+
 }
 
 @include respond-to(medium-up) {

@@ -6,11 +6,11 @@
 		</div>
 		<div class="post-author">
 			<p>{{ post.date | date:"%d.%m.%Y" }}</p>
-			<p>{% t blog.Von %}
+			<p>{% t blog.author_by %}
 				{% assign authors = "" | split:"|"  %}
 				{% if post.author %}{% assign authors = authors | push: post.author %}{% endif %}
 				{% for a in post.authors %}{% assign authors = authors | push: a %}{% endfor %}
-				{% for author in authors %}{{author}}{% unless forloop.last %} und {% endunless %}{% endfor %}<br/>
+				{% for author in authors %}{{author}}{% unless forloop.last %} {% t blog.and %} {% endunless %}{% endfor %}<br/>
 			</p>
 		</div>
 	</div>
@@ -23,7 +23,7 @@
 		<h2 class="post-title"><a href="{{ site.baseurl }}/{{ post.url | remove_first:'/'}}">{{ post.title }}</a></h2>
 		<p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 50}}</p>
 		<p class="post-more">
-			<a href="{{ site.baseurl }}/{{ post.url | remove_first:'/'}}">{% t blog.Mehr %}</a>
+			<a href="{{ site.baseurl }}/{{ post.url | remove_first:'/'}}">{% t blog.link_more %}</a>
 		</p>
 	</div>
 </article>

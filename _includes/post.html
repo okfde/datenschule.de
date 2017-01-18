@@ -23,11 +23,11 @@
 					{% endfor %}
 				</ul>
 				<p class="post-meta">
-					{% t blog.Von %}
+					{% t blog.author_by %}
 					{% for author in authors %}
 					{% assign a = site.data.team | where:"name",author | first %}
 					{% if a.name %}{{ a.name }}{% else %}{{author}}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br/>
-					{% t blog.AmDatum %} {{ page.date | date:"%d.%m.%Y" }}
+					{% t blog.on_date %} {{ page.date | date:"%d.%m.%Y" }}
 				</p>
 			</div>
 
@@ -52,10 +52,10 @@
 			<div class="container-left-12">{{ content }}</div>
 			<hr>
 			<div class="share-post">
-				{% t blog.TeileAuf %}
-				<a href="https://twitter.com/intent/tweet?text={{ page.title | truncate: 100 }}&url={{site.domain}}/{{ page.url }}&via=datenschule&related=datenschule" rel="nofollow" target="_blank" title="{% t blog.TeileAuf %} Twitter"><i class="icon-twitter-1"></i></a>
-				<a href="https://facebook.com/sharer.php?u={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.TeileAuf %} Facebook"><i class="icon-facebook"></i></a>
-				<a href="https://plus.google.com/share?url={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.TeileAuf %} Google+"><i class="icon-gplus"></i></a>
+				{% t blog.share_with %}
+				<a href="https://twitter.com/intent/tweet?text={{ page.title | truncate: 100 }}&url={{site.domain}}/{{ page.url }}&via=datenschule&related=datenschule" rel="nofollow" target="_blank" title="{% t blog.share_with %} Twitter"><i class="icon-twitter-1"></i></a>
+				<a href="https://facebook.com/sharer.php?u={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.share_with %} Facebook"><i class="icon-facebook"></i></a>
+				<a href="https://plus.google.com/share?url={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.share_with %} Google+"><i class="icon-gplus"></i></a>
 			</div>
 
 		</div>
@@ -72,7 +72,7 @@
 			<ul class="post-previews post-previews-{{ posts.size }}">
 				{% if page.previous.url %}
 				<li class="post-preview post-preview-with-head">
-					<h3 class="post-preview-head">{% t blog.VorherigerBeitrag %}</h3>
+					<h3 class="post-preview-head">{% t blog.previous_post %}</h3>
 					<div class="post-preview-content">
 						{% include post_preview_small.html post=page.previous %}
 					</div>
@@ -80,7 +80,7 @@
 				{% endif %}
 				{% if page.next.url %}
 				<li class="post-preview post-preview-with-head">
-					<h3 class="post-preview-head">{% t blog.NaechsterBeitrag %}</h3>
+					<h3 class="post-preview-head">{% t blog.next_post %}</h3>
 					<div class="post-preview-content">
 						{% include post_preview_small.html post=page.next %}
 					</div>

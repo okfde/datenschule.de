@@ -2,19 +2,22 @@
   img: helenehahn
   mail: helene.hahn@okfn.de
   position: Projektleitung
+  position_en: Project lead
 
 - name: Knut Perseke
   img: knutperseke
   mail: knut.perseke@okfn.de
   position: Software-Entwicklung
+  position_en: Developer
 
 - name: Moritz Neujeffski
   img: moritzneujeffski
   mail: moritz.neujeffski@okfn.de
   position: Workshopkonzeption
+  position_en: Workshop conception
 
 - name: Jasmin Helm
   img: jasminhelm
   mail: jasmin.helm@okfn.de
   position: Kommunikation
-  
+  position_en: Communication

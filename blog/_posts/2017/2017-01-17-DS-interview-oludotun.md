@@ -3,7 +3,7 @@ authors:
 - Helene Hahn
 date: 2017-01-17 10:00:00
 picture:
-  src: /files/blog/2016/oludotun.jpg
+  src: /files/blog/2017/01/oludotun.jpg
   title: Oludotun Babayemi
   license: "CC-BY 3.0, Oludotun Babayemi, Datenschule, Foto: Helene Hahn"
   license_url: "https://creativecommons.org/licenses/by/3.0/"

@@ -1,17 +1,16 @@
 ---
 layout: page
 menu_presse: yes
-title: Presse
-description: Die OKF Datenschule in der Presse
+title: presse.intro
+description: presse.desc
 ---
-
 <div class="box box-with-head">
-	<h1 class="box-head">Presse</h1>
-	<p>Info- und Pressematerial der Datenschule</p>
+	<h1 class="box-head">{% t presse.title %}</h1>
+	<p>{% t presse.intro %}</p>
 </div>
 
 <div class="box box-margin-top-medium">
-	<h2>Infomaterial</h2>
+	<h2>{% t presse.cat_info %}</h2>
 	<p></p>
 </div>
 
@@ -30,7 +29,7 @@ description: Die OKF Datenschule in der Presse
 
 <div class="container">
 	<div class="box box-margin-top-medium">
-		<h2>Postkarten</h2>
+		<h2>{% t presse.cat_postcards %}</h2>
 		<p></p>
 	</div>
 	<div class="box">
@@ -47,10 +46,9 @@ description: Die OKF Datenschule in der Presse
 </div>
 
 {% if site.settings.debug %}
-
 <div class="container">
 	<div class="box box-with-head box-margin-top-large">
-		<h1 class="box-head">Presse-Mitteilungen</h1>
+		<h1 class="box-head">{% t presse.cat_releases %}</h1>
 		<p>
 		<ul class="list-unstyled">
 			{% for press in site.data.press %}
@@ -62,6 +60,4 @@ description: Die OKF Datenschule in der Presse
 		</p>
 	</div>
 </div>
-
 {% endif %}
-

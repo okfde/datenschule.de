@@ -2,8 +2,22 @@
 	<div class="container">
 		<div class="box">
 			<h1 class="box-head">{{ page.partner }}</h1>
-			<p class="project-topics">{% for topic in page.topics %}<span>{{topic}}</span>{% endfor %}</p>
-			<h2>{{ page.title }}</h2>
+			<p class="project-topics">
+				{% case page.lang %}
+				{% when 'en' %}
+					{% for topic in page.topics_en %}<span>{{topic}}</span>{% endfor %}
+				{% else %}
+					{% for topic in page.topics %}<span>{{topic}}</span>{% endfor %}
+				{% endcase %}
+			</p>
+			<h2>
+				{% case page.lang %}
+				{% when 'en' %}
+					{{ page.title_en }}
+				{% else %}
+					{{ page.title }}
+				{% endcase %}
+			</h2>
 			{% if page.picture & page.picture.src %}
 			<figure class="project-image">
 				<div class="project-image-full" style="background-image: url({{ page.picture.src | xml_escape }});" title="{{ page.picture.title }}"></div>
@@ -18,7 +32,14 @@
 				{% endif %}
 			</figure>
 			{% endif %}
-			<div class="container-left-12">{{ content }}</div>
+			<div class="container-left-12">
+				{% case page.lang %}
+				{% when 'en' %}
+					{{ page.content_en | markdownify }}
+				{% else %}
+					{{ page.content | markdownify }}
+				{% endcase %}
+			</div>
 		</div>
 		{% if page.partner_url %}
 		<div class="box box-margin-top-medium">
