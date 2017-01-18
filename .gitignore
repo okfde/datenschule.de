@@ -5,7 +5,6 @@ __posts/
 .jekyll-metadata
 *.css.map
 node_modules
-Gemfile.lock
 .sass-cache/
 .idea/
 .bundle/
