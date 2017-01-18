@@ -20,7 +20,7 @@ description: projekte.desc
 	{% for project in site.projects %}
 	<div class="container-wrap-item-2">
 		<div class="box projects-box">
-			<a href="{{project.url}}">
+			<a href="{{ site.baseurl }}{{ project.url }}">
 				{% if project.picture.src %}<img src="{{project.picture.src}}">{% endif %}
 				<h4>{{project.title}}</h4>
 			</a>
@@ -42,7 +42,7 @@ description: projekte.desc
 	{% for project in site.projects %}
 	<div class="container-wrap-item-2">
 		<div class="box projects-box">
-			<a href="{{project.url}}">
+			<a href="{{ site.baseurl }}{{ project.url }}">
 				{% if project.picture.src %}<img src="{{project.picture.src}}">{% endif %}
 				<h4>{{project.title}}</h4>
 			</a>
