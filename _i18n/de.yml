@@ -93,6 +93,6 @@ pagination:
   previous: "Vorherige"
   next: "Nächste"
   skipped: "Übersprungen"
-termine:
+events:
   title: "Termine"
   past_link: "Vergangene Events…"
