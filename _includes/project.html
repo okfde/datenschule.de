@@ -35,9 +35,9 @@
 			<div class="container-left-12">
 				{% case page.lang %}
 				{% when 'en' %}
-					{{ page.content_en | markdownify }}
+					{{ page.text_en | markdownify }}
 				{% else %}
-					{{ page.content | markdownify }}
+					{{ page.text | markdownify }}
 				{% endcase %}
 			</div>
 		</div>

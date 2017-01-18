@@ -7,13 +7,17 @@ picture:
   title: BildungsCent e.V.
   license:
   license_url:
-
+title_en: Gesellschaftliche Themen in den Schulalltag tragen
+topics_en:
+  - Bildung
+  - Schools
+  - Lernkultur  
 title: Gesellschaftliche Themen in den Schulalltag tragen
 topics:
   - Bildung
   - Schulen
-  - Lernkultur  
-content: |- 
+  - Lernkultur
+text: |- 
 
  ## Vorstellung des Vereins
 
@@ -31,13 +35,7 @@ content: |-
 
  * ### [Kooperation mit BildungsCent e.V. zu den Themen Schule & Bildung](https://datenschule.de/blog/2016/10/DS-Kick-Off-Schule-Bildung/)
 
-
-title_en: Gesellschaftliche Themen in den Schulalltag tragen
-topics_en:
-  - Bildung
-  - Schools
-  - Lernkultur  
-content_en: |-
+text_en: |-
 
  ## Vorstellung des Vereins
 
