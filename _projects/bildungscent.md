@@ -7,7 +7,7 @@ picture:
   title: BildungsCent e.V.
   license:
   license_url:
-title_en: creating awareness for societal issues at schools
+title_en: creating awareness for social issues at schools
 topics_en:
   - Education
   - Schools
