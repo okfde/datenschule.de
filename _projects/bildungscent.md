@@ -7,11 +7,11 @@ picture:
   title: BildungsCent e.V.
   license:
   license_url:
-title_en: Gesellschaftliche Themen in den Schulalltag tragen
+title_en: creating awareness for societal issues at schools
 topics_en:
-  - Bildung
+  - Education
   - Schools
-  - Lernkultur  
+  - learning culture  
 title: Gesellschaftliche Themen in den Schulalltag tragen
 topics:
   - Bildung
@@ -37,7 +37,7 @@ text: |-
 
 text_en: |-
 
- ## Vorstellung des Vereins
+ ## The organisation
 
  “We provide schools with multifaceted stimuli, forward-setting programmes and the linking-up with extracurricular partners. We allow for good and effective practical experience and pique interest in a new culture of teaching and learning.“
 
