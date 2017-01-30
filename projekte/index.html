@@ -22,10 +22,13 @@ description: projekte.desc
 		<div class="box projects-box">
 			<a href="{{ site.baseurl }}{{ project.url }}">
 				{% if project.picture.src %}<img src="{{project.picture.src}}">{% endif %}
-				<h4>{{project.title}}</h4>
+				<h4>{% case site.lang %}{% when 'en' %}{{ project.title_en }}{% else %}{{ project.title }}{% endcase %}</h4>
 			</a>
 			<h3>{{project.partner}}</h3>
-			<p class="project-topics">{% for topic in project.topics %}<span>{{topic}}</span>{% endfor %}</p>
+			<p class="project-topics">
+				{% case site.lang %}{% when 'en' %}{% for topic in project.topics_en %}<span>{{topic}}</span>{% endfor %}
+				{% else %}{% for topic in project.topics %}<span>{{topic}}</span>{% endfor %}{% endcase %}
+			</p>
 		</div>
 	</div>
 	{% endfor %}
@@ -44,10 +47,13 @@ description: projekte.desc
 		<div class="box projects-box">
 			<a href="{{ site.baseurl }}{{ project.url }}">
 				{% if project.picture.src %}<img src="{{project.picture.src}}">{% endif %}
-				<h4>{{project.title}}</h4>
+				<h4>{% case site.lang %}{% when 'en' %}{{ project.title_en }}{% else %}{{ project.title }}{% endcase %}</h4>
 			</a>
 			<h3>{{project.partner}}</h3>
-			<p class="project-topics">{% for topic in project.topics %}<span>{{topic}}</span>{% endfor %}</p>
+			<p class="project-topics">
+				{% case site.lang %}{% when 'en' %}{% for topic in project.topics_en %}<span>{{topic}}</span>{% endfor %}
+				{% else %}{% for topic in project.topics %}<span>{{topic}}</span>{% endfor %}{% endcase %}
+			</p>
 		</div>
 	</div>
 	{% endfor %}
