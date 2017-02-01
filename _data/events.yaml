@@ -68,10 +68,15 @@
 - name: "Bundesverband deutscher Stiftungen"
   place: Hamburg
   date: 2017-01-27
-  featured: true
+  featured: false
   text: >
     Workshop zu "Community Building und digitalen Tools" beim [Jahrestreffen](https://www.stiftungen.org/de/veranstaltungen/arbeitskreise-und-foren/ak-soziales/arbeitskreis-soziales-2017.html) des Bundesverbands deutscher Stiftungen.
-- name: "Forum offene Stadt"
+- name: "Wikipedia Editathon"
+  place: Wikimedia Deutschland, Tempelhofer Ufer 23/24, 10963 Berlin
+  date: 2017-02-18
+  featured: true
+  text: >
+    [Hilf mit](https://datenschule.de/blog/2017/01/DS-editathon-wikipedia/), freies Wissen zu Open Data in der Wikipedia zu ergänzen! 
   place: KörberForum, Kehrwieder 12, Hamburg
   date: 2017-03-03
   featured: true
