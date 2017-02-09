@@ -29,7 +29,7 @@ Wir identifizierten mit den Teilnehmenden drei Bereiche, in denen sich Stiftunge
 Diverse Zielgruppen stärker zu vernetzen und neue Formen der Beteiligung zu fördern, stieß bei den Teilnehmenden auf großen Konsens. Der Wunsch eine aktive Beteiligung langfristig zu erhalten wurde hier auch deutlich. Als Herausforderung nannten die teilnehmenden Stiftungen, mit externen Akteuren kollaborativ Inhalte zu entwickeln.
 
 * ###Wirkungsmessung der Kommunikation:
-Einen weiteren Punkt betraf die Einschätzung der eigenen Kommunikation in den sozialen medien. Kommunizieren wir effektiv? Erreichen wir die richtige Zielgruppe? Die Eigene Kommunikation u.a. in den sozialen Medien einschätzen und bewerten zu können, war den Teilnehmenden ebenfalls wichtig. 
+Einen weiteren Punkt betraf die Einschätzung der eigenen Kommunikation in den sozialen Medien. Kommunizieren wir effektiv? Erreichen wir die richtige Zielgruppe? Die eigene Kommunikation u.a. in den sozialen Medien einschätzen und bewerten zu können, war den Teilnehmenden ebenfalls wichtig. 
 
 
 * ###Ehrenamtliche Beteiligung langfristig erhalten:
