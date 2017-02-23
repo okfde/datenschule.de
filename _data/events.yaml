@@ -74,7 +74,7 @@
 - name: "Wikipedia Editathon"
   place: Wikimedia Deutschland, Tempelhofer Ufer 23/24, 10963 Berlin
   date: 2017-02-18
-  featured: true
+  featured: false
   text: >
     [Hilf mit](https://datenschule.de/blog/2017/01/DS-editathon-wikipedia/), freies Wissen zu Open Data in der Wikipedia zu ergänzen! 
 - name: "FORUM Offene Stadt" 
