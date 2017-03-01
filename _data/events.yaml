@@ -77,6 +77,12 @@
   featured: false
   text: >
     [Hilf mit](https://datenschule.de/blog/2017/01/DS-editathon-wikipedia/), freies Wissen zu Open Data in der Wikipedia zu ergänzen! 
+- name: "BER-Netzwerktreffen: Storytelling und Entwicklungspolitik" 
+  place: Berliner Entwicklungspolitischer Ratgeber, Am Sudhaus 2, 12053 Berlin
+  date: 2017-03-01
+  featured: true
+  text: >
+    Unser Vortrag zum Thema Storytelling beim [BER](http://www.eineweltstadt.berlin/veranstaltungen/ber-netzwerktreffen-storytelling/)
 - name: "FORUM Offene Stadt" 
   place: KörberForum, Kehrwieder 12, Hamburg
   date: 2017-03-03
