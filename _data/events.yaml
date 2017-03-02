@@ -80,7 +80,7 @@
 - name: "BER-Netzwerktreffen: Storytelling und Entwicklungspolitik" 
   place: Berliner Entwicklungspolitischer Ratgeber, Am Sudhaus 2, 12053 Berlin
   date: 2017-03-01
-  featured: true
+  featured: false
   text: >
     Unser Vortrag zum Thema Storytelling beim [BER](http://www.eineweltstadt.berlin/veranstaltungen/ber-netzwerktreffen-storytelling/)
 - name: "FORUM Offene Stadt" 
