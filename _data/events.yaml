@@ -86,13 +86,13 @@
 - name: "FORUM Offene Stadt" 
   place: KörberForum, Kehrwieder 12, Hamburg
   date: 2017-03-03
-  featured: true
+  featured: false
   text: >
     [Stadt gestalten - mit digitalen Lösungen](http://offenestadt.info/). Wir stellen uns vor.  
 - name: "Open Data Day" 
   place: everywhere
   date: 2017-03-04
-  featured: true
+  featured: false
   text: >
     Finde am internationalen [Open Data Day](http://opendataday.org/de_at/) Events zu offenen Daten in deiner Nähe.
 - name: "Datensummit"
