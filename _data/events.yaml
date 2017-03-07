@@ -95,6 +95,18 @@
   featured: false
   text: >
     Finde am internationalen [Open Data Day](http://opendataday.org/de_at/) Events zu offenen Daten in deiner Nähe.
+- name: "Personal Democracy Forum" 
+  place: Danzig, Polen
+  date: 2017-04-06
+  featured: true
+  text: >
+    Sprecht mit uns auf der diesjährigen [PDF](http://pdfcee17.pl/en/#start) über unser neues Wahldaten-Projekt.
+- name: "TICTeC" 
+  place: Florenz, Italien
+  date: 2017-04-25
+  featured: true
+  text: >
+    Aus der [Impacts of Civic Technology Conference](http://tictec.mysociety.org/#about) stellen wir Erkenntnisse zu Wahldaten vor.
 - name: "Datensummit"
   place: Berlin
   date: 2017-04-28
