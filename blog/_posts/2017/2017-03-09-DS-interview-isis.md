@@ -1,7 +1,7 @@
 ---
 authors: 
 - Helene Hahn
-date: 2017-03-08 10:00:00
+date: 2017-03-09 10:00:00
 picture:
   src: /files/blog/2017/03/isis.jpg
   title: Isis Reis
@@ -52,6 +52,6 @@ For us, data about living conditions in favelas is very hard to find, the nation
 Start reading articles about data and look out for existing data-driven projects, it’s great for your inspiration. I also recommend the School of Data tutorials, that I’m a huge fan of and that helped me to improve my data skills. If you’re based in Brazil, don’t hesitate to contact the Data Lab and get in touch with us. Also there are many data driven communities in Brazil, that can help you start your project or join an existing one.
 
 ####Links:
-[Blog posts by Isis and her team at School of Data Brazil](https://escoladedados.org/tag/curso/)
-[Data Lab in Brazil](datalabe.org/)
+[Blog posts by Isis and her team at School of Data Brazil](https://escoladedados.org/tag/curso/)</br>
+[Data Lab in Brazil](datalabe.org/)</br>
 [Transparencia Hacker Brazil](https://br.okfn.org/tag/transparencia-hacker/)
