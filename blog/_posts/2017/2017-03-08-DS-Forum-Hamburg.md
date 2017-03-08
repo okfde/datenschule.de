@@ -23,7 +23,7 @@ Digitale Bürgerbeteiligung, Medienkompetenz, Informationsfreiheit, digitale Pro
 unter [http://offenestadt.info/apps/](http://offenestadt.info/apps/) erweitert
 und vorgestellt.
 
-Wir, das Team der **Datenschule**, haben mit den Teilnehmenden darüber gesprochen, warum eine mündige Gesellschaft mehr Datenkompetenzen braucht, welche Fähigkeiten dazu gehören und wie man sie sich aneignen kann. Unsere Präsentation findet ihr [hier](datenschule-forum-hamburg-03-2017.pdf).
+Wir, das Team der **Datenschule**, haben mit den Teilnehmenden darüber gesprochen, warum eine mündige Gesellschaft mehr Datenkompetenzen braucht, welche Fähigkeiten dazu gehören und wie man sie sich aneignen kann. Unsere Präsentation findet ihr [hier](/files/downloads/documents/datenschule-forum-hamburg-03-2017.pdf).
 
 Das **[Transparenzportal der Stadt Hamburg](http://transparenz.hamburg.de/)** macht Verwaltungsdokumente, Protokolle und Daten online zugänglich und nutzbar. Stellenweise verzeichnete es über 1 Million Zugriffe von Bürger/innen und zeigt das öffentliche Interesse und den Wunsch, an politischen Entscheidungen stärker beteiligt zu werden, sehr deutlich. Passend dazu stellte **[Frag den Staat](https://fragdenstaat.de/)** das kürzlich veröffentlichte **[Transparenz-Ranking für Deutschland](https://transparenzranking.de/)** vor, bei dem erstmalig die Informationsfreiheits- und Transparenzgesetze in Bund und Ländern miteinander verglichen wurden.
 
