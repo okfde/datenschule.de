@@ -19,7 +19,6 @@ What does it mean to become ‘data literate’? Where do you start and how can 
 
 Each month we will publish a new interview, this is no. #3. Got feedback? Have questions? Feel free to get in touch: [info@datenschule.de](info@datenschule.de)
 
----
 
 ### Isis Reis
 **Who:** Data trainer and journalist at School of Data and Data Lab, from Brazil
