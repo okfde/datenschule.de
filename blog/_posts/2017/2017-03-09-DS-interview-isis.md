@@ -1,7 +1,7 @@
 ---
 authors: 
 - Helene Hahn
-date: 2017-03-09 10:00:00
+date: 2017-03-09 09:00:00
 picture:
   src: /files/blog/2017/03/isis.jpg
   title: Isis Reis
@@ -13,7 +13,7 @@ tags:
 - community
 - learning
 title: "Working with data - Interview #4"
---- 
+​--- 
 What does it mean to become ‘data literate’? Where do you start and how can you use data within your work and projects? To explore these questions, we would like to introduce some of our community members and data activists from around the world, who ended up working with data at some point in their lives. We were curious about how they actually got started and - looking back now - what they would recommend to data newbies. 
 
 Each month we will publish a new interview, this is no. #3. Got feedback? Have questions? Feel free to get in touch: [info@datenschule.de](info@datenschule.de)
