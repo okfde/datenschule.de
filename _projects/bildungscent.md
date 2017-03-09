@@ -18,6 +18,9 @@ topics:
   - Schulen
   - Lernkultur
 text: |- 
+ 
+[comment]: <> (## Vorstellung des Vereins)
+
 
  ## Vorstellung des Vereins
 
