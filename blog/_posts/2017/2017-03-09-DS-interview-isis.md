@@ -8,12 +8,12 @@ picture:
   license: "CC-BY 3.0, Isis Reis, Datenschule, Foto: Helene Hahn"
   license_url: "https://creativecommons.org/licenses/by/3.0/"
 tags:
-- social change
-- data literacy
-- community
-- learning
+  - social change
+  - data literacy
+  - community
+  - learning
 title: "Working with data - Interview #4"
-​--- 
+--- 
 
 What does it mean to become ‘data literate’? Where do you start and how can you use data within your work and projects? To explore these questions, we would like to introduce some of our community members and data activists from around the world, who ended up working with data at some point in their lives. We were curious about how they actually got started and - looking back now - what they would recommend to data newbies. 
 
