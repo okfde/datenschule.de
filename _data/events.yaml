@@ -68,21 +68,51 @@
 - name: "Bundesverband deutscher Stiftungen"
   place: Hamburg
   date: 2017-01-27
-  featured: true
+  featured: false
   text: >
     Workshop zu "Community Building und digitalen Tools" beim [Jahrestreffen](https://www.stiftungen.org/de/veranstaltungen/arbeitskreise-und-foren/ak-soziales/arbeitskreis-soziales-2017.html) des Bundesverbands deutscher Stiftungen.
-- name: "Forum offene Stadt"
+- name: "Wikipedia Editathon"
+  place: Wikimedia Deutschland, Tempelhofer Ufer 23/24, 10963 Berlin
+  date: 2017-02-18
+  featured: false
+  text: >
+    [Hilf mit](https://datenschule.de/blog/2017/01/DS-editathon-wikipedia/), freies Wissen zu Open Data in der Wikipedia zu ergänzen! 
+- name: "BER-Netzwerktreffen: Storytelling und Entwicklungspolitik" 
+  place: Berliner Entwicklungspolitischer Ratgeber, Am Sudhaus 2, 12053 Berlin
+  date: 2017-03-01
+  featured: false
+  text: >
+    Unser Vortrag zum Thema Storytelling beim [BER](http://www.eineweltstadt.berlin/veranstaltungen/ber-netzwerktreffen-storytelling/)
+- name: "FORUM Offene Stadt" 
   place: KörberForum, Kehrwieder 12, Hamburg
   date: 2017-03-03
+  featured: false
+  text: >
+    [Stadt gestalten - mit digitalen Lösungen](http://offenestadt.info/). Wir stellen uns vor.  
+- name: "Open Data Day" 
+  place: everywhere
+  date: 2017-03-04
+  featured: false
+  text: >
+    Finde am internationalen [Open Data Day](http://opendataday.org/de_at/) Events zu offenen Daten in deiner Nähe.
+- name: "Personal Democracy Forum" 
+  place: Danzig, Polen
+  date: 2017-04-06
   featured: true
   text: >
-    [Stadt gestalten - mit digitalen Lösungen](http://offenestadt.info/). Wir stellen uns vor.
+    Sprecht mit uns auf der diesjährigen [PDF](http://pdfcee17.pl/en/#start) über Medien & Wahldaten.
+- name: "TICTeC" 
+  place: Florenz, Italien
+  date: 2017-04-25
+  featured: true
+  text: >
+    Auf der [Impacts of Civic Technology Conference](http://tictec.mysociety.org/#about) stellen wir Erkenntnisse zu Wahldaten vor.
 - name: "Datensummit"
   place: Berlin
   date: 2017-04-28
   featured: true
   text: >
-    Safe the date! Wir announcen bald mehr Infos zu unserem Vernetzungstreffen rund um die Themen: data literacy, civic tech und open data.
+    Kommt zum [Datensummit](https://datensummit.de/) - unserem Vernetzungstreffen rund um die Themen: data literacy, civic tech und open data.
 - name: "re:publica"
   place:  Luckenwalder Str. 4–6, 10963 Berlin
   date: 2017-05-08

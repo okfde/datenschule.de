@@ -45,8 +45,8 @@ projekte:
   cat_done: "‎Completed"
 blog:
   title: "Blog"
-  sign_feed: "subscribe with your feedreeder"
-  intro: "You can find regular updates on current events of School of Data Germany here"
+  sign_feed: "subscribe with your feedreader"
+  intro: "subscribe to regular updates on current events of School of Data Germany"
   desc: "Blog by School of Data Germany"
   author_by: "by"
   on_date: "on"
