@@ -70,6 +70,9 @@ presse:
   cat_info: "Information material"
   cat_postcards: "Post cards"
   cat_releases: "Press releases"
+  cat_releases_distribute_link: "Hier"
+  cat_releases_distribute_text: " können Sie sich in unseren E-Mail-Presseverteiler eintragen. Wir informieren Sie über aktuelle Termine und Pressemitteilungen."
+  cat_review: "Press review"
 impressum:
   title: "Contact"
   contact: "Contact"

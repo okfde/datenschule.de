@@ -69,7 +69,10 @@ presse:
   desc: "Die OKF Datenschule in der Presse"
   cat_info: "Infomaterial"
   cat_postcards: "Postkarten"
-  cat_releases: "Presse-Mitteilungen"
+  cat_releases: "Pressemitteilungen"
+  cat_releases_distribute_link: "Hier"
+  cat_releases_distribute_text: " können Sie sich in unseren E-Mail-Presseverteiler eintragen. Wir informieren Sie über aktuelle Termine und Pressemitteilungen."
+  cat_review: "Pressespiegel"
 impressum:
   title: "Impressum"
   contact: "Kontakt"
