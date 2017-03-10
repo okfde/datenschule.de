@@ -135,3 +135,17 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+//mailchimp
+select.mailchimp {
+  padding-left: 20px;
+  font-size: 1rem;
+  padding-left: 20px;
+  margin-right: 0;
+  font-size: 1rem;
+  width: 100% !important;
+}
+
+.mc-field-group {
+  padding-bottom: 0 !important;
+}

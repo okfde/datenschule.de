@@ -5,12 +5,8 @@ title: presse.intro
 description: presse.desc
 ---
 <div class="box box-with-head">
-	<h1>{% t presse.title %}</h1>
-</div>
-
-<div class="box box-margin-top-medium">
-	<h2>{% t presse.intro %}</h2>
-	<p></p>
+	<h1 class="box-head">{% t presse.title %}</h1>
+	<p>{% t presse.intro %}</p>
 </div>
 
 <div class="box box-margin-top-medium">
@@ -31,14 +27,14 @@ description: presse.desc
 	{% endfor %}
 </div>
 
-<div class="box box-margin-top-medium">
-	<h2>{% t presse.cat_releases %}</h2>
-	<p></p>
-</div>
+<!--<div class="box box-margin-top-medium">-->
+	<!--<h2>{% t presse.cat_releases %}</h2>-->
+	<!--<p></p>-->
+<!--</div>-->
 
-<div class="box">
-	<p><a href="#">{% t presse.cat_releases_distribute_link %}</a>{% t presse.cat_releases_distribute_text %}</p>
-</div>
+<!--<div class="box">-->
+
+<!--</div>-->
 
 <div class="box box-margin-top-medium">
 	<h2>{% t presse.cat_review %}</h2>
@@ -49,6 +45,11 @@ description: presse.desc
 	<ul>
 		<li><span class="bold">02. November 2016</span> | <a href="https://www.joeran.de/jra041-datenschule/">“Wer lernt was in der neu gegründeten Datenschule?”</a> (Jöran & Konsorten)</li>
 	</ul>
+</div>
+
+<div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">Presseverteiler</h1>
+	{% include mailchimp_press.html %}
 </div>
 
 <div class="container">
