@@ -19,13 +19,19 @@ tags:
 title: "Launch: JedeSchule.de schafft mehr Transparenz im Schulsystem"
 --- 
 
+Schule ist weit mehr als nur Unterricht. Potenziale, Persönlichkeit und das Engagement für die Gesellschaft entwickeln sich vorwiegend außerhalb des Stundenplans. Doch gut zugängliche Informationen zu allen Schulen in Deutschland sind oft nur spärlich vorhanden. Gemeinsam mit [BildungsCent e.V.](https://bildungscent.de) haben wir uns daher in den letzten vier Monaten intensiv mit Schuldaten beschäftigt.
 
 Wie können Daten besser für die Öffentlichkeit aufbereitet werden, die Schulen an Behörden kommunizieren? Welche neuen Perspektiven eröffnen sich dadurch auf die Potenziale von Schulen als Orte gesellschaftlicher Entwicklung? 
 
+#### Ergebnisse unserer Analysen zeigen wir auf: [“JedeSchule.de”](https://jedeschule.de).
 
+JedeSchule.de ist eine Informations- und Recherche­plattform, die Eltern, Schüler/innen, Lehrenden, Politiker/innen und zivilgesellschaftlichen Organisationen den Zugang zu Schulinformationen erleichtert. Mit dem Projekt setzen sich die Datenschule der [Open Knowledge Foundation Deutschland](https://okfn.de) und BildungsCent e.V. für mehr Transparenz im Bildungsbereich ein und fördern den Dialog zwischen verschiedenen Akteur/innen in der Bildungspolitik.
 
+Wir geben einen Überblick über rund 30.000 allgemeinbildende Schulen in Deutschland, die über eine [interaktive Karte](https://jedeschule.de/schulen/) durchsucht und gefiltert werden können. [Für alle 16 Bundesländer](https://jedeschule.de/schulsystem) sind Informationen zu der Entwicklung der Schularten, den Ausgaben laut dem Bildungsfinanzbericht, der Lehrer/innenbeschäftigung und dem Fremdsprachenangebot zugänglich. Auf den [Schulprofilen](https://jedeschule.de/schulprofile/) der knapp 3.000 Schulen in Berlin und Sachsen informieren wir über das Leitbild der Schulen, die Entwicklung der Schüler/innen- und Lehrer/innenzahlen sowie über Partnerschaften und Schulaktivitäten außerhalb des Unterrichts. 
 
+Alle [Daten](https://jedeschule.de/daten/) des Projekt können heruntergeladen werden und stehen als Open Data für alle zur Verfügung. Damit möchten wir Journalist/innen, Poliker/innen, Wissenschaftler/innen, der aktiven Civic Tech-Community und allen an der Bildungspolitik Beteiligten die Arbeit mit den Daten ermöglichen.
 
+#### Unser Fazit zu Schulaktivitäten & Kooperationen in Berlin & Sachsen
 
 * In Berlin kommunizieren 413 der 800 allgemeinbildenden Schulen ihre Aktivitäten an die Senatsverwaltung für Bildung, Jugend und Familie. 
 * Diese Schulen bieten durchschnittlich acht Aktivitäten zu mindestens vier verschiedenen Themenbereichen wie Umwelt, Literatur, Handwerk oder Technik neben dem Regelunterricht an. 
