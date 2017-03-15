@@ -4,7 +4,7 @@ authors:
 - Moritz Neujeffski
 - Knut Perseke
 - Jasmin Helm
-date: 2017-03-15 09:00:00
+date: 2017-03-15 08:00:00
 picture:
   src: /files/blog/2017/03/header-jedeschule.png
   title: JedeSchule.de
@@ -23,7 +23,7 @@ Schule ist weit mehr als nur Unterricht. Potenziale, Persönlichkeit und das Eng
 
 Wie können Daten besser für die Öffentlichkeit aufbereitet werden, die Schulen an Behörden kommunizieren? Welche neuen Perspektiven eröffnen sich dadurch auf die Potenziale von Schulen als Orte gesellschaftlicher Entwicklung? 
 
-### Ergebnisse unserer Analysen zeigen wir auf: [“JedeSchule.de”](https://jedeschule.de).
+### Ergebnisse unserer Analysen zeigen wir auf: [JedeSchule.de](https://jedeschule.de).
 
 JedeSchule.de ist eine Informations- und Recherche­plattform, die Eltern, Schüler/innen, Lehrenden, Politiker/innen und zivilgesellschaftlichen Organisationen den Zugang zu Schulinformationen erleichtert. Mit dem Projekt setzen sich die Datenschule der [Open Knowledge Foundation Deutschland](https://okfn.de) und BildungsCent e.V. für mehr Transparenz im Bildungsbereich ein und fördern den Dialog zwischen verschiedenen Akteur/innen in der Bildungspolitik.
 
