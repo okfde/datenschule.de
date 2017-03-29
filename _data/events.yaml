@@ -98,9 +98,15 @@
 - name: "Data Visualization Meetup"
   place: Prinzessinnenstrasse 19-20, 10969 Berlin
   date: 2017-03-24
-  featured: true
+  featured: false
   text: >
     Wir sprechen über data literacy und JedeSchule.de beim [Data Visualization Meetup](https://www.meetup.com/de-DE/Data-Visualization-Berlin/events/238439579/)
+- name: "Bundesveband deutscher Stiftungen" 
+  place: Berlin
+  date: 2017-04-04
+  featured: true
+  text: >
+    Wir sprechen über Community Building beim Expertenkreis Allumniarbeit des Bundesveband deutscher Stiftungen.
 - name: "Personal Democracy Forum" 
   place: Danzig, Polen
   date: 2017-04-06
