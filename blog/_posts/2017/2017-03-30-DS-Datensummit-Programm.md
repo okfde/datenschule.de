@@ -2,7 +2,7 @@
 authors: 
 - Helene Hahn
 - Moritz Neujeffski
-date: 2017-03-30 11:00:00
+date: 2017-03-30 10:00:00
 picture:
   src: /files/blog/2017/03/dance.gif
   title: 
@@ -13,10 +13,10 @@ tags:
 - transparency
 - data literacy
 - open data
-title: "Das Programm des Datensummit - jetzt online"
+title: "Das Programm des Datensummit – jetzt online"
 
 --- 
-Nur noch einen Monat schlafen, dann ist es soweit. Der Datensummit, unser erstes Community-Festival der Datenschule, Code for Germany und der Open Knowledge Foundation Deutschland findet am 28. & 29. April in Berlin statt. Quasi die Generalprobe zum ersten Mai - nur mit Demoversionen statt Demonstrationen. Das Programm dazu haben wir jüngst auf unserer [Homepage veröffentlicht](https://datensummit.de/) . 
+Nur noch einen Monat schlafen, dann ist es soweit. Der Datensummit, unser erstes Community-Festival der Datenschule, Code for Germany und der Open Knowledge Foundation Deutschland findet am 28. & 29. April in Berlin statt. Quasi die Generalprobe zum ersten Mai - nur mit Demoversionen statt Demonstrationen. Das Programm dazu haben wir jüngst auf unserer [Homepage veröffentlicht](https://datensummit.de/). 
 
 
 ### Tag 1: Input, Input
