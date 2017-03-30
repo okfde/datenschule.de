@@ -2,12 +2,12 @@
 authors: 
 - Helene Hahn
 - Moritz Neujeffski
-date: 2017-03-30 09:00:00
+date: 2017-03-30 08:00:00
 picture:
   src: /files/blog/2017/03/dance.gif
   title: 
-  license: fair use
-  license_url: https://wiki.creativecommons.org/wiki/Public_domain
+  license: Fair-use
+  license_url: 
 tags:
 - datensummit
 - transparency
