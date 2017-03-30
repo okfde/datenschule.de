@@ -4,10 +4,10 @@ authors:
 - Moritz Neujeffski
 date: 2017-03-30 08:00:00
 picture:
-  src: /files/blog/2017/03/dance.gif
-  title: 
-  license: Fair-use
-  license_url: 
+  src: /files/blog/2017/03/datensummit-logo.png
+  title: datensummit
+  license: CC-0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.de
 tags:
 - datensummit
 - transparency
@@ -35,3 +35,5 @@ Ihr seid eine gemeinnützige Organisation, die die Datenwelt erst entdeckt und s
 Unsere Partner BildungsCent e.V. sprechen über jedeschule.de und darüber, was sie bei unserer Zusammenarbeit über Daten gelernt haben. 
 
 Infos zu vielen weiteren Programmpunkten findet ihr auf der [Website des Datensummits](https://datensummit.de/info/). Wir freuen uns schon sehr, euch bald in Berlin begrüßen zu dürfen und mit euch ein Zeichen für Offene Daten und Transparenz zu setzen. Auf Bald! 
+
+![Party](/files/blog/2017/03/dance.gif)
