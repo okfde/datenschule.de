@@ -18,7 +18,7 @@ title: "JedeSchule.de - nach zwei Wochen blicken wir zurück"
 --- 
 JedeSchule.de, unsere Informations-und Rechercheplattform über Schulen in Deutschland, ist jetzt zwei  Wochen alt - und es gibt schon eine Menge zu berichten. Die Nachricht verbreitete sich in Windeseile: Fast 9.000 Menschen haben von unserem Projekt allein auf Twitter erfahren! Die vielen positiven Reaktionen seit dem Launch haben uns umgehauen :) Wir freuen uns über ganz viel Feedback, Tipps und Anfragen - von Lehrenden, Bildungsexpert/innen, Politiker/innen und unserer technik-affinen Community. 
 
-![Freude](/files/blog/2017/03/yeah.gif)<center>[CCO Public Domain](https://wiki.creativecommons.org/wiki/Public_domain)</center>
+![Freude](/files/blog/2017/03/yeah.gif)<center>
 
 ### Datenqualität verbessern 
 Die große Menge an Schuldaten, die wir im Rahmen des Projekts aufbereitet und übersichtlich dargestellt haben, kam sehr gut an, hat aber auch Schwachstellen aufgezeigt: 
