@@ -104,7 +104,7 @@
 - name: "Bundesverband deutscher Stiftungen" 
   place: Berlin
   date: 2017-04-04
-  featured: true
+  featured: false
   text: >
     Wir sprechen über Community Building beim [Expertenkreis Alumniarbeit](https://www.stiftungen.org/index.php?id=5503) des Bundesverband deutscher Stiftungen.
 - name: "Personal Democracy Forum" 
