@@ -110,7 +110,7 @@
 - name: "Personal Democracy Forum" 
   place: Danzig, Polen
   date: 2017-04-06
-  featured: true
+  featured: false
   text: >
     Sprecht mit uns auf der diesjährigen [PDF](http://pdfcee17.pl/en/#start) über Medien & Wahldaten.
 - name: "TICTeC" 
