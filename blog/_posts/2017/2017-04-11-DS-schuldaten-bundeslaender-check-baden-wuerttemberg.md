@@ -42,11 +42,21 @@ Das aktuelle Schulverzeichnis aus dem Jahr 2015 informiert über alle allgemeinb
 
 	<tr>
 
-		<td>Stammdaten, Schüler/innenzahlen, Lehrer/innenzahlen, Klassenanzahl, Bildungsgang, Schulart, teilw. Betreuungsform und Sprachen</td>
+		<td>
+		    <ul>
+		        <li>Stammdaten</li>
+		        <li>Schüler/innenzahlen</li>
+		        <li>Lehrer/innenzahlen</li>
+		        <li>Klassenanzahl</li>
+		        <li>Bildungsgang</li>
+		        <li>Schulart</li>
+		        <li>teilw. Betreuungsform und Sprachen</li>
+		    </ul>
 
-		<td>Schulverzeichnisse: gegen Bezahlung, Schuldatenadressbank: eingeschränkt</td>
+		<td><strong>Schulverzeichnisse:</strong> gegen Bezahlung,<br /> 
+		<strong>Schuldatenadressbank:</strong> eingeschränkt</td>
 
-		<td>Besteht v.a. bei der Zugänglichkeit! Nur offene und zugängliche Daten ermöglichen gesellschaftliche Beteiligung und Information.</td>
+		<td>Besteht v.a. bei der Zugänglichkeit!<br /> Nur offene und zugängliche Daten ermöglichen gesellschaftliche Beteiligung und Information.</td>
 
 	</tr>
 
