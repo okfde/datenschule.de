@@ -1,7 +1,7 @@
 ---
 authors: 
 - Jasmin Helm
-date: 2017-04-20 10:00:00
+date: 2017-04-20 09:00:00
 picture:
   src: /files/blog/2017/04/schulverzeichnis-bayern.jpg
   title: Schulverzeichnis auf der Webseite des Statistikamts Bayern
