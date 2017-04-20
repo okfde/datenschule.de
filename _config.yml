@@ -30,6 +30,7 @@ languages: ["de", "en"]
 languages_bak: ["de", "en"]
 lang_report_missing: false
 exclude_from_localizations: ["assets", "files", "style", "js", "svg", "fonts", "images", "scripts"]
+timezone: Europe/Berlin
 tag_dir: blog/tags/
 permalink: blog/:year/:month/:title/
 paginate: 8
