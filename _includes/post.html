@@ -46,6 +46,12 @@
 					{{ page.picture.license | markdownify }}
 					{% endif %}
 				</figcaption>
+				{% else %}
+					{% if page.picture.license_url %}
+					<figcaption>
+					<a href="{{ page.picture.license_url | xml_escape }}">{% t blog.picture_license %}</a>
+					</figcaption>
+					{% endif %}
 				{% endif %}
 			</figure>
 			{% endif %}
