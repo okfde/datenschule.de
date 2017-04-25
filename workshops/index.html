@@ -1,0 +1,29 @@
+---
+layout: page
+menu_workshops: yes
+title: workshops.title
+description: workshops.desc
+---
+<div class="box box-with-head">
+    <h1 class="box-head">{% t workshops.title %}</h1>
+    <p>{% t workshops.intro %}</p>
+</div>
+
+{% assign workshops = site.workshops %}
+{% if workshops.size > 0 %}
+<div class="container-wrap-row container-wrap-item-pull-top">
+    {% for workshop in workshops %}
+    <div class="container-wrap-item-2">
+        <div class="box box-margin-top-medium">
+            <h2>{{workshop.title}}</h2>
+            <p>
+                <strong>{% case site.lang %}{% when 'en' %}{{ workshop.subtitle_en }}{% else %}{{ workshop.subtitle }}{% endcase %}</strong>
+            </p>
+            <p>
+                {% case site.lang %}{% when 'en' %}{{ workshop.description_en }}{% else %}{{ workshop.description }}{% endcase %}
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}

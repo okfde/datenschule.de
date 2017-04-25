@@ -9,6 +9,7 @@ menu:
   projekte: "Projekte"
   teilnehmen: "Teilnehmen"
   logo: "OKF Datenschule"
+  workshops: "Workshops"
 footer:
   project_by: "Ein Projekt von"
   partner: "Partner"
@@ -37,6 +38,10 @@ lernen:
   cat_workflow: "Workflow"
   cat_tools: "Tools"
   link_read: "Lesen"
+workshops:
+  title: "Workshops"
+  intro: "Workshop Intro Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+  desc: "OKF Datenschule Workshops"
 projekte:
   title: "Projekte"
   intro: "Gemeinsam mit unseren Partnern setzen wir uns für eine positive gesellschaftliche Veränderung ein. Wir engagieren uns in diesen Bereichen: Politik und Informationsfreiheit, Bildung, Gesundheit, Armut, Menschenrechte, Stadtentwicklung, Umwelt und Entwicklungs&shy;zusammenarbeit."

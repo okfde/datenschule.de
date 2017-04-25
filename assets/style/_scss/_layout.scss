@@ -302,3 +302,8 @@
     width: 30%;
   }
 }
+
+.container-wrap-item-pull-top {
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
