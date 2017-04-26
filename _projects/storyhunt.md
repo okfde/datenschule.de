@@ -3,7 +3,7 @@ partner: Storyhunt.de
 partner_url: https://storyhunt.de/
 ended: no
 picture:
-  src: /files/projects/storyhunt-logo.png
+  src: /files/projects/storyhunt_flyer.png
   title: Storyhunt.de
   license:
   license_url:
