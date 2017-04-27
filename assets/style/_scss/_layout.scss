@@ -302,3 +302,13 @@
     width: 30%;
   }
 }
+
+.container-wrap-item-pull-top {
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+
+.container-wrap-item-pull-left {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}

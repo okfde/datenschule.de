@@ -5,12 +5,12 @@
 		</div>
 		<div class="header-nav">
 			<ul class="nav navbar-nav navbar-right">
-				<li{% if page.menu_home %} class="active"{% endif %}><a href="{{ site.baseurl }}/">{% t menu.home %}</a></li>
 				<li{% if page.menu_teilnehmen %} class="active"{% endif %}><a href="{{ site.baseurl }}/teilnehmen">{% t menu.teilnehmen %}</a></li>
 				<li{% if page.menu_projekte %} class="active"{% endif %}><a href="{{ site.baseurl }}/projekte">{% t menu.projekte %}</a></li>
 				{% if site.settings.debug %}
 				<li{% if page.menu_lernen %} class="active"{% endif %}><a href="{{ site.baseurl }}/lernen">{% t menu.lernen %}</a></li>
 				{% endif %}
+				<li{% if page.menu_workshops %} class="active"{% endif %}><a href="{{ site.baseurl }}/workshops">{% t menu.workshops %}</a></li>
 				<li{% if page.menu_team %} class="active"{% endif %}><a href="{{ site.baseurl }}/team">{% t menu.team %}</a></li>
 				<li{% if page.menu_blog %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog">{% t menu.blog %}</a></li>
 				<li{% if page.menu_presse %} class="active"{% endif %}><a href="{{ site.baseurl }}/presse">{% t menu.presse %}</a></li>

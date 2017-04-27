@@ -63,5 +63,7 @@ collections:
   projects:
     output: true
     permalink: /projekte/:path/
+  workshops:
+    output: false
 settings:
   debug: false

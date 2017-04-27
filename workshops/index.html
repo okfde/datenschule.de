@@ -1,0 +1,51 @@
+---
+layout: page
+menu_workshops: yes
+title: workshops.title
+description: workshops.desc
+---
+<div class="box box-with-head">
+    <h1 class="box-head">{% t workshops.title %}</h1>
+    <p>{% t workshops.intro %}</p>
+</div>
+
+{% assign workshops = site.workshops %}
+{% if workshops.size > 0 %}
+<div class="container-wrap-row container-wrap-item-pull-top">
+    {% for workshop in workshops %}
+    <div class="container-wrap-item-2">
+        <div class="box box-margin-top-medium projects-box">
+            <h2>{{workshop.title}}</h2>
+            <p>
+                <img src="{{workshop.image}}">
+            </p>
+            <p>
+                <strong>{% case site.lang %}{% when 'en' %}{{ workshop.subtitle_en }}{% else %}{{ workshop.subtitle }}{% endcase %}</strong>
+            </p>
+            <p>
+                {% case site.lang %}{% when 'en' %}{{ workshop.description_en }}{% else %}{{ workshop.description }}{% endcase %}
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<div class="container">
+    <div class="box">
+        <h2>Zu den Workshops gibt's bald mehr Infos :) </h2>
+        <p></p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="container-left-12">
+        <div class="box box-margin-top-medium box-with-button">
+            <h2>Interesse an unseren Workshops? </h2>
+            <a target="_blank" href="mailto:info@datenschule.de?subject=Anmeldung%20Worshop">
+                <button class="box-button">Schreib uns!</button>
+            </a>
+        </div>
+    </div>
+</div>
+
