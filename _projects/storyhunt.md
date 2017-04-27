@@ -41,15 +41,15 @@ text_en: |-
     Together with journalists, analysts, non-profit organizations, developers and designers, we want to develop and apply the 
     skills needed to hunt stories in financial data.
  
-   The Story Hunt is split into two separate parts: a series of Workshops and an Expedition Weekend in Berlin.
+    The Story Hunt is split into two separate parts: a series of Workshops and an Expedition Weekend in Berlin.
    
-   The workshops are tailored to aspiring data journalists and non-profit organizations that are interested in improving 
-   their data-literacy skills. They are run by our team and by trusted members of the civic tech community in Germany.
-   They will culminate in the weekend-expedition at end of June, where - together with proven experts - we are going to 
-   dive into a massive database of the European Union’s primary financial instrument, the ESIFunds.
-   
-   During the weekend, we will form interdisciplinary teams that collaboratively work on finding stories, leads, and data 
-   analyses around the EU and its money flows. This will offer an ideal opportunity to practice the acquired skills in a 
-   supportive environment.
+    The workshops are tailored to aspiring data journalists and non-profit organizations that are interested in improving 
+    their data-literacy skills. They are run by our team and by trusted members of the civic tech community in Germany.
+    They will culminate in the weekend-expedition at end of June, where - together with proven experts - we are going to 
+    dive into a massive database of the European Union’s primary financial instrument, the ESIFunds.
+     
+    During the weekend, we will form interdisciplinary teams that collaboratively work on finding stories, leads, and data 
+    analyses around the EU and its money flows. This will offer an ideal opportunity to practice the acquired skills in a 
+    supportive environment.
 ---
    
