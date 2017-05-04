@@ -44,7 +44,7 @@ Das Schulverzeichnis enthält die Stammdaten der Schulen, Schulform, Angaben zum
 
 		<td>Sehr umfangreich: Stammdaten, Schulart, Rechtsstatus, Schüler/innen- und Lehrer/innenzahlen, Unterrichtsangebot, Fremdsprachen, AGs, Kooperationen,  Schulprogramm, Ausstattung, usw.!</td>
 
-		<td>Schuldaten sind online einsehbar, können nach bestimmten Kriterien gesucht und gefiltert werden. Die Stammdaten gibt es strukturiert in einem [Web Feature Service](http://schullandschaft.brandenburg.de/edugis/wfs/schulen/?service=wfs&version=2.0.0&request=GetFeature&typeNames=Schul_Standorte). Download ansonsten jedoch nicht möglich. Daten müssen für Weiternutzung gescrapt werden.</td>
+		<td>Schuldaten sind online einsehbar, können nach bestimmten Kriterien gesucht und gefiltert werden. Die Stammdaten gibt es strukturiert in einem <a href="http://schullandschaft.brandenburg.de/edugis/wfs/schulen/?service=wfs&version=2.0.0&request=GetFeature&typeNames=Schul_Standorte">Web Feature Service </a>. Download ansonsten jedoch nicht möglich. Daten müssen für Weiternutzung gescrapt werden.</td>
 
 		<td>Daten könnten in maschinenlesbarem Format und als Open Data zum Download angeboten werden.</td>
 
