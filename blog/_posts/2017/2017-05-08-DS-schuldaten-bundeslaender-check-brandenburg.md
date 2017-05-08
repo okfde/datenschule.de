@@ -1,7 +1,7 @@
 ---
 authors: 
 - Jasmin Helm
-date: 2017-05-08 08:00:00
+date: 2017-05-08 07:00:00
 picture:
   src: /files/blog/2017/schulverzeichnis-brandenburg.jpg
   title: Schulverzeichnis auf der Webseite des Ministeriums für Bildung, Jugend und Sport (MBJS) Brandenburg
