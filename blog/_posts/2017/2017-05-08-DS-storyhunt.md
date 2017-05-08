@@ -26,12 +26,12 @@ Additionally, we offer 5 weekly workshops for participants of the Story Hunt wee
         
 ### The facts: 
 
-**What**: “The Story Hunt: EU Uncovered” about the EU and its financial flows.
-**Who**: Experts in the field of Programming, Journalism, NGO (campaigning, strategy and policy)
-**When**: Workshops from 23th of May, Story Hunt until 30th of June till 2nd of July
-**Where**: Berlin, Germany
-**Register for the workshops & the Story Hunt**: [http://bit.ly/2qRMyAU](http://bit.ly/2qRMyAU)
-**Travel expenses**: We cover all travel cost within Europe up to 250€.
-**Find more information at**: [storyhunt.de](https://storyhunt.de). 
+**What**: “The Story Hunt: EU Uncovered” about the EU and its financial flows. <br/>
+**Who**: Experts in the field of Programming, Journalism, NGO (campaigning, strategy and policy) <br/>
+**When**: Workshops from 23th of May, Story Hunt until 30th of June till 2nd of July <br/>
+**Where**: Berlin, Germany <br/>
+**Register for the workshops & the Story Hunt**: [http://bit.ly/2qRMyAU](http://bit.ly/2qRMyAU) <br/>
+**Travel expenses**: We cover all travel cost within Europe up to 250€. <br/>
+**Find more information at**: [storyhunt.de](https://storyhunt.de). <br/>
 
 We have room for 25 experts in our data expedition weekend and for 10 participants in our workshops. Both events are free of charge!
