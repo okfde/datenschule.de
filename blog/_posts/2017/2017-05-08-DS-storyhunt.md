@@ -4,9 +4,9 @@ authors:
 date: 2017-05-08 09:00:00
 picture:
   src: /files/blog/2017/storyhunt.jpg
-  title: The Story Hunt: Uncover the EU
+  title: "The Story Hunt: Uncover the EU"
   license: CCO Public Domain
-  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+  license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
 tags:
 - Story Hunt
 - EU 
