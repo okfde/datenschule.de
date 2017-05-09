@@ -1,6 +1,9 @@
 ---
 authors: 
-- Helene Hahn, Moritz Neujeffski, Knut Perseke, Jasmin Helm
+- Helene Hahn 
+- Moritz Neujeffski 
+- Knut Perseke 
+- Jasmin Helm
 date: 2017-05-08 09:00:00
 picture:
   src: /files/blog/2017/storyhunt.jpg

@@ -1,6 +1,7 @@
 ---
 authors: 
-- Moritz Neujeffski, Helene Hahn
+- Moritz Neujeffski 
+- Helene Hahn
 date: 2017-05-09 10:00:00
 picture:
   src: /files/blog/2017/05/chaosinterviews-alumni-BDS.png
@@ -9,7 +10,7 @@ picture:
   license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
 tags:
 - alumni
-- community Building 
+- community building 
 - data literacy
 title: "Die Datenschule beim Alumni-Expertenkreis des Bundesverband Deutscher Stiftungen"
 
