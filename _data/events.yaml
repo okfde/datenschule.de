@@ -136,7 +136,13 @@
   date: 2017-05-12
   featured: true
   text: >
-    Lernt uns & andere großartige [OKF DE-Projekte](https://okfn.de/projekte/) auf unserem Stand beim [Digital Future Event](https://science-match.tagesspiegel.de/digital-future) näher kennen! 
+    Lernt uns & andere [OKF DE-Projekte](https://okfn.de/projekte/) auf unserem Stand beim [Digital Future Event](https://science-match.tagesspiegel.de/digital-future) näher kennen! 
+- name: "Open Tech Summit"
+  place: Berlin, Potsdam
+  date: 2017-05-25
+  featured: true
+  text: >
+    Wir berichten von JedeSchule.de beim [OTS](http://opentechsummit.net/). 
 - name: "OK Lab zu Schuldaten"
   place: KuZe, Hermann-Elflein-Straße 10, Potsdam
   date: 2017-05-30
