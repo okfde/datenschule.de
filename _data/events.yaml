@@ -128,13 +128,13 @@
 - name: "re:publica"
   place:  Luckenwalder Str. 4–6, 10963 Berlin
   date: 2017-05-08
-  featured: true
+  featured: false
   text: >
     Trefft uns auf der [re:publica](https://re-publica.com/en/17/page/getting-there)!
 - name: "Digital Future Event"
   place: KOSMOS, Berlin
   date: 2017-05-12
-  featured: true
+  featured: false
   text: >
     Lernt uns & andere [OKF DE-Projekte](https://okfn.de/projekte/) auf unserem Stand beim [Digital Future Event](https://science-match.tagesspiegel.de/digital-future) näher kennen! 
 - name: "Open Tech Summit"
