@@ -14,8 +14,11 @@ description: workshops.desc
 <div class="container-wrap-row container-wrap-item-pull-top">
     {% for workshop in workshops %}
     <div class="container-wrap-item-2">
-        <div class="box box-margin-top-medium">
+        <div class="box box-margin-top-medium projects-box">
             <h2>{{workshop.title}}</h2>
+            <p>
+                <img src="{{workshop.image}}">
+            </p>
             <p>
                 <strong>{% case site.lang %}{% when 'en' %}{{ workshop.subtitle_en }}{% else %}{{ workshop.subtitle }}{% endcase %}</strong>
             </p>
@@ -29,22 +32,20 @@ description: workshops.desc
 {% endif %}
 
 <div class="container">
+    <div class="box">
+        <h2>Zu den Workshops gibt's bald mehr Infos :) </h2>
+        <p></p>
+    </div>
+</div>
+
+<div class="container">
     <div class="container-left-12">
         <div class="box box-margin-top-medium box-with-button">
-            <h2>Melde dich für einen unserer Workshops an!</h2>
-            <p>
-                Kontaktier uns! Lorem Ipsum
-            </p>
+            <h2>Interesse an unseren Workshops? </h2>
             <a target="_blank" href="mailto:info@datenschule.de?subject=Anmeldung%20Worshop">
-                <button class="box-button">Kontakt</button>
+                <button class="box-button">Schreib uns!</button>
             </a>
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div class="box">
-        <h2>more to come..</h2>
-        <p></p>
-    </div>
-</div>
