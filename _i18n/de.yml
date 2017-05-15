@@ -61,6 +61,7 @@ blog:
   previous_post: "Vorheriger Beitrag"
   next_post: "Nächster Beitrag"
   and: "&"
+  picture_license: "Bildlizenz"
 team:
   title: "Team"
   intro: "Wir sind Teil des internationalen School of Data Networks und arbeiten mit lokalen und internationalen Trainer/innen zusammen."

@@ -9,7 +9,7 @@ menu:
   projekte: "Projects"
   teilnehmen: "Join"
   logo: "School of Data Germany"
-  worshops: "Workshops"
+  workshops: "Workshops"
 footer:
   project_by: "A Project of"
   partner: "Partner"
@@ -57,6 +57,7 @@ blog:
   previous_post: "Previous post"
   next_post: "Next post"
   and: "&"
+  picture_license: "Picture License"
 team:
   title: "Team"
   intro: "We are part of the international School of Data network and cooperate with both local and international trainers."
