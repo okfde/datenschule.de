@@ -17,6 +17,41 @@
 
 	<div class="container">
 		<div class="container-left-12">
+			<div class="box box-margin-top-medium">
+				<h2>Neues aus unserem Blog</h2>
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="container-left-12">
+			<div class="container-wrap-row container-wrap-item-pull-top">
+				{% for post in site.posts limit:3 %}
+				<div class="container-wrap-item-3">
+					<div class="box post-preview-content">
+						<h3 class="post-preview-home-title">
+							<a href="#">{{post.title}}</a>
+						</h3>
+
+						{% if post.picture %}
+							<a href="{{ site.baseurl }}/{{ url }}" class="post-img-wrap">
+								<img class="post-img post-preview-home-img" src="{{ post.picture.src }}" alt="{{ post.title | xml_escape}}">
+							</a>
+						{% endif %}
+						<p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 16 }}</p>
+						<p>
+							<a href="{{ site.baseurl }}/{{ url }}">Weiterlesen</a>
+						</p>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-huge">
 				<h1 class="box-head">Vision der Datenschule</h1>
 				<p>
