@@ -1,7 +1,7 @@
 ---
 authors: 
 - Jasmin Helm
-date: 2017-05-16 08:00:00
+date: 2017-05-16 07:00:00
 picture:
   src: /files/blog/2017/05/schulverzeichnis-bremen.jpg
   title: Schulwegweiser auf der Webseite der Senatorin für Kinder und Bildung Bremen
