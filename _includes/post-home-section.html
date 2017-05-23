@@ -1,14 +1,5 @@
 <div class="container">
 	<div class="container-left-12">
-		<div class="box box-margin-top-medium">
-			<h2>Neues aus unserem Blog</h2>
-			<p></p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="container-left-12">
 		<div class="container-wrap-row container-wrap-item-stretch">
 			{% for post in site.posts limit:3 %}
 			{% assign url=post.url |replace_first:'/','' %}
