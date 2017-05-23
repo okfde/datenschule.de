@@ -3,7 +3,7 @@ authors:
 - Jasmin Helm
 date: 2017-05-03 10:00:00
 picture:
-  src: /files/blog/2017/schulverzeichnis-berlin.jpg
+  src: /files/blog/2017/05/schulverzeichnis-berlin.jpg
   title: Schulverzeichnis auf der Webseite der Senatsverwaltung für Bildung, Jugend und Familie Berlin
   license: 
   license_url: https://www.berlin.de/sen/bildung/schulverzeichnis_und_portraets/anwendung/
