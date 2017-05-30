@@ -140,7 +140,7 @@
 - name: "Open Tech Summit"
   place: Berlin, Potsdam
   date: 2017-05-25
-  featured: true
+  featured: false
   text: >
     Wir berichten von JedeSchule.de beim [OTS](http://opentechsummit.net/). 
 - name: "Neue Weg? Transparenz & Data Revolution in der Entwicklungs- zusammenarbeit"
