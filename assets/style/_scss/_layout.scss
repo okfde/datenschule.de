@@ -312,3 +312,12 @@
   -webkit-justify-content: space-between;
   justify-content: space-between;
 }
+
+.container-wrap-item-stretch {
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+
+.container-flex-item {
+  display: flex;
+}
