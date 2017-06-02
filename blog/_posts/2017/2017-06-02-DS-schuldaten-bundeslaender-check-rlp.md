@@ -1,7 +1,7 @@
 ---
 authors: 
 - Jasmin Helm
-date: 2017-06-02 07:00:00
+date: 2017-06-02 08:00:00
 picture:
   src: /files/blog/2017/schulverzeichnis-rlp.jpg
   title: Schuldatenbank vom Bildungsserver Rheinland-Pfalz
