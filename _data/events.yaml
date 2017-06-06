@@ -146,13 +146,13 @@
 - name: "Neue Wege? Transparenz & Data Revolution in der Entwicklungs- zusammenarbeit"
   place: Berlin
   date: 2017-05-30
-  featured: true
+  featured: false
   text: >
     Wir sind als Expert/innen zum 33. Werkstattgespräch beim BMZ eingeladen.
 - name: "OK Lab zu Schuldaten"
   place: KuZe, Hermann-Elflein-Straße 10, Potsdam
   date: 2017-05-30
-  featured: true
+  featured: false
   text: >
     Wir sprechen beim [OK Lab Potsdam Meetup](https://www.meetup.com/de-DE/OK-Lab-Potsdam/events/239382685/) über Schuldaten und Erfahrungen aus unserem Projekt [jedeschule.de](https://jedeschule.de)!
 - name: "The Story Hunt: Uncover the EU"
