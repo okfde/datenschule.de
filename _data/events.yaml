@@ -155,6 +155,48 @@
   featured: false
   text: >
     Wir sprechen beim [OK Lab Potsdam Meetup](https://www.meetup.com/de-DE/OK-Lab-Potsdam/events/239382685/) über Schuldaten und Erfahrungen aus unserem Projekt [jedeschule.de](https://jedeschule.de)!
+- name: "StoryHunt Workshop #3"
+  place: Singerstraße 109, Berlin
+  date: 2017-06-06
+  featured: true
+  text: >
+   Unsere Workshop-Reihe zum [StoryHunt](https://storyhunt.de/) geht in die dritte Runde. Thema #3: Scraping & Cleaning Data!
+- name: "ICS Center"
+  place: Agricolastraße 26, Berlin
+  date: 2017-06-12
+  featured: true
+  text: >
+    Wir sind zu Gast beim [International Civil Society Center](https://icscentre.org/) & geben einen Workshop zu Knowledge Transfer in NGOs!
+- name: "StoryHunt Workshop #4"
+  place: Singerstraße 109, Berlin
+  date: 2017-06-13
+  featured: true
+  text: >
+   Unsere Workshop-Reihe zum [StoryHunt](https://storyhunt.de/) geht in die vierte Runde. Thema #4: Analytics - Basic Statistics & Spreadsheets!
+- name: "StoryHunt Workshop #5"
+  place: Singerstraße 109, Berlin
+  date: 2017-06-13
+  featured: true
+  text: >
+   Der letzte Workshop vor dem [StoryHunt-Wochenende](https://storyhunt.de/) steht ganz im Zeichen von Visualising Data!
+- name: "OpenTransfer Camp"
+  place: ESCP Europe Berlin Campus, Heubnerweg 8, Berlin
+  date: 2017-06-22
+  featured: true
+  text: >
+    Trefft uns auf dem [OpenTransfer Camp](http://www.opentransfer.de/event/barcamp-digitalisierung/) zum Thema Digitalisierung! 
+- name: "Wikidata-Wahldaten-Workshop"
+  place: Verschwörhaus im Weinhof 9, Ulm
+  date: 2017-06-23
+  featured: true
+  text: >
+    Trefft uns beim [Wikidata-Wahldaten-Workshop](https://de.wikipedia.org/wiki/Wikipedia:Wikidata-Wahldaten-Workshop) in Ulm! 
+- name: "Digitale Agenada für eine lebensWerte Gesellschaft"
+  place: Glinkastr. 24, Berlin
+  date: 2017-06-23
+  featured: true
+  text: >
+    Wir stellen die Datenschule auf der Fachkonferenz ["Digitale Agenada für eine lebensWerte Gesellschaft" des BMFSFJ](https://www.bmfsfj.de/) vor!  
 - name: "The Story Hunt: Uncover the EU"
   place: Berlin
   date: 2017-06-30
