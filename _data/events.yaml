@@ -158,7 +158,7 @@
 - name: "StoryHunt Workshop #3"
   place: Singerstraße 109, Berlin
   date: 2017-06-06
-  featured: true
+  featured: false
   text: >
    Unsere Workshop-Reihe zum [StoryHunt](https://storyhunt.de/) geht in die dritte Runde. Thema #3: Scraping & Cleaning Data!
 - name: "ICS Center"
