@@ -164,13 +164,13 @@
 - name: "ICS Center"
   place: Agricolastraße 26, Berlin
   date: 2017-06-12
-  featured: true
+  featured: false
   text: >
     Wir sind zu Gast beim [International Civil Society Center](https://icscentre.org/) & geben einen Workshop zu Knowledge Transfer in NGOs!
 - name: "StoryHunt Workshop #4"
   place: Singerstraße 109, Berlin
   date: 2017-06-13
-  featured: true
+  featured: false
   text: >
    Unsere Workshop-Reihe zum [StoryHunt](https://storyhunt.de/) geht in die vierte Runde. Thema #4: Analytics - Basic Statistics & Spreadsheets!
 - name: "StoryHunt Workshop #5"
