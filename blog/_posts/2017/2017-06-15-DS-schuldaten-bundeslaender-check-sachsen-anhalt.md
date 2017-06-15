@@ -16,11 +16,11 @@ title: "Schuldaten-Bundesländer-Check #13: Sachsen-Anhalt"
 
 ---
 
-Schulen sind wichtige Orte für gesellschaftliche Entwicklung - und der Bedarf, sich über Schulen zu informieren, ist hoch, wie unser Schuldaten-Transparenzprojekt JedeSchule.de zeigt. Doch wo sind Schuldaten überhaupt zu finden? Und welche Informationen stellen sie bereit? Das unterscheidet sich je nach Bundesland sehr stark. Wir wollen das genauer unter die Lupe nehmen und über unsere Erfahrungen berichten: In unserem Schuldaten-Bundesländer-Check stellen wir die Datenlage rund ums Thema Schule in den einzelnen Bundesländern vor. In Teil 13 unserer Reihe: Sachsen-Anhalt.
+Schulen sind wichtige Orte für gesellschaftliche Entwicklung - und der Bedarf, sich über Schulen zu informieren, ist hoch, wie unser Schuldaten-Transparenzprojekt [JedeSchule.de](https://jedeschule.de) zeigt. Doch wo sind Schuldaten überhaupt zu finden? Und welche Informationen stellen sie bereit? Das unterscheidet sich je nach Bundesland sehr stark. Wir wollen das genauer unter die Lupe nehmen und über unsere Erfahrungen berichten: In unserem Schuldaten-Bundesländer-Check stellen wir die Datenlage rund ums Thema Schule in den einzelnen Bundesländern vor. In Teil 13 unserer Reihe: Sachsen-Anhalt.
  
 ### Wo finde ich Schuldaten?
  
-Daten über allgemeinbildende und berufsbildende Schulen bietet der Bildungsserver Sachsen-Anhalt. Hier können Schulen nach Name, Landkreis, Ort und Schulform gesucht und gefiltert werden. Es gibt jedoch keine Möglichkeit, die Daten herunterzuladen. 
+Daten über allgemeinbildende und berufsbildende Schulen bietet der [Bildungsserver Sachsen-Anhalt](https://www.bildung-lsa.de/schule.html). Hier können Schulen nach Name, Landkreis, Ort und Schulform gesucht und gefiltert werden. Es gibt jedoch keine Möglichkeit, die Daten herunterzuladen. 
  
 ### Welche Informationen gibt es über Schulen?
  
