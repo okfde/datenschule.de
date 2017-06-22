@@ -173,12 +173,6 @@
   featured: false
   text: >
    Unsere Workshop-Reihe zum [StoryHunt](https://storyhunt.de/) geht in die vierte Runde. Thema #4: Analytics - Basic Statistics & Spreadsheets!
-- name: "StoryHunt Workshop #5"
-  place: Singerstraße 109, Berlin
-  date: 2017-06-20
-  featured: true
-  text: >
-   Der letzte Workshop vor dem [StoryHunt-Wochenende](https://storyhunt.de/) steht ganz im Zeichen von Visualising Data!
 - name: "OpenTransfer Camp"
   place: ESCP Europe Berlin Campus, Heubnerweg 8, Berlin
   date: 2017-06-22
@@ -191,6 +185,12 @@
   featured: true
   text: >
     Trefft uns beim [Wikidata-Wahldaten-Workshop](https://de.wikipedia.org/wiki/Wikipedia:Wikidata-Wahldaten-Workshop) in Ulm! 
+- name: "StoryHunt Workshop #5"
+  place: Singerstraße 109, Berlin
+  date: 2017-06-27
+  featured: true
+  text: >
+   Der letzte Workshop vor dem [StoryHunt-Wochenende](https://storyhunt.de/) steht ganz im Zeichen von Visualising Data!
 - name: "Digitale Agenada für eine lebensWerte Gesellschaft"
   place: Glinkastr. 24, Berlin
   date: 2017-06-29
