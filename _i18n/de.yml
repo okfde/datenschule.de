@@ -48,6 +48,15 @@ workshops:
   evaluation:
     title: "Evaluation"
     content: "Evaluation Lorem Ipsum..."
+    data_pipeline_img_name: "data_pipeline_de.png"
+    left:
+      title: "Masterarbeit Helena"
+      first: "Kurzversion"
+      second: "Langversion"
+      third: "Maturity Model"
+    right:
+      title: "Tools Datanschule"
+      first: "Notebook Maturity Modell"
   desc: "OKF Datenschule Workshops"
 projekte:
   title: "Projekte"
