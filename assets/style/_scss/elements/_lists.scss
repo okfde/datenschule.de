@@ -54,6 +54,10 @@ ol {
   }
 }
 
+.list-indented-unstyled {
+  list-style-type: none;
+}
+
 .list-nested {
   @extend .list-bullet;
 
