@@ -128,27 +128,75 @@
 - name: "re:publica"
   place:  Luckenwalder Str. 4–6, 10963 Berlin
   date: 2017-05-08
-  featured: true
+  featured: false
   text: >
     Trefft uns auf der [re:publica](https://re-publica.com/en/17/page/getting-there)!
 - name: "Digital Future Event"
   place: KOSMOS, Berlin
   date: 2017-05-12
-  featured: true
+  featured: false
   text: >
     Lernt uns & andere [OKF DE-Projekte](https://okfn.de/projekte/) auf unserem Stand beim [Digital Future Event](https://science-match.tagesspiegel.de/digital-future) näher kennen! 
 - name: "Open Tech Summit"
   place: Berlin, Potsdam
   date: 2017-05-25
-  featured: true
+  featured: false
   text: >
     Wir berichten von JedeSchule.de beim [OTS](http://opentechsummit.net/). 
+- name: "Neue Wege? Transparenz & Data Revolution in der Entwicklungs- zusammenarbeit"
+  place: Berlin
+  date: 2017-05-30
+  featured: false
+  text: >
+    Wir sind als Expert/innen zum 33. Werkstattgespräch beim BMZ eingeladen.
 - name: "OK Lab zu Schuldaten"
   place: KuZe, Hermann-Elflein-Straße 10, Potsdam
   date: 2017-05-30
-  featured: true
+  featured: false
   text: >
     Wir sprechen beim [OK Lab Potsdam Meetup](https://www.meetup.com/de-DE/OK-Lab-Potsdam/events/239382685/) über Schuldaten und Erfahrungen aus unserem Projekt [jedeschule.de](https://jedeschule.de)!
+- name: "StoryHunt Workshop #3"
+  place: Singerstraße 109, Berlin
+  date: 2017-06-06
+  featured: false
+  text: >
+   Unsere Workshop-Reihe zum [StoryHunt](https://storyhunt.de/) geht in die dritte Runde. Thema #3: Scraping & Cleaning Data!
+- name: "ICS Center"
+  place: Agricolastraße 26, Berlin
+  date: 2017-06-12
+  featured: false
+  text: >
+    Wir sind zu Gast beim [International Civil Society Center](https://icscentre.org/) & geben einen Workshop zu Knowledge Transfer in NGOs!
+- name: "StoryHunt Workshop #4"
+  place: Singerstraße 109, Berlin
+  date: 2017-06-13
+  featured: false
+  text: >
+   Unsere Workshop-Reihe zum [StoryHunt](https://storyhunt.de/) geht in die vierte Runde. Thema #4: Analytics - Basic Statistics & Spreadsheets!
+- name: "OpenTransfer Camp"
+  place: ESCP Europe Berlin Campus, Heubnerweg 8, Berlin
+  date: 2017-06-22
+  featured: false
+  text: >
+    Trefft uns auf dem [OpenTransfer Camp](http://www.opentransfer.de/event/barcamp-digitalisierung/) zum Thema Digitalisierung! 
+- name: "Wikidata-Wahldaten-Workshop"
+  place: Verschwörhaus im Weinhof 9, Ulm
+  date: 2017-06-23
+  featured: false
+  text: >
+    Trefft uns beim [Wikidata-Wahldaten-Workshop](https://de.wikipedia.org/wiki/Wikipedia:Wikidata-Wahldaten-Workshop) in Ulm! 
+- name: "StoryHunt Workshop #5"
+  place: Singerstraße 109, Berlin
+  date: 2017-06-27
+  featured: true
+  text: >
+   Der letzte Workshop vor dem [StoryHunt-Wochenende](https://storyhunt.de/) steht ganz im Zeichen von Visualising Data!
+- name: "Digitale Agenada für eine lebensWerte Gesellschaft"
+  place: Glinkastr. 24, Berlin
+  date: 2017-06-29
+  featured: true
+  text: >
+    Wir stellen die Datenschule auf der Fachkonferenz ["Digitale Agenada für eine lebensWerte Gesellschaft" des BMFSFJ](https://www.bmfsfj.de/) vor!  
 - name: "The Story Hunt: Uncover the EU"
   place: Berlin
   date: 2017-06-30
