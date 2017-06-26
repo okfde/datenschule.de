@@ -176,13 +176,13 @@
 - name: "OpenTransfer Camp"
   place: ESCP Europe Berlin Campus, Heubnerweg 8, Berlin
   date: 2017-06-22
-  featured: true
+  featured: false
   text: >
     Trefft uns auf dem [OpenTransfer Camp](http://www.opentransfer.de/event/barcamp-digitalisierung/) zum Thema Digitalisierung! 
 - name: "Wikidata-Wahldaten-Workshop"
   place: Verschwörhaus im Weinhof 9, Ulm
   date: 2017-06-23
-  featured: true
+  featured: false
   text: >
     Trefft uns beim [Wikidata-Wahldaten-Workshop](https://de.wikipedia.org/wiki/Wikipedia:Wikidata-Wahldaten-Workshop) in Ulm! 
 - name: "StoryHunt Workshop #5"
