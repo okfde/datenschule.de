@@ -41,6 +41,10 @@ a img {
   outline: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 [aria-hidden="true"] {
   display: none;
 }
