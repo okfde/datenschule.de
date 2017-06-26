@@ -42,12 +42,11 @@ workshops:
   title: "Workshops"
   intro: "Mit unseren Workshops möchten wir gemeinnützigen Organisationen eine Möglichkeit bieten, Daten und Technologien kennenzulernen, mit ihnen zu experimentieren und ihr bisheriges Wissen zu vertiefen. Die Workshops bestehen dabei aus mehreren Lernmodulen, die auf Wunsch kombiniert werden können und von uns in Kooperationen mit erfahrenen Trainer/innen durchgeführt werden."
   method:
-    head: "Unsere Methodik: Data Pipeline"
-    title: "Methodik"
+    title: "nsere Methodik: Data Pipeline"
     content: "Die Data Pipeline verschafft einen guten Überblick darüber, wie man beim Arbeiten mit Daten von der ersten Fragestellung bis zur Kommunikation vorgeht. Unsere Workshops orientieren sich an den einzelnen Schritten und helfen dir, deine Kenntnisse aufzubauen. Diese Methode wurden von zahlreichen internationalen Expert/innen und Trainer/innen unseres Netzwerkes entwickelt, wird regelmäßig reflektiert und angepasst."
   evaluation:
     title: "Evaluation"
-    content: "Evaluation Lorem Ipsum..."
+    content: "Unser Data Literacy-Modell hilft Organisationen und Einzelpersonen dabei, ihre vorhandenen Daten-Fähigkeiten besser einzuschätzen und gezielt weiterzuentwickeln, um datenbasierte Projekte in der Praxis besser umzusetzen und zukünftige Kompetenzen innerhalb eines Arbeitsbereichs besser zu planen. Es kann als Impuls für Schulungs- und Weiterbildungswünsche dienen oder als Feedback-Tool, um datenbasierte Projekte und Workshops besser zu evaluieren. Das Modell richtet sich an Projektteams und Organisationen, die stärker mit Daten arbeiten möchten oder Daten bereits regelmäßig im Alltag nutzen und sich in diesem Feld weiterentwickeln wollen."
     data_pipeline_img_name: "data_pipeline_de.png"
     left:
       title: "Masterarbeit Helena"
