@@ -42,20 +42,21 @@ workshops:
   title: "Workshops"
   intro: "Mit unseren Workshops möchten wir gemeinnützigen Organisationen eine Möglichkeit bieten, Daten und Technologien kennenzulernen, mit ihnen zu experimentieren und ihr bisheriges Wissen zu vertiefen. Die Workshops bestehen dabei aus mehreren Lernmodulen, die auf Wunsch kombiniert werden können und von uns in Kooperationen mit erfahrenen Trainer/innen durchgeführt werden."
   method:
-    title: "nsere Methodik: Data Pipeline"
+    title: "Unsere Methodik: Data Pipeline"
     content: "Die Data Pipeline verschafft einen guten Überblick darüber, wie man beim Arbeiten mit Daten von der ersten Fragestellung bis zur Kommunikation vorgeht. Unsere Workshops orientieren sich an den einzelnen Schritten und helfen dir, deine Kenntnisse aufzubauen. Diese Methode wurden von zahlreichen internationalen Expert/innen und Trainer/innen unseres Netzwerkes entwickelt, wird regelmäßig reflektiert und angepasst."
   evaluation:
     title: "Evaluation"
-    content: "Unser Data Literacy-Modell hilft Organisationen und Einzelpersonen dabei, ihre vorhandenen Daten-Fähigkeiten besser einzuschätzen und gezielt weiterzuentwickeln, um datenbasierte Projekte in der Praxis besser umzusetzen und zukünftige Kompetenzen innerhalb eines Arbeitsbereichs besser zu planen. Es kann als Impuls für Schulungs- und Weiterbildungswünsche dienen oder als Feedback-Tool, um datenbasierte Projekte und Workshops besser zu evaluieren. Das Modell richtet sich an Projektteams und Organisationen, die stärker mit Daten arbeiten möchten oder Daten bereits regelmäßig im Alltag nutzen und sich in diesem Feld weiterentwickeln wollen."
+    content: "Unsere Aktivitäten evaluieren wir regelmäßig und beschäftigen uns insbesondere damit, wie man Workshops so wirkungsorientiert wie möglich gestalten kann. Wir möchten besser verstehen, wie Erwachsene lernen und wie man Wissen in Organisationen abbilden und somit zielgerichtet erweitern kann.Dazu nutzen wir ein Data Literacy-Modell, das uns und euch dabei hilft, vorhandenen Daten-Fähigkeiten besser einzuschätzen und weiterzuentwickeln.Das Modell richtet sich an Projektteams und Organisationen, die stärker mit Daten arbeiten möchten oder Daten bereits regelmäßig im Alltag nutzen und sich in diesem Feld weiterentwickeln wollen.<br/><br/> Dieses Data Literacy-Modell ist das Ergebnis der Masterarbeit <strong>„Doing Good with Data. Development of a Maturity Model for Data Literacy in Non-Governmental Organizations“ von Helena Sternkopf</strong>, entstanden aus der Zusammenarbeit mit der Datenschule und ausgewählter Daten-Expert/innen, die zu der Entwicklung des Modells beigetragen haben."
     data_pipeline_img_name: "data_pipeline_de.png"
     left:
-      title: "Masterarbeit Helena"
-      first: "Kurzversion"
-      second: "Langversion"
-      third: "Maturity Model"
+      title: "'Doing Good with Data' von Helena Sternkopf (engl.)"
+      first: "Vollversion herunterladen"
+      second: "Zusammenfassung herunterladen"
+      third: "Data Literacy Maturity Model herunterladen"
     right:
-      title: "Tools Datanschule"
-      first: "Notebook Maturity Modell"
+      title: "Von uns eingesetzt (deu.)"
+      first: "Data Literacy Maturity Model"
+      second: "Notebook zur Evaluation der Fähigkeiten"
   desc: "OKF Datenschule Workshops"
 projekte:
   title: "Projekte"
