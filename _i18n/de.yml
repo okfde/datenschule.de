@@ -50,13 +50,13 @@ workshops:
     data_pipeline_img_name: "data_pipeline_de.png"
     left:
       title: "'Doing Good with Data' von Helena Sternkopf (engl.)"
-      first: "Vollversion"
-      second: "Zusammenfassung"
-      third: "Data Literacy Maturity Model"
+      first: "Vollversion (2,5MB)"
+      second: "Zusammenfassung (140KB)"
+      third: "Data Literacy Maturity Model (50KB)"
     right:
       title: "Von uns eingesetzt (deu.)"
-      first: "Data Literacy Maturity Model"
-      second: "Evaluation des Data Literacy Maturity Model"
+      first: "Data Literacy Maturity Model (400KB)"
+      second: "Evaluation des Data Literacy Maturity Model (54KB)"
   desc: "OKF Datenschule Workshops"
 projekte:
   title: "Projekte"
