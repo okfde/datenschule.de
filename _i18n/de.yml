@@ -40,7 +40,14 @@ lernen:
   link_read: "Lesen"
 workshops:
   title: "Workshops"
-  intro: "Mit unseren Workshops möchten wir gemeinnützigen Organisationen eine Möglichkeit bieten, Daten und Technologien kennenzulernen, mit ihnen zu experimentieren und ihr bisheriges Wissen zu vertiefen. Die Workshops bestehen dabei aus mehreren Lernmodulen, die auf Wunsch kombiniert werden können und von uns in Kooperationen mit erfahrenen Trainer/innen durchgeführt werden.<br><br> <strong>Unsere Methodik: Data Pipeline</strong><br> <br>Die Data Pipeline verschafft einen guten Überblick darüber, wie man beim Arbeiten mit Daten von der ersten Fragestellung bis zur Kommunikation vorgeht. Unsere Workshops orientieren sich an den einzelnen Schritten und helfen dir, deine Kenntnisse aufzubauen. Diese Methode wurden von zahlreichen internationalen Expert/innen und Trainer/innen unseres Netzwerkes entwickelt, wird regelmäßig reflektiert und angepasst."
+  intro: "Mit unseren Workshops möchten wir gemeinnützigen Organisationen eine Möglichkeit bieten, Daten und Technologien kennenzulernen, mit ihnen zu experimentieren und ihr bisheriges Wissen zu vertiefen. Die Workshops bestehen dabei aus mehreren Lernmodulen, die auf Wunsch kombiniert werden können und von uns in Kooperationen mit erfahrenen Trainer/innen durchgeführt werden."
+  method:
+    head: "Unsere Methodik: Data Pipeline"
+    title: "Methodik"
+    content: "Die Data Pipeline verschafft einen guten Überblick darüber, wie man beim Arbeiten mit Daten von der ersten Fragestellung bis zur Kommunikation vorgeht. Unsere Workshops orientieren sich an den einzelnen Schritten und helfen dir, deine Kenntnisse aufzubauen. Diese Methode wurden von zahlreichen internationalen Expert/innen und Trainer/innen unseres Netzwerkes entwickelt, wird regelmäßig reflektiert und angepasst."
+  evaluation:
+    title: "Evaluation"
+    content: "Evaluation Lorem Ipsum..."
   desc: "OKF Datenschule Workshops"
 projekte:
   title: "Projekte"

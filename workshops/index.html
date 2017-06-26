@@ -9,6 +9,38 @@ description: workshops.desc
     <p>{% t workshops.intro %}</p>
 </div>
 
+<div class="box box-with-head box-margin-top-medium">
+    <h1 class="box-head">{% t workshops.method.title %}</h1>
+    <p><strong>{% t workshops.method.head %}</strong></p>
+    <img src="/files/workshops/data_pipeline_de.png" alt="Data Pipeline" class="">
+    <p>{% t workshops.method.content %}</p>
+</div>
+
+<div class="box box-with-head box-margin-top-medium">
+    <h1 class="box-head">{% t workshops.evaluation.title %}</h1>
+    <p>{%t workshops.evaluation.content %}</p>
+    <div class="container">
+        <div class="container-left-6">
+            <p><strong>Masterarbeit Helena</strong></p>
+            <ul class="list-indented-unstyled">
+                <li><i class="icon-download"></i><a href="#">Kurzversion</a></li>
+                <li><i class="icon-download"></i><a href="#">Langversion</a></li>
+                <li><i class="icon-download"></i><a href="#">Maturity Model</a></li>
+            </ul>
+        </div>
+        <div class="container-left-6">
+            <p class="und"><strong>Tools Datenschule</strong></p>
+            <ul class="list-indented-unstyled">
+                <li><i class="icon-download"></i><a href="#">Notebook Maturity Modell</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="box box-margin-top-medium">
+    <p><h1>Workshops</h1></p>
+</div>
 {% assign workshops = site.workshops %}
 {% if workshops.size > 0 %}
 <div class="container-wrap-row container-wrap-item-pull-top">
