@@ -125,6 +125,12 @@
       "css": "phone",
       "code": 59400,
       "src": "entypo"
+    },
+    {
+      "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
+      "css": "search",
+      "code": 59401,
+      "src": "fontawesome"
     }
   ]
 }
