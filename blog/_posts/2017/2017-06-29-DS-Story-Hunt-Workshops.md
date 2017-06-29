@@ -5,7 +5,7 @@ date: 2017-06-29 08:00:00
 picture:
   src: /files/blog/2017/06/storyhunt-workshop.jpg
   title: The Story Hunt - Workshop
-  license: CC-BY 3.0, Simon Jockers, Foto: Leonard Wolf 
+  license: "CC-BY 3.0, Simon Jockers, Foto: Leonard Wolf" 
   license_url: https://creativecommons.org/licenses/by/3.0/%22   
 tags:
 - Story Hunt
