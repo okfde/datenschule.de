@@ -7,22 +7,22 @@
 	<meta name="author" content="Open Knowledge Foundation Deutschland">
 
 	<meta property="og:url" content="{{site.domain}}{{page.url}}"/>
-	<meta property="og:title" content="OKF Datenschule{% if page.menu_home %}{% else %} - {{page.title}}{% endif %}"/>
-	<meta property="og:description" content="{{page.description}}"/>
+	<meta property="og:title" content="OKF Datenschule{% if page.menu_home %}{% else %} - {% t page.title %}{% endif %}"/>
+	<meta property="og:description" content="{% t page.description %}"/>
 	{% if page.picture & page.picture.src %}
 	<meta property="og:image" content="{{site.domain}}{{page.picture.src}}"/>
 	{% else %}
 	<meta property="og:image" content="{{site.domain}}/assets/img/logo_datenschule_card_white.png"/>
 	{% endif %}
-	<meta property="og:site_name" content="Datenschule{% if page.menu_home %}{% else %}: {{page.title}}{% endif %}"/>
+	<meta property="og:site_name" content="Datenschule{% if page.menu_home %}{% else %}: {% t page.title %}{% endif %}"/>
 	<meta property="og:type" content="website"/>
 
 	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:site" content="@okfde"/>
 	<meta name="twitter:creator" content="@okfde"/>
 	{% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | truncatewords: 50 | truncate: 199 }}">
-	{% else if page.description %}<meta name="twitter:description" content="{{ page.description }}">
-	{% else if site.description %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
+	{% else if page.description %}<meta name="twitter:description" content="{% t page.description %}">
+	{% else if site.description %}<meta name="twitter:description" content="{% t site.description %}">{% endif %}
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">

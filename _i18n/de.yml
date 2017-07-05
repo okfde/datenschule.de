@@ -40,6 +40,7 @@ lernen:
   link_read: "Lesen"
 workshops:
   title: "Workshops"
+  desc: "OKF Datenschule Workshops"
   intro: "Mit unseren Workshops möchten wir gemeinnützigen Organisationen eine Möglichkeit bieten, Daten und Technologien kennenzulernen, mit ihnen zu experimentieren und ihr bisheriges Wissen zu vertiefen. Die Workshops bestehen dabei aus mehreren Lernmodulen, die auf Wunsch kombiniert werden können und von uns in Kooperationen mit erfahrenen Trainer/innen durchgeführt werden."
   method:
     title: "Unsere Methodik: Data Pipeline"
@@ -57,7 +58,6 @@ workshops:
       title: "Von uns eingesetzt (deu.)"
       first: "Data Literacy Maturity Model (400KB)"
       second: "Evaluation des Data Literacy Maturity Model (54KB)"
-  desc: "OKF Datenschule Workshops"
 projekte:
   title: "Projekte"
   intro: "Gemeinsam mit unseren Partnern setzen wir uns für eine positive gesellschaftliche Veränderung ein. Wir engagieren uns in diesen Bereichen: Politik und Informationsfreiheit, Bildung, Gesundheit, Armut, Menschenrechte, Stadtentwicklung, Umwelt und Entwicklungs&shy;zusammenarbeit."
