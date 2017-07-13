@@ -3,7 +3,7 @@ authors:
 - Moritz Neujeffski
 date: 2017-07-13 08:00:00
 picture:
-  src: /files/blog/2017/storyhunt-gruppe.jpg
+  src: /files/blog/2017/storyhunt-gruppe.JPG
   title: 
   license: "CC-BY 3.0, Die Story Hunter, Foto: Jasmin Helm" 
   license_url: "https://creativecommons.org/licenses/by/3.0/%22"   
