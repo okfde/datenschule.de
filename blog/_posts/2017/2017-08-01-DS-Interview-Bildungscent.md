@@ -12,7 +12,7 @@ tags:
 - schuldaten
 - social change
 - data literacy
-title: "Interview mit BildungsCent e.V. über die Kooperation mit der Datenschule"
+title: "Interview mit BildungsCent: Über Schuldaten, Digitalisierung & die Arbeit mit der Datenschule"
 ---
 
 In den vergangenen Monaten haben wir gemeinsam mit unserem Partner BildungsCent e.V. intensiv an Schuldaten gearbeitet. Mit Silke Ramelow, Vorstandsvorsitzende von BildungsCent, ließen wir die Zeit Revue passieren und sprachen in einem Interview über die Chancen der Digitalisierung für gemeinnützige Organisationen, die Zusammenarbeit an den Daten und unser gemeinsames Projekt [JedeSchule.de](https://jedeschule.de).  
