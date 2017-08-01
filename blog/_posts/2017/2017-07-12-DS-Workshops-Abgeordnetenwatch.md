@@ -3,7 +3,7 @@ authors:
 - Moritz Neujeffski, Helene Hahn, Jasmin Helm
 date: 2017-07-12 10:00:00
 picture:
-  src: /files/blog/2017/workshop-agw.jpg
+  src: /files/blog/2017/07/workshop-agw.jpg
   title: 
   license: "CC-BY 3.0, Data Pipeline, Foto: Jasmin Helm" 
   license_url: "https://creativecommons.org/licenses/by/3.0/%22"   

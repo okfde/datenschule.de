@@ -3,7 +3,7 @@ authors:
 - Helene Hahn, Jasmin Helm
 date: 2017-07-18 08:00:00
 picture:
-  src: /files/blog/2017/hessen.jpg
+  src: /files/blog/2017/07/hessen.jpg
   title: 
   license: "CC0 Public Domain" 
   license_url: "https://wiki.creativecommons.org/wiki/Public_domain"   

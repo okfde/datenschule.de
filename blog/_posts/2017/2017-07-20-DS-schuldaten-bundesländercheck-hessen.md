@@ -3,7 +3,7 @@ authors:
 - Jasmin Helm
 date: 2017-07-20 08:00:00
 picture:
-  src: /files/blog/2017/hessen-stat.jpg
+  src: /files/blog/2017/07/hessen-stat.jpg
   title: Landesamt für Statistik Hessen
   license: 
   license_url: "https://statistik.hessen.de/publikationen/verzeichnisse/kostenpflichtige-verzeichnisseschools"  

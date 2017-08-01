@@ -3,7 +3,7 @@ authors:
 - Jasmin Helm
 date: 2017-08-01 08:00:00
 picture:
-  src: /files/blog/2017/ds-und-bc.jpg
+  src: /files/blog/2017/08/ds-und-bc.jpg
   title: Team der Datenschule mit BildungsCent e.V.
   license: "CC-BY 3.0, Team der Datenschule mit BildungsCent e.V., Foto: Leonard Wolf" 
   license_url: "https://creativecommons.org/licenses/by/3.0/" 
