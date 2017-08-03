@@ -51,6 +51,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 
 	</tr>
 
+	<tr>
+
 		<td><a href="https://datenschule.de/blog/2017/04/DS-schuldaten-bundeslaendercheck-bayern/">Bayern </a></td>
 
 		<td>Mittel: Stammdaten, Rechtsstatus, Träger, Schüler/innen- und Lehrer/innenzahlen, besondere Eigenschaften, Ausbildungsschwerpunkte, Fremdsprachen</td>
@@ -60,6 +62,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 		<td>Download in maschinenlesbarem Format & als Open Data</td>
 
 	</tr>
+
+	<tr>
 
 		<td><a href="https://datenschule.de/blog/2017/05/DS-bundeslaender-check-berlin/">Berlin </a></td>
 
@@ -71,6 +75,7 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 
 	</tr>
 
+	<tr>
 
 		<td><a href="https://datenschule.de/blog/2017/05/DS-schuldaten-bundeslaender-check-brandenburg/">Brandenburg </a></td>
 
@@ -82,6 +87,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 
 	</tr>
 
+	<tr>
+
 		<td><a href="https://datenschule.de/blog/2017/05/DS-schuldaten-bundeslaender-check-bremen/">Bremen </a></td>
 
 		<td>Mittel: Stammdaten, Stadtteil, Ganztagsbetreuung, Schüler/innenzahlen, Fremdsprachen- und Wahlpflichtangebote, Ausstattung</td>
@@ -91,6 +98,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 		<td>Open Data</td>
 
 	</tr>
+
+	<tr>
 
 		<td><a href="https://datenschule.de/blog/2017/05/DS-schuldaten-bundeslaender-check-hamburg/">Hamburg </a></td>
 
@@ -102,6 +111,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 
 	</tr>
 
+	<tr>
+
 		<td><a href="https://datenschule.de/blog/2017/05/DS-schuldaten-bundeslaender-check-hessen/">Hessen </a></td>
 
 		<td>Gering: Stammdaten, Schüler/innenzahlen</td>
@@ -111,6 +122,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 		<td>Umfang & Zugang auf eigener Webseite</td>
 
 	</tr>
+
+	<tr>
 
 		<td><a href="https://datenschule.de/blog/2017/05/DS-schuldaten-bundeslaender-check-mv/">Mecklenburg-Vorpommern </a></td>
 
@@ -122,6 +135,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 
 	</tr>
 
+	<tr>
+
 		<td><a href="https://datenschule.de/blog/2017/05/DS-schuldaten-bundeslaender-check-niedersachsen/">Niedersachsen </a></td>
 
 		<td>Gering: Stammdaten, Schulgliederung, Besonderheiten (z.B. Programme, Ganztagsbetreuung)</td>
@@ -131,6 +146,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 		<td>Umfang! Download in maschinenlesbarem Format & als Open Data</td>
 
 	</tr>
+
+	<tr>
 
 		<td><a href="https://datenschule.de/blog/2017/05/DS-schuldaten-bundeslaender-check-nrw/">Nordrhein-Westfalen </a></td>
 
@@ -142,6 +159,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 
 	</tr>
 
+	<tr>
+
 		<td><a href="https://datenschule.de/blog/2017/06/DS-schuldaten-bundeslaender-check-rlp/">Rheinland-Pfalz </a></td>
 
 		<td>Mittel: Stammdaten, Schüler/innen- und Lehrer/innenzahlen, Schulart, Träger Ganztagsangebot</td>
@@ -151,6 +170,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 		<td>Kostenfreier Zugang & Umfang! Download in maschinenlesbarem Format & als Open Data</td>
 
 	</tr>
+
+	<tr>
 
 	<td><a href="https://datenschule.de/blog/2017/06/DS-schuldaten-bundeslaender-check-saarland/">Saarland </a></td>
 
@@ -162,6 +183,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 
 	</tr>
 
+	<tr>
+
 		<td><a href="https://datenschule.de/blog/2017/06/DS-schuldaten-bundeslaender-check-sachsen/">Sachsen </a></td>
 
 		<td>Hoch: Stammdaten, Schüler/innenzahlen, Klassenzahlen, Unterrichtsangebot, Ganztagsangebot, Schulaktivitäten, Kooperationen, Wettbewerbe, Förderungen, usw.</td>
@@ -171,6 +194,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 		<td>Download in maschinenlesbarem Format & als Open Data</td>
 
 	</tr>
+
+	<tr>
 
 		<td><a href="https://datenschule.de/blog/2017/06/DS-schuldaten-bundeslaender-check-sachsen-anhalt/">Sachsen-Anhalt </a><td>
 
@@ -182,6 +207,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 
 	</tr>
 
+	<tr>
+
 		<td><a href="https://datenschule.de/blog/2017/06/DS-schuldaten-bundeslaender-check-schleswig-holstein/">Schleswig-Holstein </a></td>
 
 		<td>Gering: Stammdaten, bis Ende 2016 noch Schulporträts (aktuell nicht mehr verfügbar)</td>
@@ -191,6 +218,8 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 		<td>Umfang! Download in maschinenlesbarem Format & als Open Data</td>
 
 	</tr>
+
+	<tr>
 
 		<td><a href="https://datenschule.de/blog/2017/06/DS-schuldaten-bundeslaender-check-thueringen/">Thüringen </a></td>
 
