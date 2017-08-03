@@ -197,7 +197,7 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 
 	<tr>
 
-		<td><a href="https://datenschule.de/blog/2017/06/DS-schuldaten-bundeslaender-check-sachsen-anhalt/">Sachsen-Anhalt </a><td>
+		<td><a href="https://datenschule.de/blog/2017/06/DS-schuldaten-bundeslaender-check-sachsen-anhalt/">Sachsen-Anhalt </a></td>
 
 		<td>Gering: Stammdaten</td>
 
