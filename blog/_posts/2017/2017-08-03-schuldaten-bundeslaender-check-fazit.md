@@ -206,10 +206,12 @@ Die *Zugänglichkeit* der Daten ist in Bremen, Mecklenburg-Vorpommern und Thüri
 
 **Die Ergebnisse sind hier noch einmal grafisch aufgearbeitet:**
 
-![Verfügbarkeit](/files/blog/2017/08/verfügbarkeit.jpg) | ![Download möglich](/files/blog/2017/08/download.jpg) | ![Download als Tabelle](/files/blog/2017/08/downtab.jpg)
+<img src="/files/blog/2017/08/verfügbarkeit.jpg" style="max-width: 400px; float:left" />
+<img src="/files/blog/2017/08/download.jpg" style="max-width: 400px;"/>
+<img src="/files/blog/2017/08/downtab.jpg" style="max-width: 400px"/>
 
 ### Wo gibt es außerdem noch Schuldaten?
 
-Neben den Landesstatistikämtern und Schulbehörden gibt es einige Schulinformationen auch auf Bundesebene, z.B. im [Bildungsfinanzbericht](https://www.destatis.de/DE/Publikationen/Thematisch/BildungForschungKultur/BildungKulturFinanzen/Bildungsfinanzbericht1023206167004.pdf?__blob=publicationFile). Hier sind alle Ausgaben verzeichnet, die jährlich für Schulen in Deutschland anfallen. Auch das Statistische Bundesamt veröffentlicht einige Publikationen zum Thema Schule, beispielsweise [“Schulen auf einen Blick”](https://www.destatis.de/DE/Publikationen/Thematisch/BildungForschungKultur/Schulen/BroschuereSchulenBlick.html). Da es kein Bundesministerium für Schulbildung gibt, werden viele Entscheidungen auch an die [Kultusministerkonferenz](https://www.kmk.org/) delegiert.
+Neben den Landesstatistikämtern und Schulbehörden gibt es geinige Schulinformationen auch auf Bundesebene, z.B. im [Bildungsfinanzbericht](https://www.destatis.de/DE/Publikationen/Thematisch/BildungForschungKultur/BildungKulturFinanzen/Bildungsfinanzbericht1023206167004.pdf?__blob=publicationFile). Hier sind alle Ausgaben verzeichnet, die jährlich für Schulen in Deutschland anfallen. Auch das Statistische Bundesamt veröffentlicht einige Publikationen zum Thema Schule, beispielsweise [“Schulen auf einen Blick”](https://www.destatis.de/DE/Publikationen/Thematisch/BildungForschungKultur/Schulen/BroschuereSchulenBlick.html). Da es kein Bundesministerium für Schulbildung gibt, werden viele Entscheidungen auch an die [Kultusministerkonferenz](https://www.kmk.org/) delegiert.
 
 Schuldaten werden auch durch Community-Projekte bereitgestellt, z.B. [kleineAnfragen.de](https://kleineanfragen.de/), wo Anfragen der Landesparlamente und des Bundestages sammelt und nach Themen gefiltert werden können. Die Plattform [FragdenStaat.de](http://fragdenstaat.de) beruft sich auf das Informationsfreiheitsgesetz (IFG), das Behörden dazu verpflichtet, Auskunft über verschiedenste Informationen zu geben. Mit Hilfe der Seite lassen sich IFG-Anfragen ganz einfach erstellen. Tolle Schuldaten-Projekte sind z.B. [Schulen in Köln](http://schuleninkoeln.github.io/) und [Schulsanierungen](http://schulsanierung.tursics.de/), in denen Bürger/innen Informationen über Schulen in ihren Städten aufbereiten. Weitere Projekte gibt es auf [jedeschule.de/projekte](http://jedeschule.de/projekte). 
