@@ -1,7 +1,7 @@
 ---
 authors: 
 - Jasmin Helm
-date: 2017-08-03 08:00:00
+date: 2017-08-08 08:00:00
 picture:
   src: /files/blog/2017/08/schuldaten.jpg
   title: JedeSchule.de
