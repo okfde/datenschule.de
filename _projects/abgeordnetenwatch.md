@@ -3,7 +3,7 @@ partner: OffenesParlament.de
 partner_url: 
 ended: no
 picture:
-  src: /files/projects/wahl.jpg
+  src: /files/projects/bundestag.jpg
   title: Politikmonitoring
   license:
   license_url:
