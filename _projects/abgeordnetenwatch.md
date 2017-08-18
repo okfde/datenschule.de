@@ -4,17 +4,17 @@ partner_url:
 ended: no
 picture:
   src: /files/projects/bundestag.jpg
-  title: Politikmonitoring
+  title: Bundestag
   license:
   license_url:
-title_en: Monitoring the German federal election campaign 2017
+title_en: Topics in the German Bundestag
 topics_en:
-  - elections
+  - protocols
   - politics
   - monitoring  
 title: Themen im Bundestag
 topics:
-  - Wahlen
+  - Plenarprotokolle
   - Politik
   - Monitoring
 text: |- 
