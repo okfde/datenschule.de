@@ -1,5 +1,5 @@
 ---
-partner: Wahlkampfthemen
+partner: Abgeordnetenwatch
 partner_url: https://www.abgeordnetenwatch.de/
 ended: no
 picture:
@@ -12,19 +12,14 @@ topics_en:
   - elections
   - politics
   - monitoring  
-title: Wahlkampfthemen im Rahmen der Bundestagswahl 2017
+title: Themen im Bundestag
 topics:
   - Wahlen
   - Politik
   - Monitoring
 text: |- 
 
-     In Deutschland findet im September die Bundestagswahl statt. Die Parteien bereiten sich auf den kommenden Wahlkampf vor 
-     und kommunizieren ihre Themen über diverse Kanäle. Auch die Medien tragen zur Meinungsbildung bei und berichten 
-     über die Themen des Wahlkampfs (themen/agendasetting). Bürger/innen fällt es im Wahlkampf oftmals dennoch schwer den Überblick 
-     zu behalten, um ausgehend von den inhaltlichen Themenschwerpunkten der Parteien eine informierte Wahlentscheidung zu treffen. 
-     In Kooperation mit Abgeordnetenwatch.de und der Hochschule für Angewandte Wissenschaften Hamburg wollen wir mehr Transparenz in diesen Prozess bringen und ein Monitoring-Tool entwickeln, um
-     Wahlkampfthemen zu tracken.
+    Wie wird eigentlich Politik in Deutschland gemacht? Welche Themen werden im Bundestag besprochen? Und wie viel Redezeit bekommen die einzelnen Abgeordneten? Die Prozesse und Debatten im deutschen Bundestag sind für Bürger/innen, aber auch politische Organisationen und Initiativen oft nur schwer zu überblicken. Daher sehen wir uns gemeinsam mit unseren Kooperationspartnern Abgeordnetenwatch.de und der HAW Hamburg zum Ende der 18. Legislaturperiode die Plenarprotokolle genauer an, die diese politischen Entscheidungen und Diskussionen wiedergeben. In einem Tracker machen wir die Protokolle für jede/n zugänglich und durchsuchbar, analysieren wichtige Themen und  stellen Informationen zu den Abgeordneten bereit. 
      
      ## Über Abgeordnetenwatch.de
     
