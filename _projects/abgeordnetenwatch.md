@@ -21,13 +21,13 @@ text: |-
 
 Wie wird eigentlich Politik in Deutschland gemacht? Welche Themen werden im Bundestag besprochen? Und wie viel Redezeit bekommen die einzelnen Abgeordneten? Die Prozesse und Debatten im deutschen Bundestag sind für Bürger/innen, aber auch politische Organisationen und Initiativen oft nur schwer zu überblicken. Daher sehen wir uns gemeinsam mit unseren Kooperationspartnern Abgeordnetenwatch.de und der HAW Hamburg zum Ende der 18. Legislaturperiode die Plenarprotokolle genauer an, die diese politischen Entscheidungen und Diskussionen wiedergeben. In einem Tracker machen wir die Protokolle für jede/n zugänglich und durchsuchbar, analysieren wichtige Themen und  stellen Informationen zu den Abgeordneten bereit. 
      
-## Über Abgeordnetenwatch.de
+ ## Über Abgeordnetenwatch.de
     
 Abgeordnetenwatch.de ist eine unabhängige und überparteiliche Internetplattform, die öffentliche Bürgeranfragen an Abgeordnete auf Bundes- und Europaebene sowie in den Landesparlamenten ermöglicht und somit einen direkten Draht zwischen Bürger/innen und Abgeordneten bzw. Kandidierenden herstellt. Zusätzlich dokumentiert abgeordnetenwatch.de das Abstimmungsverhalten und die Nebeneinkünfte der Abgeordnet/innen. Auf diese Weise wollen sie u.a. einen höheren Rechenschaftsdruck der Politiker/innen gegenüber den Wähler/innen herbeiführen, sowie einen einfachen und direkten Zugang zu politischen Informationen, mehr Transparenz und Beteiligungsmöglichkeiten schaffen. 
      
 Abgeordnetenwatch.de ist ein Projekt des Parlamentwatch e.V. mit Sitz in Hamburg.
 
-## Über die Hochschule für Angewandte Wissenschaften Hamburg
+ ## Über die Hochschule für Angewandte Wissenschaften Hamburg
 
 Nachhaltige Lösungen für die gesellschaftlichen Herausforderungen von Gegenwart und Zukunft entwickeln: Das ist das Ziel der HAW Hamburg – Norddeutschlands führende Hochschule, wenn es um reflektierte Praxis geht. Im Mittelpunkt steht die exzellente Qualität von Studium und Lehre. Zugleich entwickelt die HAW Hamburg ihr Profil als forschende Hochschule weiter. Menschen aus mehr als 100 Nationen gestalten die HAW Hamburg mit. Ihre Vielfalt ist ihre besondere Stärke.
  
