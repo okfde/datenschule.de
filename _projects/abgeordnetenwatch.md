@@ -1,6 +1,6 @@
 ---
-partner: Abgeordnetenwatch
-partner_url: https://www.abgeordnetenwatch.de/
+partner: OffenesParlament.de
+partner_url: 
 ended: no
 picture:
   src: /files/projects/wahl.jpg
