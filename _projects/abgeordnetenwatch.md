@@ -19,12 +19,7 @@ topics:
   - Monitoring
 text: |- 
 
-  Wie wird eigentlich Politik in Deutschland gemacht? Welche Themen werden im Bundestag besprochen? Und wie viel Redezeit             
-  bekommen die einzelnen Abgeordneten? Die Prozesse und Debatten im deutschen Bundestag sind für Bürger/innen, aber auch 
-  politische Organisationen und Initiativen oft nur schwer zu überblicken. Daher sehen wir uns gemeinsam mit unseren 
-  Kooperationspartnern Abgeordnetenwatch.de und der HAW Hamburg zum Ende der 18. Legislaturperiode die Plenarprotokolle genauer 
-  an, die diese politischen Entscheidungen und Diskussionen wiedergeben. In einem Tracker machen wir die Protokolle für jede/n 
-  zugänglich und durchsuchbar, analysieren wichtige Themen und  stellen Informationen zu den Abgeordneten bereit. 
+  Welche Themen werden im Bundestag besprochen? Wie positionieren sich die einzelnen Abgeordneten zu den Themen? Die Prozesse und Debatten im deutschen Bundestag sind für Bürger/innen, aber auch politische Organisationen und Initiativen oft nur schwer zu überblicken. Daher sehen wir uns gemeinsam mit unseren Kooperationspartnern Abgeordnetenwatch.de und der HAW Hamburg zum Ende der 18. Legislaturperiode (2013 - 2017) die Plenarprotokolle genauer an, die diese politischen Entscheidungen und Diskussionen wiedergeben. OffenesParlament.de macht die Plenarprotokolle für jede/n zugänglich und durchsuchbar. Wir analysieren wichtige Themen und stellen Informationen zu den Abgeordneten bereit.
 
   ## Über Abgeordnetenwatch.de
     
@@ -46,14 +41,7 @@ text: |-
 
 text_en: |-
 
- ## Monitoring of subjects covered for elections of the German Bundestag
-
- The elections of German Bundestag take place in September. The parties are preparing for the upcoming election campaign
- and communicate their topics through various channels. The media also contributes to the formation of opinions and reports
- on topics of the election campaign (topics / agendasetting). Citizen often find it difficult to maintain an overview in the
- election campaign in order to make an informed choice decision from the parties' main focus. In cooperation with 
- Abgeordnetenwatch.de and the University for Applied Sciences Hamburg, we want to bring more transparency into this process and develop a monitoring tool to track election 
- campaign topics.
+ What topics are discussed in the parliament? Which are the most relevant to which political party? Debates in the parliament are often difficult to follow for citizens and civil society organisations alike, but at the same time they are the foundation for evidence-based policy work and public discussions. With our partners, abgeordnetenwatch.de and HAW Hamburg, we take a closer look at the plenary protocols published by the German parliament reflecting these political discussions and decisions at the end of the 18th legislative period (2013 - 2017). OpenParliament (offenesparlament.de) makes the protocols accessible and searchable for everyone. We analyze important topics and provide information about the members of the parliament.
  
  ## About Abgeordnetenwatch
 
