@@ -211,10 +211,16 @@
     Trefft uns auf der [WikiCon](https://de.wikipedia.org/wiki/Wikipedia:WikiCon_2017) & erfahrt mehr über unsere Arbeit!
 - name: "Zivilgesellschaftliches Engagement im digitalen Zeitalter (Friedrich-Ebert-Stiftung)"
   place: Wissenschaftszentrum Bonn, Ahrstr. 45, 53175 Bonn
-  date: 2017-09-29
+  date: 2017-09-26
   featured: true
   text: >
     In unserer Session wird es darum gehen, wie offene Daten für politische Meiningsbildung und gemeinwohlorientiertes Engagement eingesetzt werden können. Mehr Infos [hier](https://www.fes-mup.de/fachtagung-2017.html).
+- name: "Open Data in der Anti-Diskriminierungsarbeit"
+  place: Aquarium, 10999 Berlin
+  date: 2017-10-12
+  featured: true
+  text: >
+    Fachgespräch und Workshop zur Nutzung von Daten in der Anti-Diskriminierungsarbeit. Mehr Infos folgen. Eine Veranstaltung von [ufuq.de](http://www.ufuq.de/).
 - name: "WikidataCon"
   place: Berlin
   date: 2017-10-28
