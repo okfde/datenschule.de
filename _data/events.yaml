@@ -206,7 +206,7 @@
 - name: "WikiCon"
   place: Leipzig
   date: 2017-09-08
-  featured: true
+  featured: false
   text: >
     Trefft uns auf der [WikiCon](https://de.wikipedia.org/wiki/Wikipedia:WikiCon_2017) & erfahrt mehr über unsere Arbeit!
 - name: "Zivilgesellschaftliches Engagement im digitalen Zeitalter (Friedrich-Ebert-Stiftung)"
@@ -227,6 +227,12 @@
   featured: true
   text: >
     Lernt uns auf der [WikidataCon](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2017) kennen!
+- name: "Medien-Sprechstunde"
+  place: Berlin
+  date: 2017-11-21
+  featured: true
+  text: >
+    Gemeinsam mit der [Medien-Sprechstunde](http://www.medien-sprechstunde.de/anmeldung/66/daten-richtig-erheben-und-auswerten/) veranstalten wir einen Workshop zum Thema Daten finden & analysieren.
 - name: "#OERcamp17"
   place: Berlin
   date: 2017-11-27
