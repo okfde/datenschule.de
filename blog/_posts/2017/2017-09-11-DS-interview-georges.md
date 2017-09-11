@@ -1,7 +1,7 @@
 ---
 authors: 
 - Helene Hahn
-date: 2017-09-11 08:00:00
+date: 2017-09-12 07:00:00
 picture:
   src: /files/blog/2017/09/georges-labreche-final.jpg
   title: Georges Labrèche
