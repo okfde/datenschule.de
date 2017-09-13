@@ -209,6 +209,12 @@
   featured: false
   text: >
     Trefft uns auf der [WikiCon](https://de.wikipedia.org/wiki/Wikipedia:WikiCon_2017) & erfahrt mehr über unsere Arbeit!
+- name: "Hacks/Hackers Berlin"
+- place: Berlin
+- date: 2017-09-13
+  featured: true
+  text: >
+    Beim [Hack Hackers](https://www.meetup.com/de-DE/Hacks-Hackers-Berlin/events/242791902/?eventId=242791902) sprechen wir über unser neues Projekt OffenesParlament.de
 - name: "Zivilgesellschaftliches Engagement im digitalen Zeitalter (Friedrich-Ebert-Stiftung)"
   place: Wissenschaftszentrum Bonn, Ahrstr. 45, 53175 Bonn
   date: 2017-09-26
