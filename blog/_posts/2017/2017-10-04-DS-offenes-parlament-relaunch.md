@@ -26,7 +26,7 @@ Welche Themen werden im Bundestag besprochen? Wie positionieren sich die einzeln
 
 Wir haben die 245 Plenarprotokolle der letzten Wahlperiode inklusive Themen, Positionen der vier Fraktionen und 630 Abgeordneten erstmals durchsuchbar gemacht. Ziel ist es, die Verbindungen zwischen Themen und Akteuren verständlicher und die Arbeit des deutschen Parlaments für Interessierte nachvollziehbar zu machen, um so mehr Menschen über politische Vorgänge zu informieren.
 
-Die Suchfunktion ermöglicht Aktivist*innen, Journalist*innen und gemeinnützigen Organisationen eine detaillierte Recherche in den Daten. [Zum Tool](https://offenesparlament.de/protokolle/)!
+Die Suchfunktion ermöglicht Aktivist/innen, Journalist/innen und gemeinnützigen Organisationen eine detaillierte Recherche in den Daten. [Zum Tool](https://offenesparlament.de/protokolle/)!
 
 ## Themen, Sprecher/innen & Hintergründe
 
@@ -34,7 +34,7 @@ Um ein besseres Bild über die Themen und Prozesse im Bundestag zu bekommen, hab
 
 ![Themenverteilung](/files/blog/2017/10/themen-offenes-parlament.png)
 
-<p class="post-image-license">, Themenverteilung <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</a></p>
+<p class="post-image-license"> Themenverteilung <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</a></p>
 
 **Einige Ergebnisse der Datenanalyse:**
 
