@@ -218,7 +218,7 @@
 - name: "Zivilgesellschaftliches Engagement im digitalen Zeitalter (Friedrich-Ebert-Stiftung)"
   place: Wissenschaftszentrum Bonn, Ahrstr. 45, 53175 Bonn
   date: 2017-09-26
-  featured: true
+  featured: false
   text: >
     In unserer Session wird es darum gehen, wie offene Daten für politische Meiningsbildung und gemeinwohlorientiertes Engagement eingesetzt werden können. Mehr Infos [hier](https://www.fes-mup.de/fachtagung-2017.html).
 - name: "Open Data in der Anti-Diskriminierungsarbeit"
