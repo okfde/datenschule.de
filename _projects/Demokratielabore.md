@@ -39,5 +39,6 @@ text_en: |-
 
   We are looking for educational NGOs that would like to participate in our needs analysis and our workshop. For more information about the project, the needs analysis or the workshop write us an email at [info@datenschule.de](mailto:info@datenschule.de)!
 
-  The project “Demokratielabore” is sponsored by the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](http://www.bmfsfj.de) in the framework of the Federal program ["Demokratie leben!"](http://www.demokratie-leben.de). 
+ The project “Demokratielabore” is sponsored by the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](http://www.bmfsfj.de) in the framework of the Federal program ["Demokratie leben!"](http://www.demokratie-leben.de). 
+
 ---
