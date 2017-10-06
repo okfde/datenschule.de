@@ -9,7 +9,6 @@ description: projekte.desc
 	<h1 class="box-head">{% t projekte.title %}</h1>
 	<p>{% t projekte.intro %}</p>
 </div>
-
 {% assign projects = site.projects | where: "ended", "false" %}
 {% if projects.size > 0 %}
 <div class="box box-margin-top-medium">
