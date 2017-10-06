@@ -41,3 +41,4 @@ text_en: |-
 
   The project “Demokratielabore” is sponsored by the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](http://www.bmfsfj.de) in the framework of the Federal program ["Demokratie leben!"](http://www.demokratie-leben.de). 
 
+---
