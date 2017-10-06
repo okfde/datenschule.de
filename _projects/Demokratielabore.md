@@ -3,8 +3,8 @@ partner: Demokratielabore.de
 partner_url: 
 ended: no
 picture:
-  src: /files/projects/bundestag.jpg
-  title: 
+  src: /files/projects/Demokratielabore.jpg
+  title: Logo Demokratielabore
   license:
   license_url:
 title_en: data work in educational NGOs
