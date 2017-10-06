@@ -9,9 +9,10 @@ picture:
   license_url:
 title_en: data work in educational NGOs
 topics_en:
-  - protocols
-  - politics
-  - monitoring  
+  - data literacy
+  - education
+  - workshops
+  - needs analysis  
 title: Datenarbeit in Bildungs-NGOs
 topics:
   - data literacy
