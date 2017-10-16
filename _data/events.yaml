@@ -224,7 +224,7 @@
 - name: "Open Data in der Anti-Diskriminierungsarbeit"
   place: Aquarium, 10999 Berlin
   date: 2017-10-12
-  featured: true
+  featured: false
   text: >
     Fachgespräch und Workshop zur Nutzung von Daten in der Anti-Diskriminierungsarbeit. Mehr Infos folgen. Eine Veranstaltung von [ufuq.de](http://www.ufuq.de/).
 - name: "WikidataCon"
