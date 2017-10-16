@@ -38,6 +38,26 @@ lernen:
   cat_workflow: "Workflow"
   cat_tools: "Tools"
   link_read: "Read"
+workshops:
+  title: "Workshops"
+  desc: "Workshops by School of Data Germany (OKF)"
+  intro: "Through our workshops we want to encourage non-profit organisations to use data and technologies in their work strategically, to experiment with data and to enhance their knowledge in using digital information and tools. Our workshops are composed of different modules which can be combined according to the needs of your organisation. We will guide you through the workshops and modules in cooperation with experienced trainers and facilitators."  
+  method:
+    title: "Our Method: Data Pipeline"
+    content: "The Data Pipeline is School of Data’s approach to working with data from beginning to end. Once you understand your action cycle and the stakeholders, it will be time to work with the data and we have broken down this process in steps. Our workshops are based on this methodology, which helps you to enhance your skills in each phase. The Data Pipeline was tested by numerous experts and trainers of our international School of Data network and is updated on a regular basis."
+  evaluation:
+    title: "Evaluation"
+    content: "Unsere Aktivitäten evaluieren wir regelmäßig und beschäftigen uns insbesondere damit, wie man Workshops so wirkungsorientiert wie möglich gestalten kann. Wir möchten besser verstehen, wie Erwachsene lernen und wie man Wissen in Organisationen abbilden und somit zielgerichtet erweitern kann. Dazu nutzen wir ein Data Literacy-Modell, das uns und euch dabei hilft, vorhandenen Daten-Fähigkeiten besser einzuschätzen und weiterzuentwickeln.Das Modell richtet sich an Projektteams und Organisationen, die stärker mit Daten arbeiten möchten oder Daten bereits regelmäßig im Alltag nutzen und sich in diesem Feld weiterentwickeln wollen.<br/><br/> Dieses Data Literacy-Modell ist das Ergebnis der Masterarbeit <i>„Doing Good with Data. Development of a Maturity Model for Data Literacy in Non-Governmental Organizations“ von Helena Sternkopf</i>, entstanden aus der Zusammenarbeit mit der Datenschule und ausgewählter Daten-Expert/innen, die zu der Entwicklung des Modells beigetragen haben."
+    data_pipeline_img_name: "data_pipeline_de.png"
+    left:
+      title: "'Doing Good with Data' by Helena Sternkopf (engl.)"
+      first: "extended version (2,5MB)"
+      second: "Summary (140KB)"
+      third: "Data Literacy Maturity Model (50KB)"
+    right:
+      title: "set up by us (German)"
+      first: "Data Literacy Maturity Model (400KB)"
+      second: "Evaluation of Data Literacy Maturity Model (54KB)"
 projekte:
   title: "Projects"
   intro: "Together with our partners we fight for positive societal changes. We are active in the following fields: politics, transparency, freedom of information, education, health, poverty, human rights, urban development, environmental issues and international developmental aid."
