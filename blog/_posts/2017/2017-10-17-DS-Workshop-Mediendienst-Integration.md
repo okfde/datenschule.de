@@ -3,7 +3,7 @@ authors:
 - Jasmin Helm
 date: 2017-10-17 08:00:00
 picture:
-  src: /files/blog/2017/10/mediendienst.jpg
+  src: /files/blog/2017/10/mediendienst.JPG
   title: Datenvisualisierung bei Mediendienst Integration
   license: "CC-BY-4.0, Datenvisualisierung bei Mediendienst Integration, Foto: Jasmin Helm"
   license_url: "https://creativecommons.org/licenses/by/4.0/"
