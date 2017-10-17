@@ -5,8 +5,8 @@ date: 2017-10-17 08:00:00
 picture:
   src: /files/blog/2017/10/mediendienst.jpg
   title: Datenvisualisierung bei Mediendienst Integration
-  license: CC-BY-4.0, Datenvisualisierung bei Mediendienst Integration, Foto: Jasmin Helm
-  license_url: https://creativecommons.org/licenses/by/4.0/
+  license: "CC-BY-4.0, Datenvisualisierung bei Mediendienst Integration, Foto: Jasmin Helm"
+  license_url: "https://creativecommons.org/licenses/by/4.0/"
 tags:
 - data literacy
 - social change
