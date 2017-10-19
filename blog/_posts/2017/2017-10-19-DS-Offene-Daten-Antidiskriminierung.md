@@ -12,7 +12,7 @@ tags:
 - social change
 - Anti-Diskriminierung
 - Integration
-title: Fachgespräch: "Open Data in der Anti-Diskriminierung"
+title: Fachgespräch: "Open Data in der Anti-Diskriminierungsarbeit"
 ---
 
 Wie können offene Daten in der Anti-Diskriminierungsarbeit wirken? Dieser Frage sind wir auf dem Fachgespräch „Open Data in der Anti-Diskriminierungsarbeit“ vergangene Woche nachgegangen. Die Tagung wurde von [ufuq.de](http://www.ufuq.de/) veranstaltet, welche sich in den Bereichen Jugendkulturen, Islam & politische Bildung engagieren.
