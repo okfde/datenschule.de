@@ -1,7 +1,7 @@
 ---
 authors: 
 - Moritz Neujeffski
-date: 2017-10-19 08:00:00
+date: 2017-10-18 08:00:00
 picture:
   src: /files/blog/2017/10/antidiskriminierung.jpg
   title: Marx zu Open Data
