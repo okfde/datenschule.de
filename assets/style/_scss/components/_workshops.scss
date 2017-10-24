@@ -1,0 +1,87 @@
+.workshop-box {
+
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height:100%;
+
+  .workshop-head {
+    background-size: cover;
+
+    padding: 0;
+
+    .workshop-head-opacity {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 10em;
+      //background: black;
+      //opacity: 0.7;
+      background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+      width: 100%;
+    }
+
+    h2 {
+      margin: 0;
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .workshop-content {
+    padding: 10px;
+  }
+
+  .workshop-bottom {
+    margin-top: auto;
+  }
+
+  .workshop-footer {
+    border-top: 2px solid $blue;
+    padding-top: 5px;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .register-workshop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .workshop-button {
+    height: 40px;
+    background-color: $link-color;
+    color: $white;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+  }
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.list-item{
+  background-color: $white;
+  display: flex;
+  width: 30%;
+  //margin-right: 1%;
+  margin-bottom: 1em;
+  border: 3px solid $blue;
+}
+.list-content{
+  width: 100%;
+  margin: 10px;
+}
+.list-content img{
+  width: 100%;
+}

@@ -1,0 +1,111 @@
+---
+layout: default
+---
+{% for trainer in page.trainers %}
+	{% assign a = site.data.team | where:"name",author | first %}
+	{% if a.img %}{% assign img_trainers = img_trainers | push: a %}{% endif %}
+{% endfor %}
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-margin-top-medium"><p></p>
+			<h1>{{page.title}}</h1>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="container-left-4">
+		<div class="box box-margin-top-medium">
+			<img src="{{page.image.src}}" alt="">
+		</div>
+	</div>
+	<div class="container-left-8">
+		<div class="box">
+			<p>
+				{{img_trainers}}
+				Dauer: {{page.duration}} Stunden
+				<div {% if img_trainers.first.img %}class="post-author"{% else %}class="post-nonteam-author"{% endif %}>
+				{% for a in img_trainers %}
+					{% if a.img %}<img src="/files/team/{{ a.img }}.jpg" alt="{{ a.name | xml_escape }}" class="post-author-image">{% endif %}
+				{% endfor %}
+				</div>
+			</p>
+
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">Übersicht</h1>
+			<p>{{page.text_long}}</p>
+		</div>
+
+	</div>
+</div>
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">Ziele</h1>
+			<p>
+			<ul>
+				{% for goal in page.learning_goals %}
+				<li>{{goal}}</li>
+				{% endfor %}
+			</ul>
+			</p>
+		</div>
+
+	</div>
+</div>
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">Curriculum/Trainer</h1>
+			{% for entry in page.curriculum %}
+				<p style="text-decoration: underline">{{entry.name}} ({{entry.duration}} Minuten)</p>
+				<ul>
+					{% for item in entry.content %}
+						<li>{{item}}</li>
+					{% endfor %}
+				</ul>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">Technische Vorraussetzungen</h1>
+			<p>
+			<ul>
+				{% for prequisite in page.prequisites %}
+				<li>{{prequisite}}</li>
+				{% endfor %}
+			</ul>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">Ressourcen</h1>
+			<p>
+			<ul>
+				{% for ressource in page.ressources %}
+				<li><a href="{{ressource.link}}">{{ressource.name}}</a></li>
+				{% endfor %}
+			</ul>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="box box-margin-top-medium"><p></p>
+	<div class="register-workshop">
+		<p>
+			<a class="workshop-button" href="{{workshop.url}}">Anmelden</a>
+		</p>
+	</div>
+</div>
+</div>

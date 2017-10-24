@@ -64,6 +64,7 @@ collections:
     output: true
     permalink: /projekte/:path/
   workshops:
-    output: false
+    output: ture
+    permalink: /workshops/:path/
 settings:
   debug: false
