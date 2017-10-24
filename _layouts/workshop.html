@@ -1,35 +1,48 @@
 ---
 layout: default
 ---
-{% for trainer in page.trainers %}
-	{% assign a = site.data.team | where:"name",author | first %}
-	{% if a.img %}{% assign img_trainers = img_trainers | push: a %}{% endif %}
+{% assign img_trainers = "" | split:"|"  %}
+{% for trainer in page.trainer %}
+{% assign a = site.data.trainers | where:"name",trainer | first %}
+{% if a.img %}
+{% assign img_trainers = img_trainers | push: a %}
+{% endif %}
 {% endfor %}
+<!--<div class="container">-->
+<!--<div class="container-left-12">-->
+<!--<div class="box box-margin-top-medium"><p></p>-->
+<!--<h1>{{page.title}}</h1>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 <div class="container">
-	<div class="container-left-12">
-		<div class="box box-margin-top-medium"><p></p>
-			<h1>{{page.title}}</h1>
-		</div>
-	</div>
-</div>
-<div class="container">
-	<div class="container-left-4">
-		<div class="box box-margin-top-medium">
-			<img src="{{page.image.src}}" alt="">
-		</div>
-	</div>
-	<div class="container-left-8">
-		<div class="box">
-			<p>
-				{{img_trainers}}
-				Dauer: {{page.duration}} Stunden
-				<div {% if img_trainers.first.img %}class="post-author"{% else %}class="post-nonteam-author"{% endif %}>
-				{% for a in img_trainers %}
-					{% if a.img %}<img src="/files/team/{{ a.img }}.jpg" alt="{{ a.name | xml_escape }}" class="post-author-image">{% endif %}
-				{% endfor %}
+	<div class="box box-margin-top-medium">
+		<div class="workshop-detail-head">
+			<!--<div class="workshop-detail-image">-->
+			<!--<img src="{{page.image.src}}" alt="">-->
+			<!--</div>-->
+			<div class="workshop-head" style="background-image: url('/files/workshops/excel-magic.jpg')">
+				<div class="workshop-head-opacity">
+					<div class="workshop-head-no-opcaity"><h2>Excel/ LibreOffice-Magic</h2></div>
 				</div>
-			</p>
+			</div>
+			<div class="workshop-meta">
+				<div class="tags">
 
+					{% for tag in page.tags %}
+					<span class="badge">{{tag}}</span>
+					{% endfor %}
+				</div>
+				<p>
+					<i class="icon-clock"></i> {{page.duration}}
+				</p>
+				<p>
+					<i class="icon-chart-bar"></i> {{page.level}}
+				</p>
+				<p>
+					<a class="workshop-button" href="{{workshop.url}}">Anmelden</a>
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -45,11 +58,12 @@ layout: default
 <div class="container">
 	<div class="container-left-12">
 		<div class="box box-with-head box-margin-top-medium">
-			<h1 class="box-head">Ziele</h1>
+			<h1 class="box-head">Ziel</h1>
 			<p>
-			<ul>
+			<p><i>{{page.curriculum_disclaimer}}</i></p>
+			<ul class="list-unstyled">
 				{% for goal in page.learning_goals %}
-				<li>{{goal}}</li>
+				<li><i class="icon-ok"></i>{{goal}}</li>
 				{% endfor %}
 			</ul>
 			</p>
@@ -62,12 +76,12 @@ layout: default
 		<div class="box box-with-head box-margin-top-medium">
 			<h1 class="box-head">Curriculum/Trainer</h1>
 			{% for entry in page.curriculum %}
-				<p style="text-decoration: underline">{{entry.name}} ({{entry.duration}} Minuten)</p>
-				<ul>
-					{% for item in entry.content %}
-						<li>{{item}}</li>
-					{% endfor %}
-				</ul>
+			<h3>{{entry.name}} ({{entry.duration}} Minuten)</h3>
+			<ul>
+				{% for item in entry.content %}
+				<li>{{item}}</li>
+				{% endfor %}
+			</ul>
 			{% endfor %}
 		</div>
 	</div>
