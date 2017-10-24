@@ -207,7 +207,7 @@ ressources_en:
         name: Datenanalyse von Kopf bis Fuß
         link: "https://www.oreilly.de/buecher/120211/9783897219595-datenanalyse-von-kopf-bis-fu%C3%9F.html"
 register_link: "http://eventbrite.com"
-duration: 5
+duration: 5 Stunden
 costs: 600
 level: Anfänger
 level_en: Beginner
