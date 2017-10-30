@@ -45,6 +45,11 @@ img {
   max-width: 100%;
 }
 
+.img-centered-block {
+  display: block;
+  margin: auto;
+}
+
 [aria-hidden="true"] {
   display: none;
 }

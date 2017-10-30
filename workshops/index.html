@@ -11,7 +11,11 @@ description: workshops.desc
 
 <div class="box box-with-head box-margin-top-medium">
     <h1 class="box-head">{% t workshops.method.title %}</h1>
-    <img src="/files/workshops/data_pipeline_de.png" alt="Data Pipeline" class="">
+    {% if site.lang == "en" %}
+        <img src="/files/workshops/data_pipeline_en.png" alt="Data Pipeline" class="img-centered-block">
+    {% else %}
+    <img src="/files/workshops/data_pipeline_de.png" alt="Data Pipeline" class="img-centered-block">
+    {% endif %}
     <p>{% t workshops.method.content %}</p>
 </div>
 
