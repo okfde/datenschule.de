@@ -230,9 +230,15 @@
 - name: "WikidataCon"
   place: Berlin
   date: 2017-10-28
-  featured: true
+  featured: false
   text: >
     Lernt uns auf der [WikidataCon](https://www.wikidata.org/wiki/Wikidata:WikidataCon_2017) kennen!
+- name: "Netzpolitischer Abend"
+  place: Berlin
+  date: 2017-11-07
+  featured: true
+  text: >
+    Trefft uns beim [Netzpolitischen Abend](https://digitalegesellschaft.de/portfolio-items/netzpolitischer-abend/) bei dem wir von unserem Projekt [Offenes Parlament](https://offenesparlament.de) berichten
 - name: "Medien-Sprechstunde"
   place: Berlin
   date: 2017-11-21
