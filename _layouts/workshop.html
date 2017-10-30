@@ -1,0 +1,125 @@
+---
+layout: default
+---
+{% assign img_trainers = "" | split:"|"  %}
+{% for trainer in page.trainer %}
+{% assign a = site.data.trainers | where:"name",trainer | first %}
+{% if a.img %}
+{% assign img_trainers = img_trainers | push: a %}
+{% endif %}
+{% endfor %}
+<!--<div class="container">-->
+<!--<div class="container-left-12">-->
+<!--<div class="box box-margin-top-medium"><p></p>-->
+<!--<h1>{{page.title}}</h1>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<div class="container">
+	<div class="box box-margin-top-medium">
+		<div class="workshop-detail-head">
+			<!--<div class="workshop-detail-image">-->
+			<!--<img src="{{page.image.src}}" alt="">-->
+			<!--</div>-->
+			<div class="workshop-head" style="background-image: url('/files/workshops/excel-magic.jpg')">
+				<div class="workshop-head-opacity">
+					<div class="workshop-head-no-opcaity"><h2>Excel/ LibreOffice-Magic</h2></div>
+				</div>
+			</div>
+			<div class="workshop-meta">
+				<div class="tags">
+
+					{% for tag in page.tags %}
+					<span class="badge">{{tag}}</span>
+					{% endfor %}
+				</div>
+				<p>
+					<i class="icon-clock"></i> {{page.duration}}
+				</p>
+				<p>
+					<i class="icon-chart-bar"></i> {{page.level}}
+				</p>
+				<p>
+					<a class="workshop-button" href="{{workshop.url}}">Anmelden</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">Übersicht</h1>
+			<p>{{page.text_long}}</p>
+		</div>
+
+	</div>
+</div>
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">Ziel</h1>
+			<p>
+			<p><i>{{page.curriculum_disclaimer}}</i></p>
+			<ul class="list-unstyled">
+				{% for goal in page.learning_goals %}
+				<li><i class="icon-ok"></i>{{goal}}</li>
+				{% endfor %}
+			</ul>
+			</p>
+		</div>
+
+	</div>
+</div>
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">Curriculum/Trainer</h1>
+			{% for entry in page.curriculum %}
+			<h3>{{entry.name}} ({{entry.duration}} Minuten)</h3>
+			<ul>
+				{% for item in entry.content %}
+				<li>{{item}}</li>
+				{% endfor %}
+			</ul>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">Technische Vorraussetzungen</h1>
+			<p>
+			<ul>
+				{% for prequisite in page.prequisites %}
+				<li>{{prequisite}}</li>
+				{% endfor %}
+			</ul>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="container-left-12">
+		<div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">Ressourcen</h1>
+			<p>
+			<ul>
+				{% for ressource in page.ressources %}
+				<li><a href="{{ressource.link}}">{{ressource.name}}</a></li>
+				{% endfor %}
+			</ul>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="box box-margin-top-medium"><p></p>
+	<div class="register-workshop">
+		<p>
+			<a class="workshop-button" href="{{workshop.url}}">Anmelden</a>
+		</p>
+	</div>
+</div>
+</div>

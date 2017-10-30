@@ -1,13 +1,23 @@
-- name: Beedrill
+- name: Helene Hahn
+  img: helenehahn
+  mail: helene.hahn@okfn.de
+  job: Projektleitung OKF DE
+  job_en: Project lead
 
-- name: Charmander
+- name: Knut Perseke
+  img: knutperseke
+  mail: knut.perseke@okfn.de
+  job: Software-Entwicklung
+  job_en: Developer
 
-- name: Pikachu
+- name: Moritz Neujeffski
+  img: moritzneujeffski
+  mail: moritz.neujeffski@okfn.de
+  job: Workshopkonzeption
+  job_en: Workshop conception
 
-- name: Nidorina
-
-- name: Hypno
-
-- name: Zapdos
-
-- name: Mew
+- name: Jasmin Helm
+  img: jasminhelm
+  mail: jasmin.helm@okfn.de
+  job: Kommunikation
+  job_en: Communication
