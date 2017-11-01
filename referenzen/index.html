@@ -8,3 +8,23 @@ description: references.desc
 	<h1 class="box-head">{% t references.title %}</h1>
 	<p>{% t references.intro %}</p>
 </div>
+
+{% assign stories = site.testimonials | where: "type", "story" %}
+{% if stories.size > 0 %}
+<div class="container-wrap-row container-wrap-item-pull-top container-wrap-item-pull-left">
+	{% for story in stories %}
+	<div class="container-wrap-item-2">
+		<div class="box projects-box">
+			<a href="{{ site.baseurl }}{{ story.url }}">
+				{% if story.img.src %}<img src="{{story.img.src}}">{% endif %}
+				<h4>{{story.name}}</h4>
+			</a>
+			<p>
+				{{story.cite}}
+			</p>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+{% endif %}
+

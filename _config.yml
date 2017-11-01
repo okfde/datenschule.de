@@ -66,5 +66,8 @@ collections:
   workshops:
     output: true
     permalink: /workshops/:path/
+  testimonials:
+    output: true
+    permalink: /referenzen/:path/
 settings:
   debug: false

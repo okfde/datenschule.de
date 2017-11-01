@@ -72,20 +72,32 @@
 }
 
 
-.box-button {
+.box-button, .box-button-plain {
   height: 40px;
   background-color: $base-button-background-color;
   color: $base-button-color;
-  float: right;
   font-size: 1.2em;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: -10px;
-  margin-right: 60px;
   border: none;
-  box-shadow: long-shadow(to bottom left, 12px, #696a6e, #696a6e);
 
   &:hover {
     background-color: darken($base-button-background-color, 5%);
   }
+}
+
+.box-button {
+  box-shadow: long-shadow(to bottom left, 12px, #696a6e, #696a6e);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -10px;
+  margin-right: 60px;
+  float: right;
+}
+
+.box-button-plain {
+
+}
+
+.box-button-plain {
+  text-decoration: none;
+  padding: 10px;
 }
