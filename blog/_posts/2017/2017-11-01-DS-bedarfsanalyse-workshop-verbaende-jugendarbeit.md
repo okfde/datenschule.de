@@ -1,6 +1,6 @@
 ---
 authors: 
-- Jasmin Helm
+- Helene Hahn, Moritz Neujeffski, Knut Perseke, Jasmin Helm
 date: 2017-11-01 08:00:00
 picture:
   src: /files/blog/2017/11/demolabs_workshop.jpg
