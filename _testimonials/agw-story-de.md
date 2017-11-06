@@ -1,10 +1,10 @@
 ---
 layout: testimonial
-name: Bildungscent
+name: Abgeordnetenwatch
 img: 
-    src: http://lorempixel.com/500/300
+    src: http://lorempixel.com/500/301
 cite: > 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+    Lorem ipsum dolor
 lang: de
 ---
 ###Kurze Vorstellung von Person/Organisation

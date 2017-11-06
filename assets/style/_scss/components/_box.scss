@@ -94,10 +94,68 @@
 }
 
 .box-button-plain {
-
-}
-
-.box-button-plain {
   text-decoration: none;
   padding: 10px;
+}
+
+.list-box{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.list-box-item{
+  background-color: $white;
+  display: flex;
+  margin-bottom: 1em;
+  border: 3px solid $blue;
+  padding: 10px;
+}
+
+.list-box-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-box-item-wrap-2 {
+  width: 49%;
+}
+
+.list-box-item-wrap-3 {
+  width: 30%;
+}
+
+.list-box-pull-down {
+  display: flex;
+  margin-top: auto;
+}
+
+.list-box-pull-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@include respond-to(small-down) {
+  .list-box-item-wrap-2 {
+    width: 100%;
+  }
+  .list-box-item-wrap-3 {
+    width: 100%;
+  }
+}
+
+@include respond-to(small-to-large) {
+  .list-box-item-wrap-3 {
+    width: 49%;
+  }
+}
+
+
+.list-box-content{
+  width: 100%;
+}
+
+.list-box-content img{
+  width: 100%;
 }

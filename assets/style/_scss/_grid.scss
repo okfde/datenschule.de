@@ -27,6 +27,8 @@ $massive-up: new-breakpoint(min-width $massive);
     @media only screen and (max-width: $tiny) { @content; }
   } @else if $media == tiny-up {
     @media only screen and (min-width: $tiny) { @content; }
+  } @else if $media == small-down {
+    @media only screen and (max-width: $small) { @content; }
   } @else if $media == small-up {
     @media only screen and (min-width: $small) { @content; }
   } @else if $media == small-to-large {
@@ -38,7 +40,9 @@ $massive-up: new-breakpoint(min-width $massive);
   } @else if $media == medium-to-huge-plus {
     @media only screen and (min-width: $medium) and (max-width: $huge-plus) { @content; }
   } @else if $media == large-up {
-    @media only screen and (min-width: $large) { @content; }
+    @media only screen and (min-width: $large) { @content;}
+  } @else if $media == large-down {
+    @media only screen and (max-width: $large) { @content; }
   } @else if $media == huge-down {
     @media only screen and (max-width: $huge) { @content; }
   } @else if $media == huge-up {

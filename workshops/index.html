@@ -46,17 +46,15 @@ description: workshops.desc
 {% assign workshops = site.workshops %}
 {% if workshops.size > 0 %}
 <div class="container">
-	<ul class="list">
+	<ul class="list-box">
 		{% for workshop in workshops %}
 
-		<li class="list-item">
-			<div class="list-content">
+		<li class="list-box-item list-box-item-wrap-3">
+			<div class="list-box-content">
 				<div class="workshop-box">
-					<div class="workshop-head" style="background-image: url('{{workshop.image.src}}')">
-						<div class="workshop-head-opacity">
-							<div class="workshop-head-no-opcaity">
+					<div class="prev-image" style="background-image: url('{{workshop.image.src}}')">
+						<div class="title-wrapper">
 								<h2>{{workshop.title}}</h2>
-							</div>
 						</div>
 					</div>
 					<div class="workshop-content">
@@ -69,9 +67,7 @@ description: workshops.desc
 					</div>
 					<div class="workshop-bottom">
 						<div class="register-workshop">
-							<p>
-								<a class="box-button-plain" href="{{workshop.url}}">Mehr</a>
-							</p>
+							<a class="box-button-plain" href="{{workshop.url}}">Mehr</a>
 						</div>
 						<div class="workshop-footer">
 							<i class="icon-clock"></i>{{workshop.duration}}

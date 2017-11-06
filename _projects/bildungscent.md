@@ -1,18 +1,18 @@
 ---
-partner: JedeSchule.de
-partner_url: https://www.jedeschule.de/
+title: JedeSchule.de
+url: https://www.jedeschule.de/
 ended: no
 picture:
   src: /files/projects/jedeschule-logo.png
   title: JedeSchule.de
   license:
   license_url:
-title_en: JedeSchule.de provides access to 30.000 schools in Germany 
+subtitle_en: JedeSchule.de provides access to 30.000 schools in Germany 
 topics_en:
   - education
   - schools
   - learning culture  
-title: Zugang zu 30.000 Schulen in Deutschland
+subtitle: Zugang zu 30.000 Schulen in Deutschland
 topics:
   - Bildung
   - Schulen

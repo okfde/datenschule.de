@@ -1,0 +1,21 @@
+.prev-image {
+  background-size: cover;
+
+  padding: 0;
+
+  .title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 11em;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    width: 100%;
+  }
+
+  h2 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+}

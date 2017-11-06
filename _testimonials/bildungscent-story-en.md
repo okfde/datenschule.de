@@ -3,11 +3,10 @@ layout: testimonial
 name: Bildungscent
 img: 
     src: http://lorempixel.com/500/300
-cite: > 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-lang: de
+cite: English version - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+lang: en
 ---
-###Kurze Vorstellung von Person/Organisation
+###English Version: Kurze Vorstellung von Person/Organisation
 
 BildungsCent e.V. ist eine außerschulische Organisation, die seit 2003 mit etwa 5.000 Schulen in ganz Deutschland zu den Themen Klimaschutz und Klimawandel, Partizipation und Engagement zusammenarbeitet. In ihren Programmen verfolgen sie das Ziel, Schule als einen Lebensraum zu entwickeln, in dem Schüler/innen ihre Potenziale entfalten und an der Gestaltung des Schullebens und der Gesellschaft aktiv teilhaben.
 

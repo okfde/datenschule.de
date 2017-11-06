@@ -1,18 +1,18 @@
 ---
-partner: Storyhunt.de
-partner_url: https://storyhunt.de/
+title: Storyhunt.de
+url: https://storyhunt.de/
 ended: no
 picture:
   src: /files/projects/storyhunt_flyer.png
   title: Storyhunt.de
   license:
   license_url:
-title_en: "The Story Hunt: Uncover the EU"
+subtitle_en: "The Story Hunt: Uncover the EU"
 topics_en:
   - data expedition
   - finance data
   - subsidies  
-title: "The Story Hunt: Uncover the EU"
+subtitle: "The Story Hunt: Uncover the EU"
 topics:
   - Data Expedition
   - Finanzdaten

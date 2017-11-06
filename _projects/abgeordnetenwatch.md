@@ -1,18 +1,18 @@
 ---
-partner: OffenesParlament.de
-partner_url: 
+title: OffenesParlament.de
+url: 
 ended: no
 picture:
   src: /files/projects/bundestag.jpg
   title: Bundestag
   license:
   license_url:
-title_en: Topics in the German Bundestag
+subtitle_en: Topics in the German Bundestag
 topics_en:
   - protocols
   - politics
   - monitoring  
-title: Themen im Bundestag
+subtitle: Themen im Bundestag
 topics:
   - Plenarprotokolle
   - Politik
