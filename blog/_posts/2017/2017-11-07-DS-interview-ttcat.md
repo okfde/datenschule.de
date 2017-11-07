@@ -1,7 +1,7 @@
 ---
 authors: 
-- Helene Hahn, Moritz Neujeffski, Knut Perseke, Jasmin Helm
-date: 2017-11-01 08:00:00
+- Moritz Neujeffski
+date: 2017-11-06 08:00:00
 picture:
   src: /files/blog/2017/11/ttcat.jpg
   title: 
@@ -20,7 +20,7 @@ Each month we will publish a new interview, this is no. #9. Got feedback? Have q
 
 **Who**: Ttcat, Working for the [open culture foundation](https://ocf.tw/en/) & active in [g0v](https://g0v.news/)<br/>
 **Topics**: open data, inclusion and transparency<br/>
-**Tweets**: [@@ttcat](https://twitter.com/@ttcat)
+**Tweets**: [@TTCATz](https://twitter.com/@ttcat)
 
 
 **Hi Ttcat, please introduce yourself:**
