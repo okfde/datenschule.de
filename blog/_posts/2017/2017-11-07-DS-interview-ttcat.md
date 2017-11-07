@@ -25,12 +25,12 @@ Each month we will publish a new interview, this is no. #9. Got feedback? Have q
 
 **Hi Ttcat, please introduce yourself:**
 
-I started working for the international program of the [open-culture foundation](https://ocf.tw/en/) approximately one year ago. The foundation is based in Taipei and backs a lot of different movements in the open data community. I am especially focussing on topics such as open data and civic tech development. 
- 
+I started working for the international program of the [open-culture foundation](https://ocf.tw/en/) approximately one year ago. The foundation is based in Taipei and backs a lot of different movements in the open data community. I am especially focussing on topics such as open data and civic tech development.
+
 **How is the state of governmental transparency in your country?**
 
 It is quite advanced in Taiwan. We have an open information law which states that governmental data that is not classified should be open by default. A lot of local governments and governmental departments publish data in PDF or XML-files on their websites. But we currently do not have a proper open data law. Right now we are trying to advance the open information law, because it doesn't specify important aspects such as: how data should be published and how it should be maintained. So in theory it is good, but reality is quite different. Sometimes data which could put government officials or big corporations in a bad light is not released. On the other hand, there is a rather lax handling of citizen data. For example, our universal health care administration keeps a large database of its citizens. Although anonymized, this data is used for academic research without asking the individuals for consent. In general, civil society engagement focuses a lot on transparency and mostly on governmental decision making processes, because that is neither open nor transparent.
- 
+
 **When was the first time, when you came across data, when did you start to use data in your work?**
 
 I have been coding a bit for the last ten years but not on a high level. Actually I wasn't very familiar with terms like “data-analysts” or “data-driven-journalism” before becoming active for g0v. In our first project in 2013 we did an open source [budget visualisation of the Taiwan government](http://budget.g0v.tw). Three years later the city of Taipei forked this project and used it to publish their official data. Before that we had to scrape the information from their PDF-files.
