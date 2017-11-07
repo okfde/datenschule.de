@@ -11,7 +11,7 @@ tags:
 - data literacy
 - open data
 - transparency
-title: Working with Data: Interview #9
+title: "Working with Data: Interview #9"
 ---
 
 What does it mean to become ‘data literate’? Where do you start and how can you use data within your work and projects? To explore these questions, we would like to introduce some of our community members and data activists from around the world, who ended up working with data at some point in their lives. We were curious about how they actually got started and - looking back now - what they would recommend to data newbies.
