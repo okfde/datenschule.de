@@ -209,6 +209,6 @@ ressources_en:
 register_link: "http://eventbrite.com"
 duration: 5 Stunden
 costs: 600
-level: Anfänger
+level: Einsteiger/innen
 level_en: Beginner
 ---
