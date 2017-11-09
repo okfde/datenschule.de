@@ -236,7 +236,7 @@
 - name: "Netzpolitischer Abend"
   place: Berlin
   date: 2017-11-07
-  featured: true
+  featured: false
   text: >
     Trefft uns beim [Netzpolitischen Abend](https://digitalegesellschaft.de/portfolio-items/netzpolitischer-abend/) bei dem wir von unserem Projekt [Offenes Parlament](https://offenesparlament.de) berichten
 - name: "Medien-Sprechstunde"
