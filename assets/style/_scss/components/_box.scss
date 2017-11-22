@@ -73,7 +73,7 @@
 
 
 .box-button, .box-button-plain {
-  height: 40px;
+  height: 2em;
   background-color: $base-button-background-color;
   color: $base-button-color;
   font-size: 1.2em;
@@ -116,6 +116,10 @@
 .list-box-content {
   display: flex;
   flex-direction: column;
+
+  .title-wrapper {
+    flex-direction: column;
+  }
 }
 
 .list-box-item-wrap-2 {
