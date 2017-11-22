@@ -27,13 +27,13 @@ description: references.desc
 <div class="container">
 	<ul class="list-box">
 		{% for story in stories %}
-
 		<li class="list-box-item list-box-item-wrap-2">
 			<div class="list-box-content">
 				{% if story.img.src %}<img src="{{story.img.src}}">{% endif %}
-				<h4>{{story.name}}</h4>
-				<p>
+				<h1>{{story.name}}</h1>
+				<p class="speech-bubble">
 					{{story.cite}}
+					<cite>{{story.cite_source}}</cite>
 				</p>
 				<div class="list-box-pull-down list-box-pull-right">
 					<a class="box-button-plain" href="{{ site.baseurl }}{{ story.url }}">Mehr</a>

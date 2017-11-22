@@ -51,11 +51,12 @@ description: projekte.desc
 								<div class="prev-image" style="background-image: url('{{project.picture.src}}')">
 									<div class="title-wrapper">
 										<h2>{{project.title}}</h2>
+										<!--<h2>-</h2>-->
+										<h2>{% case site.lang %}{% when 'en' %}{{ project.subtitle_en }}{% else %}{{ project.subtitle }}{% endcase %}</h2>
 									</div>
 								</div>
 								<!--<img src="{{project.picture.src}}">-->
 						{% endif %}
-							<h4>{% case site.lang %}{% when 'en' %}{{ project.subtitle_en }}{% else %}{{ project.subtitle }}{% endcase %}</h4>
 						<!--</a>-->
 					</p>
 					<!--<h3>{{project.partner}}</h3>-->
