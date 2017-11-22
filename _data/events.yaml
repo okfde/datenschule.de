@@ -242,7 +242,7 @@
 - name: "Medien-Sprechstunde"
   place: Berlin
   date: 2017-11-21
-  featured: true
+  featured: false
   text: >
     Gemeinsam mit der [Medien-Sprechstunde](http://www.medien-sprechstunde.de/anmeldung/66/daten-richtig-erheben-und-auswerten/) veranstalten wir einen Workshop zum Thema Daten finden & analysieren.
 - name: "Strategietage für Bildungs- und Nachhaltigkeitsakteure"
