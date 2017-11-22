@@ -5,8 +5,8 @@ date: 2017-11-22 08:00:00
 picture:
   src: /files/blog/2017/11/agw.jpg
   title: 
-  license: "CC0 Public Domain"
-  license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  license: "CC-BY-4.0, abgeordnetenwatch.de, Foto: Jasmin Helm"
+  license_url: "https://creativecommons.org/licenses/by/4.0/"
 tags:
 - Plenarprotokolle
 - Kooperation
