@@ -27,6 +27,7 @@ Eine konkrete Herausforderung lag BildungsCent besonders auf dem Herzen: Zu zeig
 <p class="speech-bubble">
     Ich war im ersten Moment schockiert, weil es wieder das alte Bild von Schule war, was da herausgekommen ist. Irgendwie war das aber auch logisch, denn das, was die Daten hergeben, ist, wie der überwiegende Teil der Menschen Schule sieht. Das fand ich sehr interessant und damit hatte ich nicht gerechnet. Aber für mich war der Gedanke prägend: Mit Daten habe ich eine Chance, das Bild [der Schulen] zu verändern!”
     <cite>Sile Ramelow</cite>
+</p>
 
 Unsere Ergebnisse haben wir schließlich auf JedeSchule.de zusammengetragen und visualisiert. Diese zeigen: Schule ist weit mehr als nur Unterricht und tatsächlich tragen gemeinnützige Organisationen einen großen Teil dazu bei!
 

@@ -45,4 +45,5 @@ register_link: http://eventbrite.com
 length: 90
 level: Fortgeschritten
 layout: workshop
+lang: de
 ---

@@ -39,4 +39,5 @@ ressources:
 register_link: http://eventbrite.com
 length: 90
 level: Fortgeschritten
+lang: de
 ---

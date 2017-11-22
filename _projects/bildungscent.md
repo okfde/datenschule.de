@@ -9,12 +9,10 @@ picture:
   license_url:
 subtitle_en: JedeSchule.de provides access to 30.000 schools in Germany 
 topics_en:
-  - education
   - schools
   - learning culture  
-subtitle: Zugang zu 30.000 Schulen in Deutschland
+subtitle: Zugang zu Schulen in Deutschland
 topics:
-  - Bildung
   - Schulen
   - Lernkultur
 text: |- 

@@ -9,12 +9,10 @@ picture:
   license_url:
 subtitle_en: Topics in the German Bundestag
 topics_en:
-  - protocols
   - politics
   - monitoring  
 subtitle: Themen im Bundestag
 topics:
-  - Plenarprotokolle
   - Politik
   - Monitoring
 text: |- 

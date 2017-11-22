@@ -3,21 +3,17 @@ title: Demokratielabore.de
 url: 
 ended: no
 picture:
-  src: /files/projects/Demokratielabore.jpg
+  src: /files/projects/illustration_vorab_dl.png
   title: Logo Demokratielabore
   license:
   license_url:
 subtitle_en: data work in educational NGOs
 topics_en:
-  - data literacy
   - education
-  - workshops
-  - needs analysis  
+  - research  
 subtitle: Datenarbeit in Bildungs-NGOs
 topics:
-  - data literacy
   - Jugendbildung
-  - Workshops
   - Bedarfsanalyse
 text: |- 
 

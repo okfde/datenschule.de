@@ -3,7 +3,7 @@ title: Storyhunt.de
 url: https://storyhunt.de/
 ended: no
 picture:
-  src: /files/projects/storyhunt_flyer.png
+  src: /files/projects/background-forest-light-small.jpg
   title: Storyhunt.de
   license:
   license_url:
@@ -16,7 +16,6 @@ subtitle: "The Story Hunt: Uncover the EU"
 topics:
   - Data Expedition
   - Finanzdaten
-  - Subventionen
 text: |- 
 
     ## Storyhunt.de
