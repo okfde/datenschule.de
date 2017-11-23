@@ -68,3 +68,28 @@
   background-color: #777;
   border-radius: 10px;
 }
+
+.workshop-goals-list {
+  li {
+    margin-top: 10px;
+    display: table;
+
+    i {
+      display: table-cell;
+    }
+
+    i:before {
+      display: table-cell;
+      padding-right: 10px;
+    }
+  }
+}
+
+.workshop-register-button {
+  margin-top: 10px;
+}
+
+.workshop-register-button-top {
+  @include heading('para-lg');
+  color: $white;
+}
