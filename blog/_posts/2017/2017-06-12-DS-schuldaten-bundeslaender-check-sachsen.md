@@ -3,7 +3,7 @@ authors:
 - Jasmin Helm
 date: 2017-06-12 08:00:00
 picture:
-  src: /files/blog/2017/schulverzeichnis-sachsen.jpg
+  src: /files/blog/2017/07/schulverzeichnis-sachsen.jpg
   title: Schuldatenbank der Sächsischen Staatskanzlei
   license: 
   license_url: https://schuldatenbank.sachsen.de/index.php?id=2
