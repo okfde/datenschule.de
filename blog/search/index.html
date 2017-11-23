@@ -7,7 +7,7 @@ description: blog.suche
 <div class="lurking-header">
 	<h1>{% t blog.search.title %}</h1>
 	<p class="text-center">
-		<a href="/blog/"><i class="icon-angle-left"></i> {% t blog.search.back_to_blog %}</a>
+		<a href="{{site.baseurl}}/blog/"><i class="icon-angle-left"></i> {% t blog.search.back_to_blog %}</a>
 	</p>
 </div>
 <div class="search-container">
@@ -30,7 +30,7 @@ description: blog.suche
 			<ul class="post-tags">
 				<li>{tags}</li>
 			</ul>
-			<h3 class="post-title"><a href="{url}">{title}</a></h3>
+			<h3 class="post-title"><a href="{{site.baseurl}}{url}">{title}</a></h3>
 			<small>{% t blog.search.found_in %} {found}:</small>
 			<p class="post-excerpt">{excerpt}</p>
 		</div>

@@ -78,6 +78,17 @@ blog:
   next_post: "Next post"
   and: "&"
   picture_license: "Picture License"
+  search:
+      title: "Search the Blog"
+      back_to_blog: "Back to Blog"
+      search_for: "search for"
+      found_in: "found in"
+      authors: "Authors"
+      text: "Text"
+      blog_title: "Title"
+      tags: "Tags"
+      no_result: "no result"
+      loading: "Loading..."
 team:
   title: "Team"
   intro: "We are part of the international School of Data network and cooperate with both local and international trainers."
