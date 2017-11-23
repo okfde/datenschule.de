@@ -8,10 +8,8 @@ picture:
   license: "CC-BY 3.0, Petr Kočí, Datenschule, Foto: Dawid Linkowski"
   license_url: https://creativecommons.org/licenses/by/3.0/"
 tags:
-- data literacy
-- social change
-- transparency
-- conference
+- interview
+- transparenz
 - open data
 title: "Working with data - Interview #6"
 

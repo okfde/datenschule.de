@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: https://www.bildung-lsa.de/schule.html 
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #13: Sachsen-Anhalt"
 
 ---

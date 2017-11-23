@@ -8,9 +8,8 @@ picture:
   license: "CC-BY-4.0, Teilnehmende am Workshop, Foto: Leonard Wolf"
   license_url: "https://creativecommons.org/licenses/by/4.0/"
 tags:
-- Jugendarbeit
-- Digitalisierung
-- Workshop
+- jugendarbeit
+- workshop
 title: "Digitalisierung in der Jugendarbeit - Workshop zu Chancen, Herausforderungen & Bedarfen"
 ---
 

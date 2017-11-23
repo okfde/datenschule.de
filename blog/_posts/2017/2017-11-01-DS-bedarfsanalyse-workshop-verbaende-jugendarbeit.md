@@ -8,9 +8,8 @@ picture:
   license: "CC0 Public Domain"
   license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
 tags:
-- data literacy
-- Demokratie
-- Workshops
+- workshop
+- jugendarbeit
 title: "Bedarfsanalyse & Workshop für Verbände in der Jugendarbeit"
 ---
 

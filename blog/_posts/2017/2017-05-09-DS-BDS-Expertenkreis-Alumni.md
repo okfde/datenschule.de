@@ -9,9 +9,8 @@ picture:
   license: CCO Public Domain
   license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
 tags:
-- alumni
-- community building 
-- data literacy
+- community building
+- workshop
 title: "Die Datenschule beim Expertenkreis Alumniarbeit des Bundesverband Deutscher Stiftungen"
 
 ---

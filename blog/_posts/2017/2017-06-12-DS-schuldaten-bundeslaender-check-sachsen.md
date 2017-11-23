@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: https://schuldatenbank.sachsen.de/index.php?id=2
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #12: Sachsen"
 
 ---

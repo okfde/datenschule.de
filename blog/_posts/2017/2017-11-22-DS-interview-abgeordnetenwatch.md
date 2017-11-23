@@ -8,9 +8,9 @@ picture:
   license: "CC-BY-4.0, abgeordnetenwatch.de, Foto: Jasmin Helm"
   license_url: "https://creativecommons.org/licenses/by/4.0/"
 tags:
-- Plenarprotokolle
-- Kooperation
-- Workshops
+- plenarprotokolle
+- kooperation
+- workshop
 title: "Interview mit abgeordnetenwatch.de: Über Plenarprotokolle, Digitalisierung & die Arbeit mit der Datenschule"
 ---
 

@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: https://www.statistik.bayern.de/veroeffentlichungen/product_info.php?info=p41937_Schulverzeichnis-fuer-Bayern-Schuljahr-2013-14-PDF-Dateiausgabe.html
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #2: Bayern"
 
 ---

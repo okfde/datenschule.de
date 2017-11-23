@@ -8,10 +8,8 @@ picture:
   license: "CC-BY 3.0, Data Pipeline, Foto: Jasmin Helm" 
   license_url: "https://creativecommons.org/licenses/by/3.0/%22"   
 tags:
-- bundestagswahl 2017
-- workshops
+- workshop
 - wahldaten
-- data literacy
 title: "Wahldaten analysieren - Rückblick zu unseren Workshops mit Abgeordnetenwatch"
 ---
 

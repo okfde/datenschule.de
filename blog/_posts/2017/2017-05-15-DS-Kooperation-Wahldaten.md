@@ -8,9 +8,8 @@ picture:
   license: CCO Public Domain
   license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
 tags:
-- Bundestagswahl
-- Wahldaten
-- data literacy
+- bundestagswahl
+- wahldaten
 title: "Kooperation mit Abgeordnetenwatch & der HAW Hamburg zur Bundestagswahl 2017"
 
 ---

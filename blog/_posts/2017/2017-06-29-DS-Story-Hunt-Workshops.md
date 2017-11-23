@@ -8,10 +8,9 @@ picture:
   license: "CC-BY 3.0, Simon Jockers, Foto: Leonard Wolf" 
   license_url: "https://creativecommons.org/licenses/by/3.0/%22"   
 tags:
-- Story Hunt
-- EU
+- storyhunt
+- events
 - data expedition
-- data literacy
 title: "The Story Hunt: Das waren die Workshops!"
 
 ---

@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: https://www.berlin.de/sen/bildung/schulverzeichnis_und_portraets/anwendung/
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #3: Berlin"
 
 ---

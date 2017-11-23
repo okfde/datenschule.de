@@ -8,9 +8,7 @@ picture:
   license_url: "https://creativecommons.org/licenses/by/3.0/de/"
 tags:
 - civic tech
-- data literacy
-- ngo
-- workshops
+- workshop
 title: Offene Türen, offene Daten! - Die Datenschule & 2030-Watch beim Tag der offenen Tür am BMZ
 ---
 

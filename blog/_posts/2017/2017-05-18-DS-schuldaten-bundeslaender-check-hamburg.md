@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: http://www.geoportal-hamburg.de/Geoportal/geo-online/?mdid=D3DDBBA3-7329-475C-BB07-14D539ED6B1E
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #6: Hamburg"
 
 ---

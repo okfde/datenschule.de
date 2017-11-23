@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: https://schulen.bildung-rp.de/gehezu/startseite/liste.html 
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #10: Rheinland-Pfalz"
 
 ---

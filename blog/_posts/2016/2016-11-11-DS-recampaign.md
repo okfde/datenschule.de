@@ -7,11 +7,8 @@ picture:
   license: "BY-NC-SA 2.0 re:campaign"
   license_url: "https://creativecommons.org/licenses/by-nc-sa/2.0/"
 tags:
-- recampaign
-- social change
-- workshops
-- kampagnen
-- ngo
+- events
+- workshop
 
 title: Strategien für den digitalen Wandel - Schön war sie, die reCampaign 2016!
 ---

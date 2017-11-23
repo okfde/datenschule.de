@@ -8,10 +8,8 @@ picture:
   license: "CC0 Public Domain, OffenesParlament.de"
   license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
 tags:
-- data literacy
 - bundestag
 - plenarprotokolle
-- ehe für alle
 title: "Ehe für alle - Recherche zu den Debatten im Bundestag"
 ---
 

@@ -8,10 +8,8 @@ picture:
   license: "CC0 Public Domain" 
   license_url: "https://wiki.creativecommons.org/wiki/Public_domain"   
 tags:
-- Schule
-- Schuldaten
-- Bundesländer
-- data literacy
+- schuldaten
+- bundesländer
 title: "JedeSchule.de - Schuldaten aus Hessen sind nun verfügbar!"
 ---
 Großartige Nachrichten von unserem Schuldaten-Transparenzprojekt [JedeSchule.de](https://jedeschule.de): Der Datenschatz wird größer, denn ab sofort gibt es auch die bisher fehlenden Daten aus Hessen! Damit sind nun alle Bundesländer mit ihren Schulen auf Jedeschule.de vertreten. Ein toller erster Erfolg für mehr Transparenz im Schulsystem!

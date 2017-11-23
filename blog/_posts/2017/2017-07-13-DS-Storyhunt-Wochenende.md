@@ -8,10 +8,9 @@ picture:
   license: "CC-BY 3.0, Die Story Hunter, Foto: Jasmin Helm" 
   license_url: "https://creativecommons.org/licenses/by/3.0/%22"   
 tags:
-- Story Hunt
-- EU
+- events
+- storyhunt
 - data expedition
-- data literacy
 title: "The Story Hunt: Das war die Data Expedition!"
 ---
 

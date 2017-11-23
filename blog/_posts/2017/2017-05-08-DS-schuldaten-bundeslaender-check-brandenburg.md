@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: http://www.mbjs.brandenburg.de/sixcms/detail.php?template=schulverzeichnis
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #4: Brandenburg"
 
 ---

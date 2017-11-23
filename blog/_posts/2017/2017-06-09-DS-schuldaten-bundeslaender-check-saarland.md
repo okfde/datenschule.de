@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: https://www.saarland.de/23153.htm
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #11: Saarland"
 
 ---

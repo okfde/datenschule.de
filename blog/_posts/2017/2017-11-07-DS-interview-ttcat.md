@@ -1,16 +1,15 @@
 ---
 authors: 
 - Moritz Neujeffski
-date: 2017-11-06 08:00:00
+date: 2017-11-07 08:00:00
 picture:
   src: /files/blog/2017/11/ttcat.jpg
   title: 
   license: "CC0 Public Domain"
   license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
 tags:
-- data literacy
 - open data
-- transparency
+- transparenz
 title: "Working with Data: Interview #9"
 ---
 

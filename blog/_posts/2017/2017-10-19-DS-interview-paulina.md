@@ -1,15 +1,14 @@
 ---
 authors: 
 - Helene Hahn
-date: 2017-10-19 12:00:00
+date: 2017-10-18 12:00:00
 picture:
   src: /files/blog/2017/10/paulina-bustos.jpg
   title: Paulina Bustos
   license: "CC-BY 4.0, Paulina Bustos, Datenschule, Foto: Helene Hahn"
   license_url: "https://creativecommons.org/licenses/by/4.0/"
 tags:
-- data literacy
-- social change
+- interview
 - gender data
 - open data
 title: "Working with data - Interview #8"

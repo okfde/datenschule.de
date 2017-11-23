@@ -12,9 +12,7 @@ picture:
   license_url: "https://wiki.creativecommons.org/wiki/Public_domain"
 tags:
 - civic tech
-- data literacy
-- ngo
-- social change
+- rückblick
 title: "Tschüss 2016! - Unser Jahresrückblick"
 ---
 

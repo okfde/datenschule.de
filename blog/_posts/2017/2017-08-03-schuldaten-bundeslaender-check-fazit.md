@@ -8,10 +8,8 @@ picture:
   license: "CCO Public Domain" 
   license_url: "https://wiki.creativecommons.org/wiki/Public_domain" 
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check: Fazit zur Schuldatenlage in Deutschland"
 ---
 

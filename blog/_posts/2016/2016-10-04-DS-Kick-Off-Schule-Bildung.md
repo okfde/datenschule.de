@@ -7,10 +7,9 @@ picture:
   license: "Public Domain, via pixabay"
   license_url: "https://wiki.creativecommons.org/wiki/Public_domain"
 tags:
-- data literacy
-- social change
-- workshops
-- umwelt
+- workshop
+- bildungscent
+- kooperation
 title: Kooperation mit BildungsCent e.V. zu den Themen Schule & Bildung 
 ---
 

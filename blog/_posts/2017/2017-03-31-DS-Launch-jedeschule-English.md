@@ -12,9 +12,7 @@ picture:
   license: CC0 Public Domain
   license_url: ttps://wiki.creativecommons.org/wiki/Public_domain
 tags:
-- school
-- school data
-- data literacy
+- schuldaten
 - open data
 title: "Launch: Jedeschule.de promotes transparency within the educational system in Germany"
 

@@ -8,8 +8,7 @@ picture:
   license: "CC-BY 3.0, Isis Reis, Datenschule, Foto: Helene Hahn"
   license_url: "https://creativecommons.org/licenses/by/3.0/"
 tags:
-  - social change
-  - data literacy
+  - interview
   - community
   - learning
 title: "Working with data - Interview #4"

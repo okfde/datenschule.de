@@ -8,10 +8,8 @@ picture:
   license: "CC-BY 3.0, Michal Škop, Datenschule, Foto: Moritz Neujeffski"
   license_url: https://creativecommons.org/licenses/by/3.0/"
 tags:
-- data literacy
-- social change
-- transparency
-- conference
+- transparenz
+- interview
 - open data
 title: "Working with data - Interview #5"
 

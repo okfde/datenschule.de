@@ -11,9 +11,8 @@ picture:
   license: CC0 Public Domain
   license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.de
 tags:
-- datensummit
-- transparency
-- data literacy
+- events
+- transparenz
 - open data
 title: "Daten, Tech & Konfetti - Das war der Datensummit ‘17"
 

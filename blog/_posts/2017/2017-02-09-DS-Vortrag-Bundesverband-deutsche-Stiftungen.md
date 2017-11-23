@@ -9,10 +9,8 @@ picture:
   license: "CC-BY 3.0 DE, Datenschule, Foto: Moritz Neujeffski"
   license_url: "https://creativecommons.org/licenses/by/3.0/"
 tags:
-- social change
-- data literacy
 - community
-- workshops
+- workshop
 title: "Community Building & Digitale Tools: Datenschule beim Bundesverband Deutscher Stiftungen"
 --- 
 Am 28./29. Januar waren wir mit einem Impulsreferat zu Gast beim Bundesverband Deutscher Stiftungen (Arbeitskreis Soziales) in Hamburg. Unter dem Motto „Vernetzt Handeln – Viele Köche an einem Brei oder innovative Fusion Küche?“ diskutierten wir darüber, wie eine kooperative Kultur die Arbeit von Sozialstiftungen in Deutschland stärken kann.
