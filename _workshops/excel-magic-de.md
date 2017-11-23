@@ -1,215 +1,100 @@
 ---
 layout: workshop
-title: Excel Magic
-title_en: Excel/ LibreOffice-Magic
-slogan: Tipps für die einfache Analyse & Visualisierung von Daten
-sloagan_en: Tips for working with Excel / LibreOffice
+title: Office Magic
+slogan: Mehr als “=Summe()” - Mit Excel / LibreOffice Daten analysieren und visualisieren 
 text_short: >
-    Viele Organisationen nutzen täglich Excel oder Libre Office für 
-    Projektplanungen, Analysen & Recherchen. Mit einigen Tricks lassen sich 
-    viele Abläufe vereinfachen und Datensätzen tiefer analysieren...
-text_short_en: >
-    Many organisations use Excel or Libre Office for project planning, analysing 
-    or research in their daily work. A few tricks help to simplify  many tasks, 
-    and analyse datasets more thoroughly.
+    Kampagnen, ob gegen Klimawandel oder Steuerflucht, gewinnen durch Datenanalysen neue Argumenter für ihre Ziele. Bei “Office Magic” 
+    lernt ihr praktische Formeln und ihre Anwendungen kennen, um eure Arbeitsabläufe zu vereinfachen, Ergebnisse schnell zu 
+    visualisieren und kritisch zu hinterfragen.
 text_long: >
-    Viele gemeinnützige Organisationen nutzen täglich Excel oder die freie 
-    Software Libre Office für die Projektplanung, Recherche und Budgetierung.<br/><br /> 
-    Mit vielen einfachen Tipps und Tricks kann man mit den etablierten 
-    Programmen viel mehr anstellen: bspw. externe Tabellen aus Webseiten 
-    importieren, Pivot-Funktionen für einen besseren Daten-Überblick nutzen, 
-    erhobene Umfragedaten analysieren und Visualisierungen für den Projektbericht anlegen. 
-    Dabei spart man nicht nur Zeit, sondern erledigt viele kleine Aufgaben direkt im Team.<br /><br />
-    In diesem Workshop erweiterst du deine Excel/ LibreOffice -Kenntnisse um nützliche Funktionen für deine alltägliche Arbeit. 
-    Du lernst, wie man Daten in Tabellenform richtig befragt, um daraufhin kleinere Analysen und Visualisierungen zu erarbeiten.
-text_long_en: >
-    Many non-profit organisations use Excel or free software such as Libre Office for project planning, researching and budgeting in 
-    their daily work. <br /><br />   
-    With some easy tricks and hints you can get a lot more out of these well-known programs such as: Importing tables from websites 
-    directly into spreadsheets, using pivot-tables to get an overview of your dataset and analysing and visualising survey data 
-    for a project report. You not only save time but can also distribute tasks easily within your team. <br /><br />
-    This workshop enhances your Excel/Libre-Office skills for your daily work. You will learn, how to question table data correctly to 
-    do your own (small) analyses and visualizations. <br /><br />
+    Tabellen sind täglicher Begleiter der Projektplanung, Analyse & Recherche. Bei “Office Magic” lernt ihr nützliche Funktionen 
+    praxisorientiert anzuwenden, bspw. Tabellen aus Webseiten zu importieren. Erhobene Umfragedaten lassen sich über die Pivot-Funktion 
+    einfach analysieren und visualisieren. Das spart Zeit und hilft schlagkräftige Argumente für eure Themen zu finden.
 tags:
-    - Excel
-    - Libre-Office
-    - Datenanalyse
-tags_en:
-    - Excel
-    - Libre-Office
-    - data analysis
+    - Excel / Libre-Office
+    - Pivot-tabelle
+    - Analyse
+goal_disclaimer: "In diesem Workshop lernst du:"
 learning_goals:
-    - Datensätze einfach analysieren
-    - Abläufe mit Formeln vereinfachen
-learning_goals_en:
-    - analysing datasets easily
-    - simplify tasks with formula
+    - wichtige Schritte und ein strukturiertes Vorgehen in der Datenanalyse kennen - mit deinem Office Programm,
+    - dich kritisch mit deinen Daten auseinanderzusetzen und die richtigen Fragen zur Kontrolle deiner Thesen zu stellen,
+    - wie du dir mit Pivot-Tabellen und einfachen Formeln einen schnellen Überblick über größere Datensätze verschaffst, 
+    - wie du mit Tabellenprogrammen einfache Visualisierungen für Blogs und Berichte erstellst,
+    - wie du dir selbst helfen kannst, wenn dein Office Programm einen Fehler ausspuckt.
 image:
   src: /files/workshops/excel-magic.jpg
   license: whatever
 trainer:
    - Helene Hahn
    - Moritz Neujeffski
-curriculum_disclaimer: >
-    Für jeden Workshop setzen wir einen Fokus zu Themen wie: Parteispenden & Nebentätigkeiten, Umweltverschmutzung, Menschenrechte oder 
-    Armut. Gerne passen wir das Thema vorab auch an Deine Bedürfnisse an.
 curriculum:
     -
-        name: Daten sauber einlesen
-        duration: 30
-        content:
-            - xls. und csv-Dateien importieren
-            - Spaltentypen auswählen
-            - Trennzeichen für den Import anpassen
-            - "HTML-Dokumente importieren: mit html-import"
-            - Text in Spalten aufteilen
+        name: 1. Begrüßung und Kennenlernen
+        duration: 30 Minuten
     -
-        name: Datenstrukturen
-        duration: 10
+        name: "2. Getting started: Daten in Tabellen analysieren"
+        duration: 10 Minuten
         content:
-            - "Daten im Tabellenformat: Vor und Nachteile"
-            - Andere Datenformate
+            - Einführung in die Datenanalyse
+            - Data Pipeline und was man beim Umgang mit Daten beachten sollte
+            - Übersicht über Datenformate und strukturierte Daten
     -
-        name: Einen Überblick über Daten gewinnen
-        duration: 30
+        name: "3. Hands on: Daten säubern & sich einen Überblick verschaffen"
+        duration: 30 Minuten
         content:
-            - Tabellen sortieren und filtern
-            - Datensätze zusammenfassen
-            - "Outlier finden: Mit Bedingten Formatierungen"
-            - Daten als Teilergebnisse darstellen
+            - Datensätze einlesen und formatieren
+            - Formeln, die bei der Datensäuberung helfen
+            - Outlier mit bedingten Formatierungen finden
+            - verschiedene Datenquellen miteinander verknüpfen
     - 
-        name: Saubere Daten
-        duration: 60
+        name: "4. Hands on: Analysen mit Pivot-Tabellen"
+        duration: 60 Minuten
         content:
-            - Was macht saubere Daten aus, ein Quiz
-            - Funktionen für die Datensäuberung
+            - "Basic Statistics: Von Korrelationen, Standardfehlern, -abweichungen und Konfidenzintervallen"
+            - "Pivot-Tabellen: Funktionen und Formeln"
+            - Teilergebnisse erstellen
+            - Ergebnisse richtig interpretieren und hinterfragen
     -
-        name: Datenanalyse mit Pivot-Tabellen
-        duration: 90
+        name: "5. Hands on: Einfache Datenvisualisierungen"
+        duration: 90 Minuten
         content:
-            - Datenanalyse basics, wie gehe ich vor ?
-            - Wie funktionieren Pivot-Tabellen ?
-            - Spalten miteinander in Verbindung setzen und auswerten
-            - Filterfunktionen in Pivot-tabellen nutzen
-            - "Basic Statistics: Von Standardfehlern, -abweichungen und Konfidenzintervallen"
+            - was gute Datenvisualisierungen ausmacht
+            -  Kuchen-, Balken- und Liniendiagramme richtig einsetzen
+            -  einfache Visualisierungen selbst erstellen
+            -  Vorstellung und Besprechung der Visualisierungen
     - 
-        name: Tabellenblätter miteinander verbinden
-        duration: 30
+        name: 6. Hilfe zur Selbsthilfe
+        duration: 10 Minuten
         content:
-            - Tabellenblätter verknüpfen; Mit Sverweis()
-            - Werte in Spalten finden; Mit Zählenwenn()
+            - Fehlermeldungen selbst beheben
+            - Übersicht über hilfreiche AddIns für Excel und LibreOffice
+            - hilfreiche Links
     -
-        name: Einfache Datenvisualisierung
-        duration: 30
-        content:
-            - Tipps für eine gute Visualisierung
-            - Daten visualisieren
-    -
-        name: Excel-Powertools, Ein Überblick
-        duration: 10
-        content:
-            - Was sind Powertools
-            - Wie lassen sie sich installieren
-    -
-        name: Hilfe zur Selbsthilfe
-        duration: 10
-        content:
-            - Fehler richtig lesen
-            - Auf die Einstellungen kommt es an
-            - Überblick und Übersetzung von Excel-Formeln
-            - "Google it right: Probleme gezielt suchen"  
-curriculum_en:
-    -
-        name: ENGLISH VERSION!!!!
-        duration: 30
-        content:
-            - xls. und csv-Dateien importieren
-            - Spaltentypen auswählen
-            - Trennzeichen für den Import anpassen
-            - HTML-Dokumente importieren: mit html-import
-            - Text in Spalten aufteilen
-    -
-        name: Datenstrukturen
-        duration: 10
-        content:
-            - Daten im Tabellenformat: Vor und Nachteile
-            - Andere Datenformate
-    -
-        name: Einen Überblick über Daten gewinnen
-        duration: 30
-        content:
-            - Tabellen sortieren und filtern
-            - Datensätze zusammenfassen
-            - Outlier finden: Mit Bedingten Formatierungen
-            - Daten als Teilergebnisse darstellen
-    - 
-        name: Saubere Daten
-        duration: 60
-        content:
-            - Was macht saubere Daten aus, ein Quiz
-            - Funktionen für die Datensäuberung
-    -
-        name: Datenanalyse mit Pivot-Tabellen
-        duration: 90
-        content:
-            - Datenanalyse basics, wie gehe ich vor ?
-            - Wie funktionieren Pivot-Tabellen ?
-            - Spalten miteinander in Verbindung setzen und auswerten
-            - Filterfunktionen in Pivot-tabellen nutzen
-            - Basic Statistics: Von Standardfehlern, -abweichungen und Konfidenzintervallen
-    - 
-        name: Tabellenblätter miteinander verbinden
-        duration: 30
-        content:
-            - Tabellenblätter verknüpfen; Mit Sverweis()
-            - Werte in Spalten finden; Mit Zählenwenn()
-    -
-        name: Einfache Datenvisualisierung
-        duration: 30
-        content:
-            - Tipps für eine gute Visualisierung
-            - Daten visualisieren
-    -
-        name: Excel-Powertools, Ein Überblick
-        duration: 10
-        content:
-            - Was sind Powertools
-            - Wie lassen sie sich installieren
-    -
-        name: Hilfe zur Selbsthilfe
-        duration: 10
-        content:
-            - Fehler richtig lesen
-            - Auf die Einstellungen kommt es an
-            - Überblick und Übersetzung von Excel-Formeln
-            - Google it right: Probleme gezielt suchen 
+        name: "7. Letzte Worte: Feedback, Ausklang und Kaffee"
+        duration: 10 Minuten
 prequisites:
-  - Laptop
-  - installiertes Tabellenkalkulationsprogramm (Excel, Open Office, Libre Office etc.)
+    - Einsteiger*innen
+    - Laptop
+    - "Eine aktuelle Version folgender Programme: OpenOffice / LibreOffice / Excel / Google-Spreadsheets (Genaue Angaben werden im Vorfeld kommuniziert)"
 ressources:
     -
-        name: "Lernmaterial: DS-Datenanalyse"
-        link: "http://link.com"
+        name: "Tipps für die Datenanalyse"
+        link: "#"
+        type: intern
     -
-        name: "Lehrmaterial: DS-Pivottabellen (Excel & Google-Sheets)"
+        name: "Pivot-tabellen in Excel und Google Spreadsheets nutzen"
         link: "http://link.com"
+        type: intern
     -
         name: Datenanalyse von Kopf bis Fuß
         link: "https://www.oreilly.de/buecher/120211/9783897219595-datenanalyse-von-kopf-bis-fu%C3%9F.html"
-ressources_en:
-    -
-        name: ENGLISH!!!!
-        link: "http://link.com"
-    -
-        name: "Lehrmaterial: DS-Pivottabellen (Excel & Google-Sheets)"
-        link: "http://link.com"
-    -
-        name: Datenanalyse von Kopf bis Fuß
-        link: "https://www.oreilly.de/buecher/120211/9783897219595-datenanalyse-von-kopf-bis-fu%C3%9F.html"
-register_link: "http://eventbrite.com"
+        type: extern
+    - 
+        name: Der Formelübersetzer für Excel
+        link: "https://de.excel-translator.de/funktionen/"
+        type: extern
 duration: 5 Stunden
-costs: 600
+costs: 600 Euro
 level: Einsteiger/innen
-level_en: Beginner
 lang: de
 ---

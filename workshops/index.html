@@ -63,7 +63,7 @@ description: workshops.desc
 					</div>
 					<div class="workshop-content">
 						<p>
-							<strong>{% case site.lang %}{% when 'en' %}{{ workshop.slogan_en }}{% else %}{{ workshop.slogan }}{% endcase %}</strong>
+							<strong>{{workshop.slogan}}</strong>
 						</p>
 						<p>
 							{{workshop.text_short}}
@@ -71,7 +71,7 @@ description: workshops.desc
 					</div>
 					<div class="workshop-bottom">
 						<div class="register-workshop">
-							<a class="box-button-plain" href="{{workshop.url}}">Mehr</a>
+							<a class="box-button-plain" href="{{ site.baseurl }}{{workshop.url}}">{% t workshop.more %}</a>
 						</div>
 						<div class="workshop-footer">
 							<i class="icon-clock"></i>{{workshop.duration}}

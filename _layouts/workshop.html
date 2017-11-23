@@ -49,8 +49,12 @@ layout: default
 						<i class="icon-chart-bar"></i> {{page.level}}
 					</p>
 					<p>
-						<i class="icon-paper-plane"></i>&nbsp;<a class="workshop-button" href="{{workshop.url}}">Anmelden</a>
+						<!--<i class="icon-paper-plane"></i>&nbsp;<a class="workshop-button" href="{{workshop.url}}">Termin anfragen</a>-->
 						<!--<i class="icon-paper-plane"></i> Anmelden-->
+						<a class="box-button-plain workshop-register-button-top"
+						   href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
+							<i class="icon-paper-plane"></i> {% t workshop.register %}
+						</a>
 					</p>
 				</div>
 			</div>
@@ -59,7 +63,7 @@ layout: default
 	<div class="container">
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">Übersicht</h1>
+				<h1 class="box-head">{% t workshop.overview %}</h1>
 				<p>{{page.text_long}}</p>
 			</div>
 
@@ -68,10 +72,10 @@ layout: default
 	<div class="container">
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">Ziel</h1>
+				<h1 class="box-head">{% t workshop.goals %}</h1>
 				<p>
 				<p><i>{{page.curriculum_disclaimer}}</i></p>
-				<ul class="list-unstyled">
+				<ul class="list-unstyled workshop-goals-list">
 					{% for goal in page.learning_goals %}
 					<li><i class="icon-ok"></i>{{goal}}</li>
 					{% endfor %}
@@ -84,9 +88,9 @@ layout: default
 	<div class="container">
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">Curriculum/Trainer</h1>
+				<h1 class="box-head">{% t workshop.curriculum %}</h1>
 				{% for entry in page.curriculum %}
-				<h3>{{entry.name}} ({{entry.duration}} Minuten)</h3>
+				<h3>{{entry.name}} ({{entry.duration}})</h3>
 				<ul>
 					{% for item in entry.content %}
 					<li>{{item}}</li>
@@ -100,7 +104,7 @@ layout: default
 	<div class="container">
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">Technische Vorraussetzungen</h1>
+				<h1 class="box-head">{% t workshop.prequisites %}</h1>
 				<p>
 				<ul>
 					{% for prequisite in page.prequisites %}
@@ -111,13 +115,24 @@ layout: default
 			</div>
 		</div>
 	</div>
+	{% assign ressources = page.ressources | where:"type","intern" %}
 	<div class="container">
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">Ressourcen</h1>
+				<h1 class="box-head">{% t workshop.ressources %}</h1>
+				{% assign ressources = page.ressources | where:"type","intern" %}
 				<p>
 				<ul>
-					{% for ressource in page.ressources %}
+					{% for ressource in ressources %}
+					<li><a href="{{ressource.link}}">{{ressource.name}}</a></li>
+					{% endfor %}
+				</ul>
+				</p>
+				{% assign ressources = page.ressources | where:"type","extern" %}
+				<p>
+				{% t workshop.useful_links %}:
+				<ul>
+					{% for ressource in ressources %}
 					<li><a href="{{ressource.link}}">{{ressource.name}}</a></li>
 					{% endfor %}
 				</ul>
@@ -125,13 +140,13 @@ layout: default
 			</div>
 		</div>
 	</div>
+
 	<div class="container">
-		<div class="box box-margin-top-medium"><p></p>
-			<div class="register-workshop">
-				<p>
-					<a class="workshop-button" href="{{workshop.url}}">Anmelden</a>
-				</p>
-			</div>
-		</div>
+		<!--<div class="workshop-bottom box-margin-top-medium">-->
+			<!--<div class="register-workshop">-->
+				<!--<a class="box-button-plain" href="{{workshop.url}}"><i class="icon-paper-plane"></i> Termin anfragen</a>-->
+			<!--</div>-->
+		<!--</div>-->
+		<button class="box-button workshop-register-button"><i class="icon-paper-plane"></i>  {% t workshop.register %}</button>
 	</div>
 </section>
