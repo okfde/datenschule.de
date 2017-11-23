@@ -32,19 +32,21 @@
 .workshop-detail-head {
   display: flex;
   padding: 10px;
+  flex-wrap: wrap;
 
   .workshop-detail-image {
     max-width: 300px;
     margin: 20px
   }
 
-  .workshop-meta {
-    margin: auto;
-  }
+  //.workshop-meta {
+  //  margin: auto;
+  //}
 }
 
 .workshop-head {
   min-width: 17em;
+  margin-right: 1em;
 }
 
 .trainer-image {
