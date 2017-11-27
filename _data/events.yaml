@@ -248,7 +248,7 @@
 - name: "Strategietage für Bildungs- und Nachhaltigkeitsakteure"
   place: Vallendar bei Koblenz
   date: 2017-11-25
-  featured: true
+  featured: false
   text: >
     Trefft uns auf den [Strategietagen für Bildungs- und Nachhaltigkeitsakteure](http://germanwatch.org/de/14283) von Germanwatch!
 - name: "#OERcamp17"
@@ -263,3 +263,9 @@
   featured: true
   text: >
     Kommt am 7./8.12. zu unserem Workshop für Verbände, Vereine & Initiativen in der Jugendarbeit! Meldet euch [hier](https://docs.google.com/forms/d/e/1FAIpQLSfWwB53CNCI1udFV1QkD1KpdbFv5xGLgyZd3wwuWvHcsAGymA/viewform) an.
+- name: "34c3"
+  place: Leipzig
+  date: 2017-12-27
+  featured: true
+  text: >
+    Trefft uns ab dem 27.12. auf dem [34c3](https://events.ccc.de/tag/34c3/), dem Community-Event des CCC in Leipzig.
