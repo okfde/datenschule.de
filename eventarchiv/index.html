@@ -11,7 +11,12 @@ description: eventarchiv.desc
 {% for event in events %}
 	<div class="box event-box-big">
 		<h2>{{event.name}}</h2>
-		<div class="event-subtitle"><strong>{{event.date | date: '%d.%m.%Y'}}</strong> - {{event.place}}</div>
+		{% if event.end %}
+			<div class="event-subtitle"><strong>{{event.date | date: '%d.%m.%Y'}} - {{event.end | date: '%d.%m.%Y'}}</strong> - {{event.place}}</div>
+		{% else %}
+			<div class="event-subtitle"><strong>{{event.date | date: '%d.%m.%Y'}}</strong> - {{event.place}}</div>
+		{% endif %}
+
 		<div class="event-text">
 			{{event.text | markdownify }}
 			{% if event.blogpost %}
