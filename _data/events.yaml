@@ -254,7 +254,7 @@
 - name: "#OERcamp17"
   place: Berlin
   date: 2017-11-27
-  featured: true
+  featured: false
   text: >
     Wir sind beim diesjährigen [OERcamp17](http://open-educational-resources.de/17/) mit dabei und veranstalten einen Workshop zu Daten im Bildungsbereich. 
 - name: "Workshop zu Daten und digitalen Tools in der Jugendarbeit"
