@@ -17,8 +17,6 @@ topics:
   - Lernkultur
 text: |- 
 
- ## JedeSchule.de
-
  Schule ist weit mehr als nur Unterricht. Potenziale, Persönlichkeit und das Engagement für die Gesellschaft entwickeln sich vorwiegend außerhalb des Regelunterrichts. Doch gut zugängliche Informationen zu allen Schulen in Deutschland, ihren Partnerschaften und Aktivitäten sind nur spärlich vorhanden. 
 
  Mit <a href="https://jedeschule.de/">JedeSchule.de</a>, einer Informations- und Rechercheplattform über Schulen in Deutschland, setzen sich die Datenschule der Open Knowledge Foundation e.V. und BildungsCent e.V. für mehr Transparenz im Bildungsbereich ein und fördern den Dialog zwischen verschiedenen Akteur/innen in der Bildungspolitik. Die Plattform bietet einen Überblick über rund 30.000 allgemeinbildende Schulen in Deutschland. Neben Informationen zu Schularten, Lehrer/innenbeschäftigung und Fremdsprachenangebot werden erstmalig auch Schulaktivitäten und Partnerschaften (zunächst) für Berlin und Sachsen detailliert für 3.000 Schulen vorgestellt. 
@@ -38,8 +36,6 @@ text: |-
  * ### [Kooperation mit BildungsCent e.V. zu den Themen Schule & Bildung](https://datenschule.de/blog/2016/10/DS-Kick-Off-Schule-Bildung/)
 
 text_en: |-
-
- ## JedeSchule.de
 
  Education goes far beyond school classes. Potentials, personality and the commitment to society develop mainly outside of the curriculum. However, information about schools, their activities and partnerships are sparely available in Germany.
 
