@@ -1,7 +1,7 @@
 <section class="container-padded project">
 	<div class="container">
 		<div class="box">
-			<h1 class="box-head">{{ page.partner }}</h1>
+			<h1 class="box-head">{{ page.title }}</h1>
 			<p class="project-topics">
 				{% case site.lang %}
 				{% when 'en' %}
@@ -10,16 +10,8 @@
 					{% for topic in page.topics %}<span>{{topic}}</span>{% endfor %}
 				{% endcase %}
 			</p>
-			<h2>
-				{% case site.lang %}
-				{% when 'en' %}
-					{{ page.title_en }}
-				{% else %}
-					{{ page.title }}
-				{% endcase %}
-			</h2>
 			{% if page.picture & page.picture.src %}
-			<figure class="project-image">
+			<figure class="project-image box-margin-top-medium">
 				<div class="project-image-full" style="background-image: url({{ page.picture.src | xml_escape }});" title="{{ page.picture.title }}"></div>
 				{% if page.picture.license %}
 				<figcaption>
