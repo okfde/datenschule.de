@@ -11,7 +11,7 @@ tags:
 - jugendarbeit
 - workshop
 - digitale tools
-title: "Einladung zu Workshop & Bedarfsanalyse: Daten & digitale Tools in der Jugendarbeit"
+title: "Einladung zu Workshop & Umfrage: Daten & digitale Tools in der Jugendarbeit"
 ---
 
 Nach unserem [ersten Workshop](https://datenschule.de/blog/2017/11/DS-workshop-digitalisierung-jugendarbeit/?utm_source=Datenschule&utm_campaign=be3706fc26-EMAIL_CAMPAIGN_2017_11_30&utm_medium=email&utm_term=0_57affeefd3-be3706fc26-128818093) im Rahmen der [Demokratielabore](https://demokratielabore.de) zu den Bedarfen und Herausforderungen der Digitalisierung für Mitarbeiter/innen in der Jugendarbeit möchten wir uns nun in einem **zweiten Workshop** noch stärker mit dem Thema Daten beschäftigen: Was sind Daten? Wie können sie in der Jugendarbeit genutzt werden? Wie kann ich sie einfach analysieren und visualisieren?
