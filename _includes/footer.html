@@ -1,3 +1,13 @@
+<div class="container-full container-blue">
+	<div class="container">
+		<div class="footer-nav">
+			<ul class="nav navbar-nav">
+				<li{% if page.menu_team %} class="active"{% endif %}><a href="{{ site.baseurl }}/team">{% t menu.team %}</a></li>
+				<li{% if page.menu_presse %} class="active"{% endif %}><a href="{{ site.baseurl }}/presse">{% t menu.presse %}</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
 <footer>
 	<div class="container">
 		<div class="container-left-6 footer-container-left">

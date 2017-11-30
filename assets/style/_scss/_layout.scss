@@ -12,6 +12,14 @@
   @include outer-container($max-width);
 }
 
+.container-full {
+  @include outer-container(100%);
+}
+
+.container-blue {
+  background-color: $blue;
+  color: white;
+}
 .container-title {
   margin-bottom: 13px;
   font-size: 0.8em;
