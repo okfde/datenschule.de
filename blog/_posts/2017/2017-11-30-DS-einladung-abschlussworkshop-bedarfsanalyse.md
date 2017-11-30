@@ -27,7 +27,7 @@ Die Teilnahme ist kostenlos. Da die Plätze begrenzt sind, bitten wir um [Anmeld
 
 Die Kosten für Anreise und Übernachtung werden übernommen. 
 
-### Bedarfsanalyse: Umfrage zu Bedarfen, Wünschen & Herausforderungen in der Jugendarbeit 
+### Bedarfsanalyse: Umfrage zu Wünschen & Herausforderungen in der Jugendarbeit 
 
 Wir möchten gerne verstehen, inwieweit die Potenziale der Digitalisierung in der Jugendarbeit bereits genutzt werden und welche Weiterbildungsbedarfe die Fachkräfte für ihre Arbeit noch sehen. Dazu haben wir eine kurze Umfrage gestartet: 
 
