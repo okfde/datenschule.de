@@ -260,12 +260,24 @@
 - name: "Workshop zu Daten und digitalen Tools in der Jugendarbeit"
   place: Wild Wedding Loft, Berlin
   date: 2017-12-07
-  featured: true
+  featured: false
   text: >
     Kommt am 7./8.12. zu unserem Workshop für Verbände, Vereine & Initiativen in der Jugendarbeit! Meldet euch [hier](https://docs.google.com/forms/d/e/1FAIpQLSfWwB53CNCI1udFV1QkD1KpdbFv5xGLgyZd3wwuWvHcsAGymA/viewform) an.
+- name: "Vorbereitungsseminar FSJ-Digital"
+  place: Kassel
+  date: 2018-02-05
+  featured: true
+  text: >
+    Beim [Vorbereitungsseminar für das FSJ-Digital](https://fsjdigital-rlp.de/fuer-einsatzstellen/) bieten wir einen Workshop zur Datenanalyse an.
 - name: "Tagung zur politischen Bildung & Digitalisierung"
   place: Potsdam
   date: 2018-02-15
   featured: true
   text: >
     Wir sprechen zum Thema politische Bildung & Digitalisierung auf der Fachtagung der Brandenburgischen Landeszentrale für politische Bildung in Potsdam. 
+- name: "#FreiraumNetz18"
+  place: Frankfurt am Main
+  date: 2018-02-24
+  featured: true
+  text: >
+    Beim [3. Jugend- und Netzpolitischen Forum](http://www.politische-jugendbildung-et.de/freiraumnetz18/) geben wir einen Workshop zu "Daten für zivilgesellschaftliches Engagement". 
