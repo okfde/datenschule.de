@@ -5,7 +5,7 @@ date: 2017-12-14 08:00:00
 picture:
   src: /files/blog/2017/12/datenworkshop.jpg
   title: 
-  license: CC-BY 4.0 Open Knolwedge Foundaton Deutschland e.V., Foto: Thomas Nitz, tnt-fotoart.de 
+  license: "CC-BY 4.0 Open Knolwedge Foundaton Deutschland e.V., Foto: Thomas Nitz, tnt-fotoart.de" 
   license_url: "https://creativecommons.org/licenses/by/4.0/"
 tags:
 - jugendarbeit
