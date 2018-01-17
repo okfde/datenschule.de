@@ -4,7 +4,8 @@ name: Abgeordnetenwatch.de
 img: 
     src: 
 cite: > 
-    Lorem ipsum dolor
+    Wir haben festgestellt, dass die Ansätze bei jedem Teammitglied anders sind und wir noch nicht ausreichend zusammen- oder ähnlich arbeiten - der Fokus darauf hat uns geholfen, hier nach mehr Synergiemöglichkeiten bei der Arbeit mit Daten zu suchen. Im Team hat sich im ‘Erleben’ der Daten-Pipeline ein tieferes Verständnis für die Gewinnung von Daten verfestigt.
+cite source: 
 lang: de
 ---
 ###Kurze Vorstellung von Person/Organisation
