@@ -3,7 +3,7 @@ partner: OffenesParlament.de
 partner_url: 
 ended: no
 picture:
-  src: /files/projects/logo-op.jpg
+  src: /files/projects/logo-op.png
   title: Bundestag
   license:
   license_url:
