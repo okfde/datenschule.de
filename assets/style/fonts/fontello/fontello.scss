@@ -53,6 +53,9 @@
 
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+
+  /* TODO: dirty fix for Multline presse items*/
+  height: 2em;
 }
 
 .icon-vimeo:before { content: '\e800'; } /* '' */
