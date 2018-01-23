@@ -45,3 +45,8 @@
 *[hidden], .hidden {
   display: none !important;
 }
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+ }

@@ -29,8 +29,11 @@ description: references.desc
 		{% for story in stories %}
 		<li class="list-box-item list-box-item-wrap-2">
 			<div class="list-box-content">
-				{% if story.img.src %}<img src="{{story.img.src}}">{% endif %}
-				<h1>{{story.name}}</h1>
+				{% if story.img.src %}
+					<!--<img src="{{story.img.src}}">-->
+					<div class="prev-image" style="background-image: url('{{story.img.src}}'); height: 18em;"></div>
+				{% endif %}
+				 <h1 class="ellipsis">{{story.name}}</h1>
 				<p class="speech-bubble">
 					{{story.cite}}
 					<cite>{{story.cite_source}}</cite>
