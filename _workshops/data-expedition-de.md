@@ -69,6 +69,8 @@ ressources:
     - '<a href="https://schoolofdata.org/data-expeditions/">What is a Data-Expedition?</a>, School of Data, 2018'
 duration: 2-3 Tage
 costs: 200 Euro
-suitable_for: geeignet für Projektteams aus gemeinnützigen Organisationen und Einzelpersonen
+suitable_for: 
+    - Projektteams aus gemeinnützigen Organisationen
+    - Einzelpersonen
 lang: de
 ---

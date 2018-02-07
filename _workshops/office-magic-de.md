@@ -82,6 +82,8 @@ ressources:
     - '<a href="https://visualisingadvocacy.org/">Visualising data for advocacy</a>, Tactical Technology Collective, 2014'
 duration: 5 Stunden
 costs: 600 Euro
-suitable_for: geeignet für Projektteams aus gemeinnützigen Organisationen und Einzelpersonen
+suitable_for: 
+    - Projektteams aus gemeinnützigen Organisationen
+    - Einzelpersonen
 lang: de
 ---

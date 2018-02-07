@@ -73,6 +73,8 @@ ressources:
     - '<a href="http://www.unescap.org/sites/default/files/good-governance.pdf">What is good governance</a>, United Nations'
 duration: 3 Stunden
 costs: 200 Euro
-suitable_for: geeignet für Projektteams aus gemeinnützigen Organisationen und Einzelpersonen
+suitable_for: 
+    - Projektteams aus gemeinnützigen Organisationen
+    - Einzelpersonen
 lang: de
 ---
