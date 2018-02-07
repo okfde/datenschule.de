@@ -36,65 +36,43 @@ trainer:
 curriculum:
     course:
         -
-            name: 1. Begrüßung und Kennenlernen
+            name: Begrüßung und Kennenlernen
         -
-            name: "2. Einführung: Was sind offene Daten und wofür sind sie gut?"
+            name: "Einführung: Was sind offene Daten und wofür sind sie gut?"
             content:
-                - <u>Gesellschaftliche Aspekte:</u> Verbindung zwischen offenen Daten, Transparenz, Beteiligung und gutem Regierungshandeln
-                - <u>Rechtliche Aspekte:</u> Besseres Teilen mit offenen Lizenzen 
-                - <u>Technische Aspekte:</u> Bessere Verarbeitung mit offenen Formaten und maschinenlesbaren Daten
+                - 'Gesellschaftliche Aspekte: Verbindung zwischen offenen Daten, Transparenz, Beteiligung und gutem Regierungshandeln'
+                - 'Rechtliche Aspekte: Besseres Teilen mit offenen Lizenzen' 
+                - 'Technische Aspekte: Bessere Verarbeitung mit offenen Formaten und maschinenlesbaren Daten'
         -
-            name: "3. State of the Open"
-            content:
-                - Der Stand offener Daten in Deutschland
+            name: "State of the Open: Der Stand offener Daten in Deutschland"
         - 
-            name: "4. Open Data Portale"
+            name: "Open Data Portale"
             content:
                 - Ein Überblick über nationale & internationale Open Data-Portale
                 - Staatliche Informationen selbst anfragen
         -
-            name: "5. Open Data in gemeinnützigen Projekten"
-            content:
-                -  Beispielprojekte, die offene Daten nutzen
+            name: "Open Data in gemeinnützigen Projekten"
         - 
-            name: "6. Hands on: Zivilgesellschaftliche Tools & Open Data"
+            name: "Hands on: Zivilgesellschaftliche Tools & Open Data"
             content:
                 - Digitale Tools für bessere Recherchen und politisches Monitoring ausprobieren
         -
-            name: "7. Hands on: Selbst Daten veröffentlichen"
-            content:
-                - Wie man bei der Veröffentlichung von Daten vorgehen kann
+            name: "Hands on: Selbst Daten veröffentlichen - How To"
         -
-            name: "8. Feedback, Ausklang, Kaffee"
+            name: "Feedback, Ausklang, Kaffee"
 prequisites:
     - Keine Vorkenntnisse notwendig
     - Laptop (kann von uns auf Wunsch bereitgestellt werden)
 ressources:
-    -
-        name: '<a href="http://www.free-culture.cc/freecontent/">Free Culture</a>, Lawrence Lessig, 2014'
-        type: extern
-    - 
-        name: '<a href="http://thepowerofopen.org/">The Power of Open</a> (<a href="http://thepowerofopen.org/assets/pdfs/tpoo_ger.pdf">PDF</a>), Creative Commons, 2011'
-        type: extern
-    - 
-        name: '<a href="https://datavizcatalogue.com/">Ten Open Data Principles</a> (<a href="http://assets.sunlightfoundation.com.s3.amazonaws.com/policy/papers/Ten%20Principles%20for%20Opening%20Up%20Government%20Data.pdf">PDF</a>), Sunlight Foundation, 2010'
-        type: extern
-    - 
-        name: '<a href="http://www.bpb.de/themen/BTWEO5,0,0,Open_Data.html">Dossier zu Open Data</a>, BpB, 2013'
-        type: extern
-    - 
-        name: '<a href="http://opendatahandbook.org/guide/de/what-is-open-data/">Was ist Open Data?</a>, , Open Knowledge International, 2018'
-        type: extern
-    - 
-        name: '<a href="https://www.otto-brenner-shop.de/uploads/tx_mplightshop/AP23_iFG_Semsrott.pdf">Informationsfreiheit - Mehr Transparenz für die Demokratie</a>, Otto-Brenner Stiftung, 2016'
-        type: extern
-    - 
-        name: '<a href="http://www.unescap.org/sites/default/files/good-governance.pdf">What is good governance</a>, United Nations'
-        type: extern
+    - '<a href="http://www.free-culture.cc/freecontent/">Free Culture</a>, Lawrence Lessig, 2014'
+    - '<a href="http://thepowerofopen.org/">The Power of Open</a> (<a href="http://thepowerofopen.org/assets/pdfs/tpoo_ger.pdf">PDF</a>), Creative Commons, 2011'
+    - '<a href="https://datavizcatalogue.com/">Ten Open Data Principles</a> (<a href="http://assets.sunlightfoundation.com.s3.amazonaws.com/policy/papers/Ten%20Principles%20for%20Opening%20Up%20Government%20Data.pdf">PDF</a>), Sunlight Foundation, 2010'
+    - '<a href="http://www.bpb.de/themen/BTWEO5,0,0,Open_Data.html">Dossier zu Open Data</a>, BpB, 2013'
+    - '<a href="http://opendatahandbook.org/guide/de/what-is-open-data/">Was ist Open Data?</a>, , Open Knowledge International, 2018'
+    - '<a href="https://www.otto-brenner-shop.de/uploads/tx_mplightshop/AP23_iFG_Semsrott.pdf">Informationsfreiheit - Mehr Transparenz für die Demokratie</a>, Otto-Brenner Stiftung, 2016'
+    - '<a href="http://www.unescap.org/sites/default/files/good-governance.pdf">What is good governance</a>, United Nations'
 duration: 3 Stunden
 costs: 200 Euro
-suitable_for: 
-    - Projektteams aus gemeinnützigen Organisationen
-    - Einzelpersonen
+suitable_for: geeignet für Projektteams aus gemeinnützigen Organisationen und Einzelpersonen
 lang: de
 ---

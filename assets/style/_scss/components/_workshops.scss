@@ -95,3 +95,9 @@
   @include heading('para-lg');
   color: $white;
 }
+
+.workshop-curriculum {
+  ol {
+    list-style-type: decimal;
+  }
+}

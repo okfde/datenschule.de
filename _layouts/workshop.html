@@ -45,9 +45,12 @@ layout: default
 					<p>
 						<i class="icon-clock"></i> {{page.duration}}
 					</p>
-					<p>
-						<i class="icon-chart-bar"></i> {{page.level}}
+					<p style="max-width:30em">
+						{{page.suitable_for}}
 					</p>
+					<!--<p>-->
+						<!--<i class="icon-chart-bar"></i> {{page.level}}-->
+					<!--</p>-->
 					<p>
 						<!--<i class="icon-paper-plane"></i>&nbsp;<a class="workshop-button" href="{{workshop.url}}">Termin anfragen</a>-->
 						<!--<i class="icon-paper-plane"></i> Anmelden-->
@@ -85,19 +88,21 @@ layout: default
 
 		</div>
 	</div>
-	<div class="container">
+	<div class="container workshop-curriculum">
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
 				<h1 class="box-head">{% t workshop.curriculum %}</h1>
 				<p>{{page.curriculum.intro}}</p>
-				{% for entry in page.curriculum.course %}
-				<h3>{{entry.name}}</h3>
-				<ul>
-					{% for item in entry.content %}
-					<li>{{item}}</li>
+				<ol>
+					{% for entry in page.curriculum.course %}
+					<li><strong>{{entry.name}}</strong></li>
+					<ul>
+						{% for item in entry.content %}
+						<li>{{item}}</li>
+						{% endfor %}
+					</ul>
 					{% endfor %}
-				</ul>
-				{% endfor %}
+				</ol>
 			</div>
 		</div>
 	</div>
@@ -121,20 +126,10 @@ layout: default
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
 				<h1 class="box-head">{% t workshop.ressources %}</h1>
-				{% assign ressources = page.ressources | where:"type","intern" %}
 				<p>
 				<ul>
-					{% for ressource in ressources %}
-					<li>{{ressource.name}}</li>
-					{% endfor %}
-				</ul>
-				</p>
-				{% assign ressources = page.ressources | where:"type","extern" %}
-				<p>
-				{% t workshop.useful_links %}:
-				<ul>
-					{% for ressource in ressources %}
-					<li><a href="{{ressource.link}}">{{ressource.name}}</a></li>
+					{% for ressource in page.ressources %}
+						<li>{{ressource}}</li>
 					{% endfor %}
 				</ul>
 				</p>

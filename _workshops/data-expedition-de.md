@@ -20,10 +20,10 @@ text_long: >
 tags:
     - prototyping
     - data literacy
-    - data expedition
+    - teamwork
 goal_disclaimer: "In diesem Workshop lernst du:"
 learning_goals:
-    - wie ein daten-basiertes Projekt von der Idee bis zur Visualisierung entlang der Data Pipeline umgesetzt wird
+    - wie ein datenbasiertes Projekt von der Idee bis zur Visualisierung entlang der Data Pipeline umgesetzt wird
     - wie du eine Herausforderung mit digitalen Tools für z.B. die Recherche bestreiten kannst
     - wie digitale Projekte effektiv im Team erarbeitet werden 
     - digitale Kenntnisse mit deinem  Herzensthema praktisch zu vertiefen
@@ -41,7 +41,7 @@ curriculum:
         Expedition.
     course:
         -
-            name: 1. Erster Tag
+            name: Erster Tag
             content:
                 - Begrüßung und Kennenlernen
                 - "Vorstellung der Data-Pipeline: Eine Methode zur Umsetzung digitaler Projekte"
@@ -61,22 +61,14 @@ curriculum:
                 - "Abschluss-Reflexion: Können wir das Projekt zu Ende bringen? Wie wollen wir an dem Projekt weiterarbeiten?" 
                 - Abschluss und Ausklang des Tages
 prequisites:
-    - ie Data Expedition richtet sich an Interessierte mit inhaltlichem oder/und technischen Fokus: Du hast dich mit der Digitalisierung beschäftigt, bist beruflich oder ehrenamtlich in einem bestimmten Bereich aktiv (z.B. Bildung, Policy-Arbeit, Datenjournalismus) und möchtest dein Wissen praktisch anwenden. Du bist es gewohnt, mit Tabellendokumenten und anderen digitalen Tools zu arbeiten.
+    - "Die Data Expedition richtet sich an Interessierte mit inhaltlichem oder/und technischen Fokus: Du hast dich mit der Digitalisierung beschäftigt, bist beruflich oder ehrenamtlich in einem bestimmten Bereich aktiv (z.B. Bildung, Policy-Arbeit, Datenjournalismus) und möchtest dein Wissen praktisch anwenden. Du bist es gewohnt, mit Tabellendokumenten und anderen digitalen Tools zu arbeiten."
     - Laptop (kann von uns auf Wunsch bereitgestellt werden)
 ressources:
-    -
-        name: '<a href="https://storyhunt.de/">The Story Hunt: Encover the EU</a>, Datenschule/ OpenBudgets, 2017'
-        type: extern
-    - 
-        name: '<a href="https://datenschule.de/blog/2017/07/DS-Storyhunt-Wochenende/">Blogpost</a> zum Abschluss des Story Hunts, Datenschule, 2017'
-        type: extern
-    - 
-        name: '<a href="https://schoolofdata.org/data-expeditions/">What is a Data-Expedition?</a>, School of Data, 2018'
-        type: extern
+    - '<a href="https://storyhunt.de/">The Story Hunt: Encover the EU</a>, Datenschule/ OpenBudgets, 2017'  
+    - '<a href="https://datenschule.de/blog/2017/07/DS-Storyhunt-Wochenende/">Blogpost</a> zum Abschluss des Story Hunts, Datenschule, 2017'
+    - '<a href="https://schoolofdata.org/data-expeditions/">What is a Data-Expedition?</a>, School of Data, 2018'
 duration: 2-3 Tage
 costs: 200 Euro
-suitable_for: 
-    - Projektteams aus gemeinnützigen Organisationen
-    - Einzelpersonen
+suitable_for: geeignet für Projektteams aus gemeinnützigen Organisationen und Einzelpersonen
 lang: de
 ---

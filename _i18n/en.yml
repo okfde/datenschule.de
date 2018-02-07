@@ -42,7 +42,7 @@ lernen:
 workshops:
   title: "Workshops"
   desc: "Workshops by School of Data Germany (OKF)"
-  intro: "Through our workshops we want to encourage non-profit organisations to use data and technologies in their work strategically, to experiment with data and to enhance their knowledge in using digital information and tools. Our workshops are composed of different modules which can be combined according to the needs of your organisation. We will guide you through the workshops and modules in cooperation with experienced trainers and facilitators."  
+  intro: "Through our workshops we want to encourage non-profit organisations and individuals to use data and technologies in their work strategically, to experiment with data and to enhance their knowledge in using digital information and tools.<br /><br />Our workshops are composed of different modules which can be combined on request and are carried out by our team in cooperation with experienced trainers and facilitators. We carry out research in advance to find suitable data sets based on your team’s interests. Our workshops will be carried out when at least 10 participants have registered."
   method:
     title: "Our Method: Data Pipeline"
     content: "The Data Pipeline is School of Data’s approach to working with data from beginning to end. Once you understand your action cycle and the stakeholders, it will be time to work with the data and we have broken down this process in steps. Our workshops are based on this methodology, which helps you to enhance your skills in each phase. The Data Pipeline was tested by numerous experts and trainers of our international School of Data network and is updated on a regular basis."
@@ -130,7 +130,7 @@ workshop:
   register: Ask for a date
   goals: Goals
   curriculum: Curriculum
-  prequisites: Technical prequisites
+  prequisites: Prequisites
   ressources: Ressources
   more: More
   useful_links: useful links

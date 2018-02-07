@@ -42,7 +42,7 @@ lernen:
 workshops:
   title: "Workshops"
   desc: "OKF Datenschule Workshops"
-  intro: "Mit unseren Workshops möchten wir gemeinnützigen Organisationen eine Möglichkeit bieten, Daten und Technologien kennenzulernen, mit ihnen zu experimentieren und ihr bisheriges Wissen zu vertiefen. Die Workshops bestehen dabei aus mehreren Lernmodulen, die auf Wunsch kombiniert werden können und von uns in Kooperationen mit erfahrenen Trainer/innen durchgeführt werden."
+  intro: "Mit unseren Workshops möchten wir gemeinnützigen Organisationen und Interessierten eine Möglichkeit bieten, Daten und Technologien kennenzulernen, mit ihnen zu experimentieren und ihr bisheriges Wissen zu vertiefen. Die Workshops bestehen dabei aus mehreren Lernmodulen, die auf Wunsch kombiniert werden können und von uns in Kooperationen mit erfahrenen Trainer/innen durchgeführt werden.<br /><br />Ob Parteispenden und Nebentätigkeiten, Umweltverschmutzung oder Schulinformationen, wir recherchieren passende Daten und beziehen deine Wünsche in unseren Workshops ein. Unsere Workshops werden durchgeführt, wenn sich min. 10 Teilnehmende angemeldet haben."
   method:
     title: "Unsere Methodik: Data Pipeline"
     content: "Die Data Pipeline verschafft einen guten Überblick darüber, wie man beim Arbeiten mit Daten von der ersten Fragestellung bis zur Kommunikation vorgeht. Unsere Workshops orientieren sich an den einzelnen Schritten und helfen dir, deine Kenntnisse aufzubauen. Diese Methode wurden von zahlreichen internationalen Expert/innen und Trainer/innen unseres Netzwerkes entwickelt, wird regelmäßig reflektiert und angepasst."
@@ -141,7 +141,7 @@ workshop:
   register: Termin anfragen
   goals: Ziele
   curriculum: Curriculum
-  prequisites: Technische Vorrausetzungen
+  prequisites: Vorrausetzungen
   ressources: Ressourcen
   more: Mehr
   useful_links: Nützliche Links
