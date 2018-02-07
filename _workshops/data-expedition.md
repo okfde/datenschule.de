@@ -61,6 +61,7 @@ curriculum:
                 - "Abschluss-Reflexion: Können wir das Projekt zu Ende bringen? Wie wollen wir an dem Projekt weiterarbeiten?" 
                 - Abschluss und Ausklang des Tages
 prequisites:
+    - ie Data Expedition richtet sich an Interessierte mit inhaltlichem oder/und technischen Fokus: Du hast dich mit der Digitalisierung beschäftigt, bist beruflich oder ehrenamtlich in einem bestimmten Bereich aktiv (z.B. Bildung, Policy-Arbeit, Datenjournalismus) und möchtest dein Wissen praktisch anwenden. Du bist es gewohnt, mit Tabellendokumenten und anderen digitalen Tools zu arbeiten.
     - Laptop (kann von uns auf Wunsch bereitgestellt werden)
 ressources:
     -
