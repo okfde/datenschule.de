@@ -89,7 +89,8 @@ layout: default
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
 				<h1 class="box-head">{% t workshop.curriculum %}</h1>
-				{% for entry in page.curriculum %}
+				<p>{{page.curriculum.intro}}</p>
+				{% for entry in page.curriculum.course %}
 				<h3>{{entry.name}}</h3>
 				<ul>
 					{% for item in entry.content %}
@@ -124,7 +125,7 @@ layout: default
 				<p>
 				<ul>
 					{% for ressource in ressources %}
-					<li><a href="{{ressource.link}}">{{ressource.name}}</a></li>
+					<li>{{ressource.name}}</li>
 					{% endfor %}
 				</ul>
 				</p>
