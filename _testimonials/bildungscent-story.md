@@ -2,7 +2,7 @@
 layout: testimonial
 name: Bildungscent
 img: 
-    src: /files/testimonials/bildungscent.jpg
+    src: /files/testimonials/ds-und-bc.jpg
 de:
     cite: > 
         Ich glaube, als wir zusammengefunden haben, hat das einen Missing Link 
