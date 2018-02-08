@@ -11,7 +11,7 @@ description: references.desc
 
 <div class="container">
 	<div class="box">
-		{% for cite in site.data.cites %}
+		{% for cite in site.data.cites[site.lang] %}
 		<p class="speech-bubble"> {{cite.text}}<cite>{{cite.author}}</cite></p>
 		{% endfor %}
 	</div>
@@ -23,6 +23,7 @@ description: references.desc
 	</div>
 </div>
 {% assign stories = site.testimonials | where: "lang",site.lang %}
+{% assign stories = site.testimonials %}
 {% if stories.size > 0 %}
 <div class="container">
 	<ul class="list-box">
@@ -35,8 +36,8 @@ description: references.desc
 				{% endif %}
 				 <h1 class="ellipsis">{{story.name}}</h1>
 				<p class="speech-bubble">
-					{{story.cite}}
-					<cite>{{story.cite_source}}</cite>
+					{{story[site.lang].cite}}
+					<cite>{{story[site.lang].cite_source}}</cite>
 				</p>
 				<div class="list-box-pull-down list-box-pull-right">
 					<a class="box-button-plain" href="{{ site.baseurl }}{{ story.url }}">Mehr</a>
