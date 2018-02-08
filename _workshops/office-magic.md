@@ -2,7 +2,7 @@
 layout: workshop
 title: Office Magic
 image:
-  src: /files/workshops/excel-magic.jpg
+  src: /files/downloads/campaign/postcard_08.jpg
   license: 
 de:
     slogan: Mit Excel / LibreOffice Daten analysieren und visualisieren 
