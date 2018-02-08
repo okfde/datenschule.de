@@ -15,6 +15,7 @@ description: workshops.desc
 <!--</div>-->
 
 {% assign workshops = site.workshops  | where: "lang", site.lang %}
+{% assign workshops = site.workshops %}
 {% if workshops.size > 0 %}
 <div class="container">
 	<ul class="list-box">
@@ -30,10 +31,10 @@ description: workshops.desc
 					</div>
 					<div class="workshop-content">
 						<p>
-							<strong>{{workshop.slogan}}</strong>
+							<strong>{{workshop[site.lang].slogan}}</strong>
 						</p>
 						<p>
-							{{workshop.text_short}}
+							{{workshop[site.lang].text_short}}
 						</p>
 					</div>
 					<div class="workshop-bottom">
@@ -41,8 +42,8 @@ description: workshops.desc
 							<a class="box-button-plain" href="{{ site.baseurl }}{{workshop.url}}">{% t workshop.more %}</a>
 						</div>
 						<div class="workshop-footer">
-							<i class="icon-clock"></i>{{workshop.duration}}
-							<!--<span class="pull-right"><i class="icon-chart-bar"></i>{{workshop.level}}</span>-->
+							<i class="icon-clock"></i>{{workshop[site.lang].duration}}
+							<!--<span class="pull-right"><i class="icon-chart-bar"></i>{{workshop[site.lang].level}}</span>-->
 						</div>
 					</div>
 				</div>

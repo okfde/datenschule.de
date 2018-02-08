@@ -38,12 +38,12 @@ layout: default
 				<div class="workshop-meta">
 					<div class="tags">
 
-						{% for tag in page.tags %}
+						{% for tag in page[site.lang].tags %}
 						<span class="badge">{{tag}}</span>
 						{% endfor %}
 					</div>
 					<p>
-						<i class="icon-clock"></i> {{page.duration}}
+						<i class="icon-clock"></i> {{page[site.lang].duration}}
 					</p>
 					<!--<p style="max-width:30em">-->
 						<!--{{page.suitable_for}}-->
@@ -67,7 +67,7 @@ layout: default
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
 				<h1 class="box-head">{% t workshop.overview %}</h1>
-				<p>{{page.text_long}}</p>
+				<p>{{page[site.lang].text_long}}</p>
 			</div>
 
 		</div>
@@ -77,9 +77,9 @@ layout: default
 			<div class="box box-with-head box-margin-top-medium">
 				<h1 class="box-head">{% t workshop.goals %}</h1>
 				<p>
-				<p><i>{{page.curriculum_disclaimer}}</i></p>
+				<p><i>{{page[site.lang].curriculum_disclaimer}}</i></p>
 				<ul class="list-unstyled workshop-goals-list">
-					{% for goal in page.learning_goals %}
+					{% for goal in page[site.lang].learning_goals %}
 					<li><i class="icon-ok"></i>{{goal}}</li>
 					{% endfor %}
 				</ul>
@@ -92,9 +92,9 @@ layout: default
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
 				<h1 class="box-head">{% t workshop.curriculum %}</h1>
-				<p>{{page.curriculum.intro}}</p>
+				<p>{{page[site.lang].curriculum.intro}}</p>
 				<ol>
-					{% for entry in page.curriculum.course %}
+					{% for entry in page[site.lang].curriculum.course %}
 					<li><strong>{{entry.name}}</strong></li>
 					<ul>
 						{% for item in entry.content %}
@@ -113,7 +113,7 @@ layout: default
 				<h1 class="box-head">{% t workshop.prequisites %}</h1>
 				<p>
 				<ul>
-					{% for prequisite in page.prequisites %}
+					{% for prequisite in page[site.lang].prequisites %}
 					<li>{{prequisite}}</li>
 					{% endfor %}
 				</ul>
@@ -121,14 +121,14 @@ layout: default
 			</div>
 		</div>
 	</div>
-	{% assign ressources = page.ressources | where:"type","intern" %}
+	{% assign ressources = page[site.lang].ressources | where:"type","intern" %}
 	<div class="container">
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
 				<h1 class="box-head">{% t workshop.ressources %}</h1>
 				<p>
 				<ul>
-					{% for ressource in page.ressources %}
+					{% for ressource in page[site.lang].ressources %}
 						<li>{{ressource}}</li>
 					{% endfor %}
 				</ul>
@@ -140,10 +140,10 @@ layout: default
 	<div class="container">
 		<div class="container-left-12">
 			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">Geeignet für</h1>
+				<h1 class="box-head">{% t workshop.suitable_for %}</h1>
 				<p>
 					<ul>
-						{% for suitable in page.suitable_for%}
+						{% for suitable in page[site.lang].suitable_for%}
 						<li>{{suitable}}</li>
 						{% endfor %}
 					</ul>
