@@ -2,7 +2,7 @@
 layout: workshop
 title: Office Magic
 image:
-  src: /files/downloads/campaign/postcard_08.jpg
+  src: /files/workshops/excel-magic-postcard.jpg
   license: 
 de:
     slogan: Mit Excel / LibreOffice Daten analysieren und visualisieren 
@@ -76,7 +76,7 @@ de:
         - Laptop (kann von uns auf Wunsch bereitgestellt werden)
         - "OpenOffice / LibreOffice / Excel / Google-Spreadsheets (genaue Angaben werden im Vorfeld kommuniziert)"
     ressources:
-        - 'Daten säubern in Google Sheets, Datenschule, 2017'
+        - '<a href="/files/downloads/workshops/lehrmaterial-google-sheets.pdf">Daten säubern in Google Sheets</a>, Datenschule, 2017'
         - '<a href="https://www.oreilly.de/buecher/120211/9783897219595-datenanalyse-von-kopf-bis-fu%C3%9F.html">Datenanalyse von Kopf bis Fuß</a>, O’Reilly, 2010'
         - '<a href="https://de.excel-translator.de/funktionen/">Der Formelübersetzer für Excel</a>, Mourad Louha, 2018'
         - '<a href="https://datavizcatalogue.com/">Katalog für Datenvisualisierungen</a>, Severino Ribecca, 2018'
@@ -155,7 +155,7 @@ en:
         - laptop (we can provide laptops if needed)
         - "OpenOffice / LibreOffice / Excel / Google-Spreadsheets (details will be communicated in advance)"
     ressources:
-        - 'Data analysis in Google Sheets, School of Data Germany, 2017'
+        - '<a href="/files/downloads/workshops/lehrmaterial-google-sheets.pdf">Data analysis in Google Sheets</a>, School of Data Germany, 2017'
         - '<a href="https://www.amazon.de/Head-First-Data-Analysis-statistics/dp/0596153937">Head First Data Analysis: A learner''s guide to big numbers, statistics, and good decisions</a>, O’Reilly, 2010'
         - '<a href="https://en.excel-translator.de/funktionen/">The Excel Formula-Translator</a>, Mourad Louha, 2018'
         - '<a href="https://datavizcatalogue.com/">Data vis catalogue, Severino Ribecca, 2018</a>, Severino Ribecca, 2018'
