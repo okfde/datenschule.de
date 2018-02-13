@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: http://www.statistik-bw.de/Service/Veroeff/Verzeichnisse/113015006.bs
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #1: Baden-Württemberg"
 
 ---

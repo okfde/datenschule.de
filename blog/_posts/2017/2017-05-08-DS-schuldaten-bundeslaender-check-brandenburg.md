@@ -3,15 +3,13 @@ authors:
 - Jasmin Helm
 date: 2017-05-08 07:00:00
 picture:
-  src: /files/blog/2017/05/schulverzeichnis-brandenburg.jpg
+  src: /files/blog/2017/07/schulverzeichnis-brandenburg.jpg
   title: Schulverzeichnis auf der Webseite des Ministeriums für Bildung, Jugend und Sport (MBJS) Brandenburg
   license: 
   license_url: http://www.mbjs.brandenburg.de/sixcms/detail.php?template=schulverzeichnis
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #4: Brandenburg"
 
 ---

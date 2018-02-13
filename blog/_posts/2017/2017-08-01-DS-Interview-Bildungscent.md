@@ -9,9 +9,8 @@ picture:
   license_url: "https://creativecommons.org/licenses/by/3.0/" 
 tags:
 - kooperation
-- schuldaten
-- social change
-- data literacy
+- bildungscent
+- interview
 title: "Interview mit BildungsCent: Über Schuldaten, Digitalisierung & die Arbeit mit der Datenschule"
 ---
 

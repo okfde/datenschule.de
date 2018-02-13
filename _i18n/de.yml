@@ -107,6 +107,8 @@ presse:
   cat_releases_distribute_link: "Hier"
   cat_releases_distribute_text: " können Sie sich in unseren E-Mail-Presseverteiler eintragen. Wir informieren Sie über aktuelle Termine und Pressemitteilungen."
   cat_review: "Pressespiegel"
+  cat_mailinglist: "Presseverteiler"
+  cat_mailinglist_desc: "In den Presserverteiler eintragen."
 impressum:
   title: "Impressum"
   contact: "Kontakt"

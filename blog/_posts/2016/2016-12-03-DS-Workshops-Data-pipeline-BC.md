@@ -10,10 +10,9 @@ picture:
   license: "CC-BY 3.0, Moritz Neujeffski, Foto: Jasmin Helm"
   license_url: "https://creativecommons.org/licenses/by/3.0/de/"
 tags:
-- data literacy
-- social change
-- workshops
-- schule
+- workshop
+- schuldaten
+- bildungscent
 title: "Schuldaten analysieren - Rückblick zu unseren Workshops mit BildungsCent e.V."
 ---
 

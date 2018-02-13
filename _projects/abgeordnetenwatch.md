@@ -3,7 +3,7 @@ title: OffenesParlament.de
 url: 
 ended: no
 picture:
-  src: /files/projects/bundestag.jpg
+  src: /files/projects/logo-op.png
   title: Bundestag
   license:
   license_url:

@@ -11,10 +11,7 @@ picture:
   license: CC0 Public Domain
   license_url: https://wiki.creativecommons.org/wiki/Public_domain
 tags:
-- schule
 - schuldaten
-- data literacy
-- social change
 - open data
 title: "Launch: JedeSchule.de schafft mehr Transparenz im Schulsystem"
 --- 

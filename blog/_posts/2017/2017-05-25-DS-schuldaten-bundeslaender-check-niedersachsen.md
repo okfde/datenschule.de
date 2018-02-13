@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: http://www.nibis.de/nibis.php?menid=590
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #8: Niedersachsen"
 
 ---

@@ -3,15 +3,13 @@ authors:
 - Jasmin Helm
 date: 2017-06-02 08:00:00
 picture:
-  src: /files/blog/2017/schulverzeichnis-rlp.jpg
+  src: /files/blog/2017/07/schulverzeichnis-rlp.jpg
   title: Schuldatenbank vom Bildungsserver Rheinland-Pfalz
   license: 
   license_url: https://schulen.bildung-rp.de/gehezu/startseite/liste.html 
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #10: Rheinland-Pfalz"
 
 ---

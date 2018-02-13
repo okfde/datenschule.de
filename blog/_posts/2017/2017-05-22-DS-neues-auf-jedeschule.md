@@ -8,9 +8,7 @@ picture:
   license: public domain
   license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.de
 tags:
-- schule
 - schuldaten
-- data literacy
 title: "Zwei Monate nach dem Launch - Was gibt’s Neues auf JedeSchule.de?"
 
 ---

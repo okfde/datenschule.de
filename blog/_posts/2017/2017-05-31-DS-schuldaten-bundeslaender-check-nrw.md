@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: https://open.nrw/de/dataset/msw_001 
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #9: Nordrhein-Westfalen"
 
 ---

@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: https://www.bildung.bremen.de/schulwegweiser-3714
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #5: Bremen"
 
 ---

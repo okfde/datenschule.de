@@ -8,8 +8,7 @@ picture:
   license: "CC-BY 4.0, Georges Labrèche, Datenschule, Foto: Helene Hahn"
   license_url: "https://creativecommons.org/licenses/by/4.0/"
 tags:
-- data literacy
-- social change
+- interview
 - open data
 title: "Working with data - Interview #7"
 ---

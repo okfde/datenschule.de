@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: http://www.schleswig-holstein.de/DE/Service/Behoerderdensuche/Schule/schule_node.html 
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #14: Schleswig-Holstein"
 
 ---

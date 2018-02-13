@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: "https://statistik.hessen.de/publikationen/verzeichnisse/kostenpflichtige-verzeichnisseschools"  
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #16: Hessen"
 
 ---

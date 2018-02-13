@@ -9,9 +9,7 @@ picture:
   license: CC-0
   license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.de
 tags:
-- datensummit
-- transparency
-- data literacy
+- events
 - open data
 title: "Das Programm des Datensummit – jetzt online"
 

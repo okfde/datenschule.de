@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: http://www.regierung-mv.de/Landesregierung/bm/Ministerium/Statistik/
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #7: Mecklenburg-Vorpommern"
 
 ---

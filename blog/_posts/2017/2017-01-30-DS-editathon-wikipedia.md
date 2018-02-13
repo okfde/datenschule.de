@@ -8,7 +8,7 @@ picture:
   license: "CCO Public Domain"
   license_url: "https://wiki.creativecommons.org/wiki/Public_domain"
 tags:
-- editathon
+- workshop
 - open data
 - informationsfreiheit
 - civic tech

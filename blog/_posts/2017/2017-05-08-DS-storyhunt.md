@@ -11,10 +11,9 @@ picture:
   license: CCO Public Domain
   license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
 tags:
-- Story Hunt
-- EU 
+- storyhunt
+- events
 - data expedition
-- data literacy
 title: "Join The Story Hunt - Uncover the EU!"
 
 ---

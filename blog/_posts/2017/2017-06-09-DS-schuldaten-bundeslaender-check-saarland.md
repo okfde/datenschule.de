@@ -3,15 +3,13 @@ authors:
 - Jasmin Helm
 date: 2017-06-09 08:00:00
 picture:
-  src: /files/blog/2017/schulverzeichnis-saarland.jpg
+  src: /files/blog/2017/07/schulverzeichnis-saarland.jpg
   title: Schulverzeichnis des Statistischen Amtes Saarland
   license: 
   license_url: https://www.saarland.de/23153.htm
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #11: Saarland"
 
 ---

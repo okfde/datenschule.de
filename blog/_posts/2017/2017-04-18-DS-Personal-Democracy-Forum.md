@@ -8,10 +8,9 @@ picture:
   license: Picture by Dawid Linkowski
   license_url:
 tags:
-- transparency
-- conference
+- transparenz
+- events
 - open data
-- data literacy
 title: "Rückblick zum Personal Democracy Forum in Danzig: Daten, Civic-Tech und viel Transparenz"
 
 ---

@@ -10,7 +10,6 @@ picture:
 tags:
 - bundestagswahl
 - wahldaten
-- data literacy
 title: "Bundestagswahl 2017 - Wahldaten & Infos finden"
 ---
 

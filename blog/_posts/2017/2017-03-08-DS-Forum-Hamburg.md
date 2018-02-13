@@ -8,8 +8,7 @@ picture:
   license: 
   license_url: 
 tags:
-- Forum Offene Stadt
-- data literacy
+- events
 - community
 - open data
 title: "Gemeinsam Stadt gestalten - Forum Offene Stadt in Hamburg"

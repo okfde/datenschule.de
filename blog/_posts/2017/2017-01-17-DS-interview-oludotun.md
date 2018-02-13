@@ -8,8 +8,6 @@ picture:
   license: "CC-BY 3.0, Oludotun Babayemi, Datenschule, Foto: Helene Hahn"
   license_url: "https://creativecommons.org/licenses/by/3.0/"
 tags:
-- social change
-- data literacy
 - community
 - learning
 title: "Working with data - Interview #2"

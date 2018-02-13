@@ -3,7 +3,11 @@
 {% for event in events %}
 <div class="event-item container">
 	<h5>{{event.name}}</h5>
-	<div class="event-date">{{event.date | date: '%d.%m.%Y'}}</div>
+	{% if event.end %}
+	<div class="event-date">{{event.date | date: '%d.%m.%Y'}} - {{event.end | date: '%d.%m.%Y'}}</div>
+	{% else %}
+		<div class="event-date">{{event.date | date: '%d.%m.%Y'}}</div>
+	{% endif %}
 	<div class="event-place">{{event.place}}</div>
 	<div class="event-text">{{event.text | markdownify }}</div>
 </div>

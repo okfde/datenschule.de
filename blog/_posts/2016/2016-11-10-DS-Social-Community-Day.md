@@ -7,13 +7,9 @@ picture:
   license: "Social Community Day 2016"
   license_url: "http://www.social-community-day.de/wp/galerie-2016/nggallery/social-community-day-2016/scday16-workshop-daten-visualisieren"
 tags:
-- data literacy
-- social change
-- workshops
-- twitter
-- social community day
-- köln
-- silversternacht
+- workshop
+- events
+- datenanalyse
 title: Silversternacht 2015/16 Köln aus der Datenperspektive - Workshop beim Social Community Day 
 ---
 

@@ -8,10 +8,9 @@ picture:
   license: "CC0.1.0"
   license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 tags:
-- data literacy
-- social change
-- Anti-Diskriminierung
-- Integration
+- antidiskriminierung
+- integration
+- workshop
 title: "Fachgespräch: Open Data in der Anti-Diskriminierungsarbeit"
 ---
 

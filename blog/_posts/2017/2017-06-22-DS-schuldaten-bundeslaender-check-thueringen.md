@@ -8,10 +8,8 @@ picture:
   license: 
   license_url: https://www.schulportal-thueringen.de/schools  
 tags:
-- schule
 - schuldaten
 - bundesländer
-- data literacy
 title: "Schuldaten-Bundesländer-Check #15: Thüringen"
 
 ---

@@ -10,9 +10,7 @@ picture:
   license: "CC BY 3.0 Datenschule, Design: Montebelo"
   license_url: "https://creativecommons.org/licenses/by/3.0/de/"
 tags:
-- civi tech
-- data literacy
-- ngo
+- civic tech
 title: Datenschule - Lernen, wie man Daten und Technologien effektiv einsetzt!
 ---
 

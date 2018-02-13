@@ -8,11 +8,9 @@ picture:
   license: "CC-BY-4.0, Datenvisualisierung bei Mediendienst Integration, Foto: Jasmin Helm"
   license_url: "https://creativecommons.org/licenses/by/4.0/"
 tags:
-- data literacy
-- social change
-- Migration
-- Integration
-- Medien
+- workshop
+- migration
+- integration
 title: "Migrationsdaten finden & visualisieren - Rückblick zu unserem Workshop mit Mediendienst Integration"
 ---
 

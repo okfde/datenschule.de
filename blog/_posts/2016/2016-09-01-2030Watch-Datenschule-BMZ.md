@@ -8,9 +8,7 @@ picture:
   license_url:
 tags:
 - civic tech
-- data literacy
-- ngo
-- workshops
+- workshop
 title: Tag der offen Tür - Die OKF beim BMZ
 ---
 
