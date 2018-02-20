@@ -266,7 +266,7 @@
 - name: "Vorbereitungsseminar FSJ-Digital"
   place: Kassel
   date: 2018-02-05
-  featured: true
+  featured: false
   text: >
     Beim [Vorbereitungsseminar für das FSJ-Digital](https://fsjdigital-rlp.de/fuer-einsatzstellen/) bieten wir einen Workshop zur Datenanalyse an.
 - name: "Tagung zur politischen Bildung & Digitalisierung"
