@@ -158,6 +158,7 @@ layout: default
 				<!--<a class="box-button-plain" href="{{workshop.url}}"><i class="icon-paper-plane"></i> Termin anfragen</a>-->
 			<!--</div>-->
 		<!--</div>-->
-		<button class="box-button workshop-register-button"><i class="icon-paper-plane"></i>  {% t workshop.register %}</button>
+		<a href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
+		<button class="box-button workshop-register-button"><i class="icon-paper-plane"></i> {% t workshop.register %} </button></a>
 	</div>
 </section>

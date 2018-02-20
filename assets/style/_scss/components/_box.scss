@@ -78,6 +78,7 @@
   color: $base-button-color;
   font-size: 1.2em;
   border: none;
+  padding-top: 0.35em;
 
   &:hover {
     background-color: darken($base-button-background-color, 5%);
