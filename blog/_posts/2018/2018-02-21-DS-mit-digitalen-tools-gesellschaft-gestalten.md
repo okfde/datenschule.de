@@ -14,7 +14,7 @@ tags:
 title: "Mit digitalen Tools Gesellschaft gestalten - Interview mit jugend.beteiligen.jetzt"
 ---
 
-Die Demokratielabore wollen Jugendliche dazu ermutigen, sich mit Hilfe von digitalen Kompetenzen und Technologien selbstbestimmt und aktiv an gesellschaftlichen Prozessen zu beteiligen. Doch wie kann eine Jugendbeteiligung mit digitalen Tools genau aussehen? Und welche Herausforderungen gibt es? Lest mehr darüber im Interview  mit Frank Segert, Programmmitarbeiter bei der Deutschen Kinder – und Jugendstiftung (DKJS), verantwortlich für die Plattform **[jugend.beteiligen.jetzt](http://www.jugend.beteiligen.jetzt)** – für die Praxis digitaler Jugendbeteiligung.
+Die [Demokratielabore](https://demokratielabore.de) wollen Jugendliche dazu ermutigen, sich mit Hilfe von digitalen Kompetenzen und Technologien selbstbestimmt und aktiv an gesellschaftlichen Prozessen zu beteiligen. Doch wie kann eine Jugendbeteiligung mit digitalen Tools genau aussehen? Und welche Herausforderungen gibt es? Lest mehr darüber im Interview  mit Frank Segert, Programmmitarbeiter bei der Deutschen Kinder – und Jugendstiftung (DKJS), verantwortlich für die Plattform **[jugend.beteiligen.jetzt](http://www.jugend.beteiligen.jetzt)** – für die Praxis digitaler Jugendbeteiligung.
  
 **Demokratielabore: Was ist die Idee von jugend.beteiligen.jetzt und an wen richtet sich die Plattform?**
  
