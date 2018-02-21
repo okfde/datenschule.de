@@ -272,7 +272,7 @@
 - name: "Tagung zur politischen Bildung & Digitalisierung"
   place: Potsdam
   date: 2018-02-15
-  featured: true
+  featured: false
   text: >
     Wir sprechen zum Thema politische Bildung & Digitalisierung auf der Fachtagung der Brandenburgischen Landeszentrale für politische Bildung in Potsdam. 
 - name: "#FreiraumNetz18"
