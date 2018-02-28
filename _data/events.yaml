@@ -278,6 +278,43 @@
 - name: "#FreiraumNetz18"
   place: Frankfurt am Main
   date: 2018-02-24
-  featured: true
+  featured: false
   text: >
     Beim [3. Jugend- und Netzpolitischen Forum](http://www.politische-jugendbildung-et.de/freiraumnetz18/) geben wir einen Workshop zu "Daten für zivilgesellschaftliches Engagement". 
+- name: "Workshop I: Offene Daten und digitale Beteiligung in der Jugendarbeit"
+  place: Berlin
+  date: 2018-04-06
+  featured: true
+  text: >
+    Im Rahmen der Demokratielabore veranstalten wir verschiedene Workshops für Fachkräfte. Workshop 1: Offene Daten & ihre Verwendung in der Jugendarbeit. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+- name: "Workshop II: Digitales Storytelling - Mit Daten Geschichten erzählen"
+  place: Berlin
+  date: 2018-04-20
+  featured: true
+  text: >
+    In Workshop II für Fachkräfte in der Jugendarbeit zeigen wir, wie man mit Daten gute Geschichten erzählen kann. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+- name: "Workshop III: Citizen Science: Mit Arduinos & Sensoren selbst aktiv werden"
+  place: Berlin
+  date: 2018-05-11
+  featured: true
+  text: >
+    In Workshop III für Fachkräfte in der Jugendarbeit zeigen wir, sich mit kleinen Hardwarebausteinen die Umwelt neu entdecken lässt. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+- name: "Workshop IV: Eliza meets Tay: Debatten auf Twitter analysieren"
+  place: Berlin
+  date: 2018-06-01
+  featured: true
+  text: >
+    In Workshop IV für Fachkräfte in der Jugendarbeit nehmen wir Debatten und Social Bots auf Twitter genauer unter dir Lupe. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+- name: "Data Expedition zu Jugendbeteiligung, Demokratie & Digitalisierung"
+  place: Berlin
+  date: 2018-06-15
+  featured: true
+  text: >
+    In unserer zweitägigen Data Expedition wollen wir gemeinsam mit Fachkräften aus der Jugendarbeit, Entwickler/innen und Designer/innen kleine digitale Projekte entwickeln. Anmeldung startet demnächst.
+- name: "Datenspaziergang durch Berlin"
+  place: Berlin
+  date: 2018-06-17
+  featured: true
+  text: >
+    Auf unserem Datenspaziergang zeigen wir euch, wie die digitale Welt mit unserem Alltag verwoben ist. Digitaler Begleiter ist eine Web-App. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+               
