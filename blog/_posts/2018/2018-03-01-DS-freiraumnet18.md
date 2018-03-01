@@ -4,8 +4,8 @@ authors:
 date: 2018-03-01 08:00:00
 picture:
   src: /files/blog/2018/02/freiraumnetz.JPG
-  title: Erarbeitung von Thesen. Foto: [ZGV](http://www.politische-jugendbildung-et.de/akademie/zentrum-gesellschaftliche-verantwortung-der-evangelischen-kirche-in-hessen-und-nassau/)
-  license: "CC BY-SA 4.0"
+  title: Erarbeitung von Thesen
+  license: "CC BY-SA 4.0, Foto: Zentrum Gesellschaftliche Verantwortung der Ev. Kirche in Hessen und Nassau"
   license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 tags:
 - jugendarbeit
