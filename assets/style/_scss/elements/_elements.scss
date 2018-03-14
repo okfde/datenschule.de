@@ -54,5 +54,13 @@ img {
   display: none;
 }
 
+iframe {
+  max-width: 100%;
+}
+
+iframe.bordered {
+  border: 3px solid $blue;
+}
+
 
 
