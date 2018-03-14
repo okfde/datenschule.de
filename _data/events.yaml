@@ -266,18 +266,55 @@
 - name: "Vorbereitungsseminar FSJ-Digital"
   place: Kassel
   date: 2018-02-05
-  featured: true
+  featured: false
   text: >
     Beim [Vorbereitungsseminar für das FSJ-Digital](https://fsjdigital-rlp.de/fuer-einsatzstellen/) bieten wir einen Workshop zur Datenanalyse an.
 - name: "Tagung zur politischen Bildung & Digitalisierung"
   place: Potsdam
   date: 2018-02-15
-  featured: true
+  featured: false
   text: >
     Wir sprechen zum Thema politische Bildung & Digitalisierung auf der Fachtagung der Brandenburgischen Landeszentrale für politische Bildung in Potsdam. 
 - name: "#FreiraumNetz18"
   place: Frankfurt am Main
   date: 2018-02-24
-  featured: true
+  featured: false
   text: >
     Beim [3. Jugend- und Netzpolitischen Forum](http://www.politische-jugendbildung-et.de/freiraumnetz18/) geben wir einen Workshop zu "Daten für zivilgesellschaftliches Engagement". 
+- name: "Workshop I: Offene Daten in der Jugendarbeit"
+  place: Berlin
+  date: 2018-04-06
+  featured: true
+  text: >
+    Im Rahmen der Demokratielabore veranstalten wir verschiedene Workshops für Fachkräfte. Workshop 1: Offene Daten & ihre Verwendung in der Jugendarbeit. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+- name: "Workshop II: Digitales Storytelling"
+  place: Berlin
+  date: 2018-04-20
+  featured: true
+  text: >
+    In Workshop II für Fachkräfte in der Jugendarbeit zeigen wir, wie man mit Daten gute Geschichten erzählen kann. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+- name: "Workshop III: Citizen Science"
+  place: Berlin
+  date: 2018-05-11
+  featured: true
+  text: >
+    In Workshop III für Fachkräfte in der Jugendarbeit zeigen wir, sich mit kleinen Hardwarebausteinen die Umwelt neu entdecken lässt. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+- name: "Workshop IV: Debatten auf Twitter analysieren"
+  place: Berlin
+  date: 2018-06-01
+  featured: true
+  text: >
+    In Workshop IV für Fachkräfte in der Jugendarbeit nehmen wir Debatten und Social Bots auf Twitter genauer unter dir Lupe. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+- name: "Data Expedition zu Jugendbeteiligung & Digitalisierung"
+  place: Berlin
+  date: 2018-06-15
+  featured: true
+  text: >
+    In unserer zweitägigen Data Expedition entwickeln wir mit Fachkräften aus der Jugendarbeit, Entwickler/innen und Designer/innen kleine digitale Projekte. Anmeldung startet demnächst.
+- name: "Datenspaziergang durch Berlin"
+  place: Berlin
+  date: 2018-06-17
+  featured: true
+  text: >
+    Auf unserem Datenspaziergang zeigen wir euch, wie die digitale Welt mit unserem Alltag verwoben ist. Digitaler Begleiter ist eine Web-App. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+               
