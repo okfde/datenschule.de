@@ -20,7 +20,7 @@ de:
         fördern. Dazu diskutieren wir digitale Ansätze und Tools, die die Beteiligung ermöglichen.  
     tags:
         - Community Building
-        - Participation
+        - Partizipation
         - Ehrenamt
     goal_disclaimer: "In diesem Workshop lernst du:"
     learning_goals:

@@ -141,8 +141,8 @@ workshop:
   register: Ask for a date
   goals: Goals
   curriculum: Curriculum
-  prequisites: Prequisites
+  prequisites: Requirements
   ressources: Ressources
   more: More
-  useful_links: useful links
-  suitable_for: suitable for
+  useful_links: Useful links
+  suitable_for: Suitable for
