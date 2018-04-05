@@ -18,22 +18,18 @@ topics:
 text: |- 
 
    Die [Demokratielabore](https://demokratielabore.de) der [Open Knowledge Foundation Deutschland](https://okfn.de) führen mit Jugendlichen in Jugendeinrichtungen deutschlandweit Workshops zu digitalen, technologischen und gesellschaftlichen Themen durch. Wir ermutigen sie damit, aktiv die Gesellschaft mitzugestalten. 
-   Die Arbeit mit Daten und die Prozesse der Digitalisierung werden auch für gemeinnützige Organisationen immer wichtiger. Um herauszufinden, wie die Datenarbeit in NGOs aus dem Bildungssektor bisher aussieht und wo es noch Potenziale gibt, führen wir eine Bedarfsanalyse durch und zeigen in unserem zweitägigen Workshop, welche Tools bei der datengestützten Arbeit helfen und wie man mit Daten gute Stories erzählen kann. 
+Die Arbeit mit Daten und die Prozesse der Digitalisierung werden auch für gemeinnützige Organisationen immer wichtiger. Von Oktober bis Dezember 2017 haben wir zu diesem Thema zwei Workshops mit Fachkräften aus der Jugendarbeit durchgeführt. Ziel war es, die Erfahrungen aus der alltäglichen, digitalen Arbeit aufzuarbeiten und zu diskutieren. Zusätzlich haben wir eine Umfrage zu digitalen Kompetenzen, Daten und Tools mit verschieden Vertreter/innen aus der Jugendarbeit durchgeführt. Die Ergebnisse unserer Analyse und Tipps aus den Workshops findet ihr zusammengefasst [hier](https://bedarfsanalyse.demokratielabore.de).  
 
-   ## Aufruf an Bildungseinrichtungen
+   ## Schulungen für Fachkräfte
 
-   Wir suchen Bildungseinrichtungen, die sich bei unserer Bedarfsanalyse und unserem Workshop beteiligen möchten. Für mehr Informationen zum Projekt, der Bedarfsanalyse oder dem Workshop schreibt uns eine Email an [info@datenschule.de](mailto:info@datenschule.de)! 
+Auch in diesem Jahr bieten wir verschiedene Schulungen und Formate an, in denen wir mit digitalen Tools experimentieren und gemeinsam tiefer in die Welt der Daten eintauchen. Dabei experimentieren wir zum Beispiel mit Sensoren und Hardware, verarbeiten Daten zu interessanten Stories oder schauen uns spannende Debatten auf Twitter an. Alle Interessierten aus der Jugendarbeit sind herzlich eingeladen! Mehr Infos gibt es [hier](https://demokratielabore.de/angebot/schulung/). 
 
-   Das Projekt Demokratielabore wird vom [Bundesministerium für Familie, Senioren, Frauen und Jugend](http://www.bmfsfj.de/) im Rahmen des Bundesprogramms [“Demokratie leben!”](http://www.demokratie-leben.de/) gefördert.
+   Das Projekt Demokratielabore wird vom [Bundesministerium für Familie, Senioren, Frauen und Jugend](http://www.bmfsfj.de/) im Rahmen des Bundesprogramms [“Demokratie leben!”](http://www.demokratie-leben.de/) und von der [Bundeszentrale für politische Bildung](http://www.bpb.de) gefördert.
 
 text_en: |- 
    
    ["Demokratielabore”](https://demokratielabore.de) is a project of the [Open Knowledge Foundation Germany](https://okfn.de), in which we conduct workshops on digital, technological and social issues with young people in youth centers. We encourage them to actively participate in society.
       Working with data and the processes of digitization are also becoming more and more important for non-profit organizations. In order to find out how the data work in NGOs from the education sector looks like and where there are still potentials, we carry out a needs analysis and show in our two-day workshop which tools help data-driven work and how to tell good stories with data.
    
-     ## Call for action to educational NGOs
-   
-     We are looking for educational NGOs that would like to participate in our needs analysis and our workshop. For more information about the project, the needs analysis or the workshop write us an email at [info@datenschule.de](mailto:info@datenschule.de)!
-   
-    The project “Demokratielabore” is sponsored by the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](http://www.bmfsfj.de) in the framework of the Federal program ["Demokratie leben!"](http://www.demokratie-leben.de).
+    The project “Demokratielabore” is sponsored by the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](http://www.bmfsfj.de) in the framework of the Federal program ["Demokratie leben!"](http://www.demokratie-leben.de) and by [The Federal Agency for Civic Education](http://www.bpb.de/die-bpb/138852/federal-agency-for-civic-education).
 ---
