@@ -25,3 +25,7 @@ Die Arbeit mit Daten und die Prozesse der Digitalisierung werden auch für gemei
     Auch in diesem Jahr bieten wir verschiedene Schulungen und Formate an, in denen wir mit digitalen Tools experimentieren und gemeinsam tiefer in die Welt der Daten eintauchen. Dabei experimentieren wir zum Beispiel mit Sensoren und Hardware, verarbeiten Daten zu interessanten Stories oder schauen uns spannende Debatten auf Twitter an. Alle Interessierten aus der Jugendarbeit sind herzlich eingeladen! Mehr Infos gibt es [hier](https://demokratielabore.de/angebot/schulung/). 
 
    Das Projekt Demokratielabore wird vom [Bundesministerium für Familie, Senioren, Frauen und Jugend](http://www.bmfsfj.de/) im Rahmen des Bundesprogramms [“Demokratie leben!”](http://www.demokratie-leben.de/) und von der [Bundeszentrale für politische Bildung](http://www.bpb.de) gefördert.
+
+text_en: |- 
+
+---
