@@ -25,11 +25,3 @@ Die Arbeit mit Daten und die Prozesse der Digitalisierung werden auch für gemei
     Auch in diesem Jahr bieten wir verschiedene Schulungen und Formate an, in denen wir mit digitalen Tools experimentieren und gemeinsam tiefer in die Welt der Daten eintauchen. Dabei experimentieren wir zum Beispiel mit Sensoren und Hardware, verarbeiten Daten zu interessanten Stories oder schauen uns spannende Debatten auf Twitter an. Alle Interessierten aus der Jugendarbeit sind herzlich eingeladen! Mehr Infos gibt es [hier](https://demokratielabore.de/angebot/schulung/). 
 
    Das Projekt Demokratielabore wird vom [Bundesministerium für Familie, Senioren, Frauen und Jugend](http://www.bmfsfj.de/) im Rahmen des Bundesprogramms [“Demokratie leben!”](http://www.demokratie-leben.de/) und von der [Bundeszentrale für politische Bildung](http://www.bpb.de) gefördert.
-
-text_en: |- 
-
-   ["Demokratielabore”](https://demokratielabore.de) is a project of the [Open Knowledge Foundation Germany](https://okfn.de), in which we conduct workshops on digital, technological and social issues with young people in youth centers. We encourage them to actively participate in society.
-      Working with data and the processes of digitization are also becoming more and more important for non-profit organizations. In order to find out how the data work in NGOs from the education sector looks like and where there are still potentials, we carry out a needs analysis and show in our two-day workshop which tools help data-driven work and how to tell good stories with data. 
-      
-     The project “Demokratielabore” is sponsored by the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](http://www.bmfsfj.de) in the framework of the Federal program ["Demokratie leben!"](http://www.demokratie-leben.de) and by [The Federal Agency for Civic Education](http://www.bpb.de/die-bpb/138852/federal-agency-for-civic-education).
----
