@@ -18,7 +18,8 @@ topics:
 text: |- 
 
    Die [Demokratielabore](https://demokratielabore.de) der [Open Knowledge Foundation Deutschland](https://okfn.de) führen mit Jugendlichen in Jugendeinrichtungen deutschlandweit Workshops zu digitalen, technologischen und gesellschaftlichen Themen durch. Wir ermutigen sie damit, aktiv die Gesellschaft mitzugestalten. 
-Die Arbeit mit Daten und die Prozesse der Digitalisierung werden auch für gemeinnützige Organisationen immer wichtiger. Von Oktober bis Dezember 2017 haben wir zu diesem Thema zwei Workshops mit Fachkräften aus der Jugendarbeit durchgeführt. Ziel war es, die Erfahrungen aus der alltäglichen, digitalen Arbeit aufzuarbeiten und zu diskutieren. Zusätzlich haben wir eine Umfrage zu digitalen Kompetenzen, Daten und Tools mit verschieden Vertreter/innen aus der Jugendarbeit durchgeführt. Die Ergebnisse unserer Analyse und Tipps aus den Workshops findet ihr zusammengefasst [hier](https://bedarfsanalyse.demokratielabore.de).  
+   
+   Die Arbeit mit Daten und die Prozesse der Digitalisierung werden auch für gemeinnützige Organisationen immer wichtiger. Von Oktober bis Dezember 2017 haben wir zu diesem Thema zwei Workshops mit Fachkräften aus der Jugendarbeit durchgeführt. Ziel war es, die Erfahrungen aus der alltäglichen, digitalen Arbeit aufzuarbeiten und zu diskutieren. Zusätzlich haben wir eine Umfrage zu digitalen Kompetenzen, Daten und Tools mit verschieden Vertreter/innen aus der Jugendarbeit durchgeführt. Die Ergebnisse unserer Analyse und Tipps aus den Workshops findet ihr zusammengefasst [hier](https://bedarfsanalyse.demokratielabore.de).  
 
    ## Schulungen für Fachkräfte
 
