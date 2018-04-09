@@ -284,13 +284,13 @@
 - name: "Workshop I: Offene Daten in der Jugendarbeit"
   place: Berlin
   date: 2018-04-06
-  featured: true
+  featured: false
   text: >
     Im Rahmen der Demokratielabore veranstalten wir verschiedene Workshops für Fachkräfte. Workshop 1: Offene Daten & ihre Verwendung in der Jugendarbeit. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
 - name: "Workshop II: Digitales Storytelling"
   place: Berlin
   date: 2018-04-20
-  featured: false
+  featured: true
   text: >
     In Workshop II für Fachkräfte in der Jugendarbeit zeigen wir, wie man mit Daten gute Geschichten erzählen kann. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
 - name: "Workshop III: Citizen Science"
