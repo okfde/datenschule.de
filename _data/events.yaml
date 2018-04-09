@@ -290,7 +290,7 @@
 - name: "Workshop II: Digitales Storytelling"
   place: Berlin
   date: 2018-04-20
-  featured: true
+  featured: false
   text: >
     In Workshop II für Fachkräfte in der Jugendarbeit zeigen wir, wie man mit Daten gute Geschichten erzählen kann. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
 - name: "Workshop III: Citizen Science"
