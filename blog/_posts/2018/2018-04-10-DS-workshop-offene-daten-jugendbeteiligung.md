@@ -14,7 +14,7 @@ tags:
 title: "Rückblick zur Fachkräfteschulung: Offene Daten in der Jugendarbeit"
 ---
 
-Digitalisierung, Daten und digitale Tools werden für viele gemeinnützige Organisationen und Verbände immer wichtiger. Doch wo finde ich offene Daten? Wie kann ich digitale Geschichten erzählen? Und wie tragen Debatten wie #diesejungenLeute auf Social Media zur politischen Bildung bei? Dazu bieten wir in den kommenden Wochen vier verschiedene Schulungen für Fachkräfte in der Jugendarbeit an, in denen wir mit digitalen Tools experimentieren und gemeinsam tiefer in die Welt der Daten eintauchen. 
+Digitalisierung, Daten und digitale Tools werden für viele gemeinnützige Organisationen und Verbände immer wichtiger. Doch wo finde ich offene Daten? Wie kann ich digitale Geschichten erzählen? Und wie tragen Debatten wie #diesejungenLeute auf Social Media zur politischen Bildung bei? Dazu bieten wir in den kommenden Wochen vier verschiedene Schulungen für Fachkräfte in der Jugendarbeit im Rahmen der [Demokratielabore](https://demokratielabore.de) an, in denen wir mit digitalen Tools experimentieren und gemeinsam tiefer in die Welt der Daten eintauchen. 
 
 In der ersten Schulung **“Offene Daten und digitale Beteiligung in der Jugendarbeit” am 06. April** haben wir uns mit der Frage beschäftigt, wie offene Daten und Jugendbeteiligung stärker zusammengedacht werden können. Gemeinsam entwickelten wir mit Fachkräften aus der Jugendarbeit Ideen und Projektskizzen dazu und überlegten, wie sich offene Daten als Quelle für Jugendbeteiligungsprojekte nutzen lassen. 
 
