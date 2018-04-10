@@ -1,6 +1,6 @@
 ---
 authors: 
-- Jasmin Helm
+- Moritz Neujeffski 
 date: 2018-04-10 10:00:00
 picture:
   src: /files/blog/2018/04/workshop1-18.jpg
