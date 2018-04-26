@@ -3,7 +3,7 @@ authors:
 - Helene Hahn
 date: 2018-04-26 08:00:00
 picture:
-  src: storyhunt.jpg
+  src: /files/blog/2018/04/storyhunt.jpg
   title: 
   license: "CC-BY-4.0, OKF DE, Foto: Leonard Wolf"
   license_url: "https://creativecommons.org/licenses/by/4.0/"
