@@ -11,7 +11,7 @@ tags:
 - jugendarbeit
 - workshop
 - digitales storytelling
-title: "Digitales Storytelling - Rückblick zur Fachkräfteschulung #2"
+title: "Digitales Storytelling - Rückblick zu unserer Fachkräfteschulung #2"
 ---
 
 *Digitalisierung, Daten und digitale Tools werden für viele gemeinnützige Organisationen und Verbände immer wichtiger. Doch wo finde ich offene Daten? Wie kann ich digitale Geschichten erzählen? Und wie tragen Debatten wie #diesejungenLeute auf Social Media zur politischen Bildung bei? Dazu bieten wir in den kommenden Wochen vier verschiedene Schulungen für Fachkräfte in der Jugendarbeit an, in denen wir mit digitalen Tools experimentieren und gemeinsam tiefer in die Welt der Daten eintauchen.* 
