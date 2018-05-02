@@ -1,6 +1,6 @@
-- name: Helene Hahn
-  img: helenehahn
-  mail: helene.hahn@okfn.de
+- name: Anna Alberts
+  img: annaalberts
+  mail: anna.alberts@okfn.de
   position: Projektleitung
   position_en: Project lead
 
@@ -8,7 +8,7 @@
   img: knutperseke
   mail: knut.perseke@okfn.de
   position: Software-Entwicklung
-  position_en: Developer
+  position_en: Development
 
 - name: Moritz Neujeffski
   img: moritzneujeffski
