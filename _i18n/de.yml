@@ -28,6 +28,7 @@ footer:
   project_org: "Open Knowledge Foundation Deutschland e.V."
   go_up: "Nach oben"
   license: "Open Knowledge Foundation Deutschland e.V. ist ein eingetragener Verein, Vereinsregister-Nr. VR&nbsp;30468&nbsp;B.<br/>Die Inhalte dieser Webseite sind, sofern nicht anders angegeben, nach <a target=\"_blank\" href=\"https://creativecommons.org/licenses/by/3.0/de/\">Creative Commons 3.0 Attribution</a> lizensiert."
+  piwik_hint: 'datenschule.de nutzt statt den üblichen externen Dienstleistern die datenschutzfreundlichere Technologie von <a href="https://matomo.org">Matamo</a>, um statistische Auswertungen der Seitennutzung zu erhalten. Wenn sie dies nicht wollen, <a href="https://traffic.okfn.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de">klicken Sie bitte hier und entfernen Sie den Haken</a>. Näheres in <a href="/impressum/#datenschutzerklaerung">unserer Datenschutzerklärung</a>.'
 teilnehmen:
   title: "Teilnehmen"
   desc: "Mitmachen bei der OKF Datenschule"

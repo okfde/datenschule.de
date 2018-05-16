@@ -158,6 +158,10 @@ footer {
     padding-right: 0;
   }
 
+  .footer-margin-top {
+    margin-top: 10px;
+  }
+
   @include respond-to(small-up) {
     .footer-logo-container {
       margin-bottom: 4px;
