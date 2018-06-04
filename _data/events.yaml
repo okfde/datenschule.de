@@ -302,7 +302,7 @@
 - name: "Workshop IV: Debatten auf Twitter analysieren"
   place: Berlin
   date: 2018-06-01
-  featured: true
+  featured: false
   text: >
     In Workshop IV für Fachkräfte in der Jugendarbeit nehmen wir Debatten und Social Bots auf Twitter genauer unter dir Lupe. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
 - name: "Data Expedition zu Jugendbeteiligung & Digitalisierung"
