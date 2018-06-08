@@ -3,7 +3,7 @@ authors:
 - Moritz Neujeffski
 date: 2018-06-08 08:00:00
 picture:
-  src: /files/blog/2018/04/ws4-dl.jpg
+  src: /files/blog/2018/06/ws4-dl.jpg
   title: 
   license: "CC-BY-4.0, OKF DE, Foto: Thomas Nitz, tnt-fotoart.de"
   license_url: "https://creativecommons.org/licenses/by/4.0/"
@@ -24,7 +24,7 @@ Im zweiten Teil des Workshops analysierten wir dann einen Twitterdatensatz, der 
 
 ### Analyse: Followernetzwerk von am #ToxischeNarrative beteiligten Accounts
 
-![Twitterdaten analysieren](/files/blog/2018/04/twitter-netzwerk.jpg)
+![Twitterdaten analysieren](/files/blog/2018/06/twitter-netzwerk.jpg)
 
 Im letzten Teil des Workshops diskutierten wir die Ergebnisse und überlegten uns weitere Anwendungsmöglichkeiten, insbesondere für die Arbeit mit Jugendlichen. Zum Beispiel könnten Twitteranalysen für die politische Bildung genutzt werden, um Jugendlichen zu erklären, wie sich eine Twittertimeline eigentlich zusammensetzt oder ihnen das Konzept der Filterblasen zu verdeutlichen.
 
