@@ -308,13 +308,19 @@
 - name: "Data Expedition zu Jugendbeteiligung & Digitalisierung"
   place: Berlin
   date: 2018-06-15
-  featured: true
+  featured: false
   text: >
     In unserer zweitägigen Data Expedition entwickeln wir mit Fachkräften aus der Jugendarbeit, Entwickler/innen und Designer/innen kleine digitale Projekte. Anmeldung [hier](https://docs.google.com/forms/d/e/1FAIpQLSfOHh27JKObDc4HM5Na4nigwXIEeEIwTCsK-UvxEdtX2f_l4g/viewform).
 - name: "Datenspaziergang durch Berlin"
   place: Berlin
   date: 2018-06-17
-  featured: true
+  featured: false
   text: >
     Auf unserem Datenspaziergang zeigen wir euch, wie die digitale Welt mit unserem Alltag verwoben ist. Digitaler Begleiter ist eine Web-App. Anmeldung [hier](https://goo.gl/forms/BIp8tBFxbTWUP2Ox2).
+- name: 
+  place:
+  date:
+  featured: true
+  text: >
+    Aktuell haben wir keine Termine. Neue folgen bald, stay tuned. ;)    
                
