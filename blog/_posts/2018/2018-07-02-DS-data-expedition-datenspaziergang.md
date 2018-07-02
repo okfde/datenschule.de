@@ -5,7 +5,7 @@ date: 2018-07-02 08:00:00
 picture:
   src: /files/blog/2018/07/dataexp.jpg
   title: 
-  license: "CC-BY-4.0, OKF DE, Foto: Thomas Nitz, tnt-fotoart.de"
+  license: "CC-BY-4.0, OKF DE, Fotos: Thomas Nitz, tnt-fotoart.de"
   license_url: "https://creativecommons.org/licenses/by/4.0/"
 tags:
 - jugendarbeit
