@@ -40,6 +40,19 @@ lernen:
   cat_workflow: "Workflow"
   cat_tools: "Tools"
   link_read: "Lesen"
+
+  topics:
+    title: "Themen"
+    desc: "Lorem ipsum thementext dolor sit amet"
+  pipeline:
+    question: "Fragen stellen"
+    find: "Daten finden & bekommen"
+    clean: "Daten säubern"
+    analyse: "Daten analysieren"
+    visualize: "Daten visualisieren"
+    story: "Mit Daten eine Geschichte erzählen"
+
+
 workshops:
   title: "Workshops"
   desc: "OKF Datenschule Workshops"

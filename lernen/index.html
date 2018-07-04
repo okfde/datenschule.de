@@ -9,43 +9,25 @@ description: t lernen.desc
 	<p>{% t lernen.intro %}</p>
 </div>
 
-{% assign tutorials = site.tutorials | where: "group", "Daten" | sort:"order","last" %}
-{% if tutorials.size > 0 %}
+{% assign topics = site.topics %}
+{% if topics.size > 0 %}
 <div class="box box-margin-top-medium">
-	<h2>{% t lernen.cat_data %}</h2>
-	<p></p>
+  <h2>{% t lernen.topics.title %}</h2>
+  <p>{% t lernen.topics.desc %}</p>
 </div>
 <div class="container-wrap-row">
-	{% for tutorial in tutorials %}
-	<div class="container-wrap-item-3">
-		<div class="box">
-			<h3>{{tutorial.title}}</h3>
-			<p>
-				<a href="{{tutorial.url}}">{% t lernen.link_read %}</a>
-			</p>
-		</div>
-	</div>
-	{% endfor %}
-</div>
-{% endif %}
-
-{% assign tutorials = site.tutorials | where: "group", "Workflow" | sort:"order","last" %}
-{% if tutorials.size > 0 %}
-<div class="box box-margin-top-medium">
-	<h2>{% t lernen.cat_workflow %}</h2>
-	<p></p>
-</div>
-<div class="container-wrap-row">
-	{% for tutorial in tutorials %}
-	<div class="container-wrap-item-3">
-		<div class="box">
-			<h3>{{tutorial.title}}</h3>
-			<p>
-				<a href="{{tutorial.url}}">Read</a>
-			</p>
-		</div>
-	</div>
-	{% endfor %}
+  {% for topic in topics %}
+  <div class="container-wrap-item-2">
+    <div class="box">
+      <img src="{{topic.image.src}}" alt="">
+      <h3>{{topic.title}}</h3>
+      <p>{{topic.text}}</p>
+      <p>
+	<a href="{{topic.url}}">{% t lernen.link_read %}</a>
+      </p>
+    </div>
+  </div>
+  {% endfor %}
 </div>
 {% endif %}
 

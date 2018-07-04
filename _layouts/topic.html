@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+<section class="container-padded">
+  <div class="container">
+    <div class="box box-width-head box-margin-top-medium">
+
+      <h1 class="box-head">{{page.title}}</h1>
+      <img src="{{page.image.src}}" alt="">
+
+      <div class="topic-intro">
+        {{page[site.lang].intro}}
+      </div>
+
+      <div class="data-pipeline">
+        <img src="/files/workshops/data_pipeline_{{site.lang}}.png" alt="datapipeline">
+      </div>
+
+      <div class="topic-meta">
+	<div class="tags">
+
+	  {% for tag in page[site.lang].tags %}
+	  <span class="badge">{{tag}}</span>
+	  {% endfor %}
+	</div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">
+          <img src="/files/topics/find.png" alt="">
+          {% t lernen.pipeline.question %}</h1>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+        <h1 class="box-head">
+          <img src="/files/topics/find.png" alt="">
+          {% t lernen.pipeline.find %}</h1>
+
+          <p>Das ist der allgemeine Introtext. Der steht in _includes/topics/find.html</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">
+          <img src="/files/topics/clean.png" alt="">
+          {% t lernen.pipeline.clean %}</h1>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">
+          <img src="/files/topics/analyze.png" alt="">
+          {% t lernen.pipeline.analyse %}</h1>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">
+          <img src="/files/topics/visualize.png" alt="">
+          {% t lernen.pipeline.visualize %}</h1>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">
+          <img src="/files/topics/story.png" alt="">
+          {% t lernen.pipeline.story %}</h1>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <a href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
+      <button class="box-button workshop-register-button"><i class="icon-paper-plane"></i> {% t workshop.register %} </button></a>
+  </div>
+</section>
