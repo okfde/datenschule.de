@@ -8,7 +8,7 @@ image:
 
 de:
   intro: Das ist der Introtext
-  content: Das ist Inhalt aus _topics/bildungsdaten also dynamisch
+  content: Das ist Inhalt aus _topics/parlamentsdaten also dynamisch
 
 en:
   intro: This is the introduction text

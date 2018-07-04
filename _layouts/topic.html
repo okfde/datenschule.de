@@ -2,10 +2,9 @@
 layout: default
 ---
 
-<section class="container-padded">
+<section class="container-padded topics">
   <div class="container">
     <div class="box box-width-head box-margin-top-medium">
-
       <h1 class="box-head">{{page.title}}</h1>
       <img src="{{page.image.src}}" alt="">
 
@@ -13,13 +12,18 @@ layout: default
         {{page[site.lang].intro}}
       </div>
 
+      <ul>
+        {% for res in page[site.lang].resources %}
+        <li><a href="{{res.link}}">{{res.text}}</a></li>
+        {% endfor %}
+      </ul>
+
       <div class="data-pipeline">
         <img src="/files/workshops/data_pipeline_{{site.lang}}.png" alt="datapipeline">
       </div>
 
       <div class="topic-meta">
 	<div class="tags">
-
 	  {% for tag in page[site.lang].tags %}
 	  <span class="badge">{{tag}}</span>
 	  {% endfor %}
@@ -29,76 +33,132 @@ layout: default
   </div>
   </div>
 
-  <div class="container">
-    <div class="container-left-12">
-      <div class="box box-with-head box-margin-top-medium">
-	<h1 class="box-head">
-          <img src="/files/topics/find.png" alt="">
-          {% t lernen.pipeline.question %}</h1>
+  {% capture custom_head %}
+  <h1 class="box-head">
+    <img src="{% t lernen.pipeline.find.image %}" alt="" class="box-head-img">
+    {% t lernen.pipeline.question.title %}
+  </h1>
+  <p>{% t lernen.pipeline.question.desc %}</p>
+  {% endcapture %}
 
-      </div>
-    </div>
-  </div>
+  {% capture custom_body %}
+  {{page[site.lang].question.text}}
+  {{page[site.lang].question.image.src}}
+  <h3>Material & Resourcen</h3>
+  <ul>
+    {% for res in page[site.lang].question.resources %}
+    <li><a href="{{res.link}}">{{res.text}}</a></li>
+    {% endfor %}
+  </ul>
+  {% endcapture %}
 
-  <div class="container">
-    <div class="container-left-12">
-      <div class="box box-with-head box-margin-top-medium">
-        <h1 class="box-head">
-          <img src="/files/topics/find.png" alt="">
-          {% t lernen.pipeline.find %}</h1>
+  {% include topic_box.html head=custom_head content=custom_body %}
 
-          <p>Das ist der allgemeine Introtext. Der steht in _includes/topics/find.html</p>
-      </div>
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="container-left-12">
-      <div class="box box-with-head box-margin-top-medium">
-	<h1 class="box-head">
-          <img src="/files/topics/clean.png" alt="">
-          {% t lernen.pipeline.clean %}</h1>
+  {% capture custom_head %}
+  <h1 class="box-head">
+    <img src="{% t lernen.pipeline.find.image %}" alt="" class="box-head-img">
+    {% t lernen.pipeline.find.title %}
+  </h1>
+  <p>{% t lernen.pipeline.find.desc %}</p>
+  {% endcapture %}
 
-      </div>
-    </div>
-  </div>
+  {% capture custom_body %}
+  {{page[site.lang].find.text}}
+  {{page[site.lang].find.image.src}}
+  <h3>Material & Resourcen</h3>
+  <ul>
+    {% for res in page[site.lang].find.resources %}
+    <li><a href="{{res.link}}">{{res.text}}</a></li>
+    {% endfor %}
+  </ul>
+  {% endcapture %}
 
-  <div class="container">
-    <div class="container-left-12">
-      <div class="box box-with-head box-margin-top-medium">
-	<h1 class="box-head">
-          <img src="/files/topics/analyze.png" alt="">
-          {% t lernen.pipeline.analyse %}</h1>
+  {% include topic_box.html head=custom_head content=custom_body %}
 
-      </div>
-    </div>
-  </div>
+  {% capture custom_head %}
+  <h1 class="box-head">
+    <img src="{% t lernen.pipeline.clean.image %}" alt="" class="box-head-img">
+    {% t lernen.pipeline.clean.title %}
+  </h1>
+  <p>{% t lernen.pipeline.clean.desc %}</p>
+  {% endcapture %}
 
-  <div class="container">
-    <div class="container-left-12">
-      <div class="box box-with-head box-margin-top-medium">
-	<h1 class="box-head">
-          <img src="/files/topics/visualize.png" alt="">
-          {% t lernen.pipeline.visualize %}</h1>
+  {% capture custom_body %}
+  {{page[site.lang].clean.text}}
+  <img src="{{page[site.lang].clean.image.src}}">
+  <h3>Material & Resourcen</h3>
+  <ul>
+    {% for res in page[site.lang].clean.resources %}
+    <li><a href="{{res.link}}">{{res.text}}</a></li>
+    {% endfor %}
+  </ul>
+  {% endcapture %}
 
-      </div>
-    </div>
-  </div>
+  {% include topic_box.html head=custom_head content=custom_body %}
 
-  <div class="container">
-    <div class="container-left-12">
-      <div class="box box-with-head box-margin-top-medium">
-	<h1 class="box-head">
-          <img src="/files/topics/story.png" alt="">
-          {% t lernen.pipeline.story %}</h1>
+  {% capture custom_head %}
+  <h1 class="box-head">
+    <img src="{% t lernen.pipeline.analyse.image %}" alt="" class="box-head-img">
+    {% t lernen.pipeline.analyse.title %}
+  </h1>
+  <p>{% t lernen.pipeline.analyse.desc %}</p>
+  {% endcapture %}
 
-      </div>
-    </div>
-  </div>
+  {% capture custom_body %}
+  {{page[site.lang].analyse.text}}
+  <img src="{{page[site.lang].analyse.imag.src}}">
+  <h3>Material & Resourcen</h3>
+  <ul>
+    {% for res in page[site.lang].analyse.resources %}
+    <li><a href="{{res.link}}">{{res.text}}</a></li>
+    {% endfor %}
+  </ul>
+  {% endcapture %}
 
-  <div class="container">
+  {% include topic_box.html head=custom_head content=custom_body %}
 
-    <a href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
-      <button class="box-button workshop-register-button"><i class="icon-paper-plane"></i> {% t workshop.register %} </button></a>
-  </div>
+
+  {% capture custom_head %}
+  <h1 class="box-head">
+    <img src="{% t lernen.pipeline.visualize.image %}" alt="" class="box-head-img">
+    {% t lernen.pipeline.visualize.title %}
+  </h1>
+  <p>{% t lernen.pipeline.visualize.desc %}</p>
+  {% endcapture %}
+
+  {% capture custom_body %}
+  {{page[site.lang].visualize.text}}
+  {{page[site.lang].visualize.image.src}}
+  <h3>Material & Resourcen</h3>
+  <ul>
+    {% for res in page[site.lang].visualize.resources %}
+    <li><a href="{{res.link}}">{{res.text}}</a></li>
+    {% endfor %}
+  </ul>
+  {% endcapture %}
+
+  {% include topic_box.html head=custom_head content=custom_body %}
+
+
+  {% capture custom_head %}
+  <h1 class="box-head">
+    <img src="{% t lernen.pipeline.story.image %}" alt="" class="box-head-img">
+    {% t lernen.pipeline.story.title %}
+  </h1>
+  <p>{% t lernen.pipeline.story.desc %}</p>
+  {% endcapture %}
+
+  {% capture custom_body %}
+  {{page[site.lang].story.text}}
+  {{page[site.lang].story.image.src}}
+  <h3>Material & Resourcen</h3>
+  <ul>
+    {% for res in page[site.lang].story.resources %}
+    <li><a href="{{res.link}}">{{res.text}}</a></li>
+    {% endfor %}
+  </ul>
+  {% endcapture %}
+
+  {% include topic_box.html head=custom_head content=custom_body %}
 </section>
