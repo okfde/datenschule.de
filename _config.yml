@@ -2,6 +2,7 @@ markdown: rdiscount
 highlighter: pygments
 domain: 'https://datenschule.de'
 staticurl: /assets/
+baseurl: ""
 exclude:
   - "CNAME"
   - "LICENSE"
@@ -15,7 +16,7 @@ exclude:
   - "scripts/"
   - "_site/"
   - "vendor/"
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-paginate
