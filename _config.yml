@@ -79,4 +79,4 @@ collections:
     output: true
     permalink: /lernen/themen/:path/
 settings:
-  debug: true
+  debug: false
