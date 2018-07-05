@@ -1,4 +1,4 @@
-markdown: rdiscount
+\markdown: rdiscount
 highlighter: pygments
 domain: 'https://datenschule.de'
 staticurl: /assets/

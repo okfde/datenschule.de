@@ -3,11 +3,16 @@ layout: topic
 title: "Bildungsdaten"
 text: "Hello"
 image:
-  src: http://placekitten.com/400/300
+  src: http://placekitten.com/400/100
   license:
 
 de:
-  intro: Das ist der Introtext fuer Bildungsdaten
+  tags:
+    - bildung
+  intro:
+    - 'Das ist der Introtext fuer Bildungsdaten <br>'
+    - Das ist der Introtext fuer Bildungsdaten
+    - Das ist der Introtext fuer Bildungsdaten
   resources:
         -
           text: Kleine Anfragen

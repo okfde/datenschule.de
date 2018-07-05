@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="container-left-12">
+    <div class="box box-with-head box-margin-top-medium">
+      {{ include.head }}
+
+      {% if page_content.text.first %}
+        {% for txt in page_content.text %}
+          {{txt}}
+        {% endfor %}
+      {% else %}
+        {{page_content.text}}
+      {% endif %}
+
+      {{page_content.image.src}}
+
+      <h3>{% t lernen.material %}</h3>
+      <ul>
+        {% for res in page_content.resources %}
+        <li><a href="{{res.link}}">{{res.text}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <a href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
+    <button class="box-button workshop-register-button"><i class="icon-paper-plane"></i> Gib uns auch so einen Workshop</button></a>
+</div>

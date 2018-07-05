@@ -40,7 +40,7 @@ lernen:
   cat_workflow: "Workflow"
   cat_tools: "Tools"
   link_read: "Lesen"
-
+  material: "Material & Resourcen"
   topics:
     title: "Themen"
     desc: "Ein allgemeiner Satz zur Themenssektion"
