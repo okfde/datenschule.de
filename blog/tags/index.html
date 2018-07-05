@@ -4,16 +4,24 @@ title: Tags
 menu_blog: yes
 ---
 <div class="box box-with-head">
-	<h1 class="box-head">Blog nach Schlagwörtern</h1>
-	<p></p>
+  <h1 class="box-head">Blog nach Schlagwörtern</h1>
+  <p></p>
 </div>
 <div class="box box-margin-top-medium">
-	<ul class="tag-list">
-		{% sorted_keys_for tag in site.tags %}
-		<li>
-			<a href="{{ site.baseurl }}/blog/tags/{{ tag }}/">{{ tag }}</a>
-			<small>Posts: {{ site.tags[tag].size }}</small>
-		</li>
-		{% endsorted_keys_for %}
-	</ul>
+  <p>n/a</p>
+  <!-- wurde auskommentiert weil nach einem gem update der myteriöse Fehler
+       `Liquid Exception: undefined method `scan'`
+       uaftrat, den wir nicht fixen konnten
+  -->
+
+  {% comment %}
+  <ul class="tag-list">
+    {% sorted_keys_for tag in site.tags %}
+    <li>
+      <a href="{{ site.baseurl }}/blog/tags/{{ tag }}/">{{ tag }}</a>
+      <small>Posts: {{ site.tags[tag].size }}</small>
+    </li>
+    {% endsorted_keys_for %}
+  </ul>
+  {% endcomment %}
 </div>
