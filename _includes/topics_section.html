@@ -11,8 +11,6 @@
         {{page_content.text}}
       {% endif %}
 
-      {{page_content.image.src}}
-
       <h3>{% t lernen.material %}</h3>
       <ul>
         {% for res in page_content.resources %}
@@ -22,6 +20,6 @@
     </div>
   </div>
 
-  <a href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
+  <a href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page_content.workshop_link}}">
     <button class="box-button workshop-register-button"><i class="icon-paper-plane"></i> Gib uns auch so einen Workshop</button></a>
 </div>

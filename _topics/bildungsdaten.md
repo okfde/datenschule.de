@@ -26,8 +26,6 @@ de:
       - mehr fragen
       - 'und noch mehr mit <a href="#">LINKS</a> und so'
       - 'und auch Bildern <img src="http://placekitten.com/800/300">'
-    image:
-      src: http://placekitten.com/600/500
     resources:
         -
           text: Kleine Anfragen
@@ -35,6 +33,7 @@ de:
         -
           text: Frag den Staat
           link: lalala
+    workshop_link: "special-workshop link"
   find:
     text: Daten finden und so
     resources:
@@ -47,8 +46,6 @@ de:
 
   clean:
     text: Daten saubern und so
-    image:
-      src: http://placekitten.com/400/300
     resources:
         -
           text: Kleine Anfragen
@@ -59,8 +56,6 @@ de:
 
   analyse:
     text: Analysieren und so
-    image:
-        src: http://placekitten.com/700/400
     resources:
         -
           text: resource 1
@@ -71,8 +66,6 @@ de:
 
   visualize:
     text: Visualisieren und so
-    image:
-      src:
     resources:
         -
           text: Kleine Anfragen
@@ -82,8 +75,6 @@ de:
           link: lalala
   story:
     text: Geschichten erzaehlen
-    image:
-      src:
     resources:
         -
           text: Kleine Anfragen
