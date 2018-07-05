@@ -16,7 +16,11 @@ de:
           text: Frag den Staat
           link: lalala
   question:
-    text: Fragen finden und so
+    text:
+      - Fragen finden und so
+      - mehr fragen
+      - 'und noch mehr mit <a href="#">LINKS</a> und so'
+      - 'und auch Bildern <img src="http://placekitten.com/800/300">'
     image:
       src: http://placekitten.com/600/500
     resources:

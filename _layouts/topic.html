@@ -42,7 +42,14 @@ layout: default
   {% endcapture %}
 
   {% capture custom_body %}
-  {{page[site.lang].question.text}}
+
+  {% if page[site.lang].question.text.first %}
+    {% for txt in page[site.lang].question.text %}
+      {{txt}}
+    {% endfor %}
+  {% else %}
+    {{page[site.lang].question.text}}
+  {% endif %}
   {{page[site.lang].question.image.src}}
   <h3>Material & Resourcen</h3>
   <ul>
