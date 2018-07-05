@@ -40,6 +40,37 @@ lernen:
   cat_workflow: "Workflow"
   cat_tools: "Tools"
   link_read: "Lesen"
+
+  topics:
+    title: "Themen"
+    desc: "Ein allgemeiner Satz zur Themenssektion"
+  pipeline:
+    question:
+      title: "Fragen stellen"
+      desc: "Das ist der allgemeine, immer gleiche Text zum Thema Fragen stellen"
+      image: "/files/topics/find.png"
+    find:
+      title: "Daten finden & bekommen"
+      desc: "Das ist der allgemeine, immer gleiche Text zum Thema Daten finden"
+      image: "/files/topics/find.png"
+    clean:
+      title: "Daten säubern"
+      desc: "Das ist der allgemeine, immer gleiche Text zum Thema Daten säubern"
+      image: "/files/topics/clean.png"
+    analyse:
+      title: "Daten analysieren"
+      desc: "Das ist der allgemeine, immer gleiche Text zum Thema Daten analysieren"
+      image: "/files/topics/analyze.png"
+    visualize:
+      title: "Daten visualisieren"
+      desc: "Das ist der allgemeine, immer gleiche Text zum Thema Daten visualisieren"
+      image: "/files/topics/visualize.png"
+    story:
+      title: "Mit Daten eine Geschichte erzählen"
+      desc: "Das ist der allgemeine, immer gleiche Text zum Thema Daten präsentieren"
+      image: "/files/topics/story.png"
+
+
 workshops:
   title: "Workshops"
   desc: "OKF Datenschule Workshops"

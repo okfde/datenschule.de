@@ -57,6 +57,11 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: ""
+      type: "topics"
+    values:
+      layouts: "topic"
 collections:
   tutorials:
     output: true
@@ -70,5 +75,8 @@ collections:
   testimonials:
     output: true
     permalink: /referenzen/:path/
+  topics:
+    output: true
+    permalink: /lernen/themen/:path/
 settings:
   debug: false
