@@ -36,9 +36,6 @@ lernen:
   title: "Lernen"
   intro: "Lerne, richtig mit Daten umzugehen. Mit unseren kuratierten Kursen zu verschiedenen Schwerpunkten kannst du dir Datenwissen aneignen und es erweitern. Die Kurse beinhalten praktische Anwendungsbeispiele, Datensets und Übungen. Sie können unabhängig voneinander durchgeführt werden und sind für Einsteiger/innen und Fortgeschrittene geeignet."
   desc: "Lerne mit der OKF Datenschule"
-  cat_data: "Daten"
-  cat_workflow: "Workflow"
-  cat_tools: "Tools"
   link_read: "Lesen"
   material: "Material & Resourcen"
   topics:
@@ -63,6 +60,9 @@ lernen:
     story:
       title: "Mit Daten eine Geschichte erzählen"
       image: "/files/topics/story.png"
+  tutorials:
+    title: "Tutorials & Lernmaterial"
+    desc: "Ein Satz zu Lernmaterialien"
 workshops:
   title: "Workshops"
   desc: "OKF Datenschule Workshops"

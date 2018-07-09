@@ -8,5 +8,8 @@ picture:
   license_url:
 group: Workflow
 title: "Workflow 1"
+tags:
+  - tool
+  - foo
 ---
 DEMO

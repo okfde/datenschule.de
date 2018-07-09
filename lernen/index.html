@@ -15,38 +15,48 @@ description: lernen.desc
   <h2>{% t lernen.topics.title %}</h2>
   <p>{% t lernen.topics.desc %}</p>
 </div>
-<div class="container-wrap-row">
-  {% for topic in topics %}
-  <div class="container-wrap-item-2">
-    <div class="box">
-      <img src="{{topic.image.src}}" alt="">
-      <h3>{{topic[site.lang].title}}</h3>
-      <p>{{topic[site.lang].teaser}}</p>
-      <p>
-	<a href="{{topic.url}}">{% t lernen.link_read %}</a>
-      </p>
-    </div>
-  </div>
-  {% endfor %}
+<div class="container">
+  <ul class="list-box">
+    {% for topic in topics %}
+    <li class="list-box-item list-box-item-wrap-2">
+      <div class="list-box-content">
+        <p class="topic-teaser-image"><img src="{{topic.image.src}}" alt=""></p>
+        <h3>{{topic[site.lang].title}}</h3>
+        <div>{% for tag in topic[site.lang].tags %}
+          <span class="badge">{{tag}}</span>
+          {% endfor %}</></div>
+        <p>{{topic[site.lang].teaser}}</p>
+        <p>
+	  <a href="{{topic.url}}">{% t lernen.link_read %}</a>
+        </p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 {% endif %}
 
-{% assign tutorials = site.tutorials | where: "group", "Tool" | sort:"order","last" %}
+{% assign tutorials = site.tutorials | sort:"order","last" %}
 {% if tutorials.size > 0 %}
 <div class="box box-margin-top-medium">
-  <h2>{% t lernen.cat_tools %}</h2>
-  <p></p>
+  <h2>{% t lernen.tutorials.title %}</h2>
+  <p>{% t lernen.tutorials.desc %}</p>
 </div>
-<div class="container-wrap-row">
-  {% for tutorial in tutorials %}
-  <div class="container-wrap-item-3">
-    <div class="box">
-      <h3>{{tutorial.title}}</h3>
-      <p>
-	<a href="{{tutorial.url}}">Read</a>
-      </p>
-    </div>
-  </div>
-  {% endfor %}
+<div class="container">
+  <ul class="list-box">
+    {% for tutorial in tutorials %}
+    <li class="list-box-item list-box-item-wrap-3">
+      <div class="list-box-content">
+        <h3>{{tutorial.title}}</h3>
+        <div>{% for tag in tutorial.tags %}
+          <span class="badge">{{tag}}</span>
+          {% endfor %}</></div>
+        <p>
+	  <a href="{{tutorial.url}}">{% t lernen.link_read %}</a>
+        </p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 {% endif %}
