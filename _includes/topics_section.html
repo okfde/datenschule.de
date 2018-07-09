@@ -11,12 +11,14 @@
         {{page_content.text}}
       {% endif %}
 
-      <h3>{% t lernen.material %}</h3>
-      <ul>
-        {% for res in page_content.resources %}
-        <li><a href="{{res.link}}">{{res.text}}</a></li>
-        {% endfor %}
-      </ul>
+      {% if page_content.resources.first %}
+        <h3>{% t lernen.material %}</h3>
+        <ul>
+          {% for res in page_content.resources %}
+            <li><a href="{{res.link}}">{{res.text}}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </div>
   </div>
 

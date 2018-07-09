@@ -1,17 +1,15 @@
 ---
 layout: topic
-title: "Parlamentsdaten"
-text: "Hello 2"
 image:
-  src: http://placekitten.com/400/300
+  src: http://placekitten.com/400/100
   license:
 
 de:
-  intro: Das ist der Introtext
-  content: Das ist Inhalt aus _topics/parlamentsdaten also dynamisch
+  title: Parlamentsdaten
+  teaser: Ueber Parlamentsdaten
+  tags:
+    - politik
+    - daten
 
-en:
-  intro: This is the introduction text
-  content: This is content from _topics
 
 ---
