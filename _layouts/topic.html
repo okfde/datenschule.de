@@ -5,7 +5,7 @@ layout: default
 <section class="container-padded topics">
   <div class="container">
     <div class="box box-width-head box-margin-top-medium">
-      <h1 class="box-head topic-head">{{page.title}}</h1>
+      <h1 class="box-head topic-head">{{page[site.lang].title}}</h1>
       <img src="{{page.image.src}}" alt="" class="topic-header-image">
 
       <div class="topic-meta">
@@ -17,8 +17,6 @@ layout: default
       </div>
 
       <div class="topic-intro">
-        {{page[site.lang].intro}}
-
         {% if page[site.lang].intro.first %}
           {% for txt in page[site.lang].intro %}
             {{txt}}
@@ -92,7 +90,7 @@ layout: default
     </h2>
     <p>{% t lernen.pipeline.visualize.desc %}</p>
   {% endcapture %}
-  {% assign page_content = page[site.lang].viisualize %}
+  {% assign page_content = page[site.lang].visualize %}
   {% include topics_section.html head=custom_head %}
 
 
