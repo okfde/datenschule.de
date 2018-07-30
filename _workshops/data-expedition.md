@@ -3,23 +3,25 @@ layout: workshop
 title: Data Expedition
 image:
       src: /files/workshops/data-expedition.jpg
-      license: 
+      license:
+video:
+    src: https://www.youtube-nocookie.com/embed/X-RQhIYIsQo?rel=0
 de:
-    slogan: Begib dich auf eine Daten-Safari! 
+    slogan: Begib dich auf eine Daten-Safari!
     text_short: >
-        Data Expeditions sind Missionen, die du während deiner Daten-Reise bewältigst. Entdecke verborgene Stories und löse 
-        ungelöste Geheimnisse im Land der Daten. Im Team nimmst du ein Problem in Angriff, beantwortest eine Fragestellung 
+        Data Expeditions sind Missionen, die du während deiner Daten-Reise bewältigst. Entdecke verborgene Stories und löse
+        ungelöste Geheimnisse im Land der Daten. Im Team nimmst du ein Problem in Angriff, beantwortest eine Fragestellung
         oder setzt ein datenbasiertes Projekt um. Wir begleiten dich bei deiner Expedition entlang der Data Pipeline.
     text_long: >
-        Data Expeditions sind Missionen, die du während deiner Daten-Reise bewältigst. Entdecke verborgene Stories und löse 
-        ungelöste Geheimnisse im Land der Daten. Im Team nimmst du ein Problem in Angriff, beantwortest eine Fragestellung 
+        Data Expeditions sind Missionen, die du während deiner Daten-Reise bewältigst. Entdecke verborgene Stories und löse
+        ungelöste Geheimnisse im Land der Daten. Im Team nimmst du ein Problem in Angriff, beantwortest eine Fragestellung
         oder setzt ein datenbasiertes Projekt um. Wir begleiten dich bei deiner Expedition entlang der Data Pipeline.<br /><br />
-        Auf einer Data-Expedition begibst du dich auf einen Streifzug in die Welt der Daten. In Teams recherchierst und 
-        entwickelst du Stories für Kampagnen oder eine Herangehensweise an eine Challenge. Wir begleiten dich auf deiner 
+        Auf einer Data-Expedition begibst du dich auf einen Streifzug in die Welt der Daten. In Teams recherchierst und
+        entwickelst du Stories für Kampagnen oder eine Herangehensweise an eine Challenge. Wir begleiten dich auf deiner
         Reise entlang der Data Pipeline, eine Methode zur Entwicklung digitaler Projekte. <br /><br />
-        Am besten vertieft man seine digitalen Fähigkeiten mit echten Daten und durch Ausprobieren im Team. Die 2- bis 
-        3-tägige Data Expedition verknüpft genau das und gibt dir Raum, deine Idee mit digitalen Helferlein auf die Beine 
-        zu stellen. Auf diese Weise macht man sich am besten mit der Datenwelt vertraut - und knüpft auf dem Weg auch neue 
+        Am besten vertieft man seine digitalen Fähigkeiten mit echten Daten und durch Ausprobieren im Team. Die 2- bis
+        3-tägige Data Expedition verknüpft genau das und gibt dir Raum, deine Idee mit digitalen Helferlein auf die Beine
+        zu stellen. Auf diese Weise macht man sich am besten mit der Datenwelt vertraut - und knüpft auf dem Weg auch neue
         Freundschaften.
     tags:
         - prototyping
@@ -29,16 +31,16 @@ de:
     learning_goals:
         - wie ein datenbasiertes Projekt von der Idee bis zur Visualisierung entlang der Data Pipeline umgesetzt wird
         - wie du eine Herausforderung mit digitalen Tools für z.B. die Recherche bestreiten kannst
-        - wie digitale Projekte effektiv im Team erarbeitet werden 
+        - wie digitale Projekte effektiv im Team erarbeitet werden
         - digitale Kenntnisse mit deinem  Herzensthema praktisch zu vertiefen
     trainer:
        - Helene Hahn
        - Moritz Neujeffski
     curriculum:
         intro: >
-            Jede Data Expedition verläuft anders und orientiert sich vollständig an den Bedürfnissen der Teilnehmenden. 
-            Ein Beispiel ist unsere Data Expedition zum Thema EU Finanztransparenz, der 
-            <a href="https://storyhunt.de/">Story Hunt</a>. An dieser Stelle findet ihr einen Beispielablauf für die Data 
+            Jede Data Expedition verläuft anders und orientiert sich vollständig an den Bedürfnissen der Teilnehmenden.
+            Ein Beispiel ist unsere Data Expedition zum Thema EU Finanztransparenz, der
+            <a href="https://storyhunt.de/">Story Hunt</a>. An dieser Stelle findet ihr einen Beispielablauf für die Data
             Expedition.
         course:
             -
@@ -56,21 +58,21 @@ de:
                 name: Zweiter Tag
                 content:
                     - Begrüßung und Kaffee
-                    - "Teamwork: Die Teams arbeiten an ihren Ansätzen" 
+                    - "Teamwork: Die Teams arbeiten an ihren Ansätzen"
                     - Break Out-Sessions/ Skill Sharing mit Teilnehmenden und Expert/innen
                     - Abschlusspräsentation der Teams
-                    - "Abschluss-Reflexion: Können wir das Projekt zu Ende bringen? Wie wollen wir an dem Projekt weiterarbeiten?" 
+                    - "Abschluss-Reflexion: Können wir das Projekt zu Ende bringen? Wie wollen wir an dem Projekt weiterarbeiten?"
                     - Abschluss und Ausklang des Tages
     prequisites:
         - "Die Data Expedition richtet sich an Interessierte mit inhaltlichem oder/und technischen Fokus: Du hast dich mit der Digitalisierung beschäftigt, bist beruflich oder ehrenamtlich in einem bestimmten Bereich aktiv (z.B. Bildung, Policy-Arbeit, Datenjournalismus) und möchtest dein Wissen praktisch anwenden. Du bist es gewohnt, mit Tabellendokumenten und anderen digitalen Tools zu arbeiten."
         - Laptop (kann von uns auf Wunsch bereitgestellt werden)
     ressources:
-        - '<a href="https://storyhunt.de/">The Story Hunt: Encover the EU</a>, Datenschule/ OpenBudgets, 2017'  
+        - '<a href="https://storyhunt.de/">The Story Hunt: Encover the EU</a>, Datenschule/ OpenBudgets, 2017'
         - '<a href="https://datenschule.de/blog/2017/07/DS-Storyhunt-Wochenende/">Blogpost</a> zum Abschluss des Story Hunts, Datenschule, 2017'
         - '<a href="https://schoolofdata.org/data-expeditions/">What is a Data-Expedition?</a>, School of Data, 2018'
     duration: 2-3 Tage
     costs: 200 Euro
-    suitable_for: 
+    suitable_for:
         - Projektteams aus gemeinnützigen Organisationen
         - Einzelpersonen
 en:
@@ -132,7 +134,7 @@ en:
         - "The Data Expedition can help you to deepen your existing digital skills and to connect the dots between your areas of expertise and technology. Ideally: You have a good understanding of the potentials and challenges of digitization, you are active in a specific field (e.g. education, data journalism) and you want to apply your knowledge in practice. You should be used to working with spreadsheets and other digital tools."
         - laptop (we can provide laptops if needed)
     ressources:
-        - '<a href="https://storyhunt.de/">The Story Hunt: Encover the EU</a>, Datenschule/ OpenBudgets, 2017'  
+        - '<a href="https://storyhunt.de/">The Story Hunt: Encover the EU</a>, Datenschule/ OpenBudgets, 2017'
         - '<a href="https://datenschule.de/blog/2017/07/DS-Storyhunt-Wochenende/">Blogpost</a> and review of the Story Hunts, Datenschule, 2017'
         - '<a href="https://schoolofdata.org/data-expeditions/">What is a Data-Expedition?</a>, School of Data, 2018'
     duration: 2-3 days

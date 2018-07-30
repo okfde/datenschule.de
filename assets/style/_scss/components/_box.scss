@@ -36,6 +36,16 @@
 .box-invert {
 }
 
+.box-with-video {
+  padding: 20px;
+
+  iframe {
+    width: 100%;
+    height: auto;
+    min-height: 20em;
+  }
+}
+
 .box-head {
   border: solid 3px $base-border-color;
   background-color: white;
