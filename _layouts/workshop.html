@@ -16,149 +16,160 @@ layout: default
 <!--</div>-->
 <!--</div>-->
 <section class="container-padded">
-	<div class="container">
-		<div class="box box-margin-top-medium">
-			<div class="workshop-detail-head">
-				<!--<div class="workshop-detail-image">-->
-				<!--<img src="{{page.image.src}}" alt="">-->
-				<!--</div>-->
-				<!--<div class="workshop-head" style="background-image: url('/files/workshops/excel-magic.jpg')">-->
-				<!--<div class="workshop-head-opacity">-->
-				<!--<div class="workshop-head-no-opcaity"><h2>Excel/ LibreOffice-Magic</h2></div>-->
-				<!--</div>-->
-				<!--</div>-->
-				<div class="workshop-head">
-					<div class="prev-image" style="background-image: url('{{page.image.src}}')">
-						<div class="title-wrapper">
-							<h2>{{page.title}}</h2>
-						</div>
-					</div>
-				</div>
-
-				<div class="workshop-meta">
-					<div class="tags">
-
-						{% for tag in page[site.lang].tags %}
-						<span class="badge">{{tag}}</span>
-						{% endfor %}
-					</div>
-					<p>
-						<i class="icon-clock"></i> {{page[site.lang].duration}}
-					</p>
-					<!--<p style="max-width:30em">-->
-						<!--{{page.suitable_for}}-->
-					<!--</p>-->
-					<!--<p>-->
-						<!--<i class="icon-chart-bar"></i> {{page.level}}-->
-					<!--</p>-->
-					<p>
-						<!--<i class="icon-paper-plane"></i>&nbsp;<a class="workshop-button" href="{{workshop.url}}">Termin anfragen</a>-->
-						<!--<i class="icon-paper-plane"></i> Anmelden-->
-						<a class="box-button-plain workshop-register-button-top"
-						   href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
-							<i class="icon-paper-plane"></i> {% t workshop.register %}
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="container-left-12">
-			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">{% t workshop.overview %}</h1>
-				<p>{{page[site.lang].text_long}}</p>
-			</div>
-
-		</div>
-	</div>
-	<div class="container">
-		<div class="container-left-12">
-			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">{% t workshop.goals %}</h1>
-				<p>
-				<p><i>{{page[site.lang].curriculum_disclaimer}}</i></p>
-				<ul class="list-unstyled workshop-goals-list">
-					{% for goal in page[site.lang].learning_goals %}
-					<li><i class="icon-ok"></i>{{goal}}</li>
-					{% endfor %}
-				</ul>
-				</p>
-			</div>
-
-		</div>
-	</div>
-	<div class="container workshop-curriculum">
-		<div class="container-left-12">
-			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">{% t workshop.curriculum %}</h1>
-				<p>{{page[site.lang].curriculum.intro}}</p>
-				<ol>
-					{% for entry in page[site.lang].curriculum.course %}
-					<li><strong>{{entry.name}}</strong></li>
-					<ul>
-						{% for item in entry.content %}
-						<li>{{item}}</li>
-						{% endfor %}
-					</ul>
-					{% endfor %}
-				</ol>
-			</div>
-		</div>
+  <div class="container">
+    <div class="box box-margin-top-medium">
+      <div class="workshop-detail-head">
+	<!--<div class="workshop-detail-image">-->
+	<!--<img src="{{page.image.src}}" alt="">-->
+	<!--</div>-->
+	<!--<div class="workshop-head" style="background-image: url('/files/workshops/excel-magic.jpg')">-->
+	<!--<div class="workshop-head-opacity">-->
+	<!--<div class="workshop-head-no-opcaity"><h2>Excel/ LibreOffice-Magic</h2></div>-->
+	<!--</div>-->
+	<!--</div>-->
+	<div class="workshop-head">
+	  <div class="prev-image" style="background-image: url('{{page.image.src}}')">
+	    <div class="title-wrapper">
+	      <h2>{{page.title}}</h2>
+	    </div>
+	  </div>
 	</div>
 
-	<div class="container">
-		<div class="container-left-12">
-			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">{% t workshop.prequisites %}</h1>
-				<p>
-				<ul>
-					{% for prequisite in page[site.lang].prequisites %}
-					<li>{{prequisite}}</li>
-					{% endfor %}
-				</ul>
-				</p>
-			</div>
-		</div>
-	</div>
-	{% assign ressources = page[site.lang].ressources | where:"type","intern" %}
-	<div class="container">
-		<div class="container-left-12">
-			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">{% t workshop.ressources %}</h1>
-				<p>
-				<ul>
-					{% for ressource in page[site.lang].ressources %}
-						<li>{{ressource}}</li>
-					{% endfor %}
-				</ul>
-				</p>
-			</div>
-		</div>
-	</div>
+	<div class="workshop-meta">
+	  <div class="tags">
 
-	<div class="container">
-		<div class="container-left-12">
-			<div class="box box-with-head box-margin-top-medium">
-				<h1 class="box-head">{% t workshop.suitable_for %}</h1>
-				<p>
-					<ul>
-						{% for suitable in page[site.lang].suitable_for%}
-						<li>{{suitable}}</li>
-						{% endfor %}
-					</ul>
-				</p>
-			</div>
-		</div>
+	    {% for tag in page[site.lang].tags %}
+	    <span class="badge">{{tag}}</span>
+	    {% endfor %}
+	  </div>
+	  <p>
+	    <i class="icon-clock"></i> {{page[site.lang].duration}}
+	  </p>
+	  <!--<p style="max-width:30em">-->
+	  <!--{{page.suitable_for}}-->
+	  <!--</p>-->
+	  <!--<p>-->
+	  <!--<i class="icon-chart-bar"></i> {{page.level}}-->
+	  <!--</p>-->
+	  <p>
+	    <!--<i class="icon-paper-plane"></i>&nbsp;<a class="workshop-button" href="{{workshop.url}}">Termin anfragen</a>-->
+	    <!--<i class="icon-paper-plane"></i> Anmelden-->
+	    <a class="box-button-plain workshop-register-button-top"
+	       href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
+	      <i class="icon-paper-plane"></i> {% t workshop.register %}
+	    </a>
+	  </p>
 	</div>
+      </div>
+    </div>
+  </div>
 
-	<div class="container">
-		<!--<div class="workshop-bottom box-margin-top-medium">-->
-			<!--<div class="register-workshop">-->
-				<!--<a class="box-button-plain" href="{{workshop.url}}"><i class="icon-paper-plane"></i> Termin anfragen</a>-->
-			<!--</div>-->
-		<!--</div>-->
-		<a href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
-		<button class="box-button workshop-register-button"><i class="icon-paper-plane"></i> {% t workshop.register %} </button></a>
-	</div>
+  {% if page.video.src %}
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-video">
+        <iframe width="560" height="315" src="{{page.video.src}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">{% t workshop.overview %}</h1>
+	<p>{{page[site.lang].text_long}}</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">{% t workshop.goals %}</h1>
+	<p>
+	<p><i>{{page[site.lang].curriculum_disclaimer}}</i></p>
+	<ul class="list-unstyled workshop-goals-list">
+	  {% for goal in page[site.lang].learning_goals %}
+	  <li><i class="icon-ok"></i>{{goal}}</li>
+	  {% endfor %}
+	</ul>
+	</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="container workshop-curriculum">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">{% t workshop.curriculum %}</h1>
+	<p>{{page[site.lang].curriculum.intro}}</p>
+	<ol>
+	  {% for entry in page[site.lang].curriculum.course %}
+	  <li><strong>{{entry.name}}</strong></li>
+	  <ul>
+	    {% for item in entry.content %}
+	    <li>{{item}}</li>
+	    {% endfor %}
+	  </ul>
+	  {% endfor %}
+	</ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">{% t workshop.prequisites %}</h1>
+	<p>
+	  <ul>
+	    {% for prequisite in page[site.lang].prequisites %}
+	    <li>{{prequisite}}</li>
+	    {% endfor %}
+	  </ul>
+	</p>
+      </div>
+    </div>
+  </div>
+  {% assign ressources = page[site.lang].ressources | where:"type","intern" %}
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">{% t workshop.ressources %}</h1>
+	<p>
+	  <ul>
+	    {% for ressource in page[site.lang].ressources %}
+	    <li>{{ressource}}</li>
+	    {% endfor %}
+	  </ul>
+	</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container-left-12">
+      <div class="box box-with-head box-margin-top-medium">
+	<h1 class="box-head">{% t workshop.suitable_for %}</h1>
+	<p>
+	  <ul>
+	    {% for suitable in page[site.lang].suitable_for%}
+	    <li>{{suitable}}</li>
+	    {% endfor %}
+	  </ul>
+	</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!--<div class="workshop-bottom box-margin-top-medium">-->
+    <!--<div class="register-workshop">-->
+    <!--<a class="box-button-plain" href="{{workshop.url}}"><i class="icon-paper-plane"></i> Termin anfragen</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <a href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
+      <button class="box-button workshop-register-button"><i class="icon-paper-plane"></i> {% t workshop.register %} </button></a>
+  </div>
 </section>
