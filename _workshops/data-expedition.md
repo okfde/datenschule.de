@@ -5,7 +5,7 @@ image:
       src: /files/workshops/data-expedition.jpg
       license:
 video:
-    src: "https://www.youtube-nocookie.com/embed/S8eC768ZGxw?rel=0&amp;ecver=2"
+    src: "https://www.youtube-nocookie.com/embed/HMLI5aJ4qSg?rel=0&amp;ecver=2"
 de:
     slogan: Begib dich auf eine Daten-Safari!
     text_short: >
