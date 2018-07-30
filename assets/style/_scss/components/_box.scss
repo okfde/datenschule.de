@@ -43,6 +43,10 @@
     width: 100%;
     height: auto;
     min-height: 20em;
+
+    @include respond-to(medium-up) {
+      min-height: 30em;
+    }
   }
 }
 
