@@ -5,19 +5,10 @@
 
       {% if page_content.text.first %}
         {% for txt in page_content.text %}
-          {{txt}}
+          <p>{{txt}}</p>
         {% endfor %}
       {% else %}
         {{page_content.text}}
-      {% endif %}
-
-      {% if page_content.resources.first %}
-        <h3>{% t lernen.material %}</h3>
-        <ul>
-          {% for res in page_content.resources %}
-            <li><a href="{{res.link}}">{{res.text}}</a></li>
-          {% endfor %}
-        </ul>
       {% endif %}
     </div>
   </div>
