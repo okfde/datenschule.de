@@ -51,9 +51,14 @@ description: lernen.desc
         <div>{% for tag in tutorial.tags %}
           <span class="badge">{{tag}}</span>
           {% endfor %}</></div>
-        <p>
-	  <a href="{{tutorial.url}}">{% t lernen.link_read %}</a>
-        </p>
+
+        {% if tutorial.link %}
+          <p><a href="{{tutorial.link}}">{% t lernen.link_read %}</a></p>
+        {% else %}
+          <p>
+	    <a href="{{tutorial.url}}">{% t lernen.link_read %}</a>
+          </p>
+        {% endif %}
       </div>
     </li>
     {% endfor %}
