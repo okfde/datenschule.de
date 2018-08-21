@@ -7,8 +7,9 @@ picture:
   license:
   license_url:
 group: Lernmaterial
-title: "Datenanalyse EN"
+title: "Datenanalyse in Google Sheets"
 tags:
  - data-pipeline
-link: https://drive.google.com/file/d/0B3ZzMXCxhfkDNFVld0gwRUFSeDg/view
+ - tool
+link: https://drive.google.com/file/d/0BzYvuaBk38tiRUdmQmIxSExMQzQ/view
 ---
