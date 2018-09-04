@@ -1,0 +1,10 @@
+<li class="list-box-item list-box-item-wrap-3">
+  <div class="list-box-content">
+    <h3>{{t.title}}</h3>
+    <div>{% for tag in t.tags %}
+      <span class="badge">{{tag}}</span>
+      {% endfor %}
+    </div>
+    <p><a href="{{t.link}}">{% t lernen.link_read %}</a></p>
+  </div>
+</li>

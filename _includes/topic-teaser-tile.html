@@ -1,0 +1,13 @@
+<li class="list-box-item list-box-item-wrap-2">
+  <div class="list-box-content">
+    <p class="topic-teaser-image"><img src="{{topic.image.src}}" alt=""></p>
+    <h3>{{topic[site.lang].title}}</h3>
+    <div>{% for tag in topic[site.lang].tags %}
+      <span class="badge">{{tag}}</span>
+      {% endfor %}</></div>
+    <p>{{topic[site.lang].teaser}}</p>
+    <p>
+      <a href="{{topic.url}}">{% t lernen.link_read %}</a>
+    </p>
+  </div>
+</li>

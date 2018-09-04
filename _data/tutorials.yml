@@ -1,68 +1,79 @@
 de:
-  - group: Lernmaterial
+  1:
+    group: Lernmaterial
     title: "Daten finden und bekommen"
     tags:
       - data-pipeline
     link: https://drive.google.com/file/d/0B3ZzMXCxhfkDT1VDR240LThzejA/view
-  - group: Lernmaterial
+  2:
+    group: Lernmaterial
     title: "Datenportale"
     tags:
       - lernmaterial
     link: https://drive.google.com/file/d/19bm7f_mSZgDdMVmdETfTvrLHB6rERrIM/view
-  - group: Lernmaterial
+  3:
+    group: Lernmaterial
     title: "PDF scraping mit Tabula"
     tags:
       - tool
     link: https://drive.google.com/file/d/0B3ZzMXCxhfkDd0F4dWtNUXJCcEE/view
-  - group: Lernmaterial
+  4:
+    group: Lernmaterial
     title: "Datenanalyse"
     tags:
       - data-pipeline
     link: https://drive.google.com/file/d/1zp0wapRXzc0-TOdxaQjjyD_zXtXMJyku/view
-  - group: Lernmaterial
+  5:
+    group: Lernmaterial
     title: "Daten in Excel bereinigen"
     tags:
       - data-pipeline
       - tool
     link: https://docs.google.com/document/d/1tAot2AMWkwK3pNE9SXqxEbciLJJmt1XB4jx43pVO5CU/edit#heading=h.hl4hrjkmt8j8
-  - group: Lernmaterial
+  6:
+    group: Lernmaterial
     title: "Daten säubern in Google Sheets"
     tags:
       - data-pipeline
       - tool
     link: https://drive.google.com/file/d/0B3ZzMXCxhfkDWTU1QlZPUnZlMlk/view
-  - group: Cheatsheet
+  7:
+    group: Cheatsheet
     title: "Cheatsheet Open Refine"
     tags:
       - cheatsheet
       - tool
     link: https://drive.google.com/file/d/0BzYvuaBk38tiRUdmQmIxSExMQzQ/view
-  - group: Lernmaterial
+  8:
+    group: Lernmaterial
     title: "Datenanalyse in Google Sheets"
     tags:
       - data-pipeline
       - tool
     link: https://drive.google.com/file/d/0BzYvuaBk38tiRUdmQmIxSExMQzQ/view
-  - group: Cheatsheet
+  9:
+    group: Cheatsheet
     title: "Cheatsheet Pivot-Funktion in Excel"
     tags:
       - cheatsheet
       - tool
     link: https://docs.google.com/document/d/1cOkEQsm7Xqrcl1zQwiiUuUqMN3VAV0J3BxdIkpBYW6k/edit#heading=h.6db9tedj4ohv
-  - group: Lernmaterial
+  10:
+    group: Lernmaterial
     title: "Digitales Storytelling - Datawrapper & Atavist"
     tags:
       - data-pipeline
       - tool
     link: https://drive.google.com/file/d/18QDpwB9H1kj3YLIMFzoUIriuVogRu2hD/view
-
-  - group: Lernmaterial
+  11:
+    group: Lernmaterial
     title: "Datenvisualisierung mit Rawgraphs"
     tags:
       - data-pipeline
       - tool
     link: https://drive.google.com/file/d/0B3ZzMXCxhfkDaTRRSTFTVEdOTlE/view
-  - group: Lernmaterial
+  12:
+    group: Lernmaterial
     title: "Daten visualisieren"
     tags:
       - data-pipeline

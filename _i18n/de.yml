@@ -39,8 +39,8 @@ lernen:
   link_read: "Lesen"
   material: "Material & Resourcen"
   topics:
-    title: "Themen"
-    desc: "Ein allgemeiner Satz zur Themenssektion"
+    title: "Themenfelder"
+    desc: "Die Datenschule hat mit unterschiedlichen NGOs zusammen and Datenprojekten gearbeitet. Hier stellen wir die Projekte aus der Sicht der Datapipeline vor und wie sie sich auf verschiedene Themenfelder anwenden lässt."
   pipeline:
     question:
       title: "Fragen stellen"
@@ -62,7 +62,7 @@ lernen:
       image: "/files/topics/story.png"
   tutorials:
     title: "Tutorials & Lernmaterial"
-    desc: "Ein Satz zu Lernmaterialien"
+    desc: "Im Laufe der Zeit hat die Datenschule einiges an Material für Workshops und Projekte erstellt, die wir natürlich nicht verstecken wollen."
 workshops:
   title: "Workshops"
   desc: "OKF Datenschule Workshops"
