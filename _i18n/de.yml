@@ -34,13 +34,13 @@ teilnehmen:
   desc: "Mitmachen bei der OKF Datenschule"
 lernen:
   title: "Lernmaterialien"
-  intro: "Lerne, richtig mit Daten umzugehen. Mit unseren kuratierten Kursen zu verschiedenen Schwerpunkten kannst du dir Datenwissen aneignen und es erweitern. Die Kurse beinhalten praktische Anwendungsbeispiele, Datensets und Übungen. Sie können unabhängig voneinander durchgeführt werden und sind für Einsteiger/innen und Fortgeschrittene geeignet."
+  intro: "Lerne, richtig mit Daten umzugehen. Mit unseren Lernsektionen zu verschiedenen Schwerpunkten kannst du dir Datenwissen aneignen und es erweitern. Die Sektionen beinhalten praktische Anwendungsbeispiele, Datensets und Lernmaterialien. Sie sind sowohl für Einsteiger/innen als auch Fortgeschrittene geeignet."
   desc: "Lerne mit der OKF Datenschule"
   link_read: "Lesen"
   material: "Material & Resourcen"
   topics:
     title: "Lernsektionen"
-    desc: "Die Datenschule hat mit unterschiedlichen NGOs zusammen and Datenprojekten gearbeitet. Hier stellen wir die Projekte aus der Sicht der Datapipeline vor und wie sie sich auf verschiedene Themenfelder anwenden lässt."
+    desc: "Die Datenschule hat mit unterschiedlichen NGOs zusammen an Datenprojekten gearbeitet. In unseren Lernsektionen zeigen wir Schritt für Schritt anhand der Data Pipeline, wie wir dabei vorgegangen sind und was in den einzelnen Phasen zu beachten ist. In unseren Lernmaterialien und Tutorials findest du außerdem hilfreiche Beispiele, Anleitungen, Tools und weiterführende Links."
   pipeline:
     question:
       title: "Fragen stellen"
@@ -62,7 +62,7 @@ lernen:
       image: "/files/topics/story.png"
   tutorials:
     title: "Tutorials & Lernmaterial"
-    desc: "Im Laufe der Zeit hat die Datenschule einiges an Material für Workshops und Projekte erstellt, die wir natürlich nicht verstecken wollen."
+    desc: "Hier findest du eine Übersicht aller Tutorials und Lernmaterialien von uns. Alle Materialien können kostenfrei  heruntergeladen werden."
 workshops:
   title: "Workshops"
   desc: "OKF Datenschule Workshops"
