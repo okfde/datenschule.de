@@ -5,7 +5,7 @@ menu:
   presse: "Presse"
   blog: "Blog"
   team: "Team"
-  lernen: "Lernen"
+  lernen: "Lernmaterial"
   projekte: "Projekte"
   teilnehmen: "Teilnehmen"
   logo: "OKF Datenschule"
@@ -33,7 +33,7 @@ teilnehmen:
   title: "Teilnehmen"
   desc: "Mitmachen bei der OKF Datenschule"
 lernen:
-  title: "Lernmaterialien"
+  title: "Lernen"
   intro: "Lerne, richtig mit Daten umzugehen. Mit unseren Lernsektionen zu verschiedenen Schwerpunkten kannst du dir Datenwissen aneignen und es erweitern. Die Sektionen beinhalten praktische Anwendungsbeispiele, Datensets und Lernmaterialien. Sie sind sowohl für Einsteiger/innen als auch Fortgeschrittene geeignet."
   desc: "Lerne mit der OKF Datenschule"
   link_read: "Lesen"

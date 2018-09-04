@@ -7,14 +7,12 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li{% if page.menu_teilnehmen %} class="active"{% endif %}><a href="{{ site.baseurl }}/teilnehmen">{% t menu.teilnehmen %}</a></li>
 				<li{% if page.menu_projekte %} class="active"{% endif %}><a href="{{ site.baseurl }}/projekte">{% t menu.projekte %}</a></li>
-				{% if site.settings.debug %}
-				<li{% if page.menu_lernen %} class="active"{% endif %}><a href="{{ site.baseurl }}/lernmaterialien">{% t menu.lernen %}</a></li>
-				{% endif %}
 				<li{% if page.menu_workshops %} class="active"{% endif %}><a href="{{ site.baseurl }}/workshops">{% t menu.workshops %}</a></li>
+                                {% if site.settings.debug %}
+                                <li{% if page.menu_lernen %} class="active"{% endif %}><a href="{{ site.baseurl }}/lernmaterialien">{% t menu.lernen %}</a></li>
+                                {% endif %}
 				<li{% if page.menu_references %} class="active"{% endif %}><a href="{{ site.baseurl }}/referenzen">{% t menu.referenzen %}</a></li>
-
-				<li{% if page.menu_blog %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog">{% t menu.blog %}</a></li>
-
+                                <li{% if page.menu_blog %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog">{% t menu.blog %}</a></li>
 				<li>
 					<div class="language-toggle">
 						{% if site.lang == "de" %}
