@@ -1,30 +1,35 @@
 de:
   1:
     group: Lernmaterial
+    pipeline: find
     title: "Daten finden und bekommen"
     tags:
       - data-pipeline
     link: https://drive.google.com/file/d/0B3ZzMXCxhfkDT1VDR240LThzejA/view
   2:
     group: Lernmaterial
+    pipeline: find
     title: "Datenportale"
     tags:
       - lernmaterial
     link: https://drive.google.com/file/d/19bm7f_mSZgDdMVmdETfTvrLHB6rERrIM/view
   3:
     group: Lernmaterial
+    pipeline: find
     title: "PDF scraping mit Tabula"
     tags:
       - tool
     link: https://drive.google.com/file/d/0B3ZzMXCxhfkDd0F4dWtNUXJCcEE/view
   4:
     group: Lernmaterial
+    pipeline: analyze
     title: "Datenanalyse"
     tags:
       - data-pipeline
     link: https://drive.google.com/file/d/1zp0wapRXzc0-TOdxaQjjyD_zXtXMJyku/view
   5:
     group: Lernmaterial
+    pipeline: clean
     title: "Daten in Excel bereinigen"
     tags:
       - data-pipeline
@@ -32,6 +37,7 @@ de:
     link: https://docs.google.com/document/d/1tAot2AMWkwK3pNE9SXqxEbciLJJmt1XB4jx43pVO5CU/edit#heading=h.hl4hrjkmt8j8
   6:
     group: Lernmaterial
+    pipeline: clean
     title: "Daten säubern in Google Sheets"
     tags:
       - data-pipeline
@@ -39,6 +45,7 @@ de:
     link: https://drive.google.com/file/d/0B3ZzMXCxhfkDWTU1QlZPUnZlMlk/view
   7:
     group: Cheatsheet
+    pipeline: clean
     title: "Cheatsheet Open Refine"
     tags:
       - cheatsheet
@@ -46,6 +53,7 @@ de:
     link: https://drive.google.com/file/d/0BzYvuaBk38tiRUdmQmIxSExMQzQ/view
   8:
     group: Lernmaterial
+    pipeline: analyze
     title: "Datenanalyse in Google Sheets"
     tags:
       - data-pipeline
@@ -53,6 +61,7 @@ de:
     link: https://drive.google.com/file/d/0BzYvuaBk38tiRUdmQmIxSExMQzQ/view
   9:
     group: Cheatsheet
+    pipeline: analyze
     title: "Cheatsheet Pivot-Funktion in Excel"
     tags:
       - cheatsheet
@@ -60,6 +69,7 @@ de:
     link: https://docs.google.com/document/d/1cOkEQsm7Xqrcl1zQwiiUuUqMN3VAV0J3BxdIkpBYW6k/edit#heading=h.6db9tedj4ohv
   10:
     group: Lernmaterial
+    pipeline: visualize
     title: "Digitales Storytelling - Datawrapper & Atavist"
     tags:
       - data-pipeline
@@ -67,6 +77,7 @@ de:
     link: https://drive.google.com/file/d/18QDpwB9H1kj3YLIMFzoUIriuVogRu2hD/view
   11:
     group: Lernmaterial
+    pipeline: visualize
     title: "Datenvisualisierung mit Rawgraphs"
     tags:
       - data-pipeline
@@ -74,6 +85,7 @@ de:
     link: https://drive.google.com/file/d/0B3ZzMXCxhfkDaTRRSTFTVEdOTlE/view
   12:
     group: Lernmaterial
+    pipeline: visualize
     title: "Daten visualisieren"
     tags:
       - data-pipeline

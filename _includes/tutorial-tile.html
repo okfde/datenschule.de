@@ -1,10 +1,16 @@
 <li class="list-box-item list-box-item-wrap-3">
-  <div class="list-box-content">
-    <h3>{{t.title}}</h3>
+  <div class="list-box-content list-box">
+    <h3>
+      <img class="list-box-header-icon va-middle" src="/files/topics/{{t.pipeline}}.png" alt="{{t.pipeline}}">
+      {{t.title}}</h3>
+    {% comment %}
     <div>{% for tag in t.tags %}
       <span class="badge">{{tag}}</span>
       {% endfor %}
     </div>
-    <p><a href="{{t.link}}">{% t lernen.link_read %}</a></p>
+    {% endcomment %}
+    <div class="list-box-pull-right">
+      <a href="{{t.link}}" class="box-button-plain">{% t lernen.link_read %}</a>
+    </div>
   </div>
 </li>

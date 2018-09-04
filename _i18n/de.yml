@@ -33,13 +33,13 @@ teilnehmen:
   title: "Teilnehmen"
   desc: "Mitmachen bei der OKF Datenschule"
 lernen:
-  title: "Lernen"
+  title: "Lernmaterialien"
   intro: "Lerne, richtig mit Daten umzugehen. Mit unseren kuratierten Kursen zu verschiedenen Schwerpunkten kannst du dir Datenwissen aneignen und es erweitern. Die Kurse beinhalten praktische Anwendungsbeispiele, Datensets und Übungen. Sie können unabhängig voneinander durchgeführt werden und sind für Einsteiger/innen und Fortgeschrittene geeignet."
   desc: "Lerne mit der OKF Datenschule"
   link_read: "Lesen"
   material: "Material & Resourcen"
   topics:
-    title: "Themenfelder"
+    title: "Lernsektionen"
     desc: "Die Datenschule hat mit unterschiedlichen NGOs zusammen and Datenprojekten gearbeitet. Hier stellen wir die Projekte aus der Sicht der Datapipeline vor und wie sie sich auf verschiedene Themenfelder anwenden lässt."
   pipeline:
     question:

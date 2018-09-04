@@ -65,7 +65,7 @@ defaults:
 collections:
   tutorials:
     output: true
-    permalink: /lernen/tutorial/:path/
+    permalink: /lernmaterialien/tutorial/:path/
   projects:
     output: true
     permalink: /projekte/:path/
@@ -77,6 +77,6 @@ collections:
     permalink: /referenzen/:path/
   topics:
     output: true
-    permalink: /lernen/themen/:path/
+    permalink: /lernmaterialien/lernsektionen/:path/
 settings:
   debug: false
