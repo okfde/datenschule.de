@@ -1,22 +1,22 @@
 <section class="container-padded">
-	<div class="container">
-		<div class="box">
-			<h1>{{ page.title }}</h1>
-			{% if page.picture & page.picture.src %}
-			<figure class="post-image">
-				<div class="post-image-full" style="background-image: url({{ page.picture.src | xml_escape }});" title="{{ page.picture.title }}"></div>
-				{% if page.picture.license %}
-				<figcaption>
-					{% if page.picture.license_url %}
-					<a href="{{ page.picture.license_url | xml_escape }}">{{ page.picture.license | markdownify }}</a>
-					{% else %}
-					{{ page.picture.license | markdownify }}
-					{% endif %}
-				</figcaption>
-				{% endif %}
-			</figure>
-			{% endif %}
-			<div class="container-left-12">{{ content }}</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="box">
+      <h1>{{ page.title }}</h1>
+      {% if page.picture & page.picture.src %}
+      <figure class="post-image">
+	<div class="post-image-full" style="background-image: url({{ page.picture.src | xml_escape }});" title="{{ page.picture.title }}"></div>
+	{% if page.picture.license %}
+	<figcaption>
+	  {% if page.picture.license_url %}
+	  <a href="{{ page.picture.license_url | xml_escape }}">{{ page.picture.license | markdownify }}</a>
+	  {% else %}
+	  {{ page.picture.license | markdownify }}
+	  {% endif %}
+	</figcaption>
+	{% endif %}
+      </figure>
+      {% endif %}
+      <div class="container-left-12">{{ content }}</div>
+    </div>
+  </div>
 </section>

@@ -36,7 +36,7 @@ description: lernen.desc
 </div>
 {% endif %}
 
-{% assign tutorials = site.tutorials | sort:"order","last" %}
+{% assign tutorials = site.data.tutorials.de %}
 {% if tutorials.size > 0 %}
 <div class="box box-margin-top-medium">
   <h2>{% t lernen.tutorials.title %}</h2>
