@@ -1,30 +1,28 @@
 <header id="top">
-	<div class="container">
-		<div class="header-logo">
-			<a class="header-logo-name" href="{{ site.baseurl }}/"><img class="header-logo-img" title="{% t menu.logo %}" alt="{% t menu.logo %}" src="/assets/img/logo_datenschule.png"></a>
-		</div>
-		<div class="header-nav">
-			<ul class="nav navbar-nav navbar-right">
-				<li{% if page.menu_teilnehmen %} class="active"{% endif %}><a href="{{ site.baseurl }}/teilnehmen">{% t menu.teilnehmen %}</a></li>
-				<li{% if page.menu_projekte %} class="active"{% endif %}><a href="{{ site.baseurl }}/projekte">{% t menu.projekte %}</a></li>
-				<li{% if page.menu_workshops %} class="active"{% endif %}><a href="{{ site.baseurl }}/workshops">{% t menu.workshops %}</a></li>
-                                {% if site.settings.debug %}
-                                <li{% if page.menu_lernen %} class="active"{% endif %}><a href="{{ site.baseurl }}/lernmaterialien">{% t menu.lernen %}</a></li>
-                                {% endif %}
-				<li{% if page.menu_references %} class="active"{% endif %}><a href="{{ site.baseurl }}/referenzen">{% t menu.referenzen %}</a></li>
-                                <li{% if page.menu_blog %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog">{% t menu.blog %}</a></li>
-				<li>
-					<div class="language-toggle">
-						{% if site.lang == "de" %}
-						{% capture link1 %}{{ site.baseurl_root }}/en{{ page.url |replace_first:"index.html"}}{% endcapture %}
-						<a href="{{ link1 }}" >EN</a><br/>DE
-						{% else if site.lang == "en" %}
-						{% capture link2 %}{{ site.baseurl_root }}{{ page.url |replace_first:"index.html" }}{% endcapture %}
-						EN<br/><a href="{{ link2 }}">DE</a>
-						{% endif %}
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
+  <div class="container">
+    <div class="header-logo">
+      <a class="header-logo-name" href="{{ site.baseurl }}/"><img class="header-logo-img" title="{% t menu.logo %}" alt="{% t menu.logo %}" src="/assets/img/logo_datenschule.png"></a>
+    </div>
+    <div class="header-nav">
+      <ul class="nav navbar-nav navbar-right">
+	<li{% if page.menu_teilnehmen %} class="active"{% endif %}><a href="{{ site.baseurl }}/teilnehmen">{% t menu.teilnehmen %}</a></li>
+	<li{% if page.menu_projekte %} class="active"{% endif %}><a href="{{ site.baseurl }}/projekte">{% t menu.projekte %}</a></li>
+	<li{% if page.menu_workshops %} class="active"{% endif %}><a href="{{ site.baseurl }}/workshops">{% t menu.workshops %}</a></li>
+        <li{% if page.menu_lernen %} class="active"{% endif %}><a href="{{ site.baseurl }}/lernmaterialien">{% t menu.lernen %}</a></li>
+	<li{% if page.menu_references %} class="active"{% endif %}><a href="{{ site.baseurl }}/referenzen">{% t menu.referenzen %}</a></li>
+        <li{% if page.menu_blog %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog">{% t menu.blog %}</a></li>
+	<li>
+	  <div class="language-toggle">
+	    {% if site.lang == "de" %}
+	    {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url |replace_first:"index.html"}}{% endcapture %}
+	    <a href="{{ link1 }}" >EN</a><br/>DE
+	    {% else if site.lang == "en" %}
+	    {% capture link2 %}{{ site.baseurl_root }}{{ page.url |replace_first:"index.html" }}{% endcapture %}
+	    EN<br/><a href="{{ link2 }}">DE</a>
+	    {% endif %}
+	  </div>
+	</li>
+      </ul>
+    </div>
+  </div>
 </header>
