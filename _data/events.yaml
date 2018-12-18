@@ -320,7 +320,7 @@
 - name: "POEM Workshop: Tool and Data Competence"
   place: Universität Hamburg
   date: 2018-12-12
-  featured: true
+  featured: false
   text: >
     A workshop on data, visualization and statistics for PhD students in the framework of the EU project Horizon 2020 POEM at the [University of Hamburg](https://www.poem.uni-hamburg.de/).
        
