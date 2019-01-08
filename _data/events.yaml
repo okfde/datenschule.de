@@ -323,5 +323,9 @@
   featured: false
   text: >
     A workshop on data, visualization and statistics for PhD students in the framework of the EU project Horizon 2020 POEM at the [University of Hamburg](https://www.poem.uni-hamburg.de/).
-       
-               
+- name: "Office Magic & Datenspaziergang - FSJ digital"
+  place: Walberberg
+  date: 2019-01-29
+  featured: false
+  text: >    
+    An drei vollen Workshoptagen geben wir einen Einblick in die Umsetzung datengestützter Projekte und erstellen einen Datenspaziergang für die Region Köln.
