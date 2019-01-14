@@ -5,28 +5,28 @@ de:
     title: "Daten finden und bekommen"
     tags:
       - data-pipeline
-    link: https://drive.google.com/file/d/0B3ZzMXCxhfkDT1VDR240LThzejA/view
+    link: /files/downloads/workshops/DS-daten-finden-bekommen.pdf
   2:
     group: Lernmaterial
     pipeline: find
     title: "Datenportale"
     tags:
       - lernmaterial
-    link: https://drive.google.com/file/d/19bm7f_mSZgDdMVmdETfTvrLHB6rERrIM/view
+    link: /files/downloads/workshops/Demokratielabore_Lernmaterial_OpenData-Portale.pdf
   3:
     group: Lernmaterial
     pipeline: find
     title: "PDF scraping mit Tabula"
     tags:
       - tool
-    link: https://drive.google.com/file/d/0B3ZzMXCxhfkDd0F4dWtNUXJCcEE/view
+    link: /files/downloads/workshops/Lehrmaterial-DS-DE-PDF-Scraping-Tabula.pdf
   4:
     group: Lernmaterial
     pipeline: analyze
     title: "Datenanalyse"
     tags:
       - data-pipeline
-    link: https://drive.google.com/file/d/1zp0wapRXzc0-TOdxaQjjyD_zXtXMJyku/view
+    link: /files/downloads/workshops/DEU-Lehrmaterial-DS-Datenanalyse.pdf
   5:
     group: Lernmaterial
     pipeline: clean
@@ -34,7 +34,7 @@ de:
     tags:
       - data-pipeline
       - tool
-    link: https://docs.google.com/document/d/1tAot2AMWkwK3pNE9SXqxEbciLJJmt1XB4jx43pVO5CU/edit#heading=h.hl4hrjkmt8j8
+    link: /files/downloads/workshops/Lernmaterial-DS-Excel-Data-Cleaning-DE.pdf
   6:
     group: Lernmaterial
     pipeline: clean
@@ -42,7 +42,7 @@ de:
     tags:
       - data-pipeline
       - tool
-    link: https://drive.google.com/file/d/1zp0wapRXzc0-TOdxaQjjyD_zXtXMJyku/view
+    link: /files/downloads/workshops/Lehrmaterial-DS-Google-sheets.pdf
   7:
     group: Cheatsheet
     pipeline: clean
@@ -50,7 +50,7 @@ de:
     tags:
       - cheatsheet
       - tool
-    link: https://drive.google.com/file/d/0BzYvuaBk38tiRUdmQmIxSExMQzQ/view
+    link: /files/downloads/workshops/CheatSheet-Open-Refine.pdf
   8:
     group: Lernmaterial
     pipeline: analyze
@@ -58,7 +58,7 @@ de:
     tags:
       - data-pipeline
       - tool
-    link: https://drive.google.com/file/d/0BzYvuaBk38tiRUdmQmIxSExMQzQ/view
+    link: /files/downloads/workshops/DEU-Lehrmaterial-DS-Datenanalyse-Google-sheets.pdf
   9:
     group: Cheatsheet
     pipeline: analyze
@@ -66,7 +66,7 @@ de:
     tags:
       - cheatsheet
       - tool
-    link: https://docs.google.com/document/d/1cOkEQsm7Xqrcl1zQwiiUuUqMN3VAV0J3BxdIkpBYW6k/edit#heading=h.6db9tedj4ohv
+    link: /files/downloads/workshops/Lernmaterial-Pivot-Tabellen_Excel_Hintergundinfos.pdf
   10:
     group: Lernmaterial
     pipeline: visualize
@@ -74,7 +74,7 @@ de:
     tags:
       - data-pipeline
       - tool
-    link: https://drive.google.com/file/d/18QDpwB9H1kj3YLIMFzoUIriuVogRu2hD/view
+    link: /files/downloads/workshops/Demokratielabore_Lernmaterial_Digitales-Storytelling.pdf
   11:
     group: Lernmaterial
     pipeline: visualize
@@ -82,11 +82,11 @@ de:
     tags:
       - data-pipeline
       - tool
-    link: https://drive.google.com/file/d/0B3ZzMXCxhfkDaTRRSTFTVEdOTlE/view
+    link: /files/downloads/workshops/Lehrmaterial-DS-Data-Viz-Rawgraph.pdf
   12:
     group: Lernmaterial
     pipeline: visualize
     title: "Daten visualisieren"
     tags:
       - data-pipeline
-    link: https://drive.google.com/file/d/1t8jcrki6KDB8Plz1EtFB2ZaFp3lmNdbx/view
+    link: /files/downloads/workshops/DEU-Lehrmaterial-DS-Datenvisualisierung.pdf
