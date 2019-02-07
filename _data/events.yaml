@@ -326,6 +326,12 @@
 - name: "Office Magic & Datenspaziergang - FSJ digital"
   place: Walberberg
   date: 2019-01-29
-  featured: true
+  featured: false
   text: >    
     An drei vollen Workshoptagen geben wir einen Einblick in die Umsetzung datengestützter Projekte und erstellen einen Datenspaziergang für die Region Köln.
+- name: "Open Data-Brunch @ FreiraumNetz19"
+  place: Berlin
+  date: 2019-02-28
+  featured: true
+  text: >    
+    Wir geben einen Überblick zu offenen Daten in der Jugendarbeit und wo sie zu finden sind. 
