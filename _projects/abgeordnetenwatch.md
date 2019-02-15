@@ -17,14 +17,14 @@ topics:
   - Monitoring
 text: |- 
 
-  Welche Themen werden im Bundestag besprochen? Wie positionieren sich die einzelnen Abgeordneten zu den Themen? Die Prozesse und Debatten im deutschen Bundestag sind für Bürger/innen, aber auch politische Organisationen und Initiativen oft nur schwer zu überblicken. Daher sehen wir uns gemeinsam mit unseren Kooperationspartnern Abgeordnetenwatch.de und der HAW Hamburg zum Ende der 18. Legislaturperiode (2013 - 2017) die Plenarprotokolle genauer an, die diese politischen Entscheidungen und Diskussionen wiedergeben. OffenesParlament.de macht die Plenarprotokolle für jede/n zugänglich und durchsuchbar. Wir analysieren wichtige Themen und stellen Informationen zu den Abgeordneten bereit.
+  Welche Themen werden im Bundestag besprochen? Wie positionieren sich die einzelnen Abgeordneten zu den Themen? Die Prozesse und Debatten im deutschen Bundestag sind für Bürger/innen, aber auch politische Organisationen und Initiativen oft nur schwer zu überblicken. Daher haben wir uns gemeinsam mit unseren Kooperationspartnern Abgeordnetenwatch und der HAW Hamburg zum Ende der 18. Legislaturperiode (2013 - 2017) die Plenarprotokolle genauer angesehen, die diese politischen Entscheidungen und Diskussionen wiedergeben. <a href="https://offenesparlament.de">OffenesParlament.de</a> macht die Plenarprotokolle für jede/n zugänglich und durchsuchbar. Wir analysieren wichtige Themen und stellen Informationen zu den Abgeordneten bereit.
 
   ## Über Abgeordnetenwatch.de
     
-  Abgeordnetenwatch.de ist eine unabhängige und überparteiliche Internetplattform, die öffentliche Bürgeranfragen an Abgeordnete  
+  <a href="https://abgeordnetenwatch.de">Abgeordnetenwatch.de</a> ist eine unabhängige und überparteiliche Internetplattform, die öffentliche Bürgeranfragen an Abgeordnete  
   auf Bundes- und Europaebene sowie in den Landesparlamenten ermöglicht und somit einen direkten Draht zwischen Bürger/innen und 
   Abgeordneten bzw. Kandidierenden herstellt. Zusätzlich dokumentiert abgeordnetenwatch.de das Abstimmungsverhalten und die
-  Nebeneinkünfte der Abgeordnet/innen. Auf diese Weise wollen sie u.a. einen höheren Rechenschaftsdruck der Politiker/innen 
+  Nebeneinkünfte der Abgeordneten. Auf diese Weise wollen sie u.a. einen höheren Rechenschaftsdruck der Politiker/innen 
   gegenüber den Wähler/innen herbeiführen, sowie einen einfachen und direkten Zugang zu politischen Informationen, mehr 
   Transparenz und Beteiligungsmöglichkeiten schaffen. 
 
@@ -33,9 +33,23 @@ text: |-
   ## Über die Hochschule für Angewandte Wissenschaften Hamburg
 
   Nachhaltige Lösungen für die gesellschaftlichen Herausforderungen von Gegenwart und Zukunft entwickeln: Das ist das Ziel der  
-  HAW Hamburg – Norddeutschlands führende Hochschule, wenn es um reflektierte Praxis geht. Im Mittelpunkt steht die exzellente 
+  a href="https://www.haw-hamburg.de/startseite.html">HAW Hamburg</a> – Norddeutschlands führende Hochschule, wenn es um reflektierte Praxis geht. Im Mittelpunkt steht die exzellente 
   Qualität von Studium und Lehre. Zugleich entwickelt die HAW Hamburg ihr Profil als forschende Hochschule weiter. Menschen aus 
   mehr als 100 Nationen gestalten die HAW Hamburg mit. Ihre Vielfalt ist ihre besondere Stärke.
+
+  ## Blogposts
+  
+  * ### [Kooperation mit Abgeordnetenwatch & der HAW Hamburg zur Bundestagswahl 2017](https://datenschule.de/blog/2017/05/DS-Kooperation-Wahldaten/)
+  
+  * ### [OffenesParlament.de macht Plenarprotokolle durchsuchbar](https://datenschule.de/blog/2017/10/DS-offenes-parlament-relaunch/)
+ 
+  * ### [Interview mit abgeordnetenwatch.de: Über Plenarprotokolle, Digitalisierung & die Arbeit mit der Datenschule](https://datenschule.de/blog/2017/11/DS-interview-abgeordnetenwatch/)
+  
+ ## Medienberichte
+ 
+  * ### [Offene Daten und der Bundestag. Protokolle endlich durchsuchbar (taz, Oktober 2017)](http://www.taz.de/!5452897/)
+  
+  * ### [OffenesParlament bringt Transparenz in Bundestagsdebatten (netzpolitik.org, Oktober 2017)](https://netzpolitik.org/2017/offenes-parlament-bringt-transparenz-in-bundestagsdebatten/)
 
 text_en: |-
 
