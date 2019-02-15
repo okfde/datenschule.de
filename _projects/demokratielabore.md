@@ -19,18 +19,30 @@ text: |-
 
    Die [Demokratielabore](https://demokratielabore.de) der [Open Knowledge Foundation Deutschland](https://okfn.de) führen mit Jugendlichen in Jugendeinrichtungen deutschlandweit Workshops zu digitalen, technologischen und gesellschaftlichen Themen durch. Wir ermutigen sie damit, aktiv die Gesellschaft mitzugestalten. 
    
-   Die Arbeit mit Daten und die Prozesse der Digitalisierung werden auch für gemeinnützige Organisationen immer wichtiger. Von Oktober bis Dezember 2017 haben wir zu diesem Thema zwei Workshops mit Fachkräften aus der Jugendarbeit durchgeführt. Ziel war es, die Erfahrungen aus der alltäglichen, digitalen Arbeit aufzuarbeiten und zu diskutieren. Zusätzlich haben wir eine Umfrage zu digitalen Kompetenzen, Daten und Tools mit verschieden Vertreter/innen aus der Jugendarbeit durchgeführt. Die Ergebnisse unserer Analyse und Tipps aus den Workshops findet ihr zusammengefasst [hier](https://bedarfsanalyse.demokratielabore.de).  
+   Die Arbeit mit Daten und die Prozesse der Digitalisierung werden auch für gemeinnützige Organisationen immer wichtiger. Von Oktober bis Dezember 2017 haben wir zu diesem Thema zwei Workshops mit Fachkräften aus der Jugendarbeit durchgeführt. Ziel war es, die Erfahrungen aus der alltäglichen, digitalen Arbeit aufzuarbeiten und zu diskutieren. Zusätzlich haben wir eine Umfrage zu digitalen Kompetenzen, Daten und Tools mit verschieden Vertreter/innen aus der Jugendarbeit durchgeführt. Die Ergebnisse unserer Analyse und Tipps aus den Workshops findet ihr zusammengefasst [hier](https://bedarfsanalyse.demokratielabore.de). Von Januar bis Juli 2018 haben wir darauf aufbauend vier Workshops zur Nutzung von offenen Daten in der Jugendarbeit, digitalem Storytelling, Citizen Science und Twitteranalysen gegeben. Die Lernmaterialien dazu gibt es [hier](https://demokratielabore.de/publikationen). Außerdem veranstalteten wir eine [Data Expedition](https://dataexpedition.demokratielabore.de) und einen [Datenspaziergang durch Berlin Kreuzberg](https://spaziergang.demokratielabore.de).
 
-   ## Schulungen für Fachkräfte
+## Blogposts
 
-    Auch in diesem Jahr bieten wir verschiedene Schulungen und Formate an, in denen wir mit digitalen Tools experimentieren und gemeinsam tiefer in die Welt der Daten eintauchen. Dabei experimentieren wir zum Beispiel mit Sensoren und Hardware, verarbeiten Daten zu interessanten Stories oder schauen uns spannende Debatten auf Twitter an. Alle Interessierten aus der Jugendarbeit sind herzlich eingeladen! Mehr Infos gibt es [hier](https://demokratielabore.de/angebot/schulung/). 
+* ## [Jugendarbeit, Demokratie & Daten - Das waren unsere Data Expedition & der Datenspaziergang](https://datenschule.de/blog/2018/07/DS-data-expedition-datenspaziergang/)
 
-   Das Projekt Demokratielabore wird vom [Bundesministerium für Familie, Senioren, Frauen und Jugend](http://www.bmfsfj.de/) im Rahmen des Bundesprogramms [“Demokratie leben!”](http://www.demokratie-leben.de/) und von der [Bundeszentrale für politische Bildung](http://www.bpb.de) gefördert.
+* ## [Jugendarbeit in Deutschland: Daten finden & Tools nutzen](https://datenschule.de/blog/2018/01/DS-jugendarbeit-daten-tools/)
+
+## Medienberichte
+
+* ## [Freies Schulungsmaterial der Demokratielabore zu neuen Themen der Jugendarbeit (Medienpädagogik-Praxisblog, September 2018)](https://www.medienpaedagogik-praxis.de/2018/09/06/freies-schulungsmaterial-der-demokratielabore/)
 
 text_en: |- 
 
   ["Demokratielabore”](https://demokratielabore.de) is a project of the [Open Knowledge Foundation Germany](https://okfn.de), in which we conduct workshops on digital, technological and social issues with young people in youth centers. We encourage them to actively participate in society.
-      Working with data and the processes of digitization are also becoming more and more important for non-profit organizations. In order to find out how the data work in NGOs from the education sector looks like and where there are still potentials, we carry out a needs analysis and show in our two-day workshop which tools help data-driven work and how to tell good stories with data. 
-      
-     The project “Demokratielabore” is sponsored by the [Federal Ministry for Family Affairs, Senior Citizens, Women and Youth](http://www.bmfsfj.de) in the framework of the Federal program ["Demokratie leben!"](http://www.demokratie-leben.de) and by [The Federal Agency for Civic Education](http://www.bpb.de/die-bpb/138852/federal-agency-for-civic-education).
----
+
+  Working with data and the processes of digitization are also becoming increasingly important for nonprofit organizations. From October to December 2017, we held two workshops with youth experts on this topic. The aim was to work up and discuss experiences from everyday digital work. In addition, we carried out a survey on digital skills, data and tools with different representatives of youth work. The results of our analysis and tips from the workshops are summarized [here](https://bedarfsanalyse.demokratielabore.de). From January to July 2018, we held four workshops on the use of open data in youth work, digital storytelling, Citizen Science and Twitter analysis. The learning materials are available [here](https://demokratielabore.de/publikationen). In addition, we organized a [Data Expedition](https://dataexpedition.demokratielabore.de) and a [data walk through Berlin Kreuzberg](https://spaziergang.demokratielabore.de).
+
+## Blog posts
+
+* ## [Jugendarbeit, Demokratie & Daten - Das waren unsere Data Expedition & der Datenspaziergang](https://datenschule.de/blog/2018/07/DS-data-expedition-datenspaziergang/)
+
+* ## [Jugendarbeit in Deutschland: Daten finden & Tools nutzen](https://datenschule.de/blog/2018/01/DS-jugendarbeit-daten-tools/)
+
+## Press review
+
+* ## [Freies Schulungsmaterial der Demokratielabore zu neuen Themen der Jugendarbeit (Medienpädagogik-Praxisblog, September 2018)](https://www.medienpaedagogik-praxis.de/2018/09/06/freies-schulungsmaterial-der-demokratielabore/)
