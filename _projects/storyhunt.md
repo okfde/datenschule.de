@@ -23,13 +23,17 @@ text: |-
     <a href="https://storyhunt.de"> 'The Story Hunt: Uncover the EU' </a> ist ein Programm der Datenschule und <a href="http://openbudgets.eu/">OpenBudgets</a>. Gemeinsam mit Journalist/innen, Non-Profit-Organisationen, Entwickler/innen und Designer/innen wollen wir 
     die Fähigkeiten entwickeln und anwenden, die für eine erfolgreiche Story rund um Finanzdaten wichtig sind.
      
-    Unser Story Hunt beeinhaltet zwei Events: eine Reihe von Workshops und ein Safari-Wochenende in Berlin.
+    Unser Story Hunt beeinhaltete zwei Events: eine Reihe von Workshops und ein Safari-Wochenende in Berlin.
      
-    Die Workshops richten sich an Dateneinsteiger/innen und Non-Profit-Organisationen, die daran interessiert sind, ihre Datenkenntnisse zu verbessern. Die Workshops werden von unserem Team und unserer Community durchgeführt. Sie sind die Grundlage für das drei-tägige Wochenende, an dem wir gemeinsam mit den Expert/innen in die große Datenbank des primären Finanzinstruments der Europäischen Union, der ESIFunds, eintauchen werden.
+    Die Workshops richteten sich an Dateneinsteiger/innen und Non-Profit-Organisationen, die daran interessiert sind, ihre Datenkenntnisse zu verbessern. Die Workshops wurden von unserem Team und unserer Community durchgeführt. Sie sind die Grundlage für das drei-tägige Wochenende, an dem wir gemeinsam mit den Expert/innen in die große Datenbank des primären Finanzinstruments der Europäischen Union, der ESIFunds, eingetaucht sind.
      
-    Während des Wochenendes bilden wir Teams, die sich gemeinsam auf die Suche nach Geschichten rund um die EU und ihren Gedströmen begeben. Der Story Hunt ist eine ideale Gelegenheit, die erworbenen Datenskills zu erproben und gemeinsam Projekt umzusetzen.
+    Während des Wochenendes bildeten wir Teams, die sich gemeinsam auf die Suche nach Geschichten rund um die EU und ihren Gedströmen begeben. Der Story Hunt war eine ideale Gelegenheit, die erworbenen Datenskills zu erproben und gemeinsam Projekt umzusetzen.
 
-    Macht mit beim <a href="https://storyhunt.de">Story Hunt</a>!
+  ## Blogposts
+
+* ## [The Story Hunt: Das waren die Workshops!](https://datenschule.de/blog/2017/06/DS-Story-Hunt-Workshops/)
+
+* ## [The Story Hunt: Das war die Data Expedition!](https://datenschule.de/blog/2017/07/DS-Storyhunt-Wochenende/)
  
 text_en: |-
 
@@ -50,5 +54,11 @@ text_en: |-
     During the weekend, we will form interdisciplinary teams that collaboratively work on finding stories, leads, and data 
     analyses around the EU and its money flows. This will offer an ideal opportunity to practice the acquired skills in a 
     supportive environment.
+    
+    ## Blogposts
+
+* ## [The Story Hunt: Das waren die Workshops!](https://datenschule.de/blog/2017/06/DS-Story-Hunt-Workshops/)
+
+* ## [The Story Hunt: Das war die Data Expedition!](https://datenschule.de/blog/2017/07/DS-Storyhunt-Wochenende/)
 ---
    
