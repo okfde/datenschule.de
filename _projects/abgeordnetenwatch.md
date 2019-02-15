@@ -21,21 +21,14 @@ text: |-
 
   ## Über Abgeordnetenwatch.de
     
-  <a href="https://abgeordnetenwatch.de">Abgeordnetenwatch.de</a> ist eine unabhängige und überparteiliche Internetplattform, die öffentliche Bürgeranfragen an Abgeordnete  
-  auf Bundes- und Europaebene sowie in den Landesparlamenten ermöglicht und somit einen direkten Draht zwischen Bürger/innen und 
-  Abgeordneten bzw. Kandidierenden herstellt. Zusätzlich dokumentiert abgeordnetenwatch.de das Abstimmungsverhalten und die
-  Nebeneinkünfte der Abgeordneten. Auf diese Weise wollen sie u.a. einen höheren Rechenschaftsdruck der Politiker/innen 
-  gegenüber den Wähler/innen herbeiführen, sowie einen einfachen und direkten Zugang zu politischen Informationen, mehr 
-  Transparenz und Beteiligungsmöglichkeiten schaffen. 
-
+  <a href="https://abgeordnetenwatch.de">Abgeordnetenwatch.de</a> ist eine unabhängige und überparteiliche Internetplattform, die öffentliche Bürgeranfragen an Abgeordnete auf Bundes- und Europaebene sowie in den Landesparlamenten ermöglicht und somit einen direkten Draht zwischen Bürger/innen und Abgeordneten bzw. Kandidierenden herstellt. Zusätzlich dokumentiert Abgeordnetenwatch.de das Abstimmungsverhalten und die Nebeneinkünfte der Abgeordneten. Auf diese Weise wollen sie u.a. einen höheren Rechenschaftsdruck der Politiker/innen gegenüber den Wähler/innen herbeiführen, sowie einen einfachen und direkten Zugang zu politischen Informationen, mehr Transparenz und Beteiligungsmöglichkeiten schaffen. 
+         
   Abgeordnetenwatch.de ist ein Projekt des Parlamentwatch e.V. mit Sitz in Hamburg.
 
   ## Über die Hochschule für Angewandte Wissenschaften Hamburg
 
   Nachhaltige Lösungen für die gesellschaftlichen Herausforderungen von Gegenwart und Zukunft entwickeln: Das ist das Ziel der  
-  a href="https://www.haw-hamburg.de/startseite.html">HAW Hamburg</a> – Norddeutschlands führende Hochschule, wenn es um reflektierte Praxis geht. Im Mittelpunkt steht die exzellente 
-  Qualität von Studium und Lehre. Zugleich entwickelt die HAW Hamburg ihr Profil als forschende Hochschule weiter. Menschen aus 
-  mehr als 100 Nationen gestalten die HAW Hamburg mit. Ihre Vielfalt ist ihre besondere Stärke.
+  <a href="https://haw-hamburg.de">HAW Hamburg</a> – Norddeutschlands führende Hochschule, wenn es um reflektierte Praxis geht. Im Mittelpunkt steht die exzellente Qualität von Studium und Lehre. Zugleich entwickelt die HAW Hamburg ihr Profil als forschende Hochschule weiter. Menschen aus mehr als 100 Nationen gestalten die HAW Hamburg mit. Ihre Vielfalt ist ihre besondere Stärke.
 
   ## Blogposts
   
@@ -53,15 +46,11 @@ text: |-
 
 text_en: |-
 
- What topics are discussed in the parliament? Which are the most relevant to which political party? Debates in the parliament are often difficult to follow for citizens and civil society organisations alike, but at the same time they are the foundation for evidence-based policy work and public discussions. With our partners, abgeordnetenwatch.de and HAW Hamburg, we take a closer look at the plenary protocols published by the German parliament reflecting these political discussions and decisions at the end of the 18th legislative period (2013 - 2017). OpenParliament (offenesparlament.de) makes the protocols accessible and searchable for everyone. We analyze important topics and provide information about the members of the parliament.
+ What topics are discussed in the parliament? Which are the most relevant to which political party? Debates in the parliament are often difficult to follow for citizens and civil society organisations alike, but at the same time they are the foundation for evidence-based policy work and public discussions. With our partners, abgeordnetenwatch.de and HAW Hamburg, we take a closer look at the plenary protocols published by the German parliament reflecting these political discussions and decisions at the end of the 18th legislative period (2013 - 2017). <a href="https://offenesparlament.de">OffenesParlament.de</a> makes the protocols accessible and searchable for everyone. We analyze important topics and provide information about the members of the parliament.
  
  ## About Abgeordnetenwatch
 
- Abgeordnetenwatch.de is an independent and non-partisan internet platform, which allows public citizen requests to German and 
- European parliaments as well as in the regional parliaments, thus providing a direct link between citizens and members of 
- parliament. In addition, abgeordnetenwatch.de documents the voting behavior and the additional income of the deputies. In this 
- way, they want to bring greater accountability pressure on politicians towards the electorate, as well as to provide easy and 
- direct access to political information, greater transparency and participation.
+  <a href="https://abgeordnetenwatch.de">Abgeordnetenwatch.de</a> is an independent and non-partisan internet platform, which allows public citizen requests to German and European parliaments as well as in the regional parliaments, thus providing a direct link between citizens and members of parliament. In addition, abgeordnetenwatch.de documents the voting behavior and the additional income of the deputies. In this way, they want to bring greater accountability pressure on politicians towards the electorate, as well as to provide easy and direct access to political information, greater transparency and participation.
  
  Abgeordnetenwatch.de is a project of Parlamentwatch e.V. based in Hamburg.
 
