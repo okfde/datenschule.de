@@ -46,3 +46,5 @@ text_en: |-
 ## Press review
 
 * ## [Freies Schulungsmaterial der Demokratielabore zu neuen Themen der Jugendarbeit (Medienpädagogik-Praxisblog, September 2018)](https://www.medienpaedagogik-praxis.de/2018/09/06/freies-schulungsmaterial-der-demokratielabore/)
+
+---
