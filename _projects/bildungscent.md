@@ -19,7 +19,7 @@ text: |-
 
  Schule ist weit mehr als nur Unterricht. Potenziale, Persönlichkeit und das Engagement für die Gesellschaft entwickeln sich vorwiegend außerhalb des Regelunterrichts. Doch gut zugängliche Informationen zu allen Schulen in Deutschland, ihren Partnerschaften und Aktivitäten sind nur spärlich vorhanden. 
 
- Mit <a href="https://jedeschule.de/">JedeSchule.de</a>, einer Informations- und Rechercheplattform über Schulen in Deutschland, setzen sich die Datenschule der Open Knowledge Foundation e.V. und BildungsCent e.V. für mehr Transparenz im Bildungsbereich ein und fördern den Dialog zwischen verschiedenen Akteur/innen in der Bildungspolitik. Die Plattform bietet einen Überblick über rund 30.000 allgemeinbildende Schulen in Deutschland. Neben Informationen zu Schularten, Lehrer/innenbeschäftigung und Fremdsprachenangebot werden erstmalig auch Schulaktivitäten und Partnerschaften (zunächst) für Berlin und Sachsen detailliert für 3.000 Schulen vorgestellt. 
+ Mit <a href="https://jedeschule.de/">JedeSchule.de</a>, einer Informations- und Rechercheplattform über Schulen in Deutschland, setzen wir uns gemeinsam mit BildungsCent e.V. für mehr Transparenz im Bildungsbereich ein und fördern den Dialog zwischen verschiedenen Akteur/innen in der Bildungspolitik. Die Plattform bietet einen Überblick über rund 30.000 allgemeinbildende Schulen in Deutschland. Neben Informationen zu Schularten, Lehrer/innen und Fremdsprachenangebot werden erstmalig auch Schulaktivitäten und Partnerschaften für die 3.000 Schulen in Berlin und Sachsen detailliert vorgestellt. 
 
  ## Kooperation mit BildungsCent e.V.
 
@@ -29,11 +29,19 @@ text: |-
 
  Mit zukunftsweisenden Impulsen und Programmen begleiten wir Schulen und Bildungseinrichtungen bei der Gestaltung von Entwicklungsprozessen und der Einbindung wichtiger gesellschaftspolitischer Themen in den Schulalltag. Als zivilgesellschaftliche Organisation wirken wir in vielfältigen Kooperationen und ermöglichen ungewöhnliche Partnerschaften. Denn neue Wege – im Hinblick auf die großen Herausforderungen der sich rasant verändernden und immer unübersichtlicher werdenden Welt – können wir nur in der Gemeinschaft gehen.
 
- ## Medienberichte und Blogposts
+ ## Blogposts
+ 
+  * ### [Kooperation mit BildungsCent e.V. zu den Themen Schule & Bildung](https://datenschule.de/blog/2016/10/DS-Kick-Off-Schule-Bildung/)
+ 
+  * ### [Launch: JedeSchule.de schafft mehr Transparenz im Schulsystem](https://datenschule.de/blog/2017/03/DS-launch-jedeschule/)
 
- * ### [Schuldaten analysieren - Rückblick zu unseren Workshops mit BildungsCent e.V.](https://datenschule.de/blog/2016/12/DS-Workshops-Data-pipeline-BC/)
-
- * ### [Kooperation mit BildungsCent e.V. zu den Themen Schule & Bildung](https://datenschule.de/blog/2016/10/DS-Kick-Off-Schule-Bildung/)
+  * ### [Schuldaten-Bundesländer-Check: Fazit zur Schuldatenlage in Deutschland](https://datenschule.de/blog/2017/08/schuldaten-bundeslaender-check-fazit/)
+  
+ ## Medienberichte
+ 
+  * ### [Mehr Transparenz im Schulsystem (detektor.fm, März 2017)](https://detektor.fm/gesellschaft/frag-den-staat-schulen-vergleichen)
+  
+  * ### [Neue Plattform JedeSchule.de - Endlich ein Überblick über die Schulen in Deutschland (Good Impact, Mai 2017)](http://goodimpact.org/magazin/endlich-ein-%C3%BCberblick-%C3%BCber-die-schulen-deutschland)
 
 text_en: |-
 
@@ -50,11 +58,21 @@ text_en: |-
  
  We have worked with more than 5.000 schools throughout Germany and realised innovative educational projects in cooperation with the German government as well as with other civil society organisations. Located in Berlin, we are currently running seven different programmes.
  
- ## Media coverage and blog posts
+ ## Blog posts
 
- * ### [Schuldaten analysieren - Rückblick zu unseren Workshops mit BildungsCent e.V.](https://datenschule.de/blog/2016/12/DS-Workshops-Data-pipeline-BC/)
+ 
+  * ### [Kooperation mit BildungsCent e.V. zu den Themen Schule & Bildung](https://datenschule.de/blog/2016/10/DS-Kick-Off-Schule-Bildung/)
+ 
+  * ### [Launch: JedeSchule.de schafft mehr Transparenz im Schulsystem](https://datenschule.de/blog/2017/03/DS-launch-jedeschule/)
 
- * ### [Kooperation mit BildungsCent e.V. zu den Themen Schule & Bildung](https://datenschule.de/blog/2016/10/DS-Kick-Off-Schule-Bildung/)
+  * ### [Schuldaten-Bundesländer-Check: Fazit zur Schuldatenlage in Deutschland](https://datenschule.de/blog/2017/08/schuldaten-bundeslaender-check-fazit/)
+  
+ ## Press review
+ 
+  * ### [Mehr Transparenz im Schulsystem (detektor.fm, März 2017)](https://detektor.fm/gesellschaft/frag-den-staat-schulen-vergleichen)
+  
+  * ### [Neue Plattform JedeSchule.de - Endlich ein Überblick über die Schulen in Deutschland (Good Impact, Mai 2017)](http://goodimpact.org/magazin/endlich-ein-%C3%BCberblick-%C3%BCber-die-schulen-deutschland)
+
 
 ---
    
