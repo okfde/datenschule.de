@@ -12,7 +12,7 @@ de:
         
         Gemeinsam haben wir sechs Monate lang an [OffenesParlament.de](https://offenesparlament.de) gearbeitet, wo wir alle 245 Plenarprotokolle des Bundestags aus der 18. Legislaturperiode (2013-2017) durchsuchbar gemacht und Analysen zu den häufigsten Themen, Sprecher/innen und Hintergrundinformationen aufbereitet haben.
         
-        ###Daten der Organisation & missing links 
+        ## Daten der Organisation & missing links 
         
         Abgeordnetenwatch.de arbeitet regelmäßig mit Datensätzen auch wenn nicht jedes Teammitglied einen technischen Hintergrund hat: 
         
@@ -21,7 +21,7 @@ de:
             <cite>Team von abgeordnetenwatch.de</cite>
         </p>
         
-        ###Lessons Learned
+        ## Lessons Learned
         
         Während des Projekts haben wir gemeinsam entlang der Data Pipeline gearbeitet, Daten recherchiert, analysiert und visualisiert:
         
@@ -30,7 +30,7 @@ de:
             <cite>Team von abgeordnetenwatch.de</cite>
         </p>
         
-        ###Zukunftspläne
+        ## Zukunftspläne
         
         <p class="speech-bubble">
             Wir arbeiten nach wie vor täglich mit Daten, werden in Zukunft verstärkt versuchen, die Daten zu visualisieren und bis zum “Ende” zu nutzen, um keine Ressourcen zu verschenken und die Wirkung der Geschichten und Recherchen zu erhöhen.
@@ -50,7 +50,7 @@ en:
         you to search through all 245 plenary protocols of the German Bundestag from the 18th legislative period (2013-2017). 
         Additionally, we analyzed the most common discussion topics, speakers and their background.
         
-        ###Collected data & missing links
+        ## Collected data & missing links
         
         Abgeordnetenwatch.de works with data and digital information on a regular basis, although  not every team member 
         has a technical background:
@@ -64,7 +64,7 @@ en:
             <cite>team of abgeordnetenwatch.de</cite>
         </p>
         
-        ###Lessons learned
+        ## Lessons learned
         
         During the project, we worked together on the data pipeline, researching, analyzing and visualizing data:
         
@@ -74,7 +74,7 @@ en:
             <cite>team of abgeordnetenwatch.de</cite>
         </p>
         
-        Next steps
+        ## Next steps
         <p class="speech-bubble">
         "We will continue to work with data on a daily basis and will further explore the field of data visualisations 
         to increase the impact of our stories and research activities."
