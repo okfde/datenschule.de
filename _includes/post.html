@@ -10,89 +10,88 @@
 
 
 <section class="container-padded post">
-	<div class="container">
-		<div class="box">
+  <div class="container">
+    <div class="box">
 
-			<div {% if img_authors.first.img %}class="post-author"{% else %}class="post-nonteam-author"{% endif %}>
-				{% for a in img_authors %}
-				{% if a.img %}<img src="/files/team/{{ a.img }}.jpg" alt="{{ a.name | xml_escape }}" class="post-author-image">{% endif %}
-				{% endfor %}
-				<ul class="post-tags">
-					{% for tag in page.tags %}
-					<li><a href="{{ site.baseurl }}/blog/tags/{{ tag }}/">{{ tag }}</a></li>
-					{% endfor %}
-				</ul>
-				<p class="post-meta">
-					{% t blog.author_by %}
-					{% for author in authors %}
-					{% assign a = site.data.team | where:"name",author | first %}
-					{% if a.name %}{{ a.name }}{% else %}{{author}}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br/>
-					{% t blog.on_date %} {{ page.date | date:"%d.%m.%Y" }}
-				</p>
-			</div>
+      <div {% if img_authors.first.img %}class="post-author"{% else %}class="post-nonteam-author"{% endif %}>
+	{% for a in img_authors %}
+	{% if a.img %}<img src="/files/team/{{ a.img }}.jpg" alt="{{ a.name | xml_escape }}" class="post-author-image">{% endif %}
+	{% endfor %}
+	<ul class="post-tags">
+	  {% for tag in page.tags %}
+	  <li><a href="{{ site.baseurl }}/blog/tags/{{ tag }}/">{{ tag }}</a></li>
+	  {% endfor %}
+	</ul>
+	<p class="post-meta">
+	  {% t blog.author_by %}
+	  {% for author in authors %}
+	  {% assign a = site.data.team | where:"name",author | first %}
+	  {% if a.name %}{{ a.name }}{% else %}{{author}}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br/>
+	  {% t blog.on_date %} {{ page.date | date:"%d.%m.%Y" }}
+	</p>
+      </div>
 
-			<hr>
+      <hr>
 
-			<h1>{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
 
-			{% if page.picture & page.picture.src %}
-			<figure class="post-image">
-				<div class="post-image-full" style="background-image: url({{ page.picture.src | xml_escape }});" title="{{ page.picture.title }}"></div>
-				{% if page.picture.license %}
-				<figcaption>
-					{% if page.picture.license_url %}
-					<a href="{{ page.picture.license_url | xml_escape }}">{{ page.picture.license | markdownify }}</a>
-					{% else %}
-					{{ page.picture.license | markdownify }}
-					{% endif %}
-				</figcaption>
-				{% else %}
-					{% if page.picture.license_url %}
-					<figcaption>
-					<a href="{{ page.picture.license_url | xml_escape }}">{% t blog.picture_license %}</a>
-					</figcaption>
-					{% endif %}
-				{% endif %}
-			</figure>
-			{% endif %}
-			<div class="container-left-12">{{ content }}</div>
-			<hr>
-			<div class="share-post">
-				{% t blog.share_with %}
-				<a href="https://twitter.com/intent/tweet?text={{ page.title | truncate: 100 }}&url={{site.domain}}/{{ page.url }}&via=datenschule&related=datenschule" rel="nofollow" target="_blank" title="{% t blog.share_with %} Twitter"><i class="icon-twitter-1"></i></a>
-				<a href="https://facebook.com/sharer.php?u={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.share_with %} Facebook"><i class="icon-facebook"></i></a>
-				<a href="https://plus.google.com/share?url={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.share_with %} Google+"><i class="icon-gplus"></i></a>
-			</div>
+      {% if page.picture & page.picture.src %}
+      <figure class="post-image">
+	<div class="post-image-full" style="background-image: url({{ page.picture.src | xml_escape }});" title="{{ page.picture.title }}"></div>
+	{% if page.picture.license %}
+	<figcaption>
+	  {% if page.picture.license_url %}
+	  <a href="{{ page.picture.license_url | xml_escape }}">{{ page.picture.license | markdownify }}</a>
+	  {% else %}
+	  {{ page.picture.license | markdownify }}
+	  {% endif %}
+	</figcaption>
+	{% else %}
+	{% if page.picture.license_url %}
+	<figcaption>
+	  <a href="{{ page.picture.license_url | xml_escape }}">{% t blog.picture_license %}</a>
+	</figcaption>
+	{% endif %}
+	{% endif %}
+      </figure>
+      {% endif %}
+      <div class="container-left-12">{{ content }}</div>
+      <hr>
+      <div class="share-post">
+	{% t blog.share_with %}
+	<a href="https://twitter.com/intent/tweet?text={{ page.title | truncate: 100 }}&url={{site.domain}}/{{ page.url }}&via=datenschule&related=datenschule" rel="nofollow" target="_blank" title="{% t blog.share_with %} Twitter"><i class="icon-twitter-1"></i></a>
+	<a href="https://facebook.com/sharer.php?u={{site.domain}}/{{ page.url }}" rel="nofollow" target="_blank" title="{% t blog.share_with %} Facebook"><i class="icon-facebook"></i></a>
+      </div>
 
-		</div>
-	</div>
-	<div class="container container-padded-top">
-		<div class="container-left-12">
-			{% assign posts = '' | split:':' %}
-			{% if page.previous.url %}
-				{% assign posts = posts | push: page.previous %}
-			{% endif %}
-			{% if page.next.url %}
-				{% assign posts = posts | push: page.next %}
-			{% endif %}
-			<ul class="post-previews post-previews-{{ posts.size }}">
-				{% if page.previous.url %}
-				<li class="post-preview post-preview-with-head">
-					<h3 class="post-preview-head">{% t blog.previous_post %}</h3>
-					<div class="post-preview-content">
-						{% include post_preview_small.html post=page.previous %}
-					</div>
-				</li>
-				{% endif %}
-				{% if page.next.url %}
-				<li class="post-preview post-preview-with-head">
-					<h3 class="post-preview-head">{% t blog.next_post %}</h3>
-					<div class="post-preview-content">
-						{% include post_preview_small.html post=page.next %}
-					</div>
-				</li>
-				{% endif %}
-			</ul>
-		</div>
-	</div>
+    </div>
+  </div>
+  <div class="container container-padded-top">
+    <div class="container-left-12">
+      {% assign posts = '' | split:':' %}
+      {% if page.previous.url %}
+      {% assign posts = posts | push: page.previous %}
+      {% endif %}
+      {% if page.next.url %}
+      {% assign posts = posts | push: page.next %}
+      {% endif %}
+      <ul class="post-previews post-previews-{{ posts.size }}">
+	{% if page.previous.url %}
+	<li class="post-preview post-preview-with-head">
+	  <h3 class="post-preview-head">{% t blog.previous_post %}</h3>
+	  <div class="post-preview-content">
+	    {% include post_preview_small.html post=page.previous %}
+	  </div>
+	</li>
+	{% endif %}
+	{% if page.next.url %}
+	<li class="post-preview post-preview-with-head">
+	  <h3 class="post-preview-head">{% t blog.next_post %}</h3>
+	  <div class="post-preview-content">
+	    {% include post_preview_small.html post=page.next %}
+	  </div>
+	</li>
+	{% endif %}
+      </ul>
+    </div>
+  </div>
 </section>
