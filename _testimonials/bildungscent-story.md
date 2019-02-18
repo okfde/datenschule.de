@@ -25,7 +25,7 @@ de:
         Zu zeigen, dass es gerade die gemeinnützigen Akteure sind, die durch ihre Aktivitäten an den Schulen die Potentiale 
         der Kinder für die Gesellschaft fördern. 
         
-        ##Daten der Organisation & Missing Links 
+        ## Daten der Organisation & Missing Links 
         
         Im Laufe der letzten Jahre hat BildungsCent in ihrer Arbeit verschiedenste Schuldaten erhoben und sich einen reichhaltigen 
         Datensatz über die einzelnen kooperierenden Schulen und ihre Programme aufgebaut. Das Thema ‘Data Literacy’ ist für 
@@ -39,7 +39,7 @@ de:
             <cite>Silke Ramelow</cite>
         </p>
         
-        ##Lessons Learned
+        ## Lessons Learned
         
         Nach den ersten Recherchen und Analysen für JedeSchule.de stellte sich aber zunächst Ernüchterung ein:
         
@@ -71,7 +71,7 @@ de:
             <cite>Silke Ramelow</cite>
         </p> 
         
-        ##Zukunftspläne
+        ## Zukunftspläne
         
         <p class="speech-bubble">
             Ich glaube wir haben jetzt viele Punkte, bei denen wir ansetzen können, ohne neu aufbauen zu müssen. Es geht eher darum, sie zu 
@@ -98,7 +98,7 @@ en:
         it was possible to emphasis that non-profit actors are crucial partners for schools since they are the main 
         actors to carry out extracurricular activities.
         
-        ###Collected data & missing links
+        ## Collected data & missing links
         
         Over the past years, BildungsCent collected a variety of information on school activities and built a rich 
         archive for each cooperating school and programs that are offered. 'Data literacy' is a particularly important 
@@ -112,7 +112,7 @@ en:
         <cite>Silke Ramelow</cite>
         </p>
         
-        ###Lessons learned
+        ## Lessons learned
         
         After the first research and analysis of available information on school activities in Germany for JedeSchule.de, 
         the results were unexpected:
@@ -149,7 +149,7 @@ en:
         <cite>Silke Ramelow</cite>
         </p>
         
-        ### Next steps
+        ## Next steps
         
         <p class="speech-bubble">
         "I think, we now have many leads to follow without having to start from scratch. It's more about future 
