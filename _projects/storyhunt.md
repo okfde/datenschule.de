@@ -1,7 +1,7 @@
 ---
 title: Storyhunt.de
 url: https://storyhunt.de/
-ended: no
+ended: yes
 picture:
   src: /files/projects/background-forest-light-small.jpg
   title: Storyhunt.de

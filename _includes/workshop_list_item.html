@@ -1,0 +1,28 @@
+<li class="list-box-item list-box-item-wrap-2">
+  <div class="list-box-content">
+    <div class="projects-box">
+      <p class="project-topics">
+	{% case site.lang %}{% when 'en' %}{% for topic in project.topics_en %}<span>{{topic}}</span>{% endfor %}
+	{% else %}{% for topic in project.topics %}<span>{{topic}}</span>{% endfor %}{% endcase %}
+      </p>
+      <p>
+	<!--<a href="{{ site.baseurl }}{{ project.url }}">-->
+	{% if project.picture.src %}
+	<div class="prev-image" style="background-image: url('{{project.picture.src}}')">
+	  <div class="title-wrapper">
+	    <h2>{{project.title}}</h2>
+	    <!--<h2>-</h2>-->
+	    <h2>{% case site.lang %}{% when 'en' %}{{ project.subtitle_en }}{% else %}{{ project.subtitle }}{% endcase %}</h2>
+	  </div>
+	</div>
+	<!--<img src="{{project.picture.src}}">-->
+	{% endif %}
+	<!--</a>-->
+      </p>
+      <!--<h3>{{project.partner}}</h3>-->
+      <div class="list-box-pull-down list-box-pull-right">
+	<a class="box-button-plain" href="{{ site.baseurl }}{{ project.url }}">Mehr</a>
+      </div>
+    </div>
+  </div>
+</li>

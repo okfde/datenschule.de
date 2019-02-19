@@ -1,7 +1,7 @@
 ---
 title: OffenesParlament.de
 url: ""
-ended: no
+ended: yes
 picture:
   src: /files/projects/logo-op.png
   title: Bundestag

@@ -6,93 +6,36 @@ description: projekte.desc
 ---
 
 <div class="box box-with-head">
-	<h1 class="box-head">{% t projekte.title %}</h1>
-	<p>{% t projekte.intro %}</p>
+  <h1 class="box-head">{% t projekte.title %}</h1>
+  <p>{% t projekte.intro %}</p>
 </div>
+
 {% assign projects = site.projects | where: "ended", "false" %}
 {% if projects.size > 0 %}
 <div class="box box-margin-top-medium">
-	<h2>{% t projekte.cat_current %}</h2>
-	<p></p>
+  <h2>{% t projekte.cat_current %}</h2>
+  <p></p>
 </div>
-<!--<div class="container-wrap-row container-wrap-item-pull-top container-wrap-item-pull-left">-->
-<!--{% for project in site.projects %}-->
-<!--<div class="container-wrap-item-2">-->
-<!--<div class="box projects-box">-->
-<!--<a href="{{ site.baseurl }}{{ project.url }}">-->
-<!--{% if project.picture.src %}<img src="{{project.picture.src}}">{% endif %}-->
-<!--<h4>{% case site.lang %}{% when 'en' %}{{ project.title_en }}{% else %}{{ project.title }}{% endcase %}</h4>-->
-<!--</a>-->
-<!--<h3>{{project.partner}}</h3>-->
-<!--<p class="project-topics">-->
-<!--{% case site.lang %}{% when 'en' %}{% for topic in project.topics_en %}<span>{{topic}}</span>{% endfor %}-->
-<!--{% else %}{% for topic in project.topics %}<span>{{topic}}</span>{% endfor %}{% endcase %}-->
-<!--</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--{% endfor %}-->
-<!--</div>-->
-<!--{% endif %}-->
-{% assign stories = site.testimonials | where: "lang",site.lang %}
-{% if site.projects.size > 0 %}
 <div class="container">
-	<ul class="list-box">
-		{% for project in site.projects %}
-		<li class="list-box-item list-box-item-wrap-2">
-			<div class="list-box-content">
-				<div class="projects-box">
-					<p class="project-topics">
-						{% case site.lang %}{% when 'en' %}{% for topic in project.topics_en %}<span>{{topic}}</span>{% endfor %}
-						{% else %}{% for topic in project.topics %}<span>{{topic}}</span>{% endfor %}{% endcase %}
-					</p>
-					<p>
-						<!--<a href="{{ site.baseurl }}{{ project.url }}">-->
-							{% if project.picture.src %}
-								<div class="prev-image" style="background-image: url('{{project.picture.src}}')">
-									<div class="title-wrapper">
-										<h2>{{project.title}}</h2>
-										<!--<h2>-</h2>-->
-										<h2>{% case site.lang %}{% when 'en' %}{{ project.subtitle_en }}{% else %}{{ project.subtitle }}{% endcase %}</h2>
-									</div>
-								</div>
-								<!--<img src="{{project.picture.src}}">-->
-						{% endif %}
-						<!--</a>-->
-					</p>
-					<!--<h3>{{project.partner}}</h3>-->
-					<div class="list-box-pull-down list-box-pull-right">
-						<a class="box-button-plain" href="{{ site.baseurl }}{{ project.url }}">Mehr</a>
-					</div>
-				</div>
-			</div>
-		</li>
-		{% endfor %}
-	</ul>
+  <ul class="list-box">
+    {% for project in site.projects %}
+    {% include workshop_list_item.html %}
+    {% endfor %}
+  </ul>
 </div>
 {% endif %}
 
-<!--{% assign projects = site.projects | where: "ended", "true" %}-->
-<!--{% if projects.size > 0 %}-->
-<!--<div class="box box-margin-top-medium">-->
-	<!--<h2>{% t projekte.cat_done %}</h2>-->
-	<!--<p></p>-->
-<!--</div>-->
-<!--<div class="container-wrap-row container-wrap-item-pull-top">-->
-	<!--{% for project in site.projects %}-->
-	<!--<div class="container-wrap-item-2">-->
-		<!--<div class="box projects-box">-->
-			<!--<a href="{{ site.baseurl }}{{ project.url }}">-->
-				<!--{% if project.picture.src %}<img src="{{project.picture.src}}">{% endif %}-->
-				<!--<h4>{% case site.lang %}{% when 'en' %}{{ project.title_en }}{% else %}{{ project.title }}{% endcase %}</h4>-->
-			<!--</a>-->
-			<!--<h3>{{project.partner}}</h3>-->
-			<!--<p class="project-topics">-->
-				<!--{% case site.lang %}{% when 'en' %}{% for topic in project.topics_en %}<span>{{topic}}</span>{% endfor %}-->
-				<!--{% else %}{% for topic in project.topics %}<span>{{topic}}</span>{% endfor %}{% endcase %}-->
-			<!--</p>-->
-		<!--</div>-->
-	<!--</div>-->
-	<!--{% endfor %}-->
-<!--</div>-->
-<!--{% endif %}-->
-
+{% assign proj = site.projects | where: "ended", "true" %}
+{% if proj.size > 0 %}
+<div class="box box-margin-top-medium">
+  <h2>{% t projekte.cat_done %}</h2>
+  <p></p>
+</div>
+<div class="container">
+  <ul class="list-box">
+    {% for project in site.projects %}
+    {% include workshop_list_item.html %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

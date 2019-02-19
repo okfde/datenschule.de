@@ -1,7 +1,7 @@
 ---
 title: Demokratielabore.de
 url:
-ended: no
+ended: yes
 picture:
   src: /files/projects/illustration_vorab_dl.png
   title: Logo Demokratielabore
