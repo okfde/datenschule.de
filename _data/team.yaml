@@ -1,14 +1,14 @@
-- name: Anna Alberts
-  img: annaalberts
-  mail: info@datenschule.de
-  position: Projektleitung
-  position_en: Project lead
+- name: Lydia Böttcher
+  img: lydiaboettcher
+  mail: lydia.boettcher@okfn.de
+  position: Projektmanagement Workshops
+  position_en: Workshops
 
 - name: Jasmin Helm
   img: jasminhelm
   mail: jasmin.helm@okfn.de
-  position: Projektmanagement Kommunikation
-  position_en: Communication
+  position: Projektmanagement Kommunikation & Organisation
+  position_en: Communication & organisation
 
 - name: Lisa Passing
   img: lisapassing
