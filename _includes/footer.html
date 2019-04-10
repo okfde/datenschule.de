@@ -1,74 +1,75 @@
 <div class="container-full container-blue">
-	<div class="container">
-		<div class="footer-nav">
-		  <ul class="nav navbar-nav">
-                    {% if site.settings.debug %}
-		    <li{% if page.menu_blog %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog">{% t menu.blog %}</a></li>
-                    {% endif %}
-				<li{% if page.menu_team %} class="active"{% endif %}><a href="{{ site.baseurl }}/team">{% t menu.team %}</a></li>
-				<li{% if page.menu_presse %} class="active"{% endif %}><a href="{{ site.baseurl }}/presse">{% t menu.presse %}</a></li>
-			</ul>
-		</div>
-	</div>
+  <div class="container">
+    <div class="footer-nav">
+      <ul class="nav navbar-nav">
+        {% if site.settings.debug %}
+	<li{% if page.menu_blog %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog">{% t menu.blog %}</a></li>
+        {% endif %}
+	<li{% if page.menu_team %} class="active"{% endif %}><a href="{{ site.baseurl }}/team">{% t menu.team %}</a></li>
+	<li{% if page.menu_presse %} class="active"{% endif %}><a href="{{ site.baseurl }}/presse">{% t menu.presse %}</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
 <footer>
-	<div class="container">
-		<div class="container-left-6 footer-container-left">
-			<div>
-				<div class="footer-logo-container">
-					<h4>{% t footer.project_by %}</h4>
-					<div class="footer-logo">
-						<a href="https://okfn.de" target="_blank"><img alt="OKF DE" src="/assets/img/logo_okfde_black.png"></a>
-					</div>
-				</div>
-				<div class="footer-logo-container">
-					<h4>{% t footer.partner %}</h4>
-					<div class="footer-logo">
-						<a href="http://schoolofdata.org" target="_blank"><img alt="School of Data" src="/assets/img/logo_schoolofdata.png"></a>
-					</div>
-				</div>
-			</div>
-			<div>
-				<div class="footer-logo-container">
-					<h4>{% t footer.powered_by %}</h4>
-					<div class="footer-logo">
-						<img alt="Google" src="/assets/img/logo_google.png">
-					</div>
-				</div>
-				<div class="footer-logo-container">
-					<h4>{% t footer.ds_in_web %}</h4>
-					<div class="footer-socials">
-						<a target="_blank" class="footer-social" href="https://twitter.com/datenschule" title="Datenschule auf Twitter"><i class="icon-twitter-1"></i></a>
-						<a target="_blank" class="footer-social" href="https://github.com/datenschule" title="Datenschule auf Github"><i class="icon-github-1"></i></a>
-					</div>
-					<div class="footer-socials">
-						<a target="_blank" class="footer-social" href="https://www.flickr.com/photos/okfde" title="OKF DE auf Flickr"><i class="icon-flickr"></i></a>
-						<a target="_blank" class="footer-social" href="https://www.youtube.com/channel/UCUD8EFjXzRN-wFUbVTYlDAw" title="OKF DE auf Youtube"><i class="icon-youtube"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container-left-3 footer-text-container">
-			<h4>{% t footer.newsletter %}</h4>
-			<p>{% t footer.newsletter_intro %}<br>
-				{% t footer.newsletter_join_part1 %} <a target="_blank" href="http://okfn.us5.list-manage.com/subscribe?u=929f1e07936386d34833e20d1&id=57affeefd3">{% t footer.newsletter_join_link %}</a> {% t footer.newsletter_join_part2 %}
-			</p>
-			<p><a href="{{ site.baseurl }}/impressum">{% t footer.impressum %}</a></p>
-		</div>
-		<div class="container-left-3 footer-text-container">
-			<h4>{% t footer.contact %}</h4>
-			<p>
-				<!--- {% t footer.project_lead %}<br>
-				{% t footer.project_lead_title %}<br>
-				{% t footer.project_org %}<br> --->
-				<i class="icon-mail"></i><a href="mailto:info@datenschule.de">info@datenschule.de</a><br>
-				<i class="icon-phone"></i><a href="tel:030-57703666-2">030-57703666-2</a>
-			</p>
-		</div>
+  <div class="container">
+    <div class="container-left-6 footer-container-left">
+      <div>
+	<div class="footer-logo-container">
+	  <h4>{% t footer.project_by %}</h4>
+	  <div class="footer-logo">
+	    <a href="https://okfn.de" target="_blank"><img alt="OKF DE" src="/assets/img/logo_okfde_black.png"></a>
+	  </div>
 	</div>
-	<div class="container">
-		<div class="container-left-12 footer-credits">{% t footer.piwik_hint %} </div>
-		<div class="container-left-12 footer-credits footer-margin-top">{% t footer.license %} </div>
-		<div><a href="#top"><i class="icon-up-circled"></i>{% t footer.go_up %}</a></div>
+	<div class="footer-logo-container">
+	  <h4>{% t footer.partner %}</h4>
+	  <div class="footer-logo">
+	    <a href="http://schoolofdata.org" target="_blank"><img alt="School of Data" src="/assets/img/logo_schoolofdata.png"></a>
+	  </div>
 	</div>
+      </div>
+      <div>
+	<div class="footer-logo-container">
+	  <h4>{% t footer.powered_by %}</h4>
+	  <div class="footer-logo">
+            <p class="footer-logo-timeframe">Im Zeitraum 03.2016 - 08.2017</p>
+            <img alt="Google" src="/assets/img/logo_google.png">
+	  </div>
+	</div>
+	<div class="footer-logo-container">
+	  <h4>{% t footer.ds_in_web %}</h4>
+	  <div class="footer-socials">
+	    <a target="_blank" class="footer-social" href="https://twitter.com/datenschule" title="Datenschule auf Twitter"><i class="icon-twitter-1"></i></a>
+	    <a target="_blank" class="footer-social" href="https://github.com/datenschule" title="Datenschule auf Github"><i class="icon-github-1"></i></a>
+	  </div>
+	  <div class="footer-socials">
+	    <a target="_blank" class="footer-social" href="https://www.flickr.com/photos/okfde" title="OKF DE auf Flickr"><i class="icon-flickr"></i></a>
+	    <a target="_blank" class="footer-social" href="https://www.youtube.com/channel/UCUD8EFjXzRN-wFUbVTYlDAw" title="OKF DE auf Youtube"><i class="icon-youtube"></i></a>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <div class="container-left-3 footer-text-container">
+      <h4>{% t footer.newsletter %}</h4>
+      <p>{% t footer.newsletter_intro %}<br>
+	{% t footer.newsletter_join_part1 %} <a target="_blank" href="http://okfn.us5.list-manage.com/subscribe?u=929f1e07936386d34833e20d1&id=57affeefd3">{% t footer.newsletter_join_link %}</a> {% t footer.newsletter_join_part2 %}
+      </p>
+      <p><a href="{{ site.baseurl }}/impressum">{% t footer.impressum %}</a></p>
+    </div>
+    <div class="container-left-3 footer-text-container">
+      <h4>{% t footer.contact %}</h4>
+      <p>
+	<!--- {% t footer.project_lead %}<br>
+	     {% t footer.project_lead_title %}<br>
+	     {% t footer.project_org %}<br> --->
+	<i class="icon-mail"></i><a href="mailto:info@datenschule.de">info@datenschule.de</a><br>
+	<i class="icon-phone"></i><a href="tel:030-57703666-2">030-57703666-2</a>
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="container-left-12 footer-credits">{% t footer.piwik_hint %} </div>
+    <div class="container-left-12 footer-credits footer-margin-top">{% t footer.license %} </div>
+    <div><a href="#top"><i class="icon-up-circled"></i>{% t footer.go_up %}</a></div>
+  </div>
 </footer>
