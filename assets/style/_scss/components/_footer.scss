@@ -2,7 +2,7 @@
   @include span-columns(12);
 
   .nav {
-    margin-top: 0;
+    //margin-top: 0;
     padding-left: 0;
     margin-left: 20px;
     li {
@@ -53,7 +53,7 @@
   .footer-nav {
     @include span-columns(9);
     .nav {
-      margin-top: 16px;
+      //margin-top: 16px;
       //float: right;
     }
   }
@@ -63,10 +63,11 @@
 @include respond-to(large-up) {
   .footer-nav {
     .nav {
+      margin-left: 0;
       li {
         margin-right: 20px;
       }
-      margin-top: 18px;
+      //margin-top: 18px;
     }
   }
 }

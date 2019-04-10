@@ -2,6 +2,8 @@
 
   .post-author-image {
     height: 60px;
+    width: 60px;
+    object-fit: cover;
     float: left;
     border-radius: 50%;
     margin-right: 10px;
@@ -80,19 +82,19 @@
       margin: 0 auto;
     }
   }
-  
+
   table thead tr th {
     font-weight: bold;
     padding-bottom: 18px;
   }
-   
+
   table tr td {
     vertical-align: top;
-    padding-left: 6px; 
+    padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 10px;
   }
-  
+
   img {
     display: block;
     height: auto;

@@ -1,6 +1,6 @@
 <div class="container-full container-blue">
   <div class="container">
-    <div class="footer-nav">
+    <nav class="footer-nav">
       <ul class="nav navbar-nav">
         {% if site.settings.debug %}
 	<li{% if page.menu_blog %} class="active"{% endif %}><a href="{{ site.baseurl }}/blog">{% t menu.blog %}</a></li>
@@ -8,7 +8,7 @@
 	<li{% if page.menu_team %} class="active"{% endif %}><a href="{{ site.baseurl }}/team">{% t menu.team %}</a></li>
 	<li{% if page.menu_presse %} class="active"{% endif %}><a href="{{ site.baseurl }}/presse">{% t menu.presse %}</a></li>
       </ul>
-    </div>
+    </nav>
   </div>
 </div>
 <footer>
