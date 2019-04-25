@@ -121,6 +121,7 @@ team:
   cat_trainer: "Trainer/innen"
   cat_organization: "Organisation"
   cat_advisory: "Advisory Board"
+  cat_alumni: "Alumni"
 presse:
   title: "Presse"
   intro: "Info- und Pressematerial der Datenschule"

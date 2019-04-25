@@ -98,6 +98,7 @@ team:
   cat_trainer: "Trainers"
   cat_organization: "Organisation"
   cat_advisory: "Advisory Board"
+  cat_alumni: "Alumni"
 presse:
   title: "Press"
   intro: "Press related material of School of Data Germany"
