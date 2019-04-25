@@ -46,7 +46,7 @@ defaults:
     values:
       layout: "post"
       card: true
-  - scope:
+  - scope:brauchst du hilfe?
       path: ""
       type: "tutorials"
     values:
