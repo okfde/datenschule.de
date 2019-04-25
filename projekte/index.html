@@ -10,8 +10,6 @@ description: projekte.desc
   <p>{% t projekte.intro %}</p>
 </div>
 
-{% assign projects = site.projects | where: "ended", "false" %}
-{% if projects.size > 0 %}
 <div class="box box-margin-top-medium">
   <h2>{% t projekte.cat_current %}</h2>
   <p></p>
@@ -19,14 +17,13 @@ description: projekte.desc
 <div class="container">
   <ul class="list-box">
     {% for project in site.projects %}
-    {% include workshop_list_item.html %}
+      {% unless project.ended %}
+        {% include workshop_list_item.html %}
+      {% endunless %}
     {% endfor %}
   </ul>
 </div>
-{% endif %}
 
-{% assign proj = site.projects | where: "ended", "true" %}
-{% if proj.size > 0 %}
 <div class="box box-margin-top-medium">
   <h2>{% t projekte.cat_done %}</h2>
   <p></p>
@@ -34,8 +31,9 @@ description: projekte.desc
 <div class="container">
   <ul class="list-box">
     {% for project in site.projects %}
-    {% include workshop_list_item.html %}
+      {% if project.ended %}
+        {% include workshop_list_item.html %}
+      {% endif %}
     {% endfor %}
   </ul>
 </div>
-{% endif %}
