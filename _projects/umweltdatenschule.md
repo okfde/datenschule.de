@@ -21,11 +21,11 @@ text: |-
 
   Alle Workshops und Lernmaterialien, sowie die Ergebnisse der Bedarfsanalyse und das entstandene Datenprojekt werden dokumentiert und unter einer freien Lizenz kostenfrei online zur Verfügung gestellt.
 
-  ### Über FragdenStaat.de
+  ## Über FragdenStaat.de
 
   Jede Person hat das Recht auf Informationen. Die gemeinnützige Plattform [FragdenStaat.de](https://fragdenstaat.de) unterstützt Bürger*innen bei dem Zugriff auf staatliche Dokumente und Akten mittels Anfragen nach dem Informationsfreiheitsgesetz (IFG) an Behörden und die Regierung. Das Portal dient mit über 100.000 öffentlich einsehbaren [Anfragen](https://fragdenstaat.de/anfragen/) als Wissenspeicher amtlicher Informationen. FragdenStaat.de ist ein Projekt des [Open Knowledge Foundation Deutschland e.V.](https://okfn.de).
 
 text_en: |-
-  Our new project in cooperation with Frag den Staat
+  Our new project in cooperation with FragDenStaat.de
 
 ---
