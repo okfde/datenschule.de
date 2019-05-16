@@ -36,5 +36,20 @@ text_en: |-
 
     Every person has a right to information. The non-profit platform [FragDenStaat.de](https://fragdenstaat.de) supports citizens in accessing governmental documents and files from authorities through requests according to the freedom of information act (IFG). The platform also serves as a knowledge archive with over 100.000 stored and publicly accessible [requests](https://fragdenstaat.de/anfragen/) of official documents. FragDenStaat is a project by the [Open Knowledge Foundation Deutschland e.V.](https://okfn.de)
 
+foerderhinweis: |-
+  **Förderhinweis (Stand 04.04.2018):**
+
+  Dieses Projekt wurde gefördert durch das Umweltbundesamt und das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit. Die Mittelbereitstellung erfolgt auf Beschluss des Deutschen Bundestages.
+
+  ![Logo UBA](/files/projects/logo-uba.jpg)  ![Logo UBA](/files/projects/logo-uba.jpg)
+
+  Die Verantwortung für den Inhalt dieser Veröffentlichung liegt bei den Autorinnen und Autoren.
+
+foerderhinweis_en: |-
+  This project is financially supported by Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU).
+
+  ![Logo UBA](/files/projects/logo-uba.jpg)  ![Logo UBA](/files/projects/logo-uba.jpg)
+
+  The publisher is responsible for the content of this publication.
 
 ---

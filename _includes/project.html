@@ -1,43 +1,58 @@
 <section class="container-padded project">
-	<div class="container">
-		<div class="box">
-			<h1 class="box-head">{{ page.title }}</h1>
-			<p class="project-topics">
-				{% case site.lang %}
-				{% when 'en' %}
-					{% for topic in page.topics_en %}<span>{{topic}}</span>{% endfor %}
-				{% else %}
-					{% for topic in page.topics %}<span>{{topic}}</span>{% endfor %}
-				{% endcase %}
-			</p>
-			{% if page.picture & page.picture.src %}
-			<figure class="project-image box-margin-top-medium">
-				<div class="project-image-full" style="background-image: url({{ page.picture.src | xml_escape }});" title="{{ page.picture.title }}"></div>
-				{% if page.picture.license %}
-				<figcaption>
-					{% if page.picture.license_url %}
-					<a href="{{ page.picture.license_url | xml_escape }}">{{ page.picture.license | markdownify }}</a>
-					{% else %}
-					{{ page.picture.license | markdownify }}
-					{% endif %}
-				</figcaption>
-				{% endif %}
-			</figure>
-			{% endif %}
-			<div class="container-left-12">
-				{% case site.lang %}
-				{% when 'en' %}
-					{{ page.text_en | markdownify }}
-				{% else %}
-					{{ page.text | markdownify }}
-				{% endcase %}
-			</div>
-		</div>
-		{% if page.partner_url %}
-		<div class="box box-margin-top-medium">
-			<h1 class="box-head">Link</h1>
-			<p><a href="{{page.partner_url}}">{{page.partner_url}}</a></p>
-		</div>
-		{% endif %}
-	</div>
+  <div class="container">
+    <div class="box">
+      <h1 class="box-head">{{ page.title }}</h1>
+      <p class="project-topics">
+	{% case site.lang %}
+	{% when 'en' %}
+	{% for topic in page.topics_en %}<span>{{topic}}</span>{% endfor %}
+	{% else %}
+	{% for topic in page.topics %}<span>{{topic}}</span>{% endfor %}
+	{% endcase %}
+      </p>
+      {% if page.picture & page.picture.src %}
+      <figure class="project-image box-margin-top-medium">
+	<div class="project-image-full" style="background-image: url({{ page.picture.src | xml_escape }});" title="{{ page.picture.title }}"></div>
+	{% if page.picture.license %}
+	<figcaption>
+	  {% if page.picture.license_url %}
+	  <a href="{{ page.picture.license_url | xml_escape }}">{{ page.picture.license | markdownify }}</a>
+	  {% else %}
+	  {{ page.picture.license | markdownify }}
+	  {% endif %}
+	</figcaption>
+	{% endif %}
+      </figure>
+      {% endif %}
+      <div class="container-left-12">
+	{% case site.lang %}
+	{% when 'en' %}
+	{{ page.text_en | markdownify }}
+	{% else %}
+	{{ page.text | markdownify }}
+	{% endcase %}
+      </div>
+    </div>
+    {% if page.partner_url %}
+    <div class="box box-margin-top-medium">
+      <h1 class="box-head">Link</h1>
+      <p><a href="{{page.partner_url}}">{{page.partner_url}}</a></p>
+    </div>
+    {% endif %}
+  </div>
 </section>
+
+{% if page.foerderhinweis || page.foerderhinweis_en  %}
+<aside class="container-padded project-funding">
+  <div class="container">
+    <div class="box">
+      {% if site.lang == 'de' %}
+      {{ page.foerderhinweis | markdownify }}
+      {% endif %}
+      {% if site.lang == 'en' %}
+      {{ page.foerderhinweis_en | markdownify }}
+      {% endif %}
+    </div>
+  </div>
+</aside>
+{% endif %}
