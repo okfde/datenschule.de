@@ -39,7 +39,7 @@ text_en: |-
 foerderhinweis: |-
   **Förderhinweis (Stand 04.04.2018):**
 
-  Dieses Projekt wurde gefördert durch das [Umweltbundesamt](https://www.umweltbundesamt.de/) und das [Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit](https://www.bmu.de/). Die Mittelbereitstellung erfolgt auf Beschluss des Deutschen Bundestages.
+  Dieses Projekt wird gefördert durch das [Umweltbundesamt](https://www.umweltbundesamt.de/) und das [Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit](https://www.bmu.de/). Die Mittelbereitstellung erfolgt auf Beschluss des Deutschen Bundestages.
 
   <div class="funding">
   <img alt="Logo BMU" src="/files/projects/logo-bmu.svg" width="220px"><img alt="Logo UBA" src="/files/projects/logo-uba.jpg" width="170px">
