@@ -5,10 +5,10 @@
 
       {% if page_content.text.first %}
         {% for txt in page_content.text %}
-          <p>{{txt}}</p>
+          <p>{{txt | markdownify }}</p>
         {% endfor %}
       {% else %}
-        {{page_content.text}}
+        {{page_content.text | markdownify }}
       {% endif %}
     </div>
   </div>

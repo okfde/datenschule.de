@@ -19,10 +19,10 @@ layout: default
     <div class="topic-intro">
       {% if page[site.lang].intro.first %}
         {% for txt in page[site.lang].intro %}
-          <p>{{txt}}</p>
+          <p>{{txt | markdownify }}</p>
         {% endfor %}
       {% else %}
-        {{page[site.lang].intro}}
+        {{page[site.lang].intro | markdownify }}
       {% endif %}
     </div>
 
@@ -37,7 +37,7 @@ layout: default
     {% t lernen.pipeline.question.title %}
   </h2>
   {% for txt in lernen.pipeline.question.text %}
-  <p>{{txt}}</p>
+  <p>{{txt | markdownify }}</p>
   {% endfor %}
   {% endcapture %}
   {% assign page_content = page[site.lang].question %}
