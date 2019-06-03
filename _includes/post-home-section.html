@@ -1,29 +1,29 @@
 <div class="container">
-	<div class="container-left-12">
-		<div class="container-wrap-row container-wrap-item-stretch">
-			{% for post in site.posts limit:3 %}
-			{% assign url=post.url |replace_first:'/','' %}
-			<div class="container-wrap-item-3 container-flex-item">
-				<div class="box post-preview-content box-padding-top">
-					{% if post.picture %}
-					<div class="post-picture">
-						<a href="{{ site.baseurl }}/{{ url }}" class="post-img-wrap">
-							<img class="post-img post-preview-home-img" src="{{ post.picture.src }}" alt="{{ post.title | xml_escape}}">
-						</a>
-					</div>
-					{% endif %}
-					<h3 class="post-preview-home-title">
-						<a href="#">{{post.title}}</a>
-					</h3>
-					<!--<p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 16 }}</p>-->
-					<div class="post-preview-home-read-on">
-						<p>
-							<a href="{{ site.baseurl }}/{{ url }}">{% t blog.link_more %}</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			{% endfor %}
-		</div>
+  <div class="container-left-12">
+    <div class="container-wrap-row container-wrap-item-stretch">
+      {% for post in site.posts limit:3 %}
+      {% assign url=post.url |replace_first:'/','' %}
+      <div class="container-wrap-item-3 container-flex-item">
+	<div class="box post-preview-content box-padding-top">
+	  {% if post.picture %}
+	  <div class="post-picture">
+	    <a href="{{ site.baseurl }}/{{ url }}" class="post-img-wrap">
+	      <img class="post-img post-preview-home-img" src="{{ post.picture.src }}" alt="{{ post.title | xml_escape}}">
+	    </a>
+	  </div>
+	  {% endif %}
+	  <h3 class="post-preview-home-title">
+	    <a href="{{ site.baseurl }}/{{ url }}">{{post.title}}</a>
+	  </h3>
+	  <!--<p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 16 }}</p>-->
+	  <div class="post-preview-home-read-on">
+	    <p>
+	      <a href="{{ site.baseurl }}/{{ url }}">{% t blog.link_more %}</a>
+	    </p>
+	  </div>
 	</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
