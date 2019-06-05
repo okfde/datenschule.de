@@ -24,7 +24,7 @@ Die meisten Teilnehmenden gaben an, dass sie in einem gemeinnützigen Verein ode
 
 Aktive im Umweltbereich nutzen digitale Ansätze vor allem im Bereich Social Media (26%). Auch kollaboratives Arbeiten, wie z. B. gemeinsam online Texte verfassen (11,4%), oder die Erstellung von lizenzfreien Publikationen (10,6%) finden häufig bereits digital statt. Methoden wie Crowdsourcing werden dagegen bisher noch weniger genutzt (5,7%). Ziel der Nutzung von digitalen Informationen und Tools sind vor allem die Verbesserung von Kampagnen (17%) und die Erweiterung von digitalen Bildungsangeboten (16,3%). 
 
-![]()
+![Grafik 1](files/Nutzung_Daten.png "Nutzung von Daten")
 
 Die Arbeit mit Daten findet täglich vor allem in der Arbeitsorganisation statt (86,2%, siehe Grafik 1) und auch für interne Berichterstattung und Kommunikation (37,9%). Für strategische Planung und Entscheidungsfindung sowie Monitoring und Evaluation dagegen eher wöchentlich (34,5%). Etwa 40% der Befragten arbeiten dabei schon täglich oder wöchentlich mit offenen Daten, ein Drittel dagegen noch gar nicht (33,3%). 
 
