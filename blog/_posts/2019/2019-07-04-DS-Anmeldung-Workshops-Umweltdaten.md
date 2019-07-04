@@ -24,7 +24,7 @@ Wie kann man Umweltdaten für die eigene Arbeit als Umweltaktive nutzen? Woher k
 Gemeinsam bezwingen wir das Recherche-Monster und werden uns auf die Suche nach spannenden Daten im Umweltbereich begeben. Welche Portale sind hilfreich? Wie bekomme ich Daten aus PDFs in ein maschinenlesbares Format? 
 Nach dem Finden der Daten geht´s ans Säubern: Mit Hilfe spannender Tools lernen wir gemeinsam Tricks und die wichtigsten Schritte um einen Datensatz fit zu machen.
 
-**WO?**      Seminarraum Mitte, Scharnhorststraße 28/29, 10115 Berlin
+**WO?**      Seminarraum Mitte, Scharnhorststraße 28/29, 10115 Berlin <br>
 **WANN?**    Freitag, 06. September 2019, 9:30 - 16:30 Uhr
 
 ## Workshop 2: II Excel & Data Magic - Datenanalyse und -visualisierung 
@@ -33,6 +33,8 @@ Gemeinsam wollen wir eintauchen in die Welt der Datenanalyse und Datenvisualisie
         
 **WO?**      Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin <br>
 **WANN?**    Freitag, 27. September 2019, 9:30 - 16:30 Uhr <br>
+
+********************************
 
 **WER?**         
 Die Workshops richten sich an alle Interessierten, junge Erwachsene und Erwachsene, vorrangig aus dem Bereich der Umweltverbände- und Vereine, die für einen Tag in die Welt der offenen Daten eintauchen wollen. Egal ob du haupt- oder ehrenamtlich tätig bist oder einfach großes Interesse an Umweltthemen hast, melde dich an. Solltest du dir unsicher sein, ob der Workshop genau das Richtige für dich ist, frag uns vorher gerne!
