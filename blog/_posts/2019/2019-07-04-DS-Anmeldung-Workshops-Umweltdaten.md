@@ -27,7 +27,7 @@ Nach dem Finden der Daten geht´s ans Säubern: Mit Hilfe spannender Tools lerne
 **WO?**      Seminarraum Mitte, Scharnhorststraße 28/29, 10115 Berlin <br>
 **WANN?**    Freitag, 06. September 2019, 9:30 - 16:30 Uhr
 
-## Workshop 2: II Excel & Data Magic - Datenanalyse und -visualisierung 
+## Workshop 2: Excel & Data Magic - Datenanalyse und -visualisierung 
 
 Gemeinsam wollen wir eintauchen in die Welt der Datenanalyse und Datenvisualisierung. Ihr habt spannende Daten aus dem Umweltbereich gefunden - und nun? Gemeinsam schauen wir uns Analysemöglichkeiten und tolle Varianten der Datenvisualisierung an. Ihr testet Tools, die euch in vielen Momenten der eigenen Arbeit nützlich sein können und euren Forderungen oder Kampagnen Schlagkraft verleihen. Geschichten erzählen mit Datenvisualisierungen kann besonders im Umweltbereich eine enorme Wirkung haben. 
         
