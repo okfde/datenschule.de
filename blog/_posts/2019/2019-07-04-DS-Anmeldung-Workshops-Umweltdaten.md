@@ -31,7 +31,7 @@ Nach dem Finden der Daten geht´s ans Säubern: Mit Hilfe spannender Tools lerne
 
 Gemeinsam wollen wir eintauchen in die Welt der Datenanalyse und Datenvisualisierung. Ihr habt spannende Daten aus dem Umweltbereich gefunden - und nun? Gemeinsam schauen wir uns Analysemöglichkeiten und tolle Varianten der Datenvisualisierung an. Ihr testet Tools, die euch in vielen Momenten der eigenen Arbeit nützlich sein können und euren Forderungen oder Kampagnen Schlagkraft verleihen. Geschichten erzählen mit Datenvisualisierungen kann besonders im Umweltbereich eine enorme Wirkung haben. 
         
-**WO?**      Wikimedia, Tempelhofer Ufer 23/24, 10963 Berlin <br>
+**WO?**      Berlin; genauer Ort wird noch bekannt gegeben <br>
 **WANN?**    Freitag, 27. September 2019, 9:30 - 16:30 Uhr <br>
 
 ********************************
