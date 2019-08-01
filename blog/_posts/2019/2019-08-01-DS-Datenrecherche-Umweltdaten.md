@@ -24,4 +24,4 @@ Daneben gibt es eine Vielzahl an kleineren Portalen und Datenprojekten, die oft 
 
 Sind die passenden Daten nicht dabei und liegen vermutlich auch nicht zugänglich bei einer öffentlichen Behörde, kann es hilfreich sein, eine Anfrage nach dem **Umweltinformationsgesetz** an die jeweilige Behörde zu stellen. Hierbei hilft dir die Plattform [FragdenStaat.de](https://fragdenstaat.de/info/informationsfreiheit/einfuehrung/) weiter.
 
-Weitere Tipps & Methoden zum Thema Datenrecherche erfährst du in unserem Lernmaterial [“Daten finden & bekommen”](https://datenschule.de/files/downloads/workshops/DS-daten-finden-bekommen.pdf) und in unserem **kostenfreien Workshop am 06. September in Berlin**. Es gibt noch freie Plätze! Anmeldung hier: https://forms.gle/ptPmmoekN3NmAhkVA  
+Weitere Tipps & Methoden zum Thema Datenrecherche erfährst du in unserem Lernmaterial [“Daten finden & bekommen”](https://datenschule.de/files/downloads/workshops/DS-daten-finden-bekommen.pdf) und in unserem **kostenfreien Workshop am 06. September in Berlin**. Es gibt noch freie Plätze! [Anmeldung hier](https://forms.gle/ptPmmoekN3NmAhkVA).  
