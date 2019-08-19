@@ -16,7 +16,7 @@ title: "Ökostrom in Deutschland - Einblicke in unsere Datenrecherche"
 
 Gemeinsam mit [Robin Wood e.V.](https://www.robinwood.de/) arbeiten wir seit Juli am **Ökostrombericht für 2019** und wollen auf einer interaktiven Plattform den Ökostrommarkt in Deutschland verständlich und transparent machen. Nach über einem Monat Recherche haben wir erste spannende Erkenntnisse gewonnen und dabei bemerkt: Informationen zu deutschen Ökostromanbietern zu finden ist schwieriger als gedacht!
 
-Für unseren Ökostrombericht brauchten wir zunächst Angaben über alle Stromanbieter aus Deutschland, die ausschließlich Ökostrom anbieten. Diese Information ist für uns besonders wichtig, denn in unserem Bericht wollen wir kein Greenwashing unterstützen. Daher bleiben jene Stromversorger unberücksichtigt, die auch Strom aus Kohle- und Atomkraftanlagen verkaufen. Außerdem interessierten wir uns u. a. dafür, wie sich der Ökostrommarkt in den vergangenen Jahren verändert hat, wie viel Ökostrom bereits produziert und von deutschen Haushalten bezogen wird und wie stark in Erneuerbare Energien investiert wird.
+Für unseren Ökostrombericht brauchten wir zunächst Angaben über alle Stromanbieter aus Deutschland, die ausschließlich Ökostrom anbieten. Diese Information ist für uns besonders wichtig, denn in unserem Bericht wollen wir kein Greenwashing unterstützen. Daher bleiben jene Stromversorger unberücksichtigt, die u. a. auch Strom aus Kohle- und Atomkraftanlagen verkaufen. Außerdem interessierten wir uns u. a. dafür, wie sich der Ökostrommarkt in den vergangenen Jahren verändert hat, wie viel Ökostrom bereits produziert und von deutschen Haushalten bezogen wird und wie stark in Erneuerbare Energien investiert wird.
 
 ### Allgemeine Daten rund um den Ökostrommarkt
 
