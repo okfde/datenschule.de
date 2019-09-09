@@ -338,7 +338,7 @@
 - name: "Workshop: Mit Umweltdaten Gutes tun! - Vom Daten finden & säubern"
   place: Seminarraum Mitte, Scharnhorststr. 28/29, Berlin
   date: 2019-09-06
-  featured: true
+  featured: false
   text: >  
     Wie kann man Umweltdaten für die eigene Arbeit als Umweltaktive nutzen? Gemeinsam begeben wir uns auf die Suche nach spannenden Daten im Umweltbereich. [Anmeldung ist kostenfrei](https://docs.google.com/forms/d/e/1FAIpQLSdjEwNyir6cVD7A2OjYKf7161ApseiQ8Bdp6Gd2MeuiGTSAJQ/viewform).
 - name: "Workshop: Excel & Data Magic - Datenanalyse und -visualisierung"
@@ -347,3 +347,9 @@
   featured: true
   text: >  
     Ihr habt spannende Daten aus dem Umweltbereich gefunden - und nun? Gemeinsam schauen wir uns Analysemöglichkeiten und tolle Varianten der Datenvisualisierung an. [Anmeldung ist kostenfrei](https://docs.google.com/forms/d/e/1FAIpQLSdjEwNyir6cVD7A2OjYKf7161ApseiQ8Bdp6Gd2MeuiGTSAJQ/viewform).
+- name: "Talk & Thementisch Umweltdatenschule & Datenspaziergang @ Berlin Open Data Day"
+  place: Berlin
+  date: 2019-11-05
+  featured: true
+  text: >  
+    Trefft uns beim Berlin Open Data Day und tauscht euch mit uns über unser aktuelles Projekt Umweltdatenschule & unseren Datenspaziergang aus.
