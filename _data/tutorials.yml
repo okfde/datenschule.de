@@ -92,7 +92,7 @@ de:
     link: /files/downloads/workshops/DEU-Lehrmaterial-DS-Datenvisualisierung.pdf
   13:
     group: Lernmaterial
-    pipeline: 
+    pipeline: find
     title: "Fact Sheet Data Literacy"
     tags:
       - data-pipeline
