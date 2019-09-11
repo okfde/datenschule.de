@@ -90,3 +90,27 @@ de:
     tags:
       - data-pipeline
     link: /files/downloads/workshops/DEU-Lehrmaterial-DS-Datenvisualisierung.pdf
+  13:
+    group: Lernmaterial
+    pipeline: 
+    title: "Fact Sheet Data Literacy"
+    tags:
+      - data-pipeline
+      - data literacy
+    link: /files/downloads/workshops/Lehrmaterial-DS-FactSheet_Data_Literacy.pdf
+  14:
+    group: Lernmaterial
+    pipeline: find
+    title: "Fact Sheet Offene Daten"
+    tags:
+      - data-pipeline
+      - open data
+    link: /files/downloads/workshops/Lehrmaterial-DS-FactSheet_Open_Data.pdf
+  15:
+    group: Lernmaterial
+    pipeline: find
+    title: "Fact Sheet Umweltinformationsgesetz"
+    tags:
+      - data-pipeline
+      - UIG
+    link: /files/downloads/workshops/Lehrmaterial-DS-FactSheet_UIG.pdf
