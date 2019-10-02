@@ -344,7 +344,7 @@
 - name: "Workshop: Excel & Data Magic - Datenanalyse und -visualisierung"
   place: Wikimedia Deutschland, Tempelhofer Ufer 23-24, Berlin
   date: 2019-09-27
-  featured: true
+  featured: false
   text: >
     Ihr habt spannende Daten aus dem Umweltbereich gefunden - und nun? Gemeinsam schauen wir uns Analysemöglichkeiten und tolle Varianten der Datenvisualisierung an. Die Anmeldung ist vorbei.
 - name: "Talk & Thementisch Umweltdatenschule & Datenspaziergang @ Berlin Open Data Day"
