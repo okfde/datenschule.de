@@ -3,10 +3,10 @@ authors:
 - Lisa Passing
 date: 2019-10-21 08:00:00
 picture:
-  src: /files/blog/2019/09/uds1.jpg
-  title:
-  license: "CC-BY-4.0, OKF DE, Foto: Leonard Wolf"
-  license_url: "https://creativecommons.org/licenses/"
+  src: /files/blog/2019/10/hh-container.jpg
+  title: Container Schrott Hamburger Hafen
+  license: "CC BY-NC 2.0, Foto: <a href='https://www.flickr.com/photos/travelswiss1/'>travelswiss1</a>"
+  license_url: "https://creativecommons.org/licenses/by-nc/2.0/"
 tags:
 - umweltdaten
 - data literacy
@@ -14,15 +14,18 @@ tags:
 title: "Unser Datentraining bei RobinWood"
 ---
 
-Als Teil unserer gemeinsamen Arbeit [am Ökostrombericht 2019](https://rfcx.org/), haben wir bei [RobinWood e.V.](https://www.robinwood.de) in Hamburg ein zweitägiges Datentraining organisiert.
+Als Teil unserer gemeinsamen Arbeit [am Ökostrombericht 2019](https://datenschule.de/blog/2019/08/DS-Recherche-Oekostrom/), haben wir bei [RobinWood e.V.](https://www.robinwood.de) in Hamburg ein zweitägiges Datentraining organisiert.
 
 Inhaltlich haben wir uns wie üblich an der Data Pipeline orientiert, also darüber geredet wie wir von einer Fragestellungen ausgehend Daten [recherchieren und auch bekommen](https://datenschule.de/blog/2019/09/DS-rueckblick-workshop-umweltdaten-suchen/), diese dann säubern, [analysieren und visualisieren](https://datenschule.de/blog/2019/10/DS-Die-Magie-der-Pivot-Tabellen/) und eine Antwort auf unsere ursprüngliche Fragestellung präsentieren können.
 
 Das spannende an der Zusammenarbeit mit RobinWood war dabei, dass wir auch viel aus den vielfältigen Themenbereichen des Vereins mitnehmen und von den konkreten Anwendungsfällen lernen konnten.
 
-Ein Fokus ist dabei zum Beispiel, ganz dem Namen von Robin Wood gerecht werdend, das Thema Wald. Es gibt zum Beispiel das Projekt [Waldreport.de](https://waldreport.de/), in dem Waldschäden meldet und gemappt werden können. Daten, die in der [Bundeswaldinventur von 2012](https://bwi.info/start.aspx?lang=de) fehlen.
+Ein Fokus ist, ganz dem Namen von RobinWood gerecht werdend, das Thema Wald.
+Das Projekt [Waldreport.de](https://waldreport.de/) ermöglicht es  Waldschäden zu meldet und zu mappen. Daten, die in der [Bundeswaldinventur von 2012](https://bwi.info/start.aspx?lang=de) fehlen.
+
 Auch wird gerade in einer internationalen Zusammenarbeit versucht eine Datenbank mit [Isotopenprofilen tropischer Bäume](https://www.wwf.de/themen-projekte/waelder/waldvernichtung/rueckverfolgung-von-holz/) zu erstellen. Über das Isotopenprofil lässt sich sehr genau feststellen aus welcher Region ein Holz stammt, und Rückschlüsse über etwaige illegale Abholzungen ziehen. Über Abholzungen von unberührtem Urwald in Rumänien wird in [einer aktuellen Kampagne von RobinWood hingewiesen](https://www.robinwood.de/magazin/robin-wood-goes-romania) hingewiesen.
-Interessant ist dazu auch diese Karte der [Waldschutzzonen in Rumänien](http://gis.rosilva.ro/) und das Projekt [Rainforest connection](https://rfcx.org/), das mit alten Smartphones die Geräusche des Regenwalds aufnimmt und, bei außergewöhnlichen Geschäuschen wie Kettensägen, lokale Ranger informiert. Das [Copernicus-Projekt](https://land.copernicus.eu/global/products/lc) bietet auch [Karten und Bildmaterial](https://lcviewer.vito.be/) zu globalen Waldbeständen via Sattellitenfernerkundung.
+
+Interessant ist dazu auch diese Karte der [Waldschutzzonen in Rumänien](http://gis.rosilva.ro/) und dasoffene [Karten- und Bildmaterial](https://lcviewer.vito.be/) des [Copernicus-Projektes](https://land.copernicus.eu/global/products/lc), das globale Waldbestände via Satellitenfernerkundung analysiert. Das Projekt [Rainforest connection](https://rfcx.org/) versucht illegale Abholzungen zu verhindern, indem sie mit alten, umgebauten Smartphones die Geräusche des Regenwalds aufnehmen und, bei außergewöhnlichen Geräuschen wie Kettensägen, lokale Ranger per SMS informieren.
 
 Neben Wald spiel auch der Energiesektor eine große Rolle. In unserer Kooperation beschäftigen wir uns vorrangig mit Ökostrom, aber auch die Lage zu Kohle- und Atomenergie sind interessant.
 
