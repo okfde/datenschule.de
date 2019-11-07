@@ -350,6 +350,6 @@
 - name: "Talk & Thementisch Umweltdatenschule & Datenspaziergang @ Berlin Open Data Day"
   place: Berlin
   date: 2019-11-05
-  featured: true
+  featured: false
   text: >
     Trefft uns beim Berlin Open Data Day und tauscht euch mit uns über unser aktuelles Projekt Umweltdatenschule & unseren Datenspaziergang aus.
