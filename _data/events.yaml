@@ -356,6 +356,6 @@
 - name: "Workshop: Mit Umweltdaten Gutes tun!"
   place: Cottbus
   date: 2019-12-14
-  featured: true
+  featured: false
   text: >
     <a href='https://fablabcb.de/blog/Open-Data-in-Cottbus'>Hier geht es zum Workshop</a>
