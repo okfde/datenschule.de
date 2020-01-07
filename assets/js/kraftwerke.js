@@ -126,7 +126,7 @@ function barChart(v) {
       var mousemove = function(d) {
         let parentSvg = this.parentNode.parentNode.getBoundingClientRect();
         let parentY = parentSvg.top;
-        let parentY = parentSvg.left;
+        let parentX = parentSvg.left;
         let parentH = parentSvg.height;
         let parentW = parentSvg.width;
         let mouseY = d3.mouse(this)[1];
