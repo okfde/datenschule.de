@@ -359,3 +359,8 @@
   featured: false
   text: >
     <a href='https://fablabcb.de/blog/Open-Data-in-Cottbus'>Hier geht es zum Workshop</a>
+- name: "Workshop: Mit Umweltdaten Gutes tun!"
+  place: Potsdam
+  date: 2020-02-08
+  featured: true
+  text:
