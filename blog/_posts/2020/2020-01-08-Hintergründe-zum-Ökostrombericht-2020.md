@@ -27,8 +27,10 @@ Der ROBIN WOOD-Report geht weiter, als die bekanntesten Ökostromlabel, bei dene
 
 Das Problem sind die zur Verfügung stehenden Informationen: Zwar existieren Plattformen wie Herkunftsnachweis- und Handelsregister, die Zugänge und die Nutzung der Daten sind allerdings nicht barrierefrei. Verbraucher* und Journalisten* haben es schwer. Hier muss nachgebessert werden! Mehr zum Thema gibt es im OKF-Blog- [Das Handelsregister: Endlich offene Daten!](https://okfn.de/blog/2019/02/handelsregister/), [Transparenzregister? Diesmal bitte transparent](https://okfn.de/blog/2018/06/transparenz-register/).
 
+<iframe title="Inbetriebnahme und Installierte Leistung der Bezugskraftwerke" aria-label="Scatter Plot" id="datawrapper-chart-R0dwa" src="//datawrapper.dwcdn.net/R0dwa/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="700"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+
 ## Kraftwerke und ihre Daten
-Besonders im Fokus standen auch verschiedene Parameter rund um die Kraftwerke, von denen die verschiedenen Anbieter ihren Strom beziehen. Die Wesentlichen sind die Art des Kraftwerkes, das Baujahr, die Leistung sowie die Besitzverhältnisse der Anlagen.
+Besonders im Fokus standen auch verschiedene [Parameter rund um die Kraftwerke](https://github.com/Datenschule/oekostrom-suche-proto/tree/gh-pages/assets/data/provider), von denen die verschiedenen Anbieter ihren Strom beziehen. Die Wesentlichen sind die Art des Kraftwerkes, das Baujahr, die Leistung sowie die Besitzverhältnisse der Anlagen.
 Interessant war hier besonders die Erkenntnis, dass der Großteil des vertriebenen Stromes der Anbieter aus Wasserkraft stammt - aus Kraftwerken, die oft älter als 50 Jahre sind. Mehr Details dazu gibt es in [diesem Artikel](https://datenschule.de/blog/2019/11/Einschr%C3%A4nkung-der-Verbraucherinnen-%C3%96kostrom-aus-dem-Ausland/).
 
 ## Viele Anbieter, wenige Empfehlungen
