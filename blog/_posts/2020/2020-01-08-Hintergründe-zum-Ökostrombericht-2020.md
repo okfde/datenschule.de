@@ -1,7 +1,7 @@
 ---
 authors: 
 - Maximilian Voigt
-date: 2020-01-10 09:00:00
+date: 2020-01-10 08:00:00
 picture:
   src: /files/blog/2020/oekostromreport_2020.png
   title: Ökostrombericht 2020
