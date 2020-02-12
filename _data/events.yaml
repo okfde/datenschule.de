@@ -362,5 +362,5 @@
 - name: "Workshop: Mit Umweltdaten Gutes tun!"
   place: Potsdam
   date: 2020-02-08
-  featured: true
+  featured: false
   text:
