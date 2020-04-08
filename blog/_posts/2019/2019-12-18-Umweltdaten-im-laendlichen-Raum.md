@@ -11,7 +11,7 @@ tags:
 - Umweltdaten
 - Open Data
 - ländlicher Raum
-title: "Umweltdaten im ländlichen Raum"
+title: "Umweltdaten: Aufbruch in den ländlichen Raum"
 ---
 
 Am 14. Dezember organisierten wir gemeinsam mit dem [OK Lab in Potsdam](https://www.oklab-potsdam.de/) den ersten Workshop in unserer Reihe "Umweltdaten im ländlichen Raum". Bei der Veranstaltungsreihe möchten wir das Thema Open Data am Beispiel von Umweltdaten thematisieren und konzentrieren uns dabei besonders auf den Brandenburger Raum.
