@@ -97,7 +97,7 @@ de:
     tags:
       - data-pipeline
       - data literacy
-    link: /files/downloads/workshops/Lehrmaterial-DS-FactSheet_Data_Literacy.pdf
+    link: /files/downloads/workshops/Lehrmaterial_DS_FactSheet_Data_Literacy.pdf
   14:
     group: Lernmaterial
     pipeline: find
@@ -105,7 +105,7 @@ de:
     tags:
       - data-pipeline
       - open data
-    link: /files/downloads/workshops/Lehrmaterial-DS-FactSheet_Open_Data.pdf
+    link: /files/downloads/workshops/Lehrmaterial_DS_FactSheet_Open_Data.pdf
   15:
     group: Lernmaterial
     pipeline: find
@@ -113,4 +113,4 @@ de:
     tags:
       - data-pipeline
       - UIG
-    link: /files/downloads/workshops/Lehrmaterial-DS-FactSheet_UIG.pdf
+    link: /files/downloads/workshops/Lehrmaterial_DS_FactSheet_UIG.pdf
