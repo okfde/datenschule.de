@@ -1,23 +1,6 @@
-- name: Lisa Passing
-  img: lisapassing
-  mail: lisa.passing@okfn.de
-  position: Software-Entwicklung
-  position_en: Development
-
 - name: Maximilian Voigt
   img: maximilianvoigt
   mail: maximilian.voigt@okfn.de
-  position: Kommunikation & Workshops
-  position_en: Communication
+  position: Projektentwicklung & Forschung
+  position_en: Research & Project Development
 
-- name: Lydia Böttcher
-  img: lydiaboettcher
-  mail: lydia.boettcher@okfn.de
-  position: Elternzeit
-  position_en: family leave
-
-- name: Jasmin Helm
-  img: jasminhelm
-  mail: jasmin.helm@okfn.de
-  position: Elternzeit
-  position_en: family leave
