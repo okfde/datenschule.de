@@ -1,6 +1,7 @@
 ---
 layout: workshop
 title: Community Building
+show: "no"
 image:
   src: /files/workshops/community-building.jpg
   license: 
