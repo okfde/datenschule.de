@@ -1,8 +1,9 @@
 ---
 layout: workshop
-title: Open Data Brunch
+title: Open Data Einführung
+show: "no"
 image:
-  src: /files/workshops/open-data-picnic.jpg
+  src: /files/workshops/data-pipeline.png
   license: 
 de:
     slogan: Was sind offene Daten und was kann ich damit tun? 

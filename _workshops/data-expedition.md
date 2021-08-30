@@ -7,7 +7,7 @@ image:
 video:
     src: "https://www.youtube-nocookie.com/embed/HMLI5aJ4qSg?rel=0&amp;ecver=2"
 de:
-    slogan: Begib dich auf eine Daten-Safari!
+    slogan: Intensivkurs durch die Welt der Daten
     text_short: >
         Data Expeditions sind Missionen, die du während deiner Daten-Reise bewältigst. Entdecke verborgene Stories und löse
         ungelöste Geheimnisse im Land der Daten. Im Team nimmst du ein Problem in Angriff, beantwortest eine Fragestellung
@@ -70,7 +70,7 @@ de:
         - '<a href="https://storyhunt.de/">The Story Hunt: Encover the EU</a>, Datenschule/ OpenBudgets, 2017'
         - '<a href="https://datenschule.de/blog/2017/07/DS-Storyhunt-Wochenende/">Blogpost</a> zum Abschluss des Story Hunts, Datenschule, 2017'
         - '<a href="https://schoolofdata.org/data-expeditions/">What is a Data-Expedition?</a>, School of Data, 2018'
-    duration: 2-3 Tage
+    duration: 1-3 Tage
     costs: 200 Euro
     suitable_for:
         - Projektteams aus gemeinnützigen Organisationen
