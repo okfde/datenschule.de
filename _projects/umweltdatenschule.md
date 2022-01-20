@@ -1,6 +1,7 @@
 ---
 title: Umweltdatenschule
 url:
+ended: yes
 picture:
   src: /files/projects/background-umweltdatenschule.jpg
   title: Wood
