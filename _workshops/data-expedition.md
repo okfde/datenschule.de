@@ -1,6 +1,7 @@
 ---
 layout: workshop
 title: Data Expedition
+show: "no"
 image:
       src: /files/workshops/data-expedition.jpg
       license:

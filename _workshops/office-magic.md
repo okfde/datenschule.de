@@ -1,6 +1,7 @@
 ---
 layout: workshop
 title: Office Magic
+show: "no"
 image:
   src: /files/workshops/excel-magic-pc-small.jpg
   license: 
