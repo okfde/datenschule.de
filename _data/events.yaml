@@ -379,3 +379,8 @@
   date: 2020-02-20
   featured: false
   text:
+- name: "<a href='/workshops/umweltdatenwerkstatt/'>Umweltdatenwerkstatt Nürnberg</a>"
+  place: Nürnberg
+  date: 2024-02-07
+  featured: true
+  text:
