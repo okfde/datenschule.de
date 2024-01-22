@@ -13,7 +13,7 @@ topics_en:
 subtitle: "Datenarbeit mit Umweltexper*innen"
 topics:
   - Umweltdaten
-text: "Wie stark ist das Grundwasser in meiner Region mit Nitrat belastet? Welche Insektenarten sind in Deutschland am stärksten vom Aussterben bedroht? Und gibt es offene Daten über die Müllverwertung in meiner Stadt? Mit der **Umweltdatenwerkstatt** starten wir zusammen mit der **[KI-Ideenwerkstatt des BMUV](https://www.ki-ideenwerkstatt.de/)** ein neues Projekt rund ums Thema Umweltdaten: Wir tauchen gemeinsam mit Organisationen, Verbänden und Initiativen aus dem Umweltbereich tiefer in die Welt der Daten ein, vermitteln Datenkompetenzen und probieren neue digitale Methoden aus.
+text: "Wie stark ist das Grundwasser in meiner Region mit Nitrat belastet? Welche Insektenarten sind in Deutschland am stärksten vom Aussterben bedroht? Und gibt es offene Daten über die Müllverwertung in meiner Stadt? Mit der **Umweltdatenwerkstatt** starten wir zusammen mit der **[KI-Ideenwerkstatt des BMUV](https://www.ki-ideenwerkstatt.de/)** ein neues Projekt rund ums Thema Umweltdaten: Wir tauchen gemeinsam mit Organisationen, Verbänden und Initiativen aus dem Umweltschutz tiefer in die Welt der Daten ein, vermitteln Datenkompetenzen und probieren neue digitale, KI-gestützte Methoden aus.
   Alle Workshops und Lernmaterialien und die entstehenden Datenprojekte werden dokumentiert und unter einer freien Lizenz kostenfrei online zur Verfügung gestellt.
   <br><br>Du möchtest teilnehmen? <a href='/workshops/umweltdatenwerkstatt/'>Dann melde dich hier an.</a>"
 
