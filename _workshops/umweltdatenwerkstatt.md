@@ -1,11 +1,19 @@
 ---
 layout: workshop
 title: Umweltdatenwerkstatt
+apply: true
+apply_link: "https://cloud.okfn.de/apps/forms/s/iq4fbzdL7CW39aS8HBjA7Xam"
 image:
       src: /files/blog/2020/wasserlauf.jpg
       license:
 video:
     src: "https://www.youtube-nocookie.com/embed/HMLI5aJ4qSg?rel=0&amp;ecver=2"
+dates:
+  - Nürnberg, 7. - 8. Februar
+  - Leipzig, 2. - 3. März
+  - Moers, 25. - 26. Mai
+  - Cottbus, 13. - 14. Juli
+  - "Weitere Termine folgen in: Bielefeld, Berlin, Hannover und Offenbach"
 de:
     slogan: Mit Daten die Umwelt schützen
     text_short: >
@@ -63,10 +71,6 @@ de:
     prequisites:
         - "Die Data Expedition richtet sich an Interessierte mit inhaltlichem oder/und technischen Fokus: Du hast dich mit der Digitalisierung beschäftigt, bist beruflich oder ehrenamtlich in einem bestimmten Bereich aktiv (z.B. Bildung, Policy-Arbeit, Datenjournalismus) und möchtest dein Wissen praktisch anwenden. Du bist es gewohnt, mit Tabellendokumenten und anderen digitalen Tools zu arbeiten."
         - Laptop
-    ressources:
-        - '<a href="https://storyhunt.de/">The Story Hunt: Encover the EU</a>, Datenschule/ OpenBudgets, 2017'
-        - '<a href="https://datenschule.de/blog/2017/07/DS-Storyhunt-Wochenende/">Blogpost</a> zum Abschluss des Story Hunts, Datenschule, 2017'
-        - '<a href="https://schoolofdata.org/data-expeditions/">What is a Data-Expedition?</a>, School of Data, 2018'
     duration: 2 Tage
     costs: für dich kostenlos
     suitable_for:
@@ -124,10 +128,6 @@ en:
     prequisites:
         - "The Umweltdatenwerkstatt can help you to deepen your existing digital skills and to connect the dots between your areas of expertise and technology. Ideally: You have a good understanding of the potentials and challenges of digitization, you are active in a specific field (e.g. education, data journalism) and you want to apply your knowledge in practice. You should be used to working with spreadsheets and other digital tools."
         - laptop
-    ressources:
-        - '<a href="https://storyhunt.de/">The Story Hunt: Encover the EU</a>, Datenschule/ OpenBudgets, 2017'
-        - '<a href="https://datenschule.de/blog/2017/07/DS-Storyhunt-Wochenende/">Blogpost</a> and review of the Story Hunts, Datenschule, 2017'
-        - '<a href="https://schoolofdata.org/data-expeditions/">What is a Data-Expedition?</a>, School of Data, 2018'
     duration: 2 days
     costs: free of charge for you
     suitable_for:

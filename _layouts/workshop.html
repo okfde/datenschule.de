@@ -55,8 +55,15 @@ layout: default
 	    <!--<i class="icon-paper-plane"></i>&nbsp;<a class="workshop-button" href="{{workshop.url}}">Termin anfragen</a>-->
 	    <!--<i class="icon-paper-plane"></i> Anmelden-->
 	    <a class="box-button-plain workshop-register-button-top"
-	       href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
-	      <i class="icon-paper-plane"></i> {% t workshop.register %}
+		   {% if page.apply %}
+		   	href="{{ page.apply_link }}" target="_blank">
+			<i class="icon-paper-plane"></i> {% t workshop.apply %}
+		   {% else %}
+	       	href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
+			<i class="icon-paper-plane"></i> {% t workshop.register %}
+		   {% endif %}
+
+
 	    </a>
 	  </p>
 	</div>
@@ -132,29 +139,51 @@ layout: default
       </div>
     </div>
   </div>
-  {% assign ressources = page[site.lang].ressources | where:"type","intern" %}
-  <div class="container">
-    <div class="container-left-12">
-      <div class="box box-with-head box-margin-top-medium">
-	<h1 class="box-head">{% t workshop.ressources %}</h1>
-	<p>
-	  <ul>
-	    {% for ressource in page[site.lang].ressources %}
-	    <li>{{ressource}}</li>
-	    {% endfor %}
-	  </ul>
-	</p>
-      </div>
-    </div>
-  </div>
-
+	{% if page[site.lang].ressources %}
+		{% assign ressources = page[site.lang].ressources | where:"type","intern" %}
+		  <div class="container">
+			<div class="container-left-12">
+			  <div class="box box-with-head box-margin-top-medium">
+			<h1 class="box-head">{% t workshop.ressources %}</h1>
+			<p>
+			  <ul>
+				{% for ressource in page[site.lang].ressources %}
+				<li>{{ressource}}</li>
+				{% endfor %}
+			  </ul>
+			</p>
+			  </div>
+			</div>
+		  </div>
+	{% endif %}
+	{% assign dates = page.dates %}
+	<div class="container">
+		<div class="container-left-12">
+			<div class="box box-with-head box-margin-top-medium">
+				<h1 class="box-head">{% t workshop.dates %}</h1>
+				<p>
+				<ul>
+					{% for dates in page.dates %}
+					<li>{{dates}}</li>
+					{% endfor %}
+				</ul>
+				</p>
+			</div>
+		</div>
+	</div>
   <div class="container">
     <!--<div class="workshop-bottom box-margin-top-medium">-->
     <!--<div class="register-workshop">-->
     <!--<a class="box-button-plain" href="{{workshop.url}}"><i class="icon-paper-plane"></i> Termin anfragen</a>-->
     <!--</div>-->
     <!--</div>-->
-    <a href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
-      <button class="box-button workshop-register-button"><i class="icon-paper-plane"></i> {% t workshop.register %} </button></a>
+	  {% if page.apply %}
+	  	<a href="{{ page.apply_link }}" target="_blank">
+		  	<button class="box-button workshop-register-button"><i class="icon-paper-plane"></i> {% t workshop.apply %} </button></a>
+	  {% else %}
+	  	<a href="mailto:info@datenschule.de?subject=Anfrage Workshop:%20{{page.title}}">
+		  	<button class="box-button workshop-register-button"><i class="icon-paper-plane"></i> {% t workshop.register %} </button></a>
+	  {% endif %}
+
   </div>
 </section>
