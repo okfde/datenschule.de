@@ -25,7 +25,7 @@ de:
         Am besten vertieft ihr eure digitalen Fähigkeiten mit echten Daten und durch das Ausprobieren im Team. Die
         2-tägige Umweltdatenwerkstatt verknüpft genau das und gibt dir Raum, deine Idee mit Unterstützung auf die Beine
         zu stellen. Auf diese Weise macht ihr euch mit der Datenwelt vertraut und knüpft auf dem Weg auch neue
-        Freundschaften.<br><br>Die Umweltdatenwerkstatt wird im Rahmen des Projektes Umweltdatenexpedition durchgeführt, in Kooperation mit der KI-Ideenwerkstatt der Z.U.G., gefördert durch das BMUV - mehr auf der <a href='/projekte/umweltdatenwerkstatt/'>Projektseite</a>.
+        Freundschaften.<br><br>Die Umweltdatenwerkstatt wird im Rahmen des Projektes Umweltdatenexpedition durchgeführt, in Kooperation mit der KI-Ideenwerkstatt der Z.U.G., gefördert durch das BMUV - mehr auf der <a href='/projekte/umweltdatenwerkstatt/'>Projektseite</a>. Die Veranstaltungen finden in Zusammenarbeit mit der <a href='https://codefor.de/' target='_blank'>Code for Germany-Community</a> statt.
     tags:
         - prototyping
         - data literacy
