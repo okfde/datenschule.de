@@ -16,9 +16,7 @@ dates:
   - "Weitere Termine folgen in: Bielefeld, Berlin, Hannover und Offenbach"
 de:
     slogan: Mit Daten die Umwelt schützen
-    text_short: >
-        Wir arbeiten an zwei Tagen an Umweltschutzprojekten und entdecken die Möglichkeiten KI-gestützter Datenauswertung. Die Veranstaltungen finden bundesweit statt. Im Team nimmst du ein Problem in Angriff, beantwortest eine Fragestellung
-        oder setzt ein datenbasiertes Projekt um. Wir begleiten dich bei deiner Arbeit entlang der Data Pipeline.
+    text_short: "Wir arbeiten an zwei Tagen an Umweltschutzprojekten und entdecken die Möglichkeiten KI-gestützter Datenauswertung. Die Veranstaltungen finden bundesweit statt. Im Team nimmst du ein Problem in Angriff, beantwortest eine Fragestellung oder setzt ein datenbasiertes Projekt um. Wir begleiten dich bei deiner Arbeit entlang der Data Pipeline."
     text_long: >
       Wir arbeiten an zwei Tagen an Umweltschutzprojekten und entdecken die Möglichkeiten KI-gestützter Datenauswertung. Die Veranstaltungen finden bundesweit statt. Im Team nimmst du ein Problem in Angriff, beantwortest eine Fragestellung
         oder setzt ein datenbasiertes Projekt um. Wir begleiten dich bei deiner Arbeit entlang der Data Pipeline.<br /><br />
@@ -27,7 +25,7 @@ de:
         Am besten vertieft ihr eure digitalen Fähigkeiten mit echten Daten und durch das Ausprobieren im Team. Die
         2-tägige Umweltdatenwerkstatt verknüpft genau das und gibt dir Raum, deine Idee mit Unterstützung auf die Beine
         zu stellen. Auf diese Weise macht ihr euch mit der Datenwelt vertraut und knüpft auf dem Weg auch neue
-        Freundschaften.
+        Freundschaften.<br><br>Die Umweltdatenwerkstatt wird im Rahmen des Projektes Umweltdatenexpedition durchgeführt, in Kooperation mit der KI-Ideenwerkstatt der Z.U.G., gefördert durch das BMUV - mehr auf der <a href='/projekte/umweltdatenwerkstatt/'>Projektseite</a>.
     tags:
         - prototyping
         - data literacy
@@ -69,7 +67,7 @@ de:
                     - "Abschluss-Reflexion: Können wir das Projekt zu Ende bringen? Wie wollen wir an dem Projekt weiterarbeiten?"
                     - Abschluss und Ausklang des Tages
     prequisites:
-        - "Die Data Expedition richtet sich an Interessierte mit inhaltlichem oder/und technischen Fokus: Du hast dich mit der Digitalisierung beschäftigt, bist beruflich oder ehrenamtlich in einem bestimmten Bereich aktiv (z.B. Bildung, Policy-Arbeit, Datenjournalismus) und möchtest dein Wissen praktisch anwenden. Du bist es gewohnt, mit Tabellendokumenten und anderen digitalen Tools zu arbeiten."
+        - "Die Umweltdatenwerkstatt richtet sich an Interessierte mit inhaltlichem oder/und technischen Fokus: Du hast dich mit der Digitalisierung beschäftigt, bist beruflich oder ehrenamtlich in einem bestimmten Bereich aktiv (z.B. Bildung, Policy-Arbeit, Datenjournalismus) und möchtest dein Wissen praktisch anwenden. Du bist es gewohnt, mit Tabellendokumenten und anderen digitalen Tools zu arbeiten."
         - Laptop
     duration: 2 Tage
     costs: für dich kostenlos
@@ -83,7 +81,7 @@ en:
     text_long: >
         Over two days, we work on environmental protection projects and discover the possibilities of AI-supported data analysis. The events take place all over Germany. As part of a team, you will tackle a problem, answer a question or implement a data-based project. We accompany you in your work along the data pipeline.
         In teams, you will research and develop stories for campaigns or an approach to a challenge. We will guide you along the data pipeline, a method for developing digital projects.
-        The best way to deepen your digital skills is with real data and by trying things out in a team. The 2-day Data Expedition combines exactly that and gives you the space to get your idea off the ground with support. In this way, you will familiarize yourself with the world of data - and make new friends along the way.
+        The best way to deepen your digital skills is with real data and by trying things out in a team. The 2-day Umweltdatenwerkstatt combines exactly that and gives you the space to get your idea off the ground with support. In this way, you will familiarize yourself with the world of data - and make new friends along the way.
     tags:
         - prototyping
         - data literacy
@@ -103,7 +101,7 @@ en:
         intro: >
             Every Umweltdatenwerkstatt is unique and is completely geared to the needs of the participants. One example is our
             Below you
-            find a typical outline of a Data Expedition.
+            find a typical outline of a Umweltdatenwerkstatt.
         course:
             -
                 name: Day one
