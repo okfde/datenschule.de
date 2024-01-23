@@ -27,7 +27,9 @@ foerderhinweis: |-
   Dieses Projekt wird gefördert durch das [Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz](https://www.bmuv.de/), koordiniert durch die [ZUG](https://www.z-u-g.org/).
 
   <div class="funding">
-  <img alt="Logo BMUV" src="/files/projects/logo-bmu.svg" width="220px"><img alt="Logo UBA" src="/files/projects/logo-zug.svg" width="200px">
+    <img alt="Logo BMUV" src="/files/projects/logo-bmu.svg" width="220px">
+    <img alt="Logo ZUG" src="/files/projects/logo-zug.svg" width="200px">
+    <img alt="Logo Civic Coding" src="/files/projects/Civic_CodingLogo.png" width="180px">
   </div>
 
   Die Verantwortung für den Inhalt dieser Veröffentlichung liegt bei den Autorinnen und Autoren.
@@ -36,7 +38,9 @@ foerderhinweis_en: |-
   This project is financially supported by [Federal Ministry for the Environment, Nature Conservation and Nuclear Safety](https://www.bmu.de/) (BMU).
 
   <div class="funding">
-  <img alt="Logo BMU" src="/files/projects/logo-bmu.svg" width="220px"><img alt="Logo UBA" src="/files/projects/logo-uba.jpg" width="170px"><img alt="Logo UBA" src="/files/projects/Civic_CodingLogo.png" width="170px">
+      <img alt="Logo BMU" src="/files/projects/logo-bmu.svg" width="220px">
+      <img alt="Logo UBA" src="/files/projects/logo-uba.jpg" width="170px">
+      <img alt="Logo Civic Coding" src="/files/projects/Civic_CodingLogo.png" width="500px">
   </div>
 
   The publisher is responsible for the content of this publication.
