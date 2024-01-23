@@ -1,10 +1,10 @@
 ---
-title: Umweltdatenexpedition
+title: Umweltdatenwerkstatt
 url:
 ended: no
 picture:
   src: /files/projects/ki-iw.jpg
-  title: Wood
+  title: KI-Ideenwerkstatt Illustration
   license:
   license_url:
 subtitle_en: data work with environmental associations
@@ -24,7 +24,7 @@ text_en: |-
 foerderhinweis: |-
   **Förderhinweis:**
 
-  Dieses Projekt wird gefördert durch das [Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz](https://www.bmuv.de/), koordiniert durch die [Z.U.G.](https://www.z-u-g.org/).
+  Dieses Projekt wird gefördert durch das [Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz](https://www.bmuv.de/), koordiniert durch die [ZUG](https://www.z-u-g.org/).
 
   <div class="funding">
   <img alt="Logo BMUV" src="/files/projects/logo-bmu.svg" width="220px"><img alt="Logo UBA" src="/files/projects/logo-zug.svg" width="200px">
@@ -36,7 +36,7 @@ foerderhinweis_en: |-
   This project is financially supported by [Federal Ministry for the Environment, Nature Conservation and Nuclear Safety](https://www.bmu.de/) (BMU).
 
   <div class="funding">
-  <img alt="Logo BMU" src="/files/projects/logo-bmu.svg" width="220px"><img alt="Logo UBA" src="/files/projects/logo-uba.jpg" width="170px">
+  <img alt="Logo BMU" src="/files/projects/logo-bmu.svg" width="220px"><img alt="Logo UBA" src="/files/projects/logo-uba.jpg" width="170px"><img alt="Logo UBA" src="/files/projects/Civic_CodingLogo.png" width="170px">
   </div>
 
   The publisher is responsible for the content of this publication.

@@ -25,7 +25,7 @@ de:
         Am besten vertieft ihr eure digitalen Fähigkeiten mit echten Daten und durch das Ausprobieren im Team. Die
         2-tägige Umweltdatenwerkstatt verknüpft genau das und gibt dir Raum, deine Idee mit Unterstützung auf die Beine
         zu stellen. Auf diese Weise macht ihr euch mit der Datenwelt vertraut und knüpft auf dem Weg auch neue
-        Freundschaften.<br><br>Die Umweltdatenwerkstatt wird im Rahmen des Projektes Umweltdatenexpedition durchgeführt, in Kooperation mit der KI-Ideenwerkstatt der Z.U.G., gefördert durch das BMUV - mehr auf der <a href='/projekte/umweltdatenwerkstatt/'>Projektseite</a>. Die Veranstaltungen finden in Zusammenarbeit mit der <a href='https://codefor.de/' target='_blank'>Code for Germany-Community</a> statt.
+        Freundschaften.<br><br>Die Umweltdatenwerkstatt wird im Rahmen des Projektes Umweltdatenexpedition durchgeführt, in Kooperation mit der KI-Ideenwerkstatt der ZUG, gefördert durch das BMUV - mehr auf der <a href='/projekte/umweltdatenwerkstatt/'>Projektseite</a>. Die Veranstaltungen finden in Zusammenarbeit mit der <a href='https://codefor.de/' target='_blank'>Code for Germany-Community</a> statt.
     tags:
         - prototyping
         - data literacy
@@ -50,7 +50,7 @@ de:
                 name: Erster Tag
                 content:
                     - Begrüßung und Kennenlernen
-                    - "Vorstellung der Data-Pipeline: Eine Methode zur Umsetzung digitaler Projekte"
+                    - "Vorstellung der Data Pipeline: eine Methode zur Umsetzung digitaler Projekte"
                     - "Roundtable: Expert/innen stellen digitale Projekte, Lösungswege und Daten zu ausgewählten Themen vor, Q&A"
                     - "Ideenwerkstatt und Teamfindung: Fragestellungen, Ideen und Hypothesen zu einem Thema werden gesammelt, diskutiert und bewertet, Teams finden sich"
                     - "Teamwork: Skizzen für einen Lösungsweg/ Ansätze zur gewählten Challenge werden erarbeitet, eine Idee wird konkretisiert"
@@ -67,7 +67,7 @@ de:
                     - "Abschluss-Reflexion: Können wir das Projekt zu Ende bringen? Wie wollen wir an dem Projekt weiterarbeiten?"
                     - Abschluss und Ausklang des Tages
     prequisites:
-        - "Die Umweltdatenwerkstatt richtet sich an Interessierte mit inhaltlichem oder/und technischen Fokus: Du hast dich mit der Digitalisierung beschäftigt, bist beruflich oder ehrenamtlich in einem bestimmten Bereich aktiv (z.B. Bildung, Policy-Arbeit, Datenjournalismus) und möchtest dein Wissen praktisch anwenden. Du bist es gewohnt, mit Tabellendokumenten und anderen digitalen Tools zu arbeiten."
+        - "Die Umweltdatenwerkstatt richtet sich an Interessierte mit inhaltlichem oder/und technischen Fokus: Du hast dich mit der Digitalisierung beschäftigt, bist beruflich oder ehrenamtlich in Bereich Umwelt oder Umweltschutz aktiv und möchtest dein Wissen praktisch anwenden. Du bist es gewohnt, mit Tabellendokumenten und anderen digitalen Tools zu arbeiten."
         - Laptop
     duration: 2 Tage
     costs: für dich kostenlos
