@@ -382,5 +382,20 @@
 - name: "<a href='/workshops/umweltdatenwerkstatt/'>Umweltdatenwerkstatt Nürnberg</a>"
   place: Nürnberg
   date: 2024-02-07
+  featured: false
+  text:
+- name: "<a href='/workshops/umweltdatenwerkstatt/'>Umweltdatenwerkstatt Leipzig</a>"
+  place: Leipzig
+  date: 2024-03-02
+  featured: true
+  text:
+- name: "<a href='/workshops/umweltdatenwerkstatt/'>Umweltdatenwerkstatt Moers</a>"
+  place: Moers
+  date: 2024-05-25
+  featured: true
+  text:
+- name: "<a href='/workshops/umweltdatenwerkstatt/'>Umweltdatenwerkstatt Cottbus</a>"
+  place: Cottbus
+  date: 2024-07-13
   featured: true
   text:

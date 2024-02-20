@@ -9,11 +9,13 @@ image:
 video:
     src: "https://www.youtube-nocookie.com/embed/HMLI5aJ4qSg?rel=0&amp;ecver=2"
 dates:
-  - Nürnberg, 7. - 8. Februar
-  - Leipzig, 2. - 3. März
-  - Moers, 25. - 26. Mai
-  - Cottbus, 13. - 14. Juli
-  - "Weitere Termine folgen in: Bielefeld, Berlin, Hannover und Offenbach"
+  - Nürnberg, 7. - 8. Februar 2024
+  - Leipzig, 2. - 3. März 2024
+  - Moers, 25. - 26. Mai 2024
+  - Cottbus, 13. - 14. Juli 2024
+  - Bielefeld, 28. - 29. September 2024
+  - Hannover, 16. - 17. November 2024
+  - "Weitere Termine folgen."
 de:
     slogan: Mit Daten die Umwelt schützen
     text_short: "Wir arbeiten an zwei Tagen an Umweltschutzprojekten und entdecken die Möglichkeiten KI-gestützter Datenauswertung. Die Veranstaltungen finden bundesweit statt. Im Team nimmst du ein Problem in Angriff, beantwortest eine Fragestellung oder setzt ein datenbasiertes Projekt um. Wir begleiten dich bei deiner Arbeit entlang der Data Pipeline."
