@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll', '~> 3.7.4'
-gem 'github-pages'
+gem 'jekyll', '~> 3.9.0'
+gem 'github-pages', '~> 213'
 gem 'octopress-autoprefixer'
 gem 'rdiscount'
