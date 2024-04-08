@@ -168,7 +168,7 @@ workshop:
   register: Termin anfragen
   goals: Ziele
   curriculum: Curriculum
-  prequisites: Vorausetzungen
+  prequisites: Voraussetzungen
   ressources: Ressourcen
   more: Mehr
   useful_links: Nützliche Links
