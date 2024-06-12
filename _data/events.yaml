@@ -392,7 +392,7 @@
 - name: "<a href='/workshops/umweltdatenwerkstatt/'>Umweltdatenwerkstatt Moers</a>"
   place: Moers
   date: 2024-05-25
-  featured: true
+  featured: false
   text:
 - name: "<a href='/workshops/umweltdatenwerkstatt/'>Umweltdatenwerkstatt Cottbus</a>"
   place: Cottbus
