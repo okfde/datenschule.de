@@ -14,6 +14,7 @@ dates:
   - Moers, 25. - 26. Mai 2024
   - Cottbus, 13. - 14. Juli 2024
   - Bielefeld, 28. - 29. September 2024
+  - Potsdam, 5. - 6. Oktober 2024
   - Hannover, 16. - 17. November 2024
   - "Weitere Termine folgen."
 de:
