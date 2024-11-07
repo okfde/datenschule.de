@@ -16,7 +16,7 @@ dates:
   - Bielefeld, 28. - 29. September 2024
   - Potsdam, 5. - 6. Oktober 2024
   - Hannover, 16. - 17. November 2024
-  - "Weitere Termine folgen."
+  - Spzial, online, 21. November 2024
 de:
     slogan: Mit Daten die Umwelt schützen
     text_short: "Wir arbeiten an zwei Tagen an Umweltschutzprojekten und entdecken die Möglichkeiten KI-gestützter Datenauswertung. Die Veranstaltungen finden bundesweit statt. Im Team nimmst du ein Problem in Angriff, beantwortest eine Fragestellung oder setzt ein datenbasiertes Projekt um. Wir begleiten dich bei deiner Arbeit entlang der Data Pipeline."
