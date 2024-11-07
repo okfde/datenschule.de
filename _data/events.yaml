@@ -402,15 +402,20 @@
 - name: "<a href='/workshops/umweltdatenwerkstatt/'>Umweltdatenwerkstatt Bielefeld</a>"
   place: Bielefeld
   date: 2024-09-28
-  featured: true
+  featured: false
   text:
 - name: "<a href='/workshops/umweltdatenwerkstatt/'>Umweltdatenwerkstatt Potsdam</a>"
   place: Potsdam
   date: 2024-10-05
-  featured: true
+  featured: false
   text:
 - name: "<a href='/workshops/umweltdatenwerkstatt/'>Umweltdatenwerkstatt Hannover</a>"
   place: Hannover
   date: 2024-11-16
+  featured: true
+  text:
+- name: "<a href='https://cloud.okfn.de/apps/forms/s/FbgWTjHCqTfJfPfzza52gzTt'>Umweltdatenwerkstatt spezial</a>"
+  place: online
+  date: 2024-11-20
   featured: true
   text:
